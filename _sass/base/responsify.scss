@@ -1,0 +1,34 @@
+/* Responsify */
+
+
+
+@media only screen and (min-width: 961px) {
+
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+  ul.home-grid li, ul.home-grid a li{
+    width: 50%;
+  }
+
+  h1 span{
+    display: inline;
+  }
+
+  footer .made-by{
+    float: left;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  ul.home-grid li, ul.home-grid a li{
+    width: 100%;
+  }
+
+}

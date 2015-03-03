@@ -358,11 +358,9 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 72%;
-  max-width: 1500px; }
+  width: 90%; }
   .container img {
-    width: 100%;
-    padding: 1em 0 0 0; }
+    width: 100%; }
 
 .full-width {
   width: 100%; }
@@ -565,12 +563,12 @@ ul.home-grid .social-grid {
   float: left;
   background: #41A3E8; }
 
-.social-grid .exposure {
+.social-grid .flickr {
   background: #039EBA;
   transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -webkit-transition: all .2s ease-in-out; }
-  .social-grid .exposure:hover {
+  .social-grid .flickr:hover {
     background: #0389a1; }
 
 .social-grid .instagram {
@@ -622,7 +620,8 @@ ul.home-grid li, ul.home-grid a li {
   width: 33.33%;
   float: left;
   background: #e8e8e8;
-  margin: 0; }
+  margin: 0;
+  z-index: 1; }
 
 ul.home-grid li .inner, ul.home-grid a li .inner {
   padding: 25% 15% 25% 15%; }
@@ -653,12 +652,30 @@ ul.home-grid li.dribbble {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url("../img/about/belfast-ruby.jpg"); }
+  position: relative;
+  background-image: url("../img/dribbble-shots/belfast-ruby.jpg"); }
 
 ul.home-grid li.flickr {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  position: relative;
+  background-image: url("../img/photography-array/matisse-mkeizer.jpg"); }
+
+ul.home-grid a li.flickr i.fa, ul.home-grid a li.dribbble i.fa {
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  opacity: 0;
+  font-size: 35px;
+  color: #ffffff;
+  z-index: 200;
+  text-align: center;
+  padding: 45% 47%;
+  position: relative;
+  text-shadow: 0 1px 6px rgba(55, 55, 55, 0.3); }
+  ul.home-grid a li.flickr i.fa:hover, ul.home-grid a li.dribbble i.fa:hover {
+    opacity: 1; }
 
 /* Journal/Blog Page */
 .blog-meta, .comment-section {
@@ -803,7 +820,7 @@ ul.work-grid li.reverspective {
   background-image: url("../img/work/reverspective.png"); }
 
 #page-eyekiller .content {
-  padding: 3.5em 0; }
+  padding: 4.5em 0; }
 
 #page-eyekiller .content p strong {
   color: #33a9e0;
@@ -812,4 +829,18 @@ ul.work-grid li.reverspective {
   font-size: 27px;
   line-height: 1.5em;
   text-align: center;
-  padding: 1em 0; }
+  padding: 2em 0; }
+
+/* Responsify */
+@media only screen and (max-width: 800px) {
+  ul.home-grid li, ul.home-grid a li {
+    width: 50%; }
+
+  h1 span {
+    display: inline; }
+
+  footer .made-by {
+    float: left; } }
+@media only screen and (max-width: 500px) {
+  ul.home-grid li, ul.home-grid a li {
+    width: 100%; } }
