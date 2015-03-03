@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Melissa Keizer | Personal Website</title>
-    <description>The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Norther Ireland.
+    <description>The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 </description>
     <link>http://melissakeizer.com/</link>
     <atom:link href="http://melissakeizer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 03 Mar 2015 22:06:12 +0000</pubDate>
-    <lastBuildDate>Tue, 03 Mar 2015 22:06:12 +0000</lastBuildDate>
+    <pubDate>Tue, 03 Mar 2015 22:41:23 +0000</pubDate>
+    <lastBuildDate>Tue, 03 Mar 2015 22:41:23 +0000</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
