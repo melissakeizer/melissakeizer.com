@@ -37,10 +37,6 @@
     font-size: 14px;
   }
 
-  footer div.made-by{
-    float: left;
-  }
-
   #page-eyekiller ul.work-grid li{
     width: 100%;
     .inner p{
@@ -57,13 +53,36 @@
 
 @media only screen and (max-width: 700px) {
 
-  h1 span{
+   h1 span{
     display: inline;
+  }
+
+
+  ul.home-grid li .inner, ul.home-grid a li .inner{
+    padding: 20% 15% 20% 15%;
+    p{
+      font-size: 20px;
+      line-height: 1.5em;
+    }
+    p.date{
+      font-size: 15px;
+    }
+  }
+
+  ul.home-grid li.blog h2{
+    font-size: 26px;
+  }
+
+
+  footer div{
+    float: left;
+    width: 100%;
   }
 
 }
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 520px) {
 
   h1{
     font-size: 36px;
@@ -81,7 +100,43 @@
     width: 100%;
     .inner{
       padding: 25% 10%;
+      p{
+        font-size: 22px;
+      }
     }
+   &.blog h2{
+    font-size: 28px;
+   }
+  }
+
+
+
+
+
+  #page-eyekiller .header-background {
+    min-height: 230px;
+    h1{
+      font-size: 50px;
+    }
+  }
+
+  #page-eyekiller .my-work .section-title {
+    padding: 1.5em 0;
+    h2{
+      font-size: 20px;
+    }
+  }
+
+  #page-eyekiller ul.work-grid li .inner {
+    padding: 8%;
+    p{
+    font-size: 16px;
+    line-height: 1.6em;
+    }
+  }
+
+  #page-eyekiller .content p strong{
+    font-size: 20px;
   }
 
 
