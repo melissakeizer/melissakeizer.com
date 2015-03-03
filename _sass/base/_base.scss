@@ -1,0 +1,48 @@
+/* Base Styling */
+
+body {
+    box-sizing: border-box;
+    background-color: $background-color;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+.container{
+  margin: 0 auto;
+  width: 72%;
+  max-width: 1500px;
+  img{
+    width: 100%;
+    padding: 1em 0 0 0;
+  }
+}
+
+.full-width{
+  width: 100%;
+}
+
+article.content{
+  @include content-width;
+}
+
+#page-about .content, #page-journal .content, #page-post .content,  {
+  padding-bottom: 5em;
+}
+
+
+/* Comments */
+
+.comment-section{
+  padding-top: 2em;
+}
+
+
+
+
+
+
+
+
+

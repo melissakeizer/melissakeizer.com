@@ -1,0 +1,70 @@
+/* Typography */
+
+body {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 300;
+    font-style: normal;
+    color: $text-color;
+    -webkit-text-size-adjust: 100%;
+}
+
+
+h1{
+  font-weight: 700;
+  color: $turquoise;
+  font-size: 60px;
+  margin-bottom: 7%;
+  line-height: 1.4em;
+  span{
+    display: block;
+  }
+}
+
+
+h2, h2 a{
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+h2 a{
+  text-decoration: none;
+  &:hover{
+    color: $pink;
+  }
+}
+
+h3{
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
+p{
+  margin-bottom: 5%;
+  color: $black;
+}
+
+.content a, .content a:visited{
+  color: $black;
+  &:hover{
+    color: $pink;
+  }
+}
+
+a:active {
+  position: relative;
+  top: 1px;
+}
+
+p a {
+  text-decoration: none;
+  border-bottom: 1px solid $grey;
+  &:hover{
+    color: $pink;
+  }
+}
+
+

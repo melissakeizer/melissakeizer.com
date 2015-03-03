@@ -1,0 +1,23 @@
+---
+layout: default
+page: journal
+selected: journal
+title: Thoughts &amp; Ramblings
+---
+
+<div id="page-journal">
+<article class="content">
+  <h1>A few of my <span>thoughts &amp; ramblings</span></h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="date">Published on {{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p>{{ post.content | strip_html | truncatewords:28}}</p>
+         <a href="{{ post.url | prepend: site.baseurl }}" class="button button-push"><i class="button-icon fa fa-long-arrow-right"></i><span>Continue Reading</span></a>
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="rss" title="subscribe via RSS"><i class="fa fa-rss"></i></a>
+</article>
+</div>

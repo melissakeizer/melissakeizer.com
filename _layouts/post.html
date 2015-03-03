@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div id="page-post">
+<section class="container">
+  <article class="blog-meta">
+    <h1>{{ page.title }}</h1>
+    <p class="date">Posted {{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </article>
+
+  <article class="content">
+    {{ content }}
+  </article>
+
+  {% include comments.html %}
+</section>
+</div>
+

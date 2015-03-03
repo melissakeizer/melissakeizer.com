@@ -1,0 +1,73 @@
+/* Home Page */
+
+#tagline h2{
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.7em;
+  max-width: 630px;
+  color: $black;
+}
+
+#tagline{
+  padding-bottom: 2.5em;
+}
+
+.home-grid{
+  width: 100%;
+  float: left;
+}
+
+ul.home-grid li, ul.home-grid a li{
+  width: 33.33%;
+  float: left;
+  background: $background-grey;
+  margin: 0;
+}
+
+ul.home-grid li .inner, ul.home-grid a li .inner{
+  padding: 25% 15% 25% 15%;
+  p{
+    margin-bottom: 10%;
+  }
+}
+
+ul.home-grid li.blog{
+  background: $pink;
+  color: $white;
+}
+
+ul.home-grid li.blog h3{
+  font-size: 16px;
+  padding-bottom: 5px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+ul.home-grid li.blog h2{
+  font-weight: 600;
+  line-height: 1.4em;
+  font-size: 28px;
+  margin: 0;
+  padding: 0.3em 0 0.7em 0;
+}
+
+ul.home-grid li.blog p.date{
+  color: $white;
+}
+
+
+ul.home-grid li.dribbble{
+  @include bg-cover;
+  background-image: url("../img/about/belfast-ruby.jpg");
+}
+
+ul.home-grid li.flickr{
+  @include bg-cover;
+}
+
+
+
+
+
+
+

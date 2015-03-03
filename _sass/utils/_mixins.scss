@@ -1,0 +1,24 @@
+/* Mixins */
+@import "variables";
+
+@mixin content-width{
+  margin: 0 auto;
+  max-width: $max-content-width;
+}
+
+@mixin bg-cover {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+@mixin subtle-fade($background){
+  background: $background;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  &:hover{
+    background: darken($background, 5%);
+  }
+}
+

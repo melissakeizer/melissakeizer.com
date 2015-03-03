@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Melissa Keizer | Personal Website</title>
+    <description>The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Norther Ireland.
+</description>
+    <link>http://melissakeizer.com/</link>
+    <atom:link href="http://melissakeizer.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 Mar 2015 13:06:18 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Mar 2015 13:06:18 +0000</lastBuildDate>
+    <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>The iOS apps I can&#39;t live without</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim, felis id sollicitudin scelerisque, lorem justo viverra libero, sed vulputate neque orci in neque. Mauris sit amet urna porta, maximus est vel, sagittis nulla.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2857/9060260459_feb86c4340_b.jpg&quot; alt=&quot;photo caption&quot; title=&quot;Optional title&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;A wee picture of my iPad mini&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Sed sit amet risus pellentesque, congue ante id, mollis metus. Maecenas tincidunt cursus accumsan. Cras sed dui a risus pellentesque ultricies. Nulla sit amet ipsum vel nisi vehicula pulvinar vel eu sapien.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 18:12:42 +0000</pubDate>
+        <link>http://melissakeizer.com/2014/11/30/the-ios-apps-i-cant-live-without.html</link>
+        <guid isPermaLink="true">http://melissakeizer.com/2014/11/30/the-ios-apps-i-cant-live-without.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>New year, new goals</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim, felis id sollicitudin scelerisque, lorem justo viverra libero, sed vulputate neque orci in neque. Mauris sit amet urna porta, maximus est vel, sagittis nulla.&lt;/p&gt;
+
+&lt;p&gt;Sed sit amet risus pellentesque, congue ante id, mollis metus. Maecenas tincidunt cursus accumsan. Cras sed dui a risus pellentesque ultricies. Nulla sit amet ipsum vel nisi vehicula pulvinar vel eu sapien.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 18:12:42 +0000</pubDate>
+        <link>http://melissakeizer.com/tech/2014/11/30/new-year-new-goals.html</link>
+        <guid isPermaLink="true">http://melissakeizer.com/tech/2014/11/30/new-year-new-goals.html</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>A very profound and intriguing title that will probably fall on two lines</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim, felis id sollicitudin scelerisque, lorem justo viverra libero, sed vulputate neque orci in neque. Mauris sit amet urna porta, maximus est vel, sagittis nulla.&lt;/p&gt;
+
+&lt;p&gt;Sed sit amet risus pellentesque, congue ante id, mollis metus. Maecenas tincidunt cursus accumsan. Cras sed dui a risus pellentesque ultricies. Nulla sit amet ipsum vel nisi vehicula pulvinar vel eu sapien.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 30 Nov 2014 18:12:42 +0000</pubDate>
+        <link>http://melissakeizer.com/tech/2014/11/30/another-post.html</link>
+        <guid isPermaLink="true">http://melissakeizer.com/tech/2014/11/30/another-post.html</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+      <item>
+        <title>Duolingo</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim, felis id sollicitudin scelerisque, lorem justo viverra libero, sed vulputate neque orci in neque. Mauris sit amet urna porta, maximus est vel, sagittis nulla.&lt;/p&gt;
+
+&lt;p&gt;Sed sit amet risus pellentesque, congue ante id, mollis metus. Maecenas tincidunt cursus accumsan. Cras sed dui a risus pellentesque ultricies. Nulla sit amet ipsum vel nisi vehicula pulvinar vel eu sapien.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Nov 2014 18:12:42 +0000</pubDate>
+        <link>http://melissakeizer.com/tech/2014/11/28/duolingo.html</link>
+        <guid isPermaLink="true">http://melissakeizer.com/tech/2014/11/28/duolingo.html</guid>
+        
+        
+        <category>tech</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+/**
+ * Variables
+ */
+
+// $serif-font-family: "europa", "proxima-nova", helvetica, arial, sans-serif;
+$base-font-family: "adelle-sans", "proxima-nova", helvetica, arial, sans-serif;
+$base-font-size:   22px;
+$small-font-size:  $base-font-size * 0.75;
+$base-line-height: 1.6em;
+
+$max-content-width: 740px;
+
+/* New colours */
+
+$black: #373737;
+$white: #ffffff;
+
+$turquoise: #039EBA;
+$pink: #D2206A;
+
+$twitter-blue: #41A3E8;
+$instagram-blue: #3F729B;
+
+$grey: #bababa;
+$background-grey: lighten($grey, 18%);
+
+/* Set site colours */
+
+$background-color: $white;
+$text-color: $black;

@@ -1,0 +1,65 @@
+/* Journal/Blog Page */
+
+.blog-meta, .comment-section{
+  @include content-width;
+}
+
+.blog-content p{
+  @include content-width;
+  margin-bottom: 5%;
+}
+
+.blog-content img{
+  display: block;
+  width: 100%;
+}
+
+.blog-meta h1{
+  margin-bottom: 7px;
+}
+
+.date, .caption{
+  color: $grey;
+  font-size: $small-font-size;
+}
+
+.caption{
+  padding-bottom: 1em;
+}
+
+
+ul.post-list li{
+  padding: 7% 0 7% 0;
+  border-bottom: 1px solid $grey;
+  &:first-child{
+    padding: 1% 0 7% 0;
+  }
+  &:last-child{
+    border: none;
+  }
+}
+
+// ul.post-list li:first-child{
+//   margin: 7% 0 1.5% 0;
+// }
+
+a.rss{
+  font-size: 20px;
+  color: $grey;
+  &:hover{
+    color: $pink;
+  }
+}
+
+#page-journal .button{
+  width: 225px;
+  &:hover{
+    color: $white;
+  }
+}
+
+#page-journal h2{
+  margin: 0.1em 0 0.4em 0;
+}
+
+

@@ -1,0 +1,129 @@
+/* Theme: Eyekiller */
+
+$eyekiller-blue: #33a9e0;
+
+.header-background{
+  width: 100%;
+  min-height: 600px;
+  background-color: $eyekiller-blue;
+  background: url(../img/misc/eyekiller-vector.svg) -10px 30px no-repeat $eyekiller-blue;
+  background-size: 94%;
+}
+
+#page-eyekiller nav ul li a{
+  color: $white;
+  &:hover{
+    border-bottom: 2px solid $white;
+  }
+  &.active{
+    color: $white;
+    border-bottom: 2px solid $white;
+  }
+}
+
+#page-eyekiller nav ul li a.email:hover{
+  color: $white;
+}
+
+#page-eyekiller .header-background h1{
+  color: $white;
+  font-size: 90px;
+  text-align: center;
+}
+
+#page-eyekiller .header-background .content{
+  padding: 8% 0 18% 0;
+}
+
+
+.work-grid a.button{
+  width: 185px;
+  &:hover{
+    color: $white;
+  }
+  &.view-dribbble{
+    width: 215px;
+  }
+}
+
+.my-work .section-title{
+  color: $white;
+  background: $eyekiller-blue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2.5em 0;
+  h2{
+    margin-bottom: 0;
+  }
+}
+
+.work-grid{
+  width: 100%;
+  float: left;
+  color: $black;
+}
+
+ul.work-grid li{
+  width: 50%;
+  float: left;
+  background: $background-grey;
+  margin: 0;
+  h3{
+    padding-bottom: 1em;
+  }
+}
+
+a, a:visited{
+    color: $black;
+  }
+
+ul.work-grid li .inner{
+  padding: 15% 15% 15% 15%;
+  p{
+    margin-bottom: 10%;
+  }
+}
+
+
+ul.work-grid li.work-example{
+  @include bg-cover;
+}
+
+ul.work-grid li.belfast-ruby{
+  background-image: url("../img/work/belfast-ruby.jpg");
+}
+
+ul.work-grid li.rumble-labs{
+  background-image: url("../img/work/rumble-labs.jpg");
+}
+
+ul.work-grid li.the-laboratory{
+  background-image: url("../img/work/the-laboratory.png");
+}
+
+ul.work-grid li.reverspective{
+  background-image: url("../img/work/reverspective.png");
+}
+
+
+#page-eyekiller .content{
+  padding: 3.5em 0;
+}
+
+#page-eyekiller .content p strong{
+    color: $eyekiller-blue;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 1em 0;
+  }
+
+// #page-eyekiller h1.test{
+//     color: darken($eyekiller-blue, 2.5%);
+//   }
+
+
+

@@ -1,0 +1,14 @@
+<header>
+  <nav class="menu">
+    <ul>
+      <li><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Hello</a></li>
+      <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
+      <li><a href="{{ site.baseurl }}/journal/" {% if page.selected == "journal" %}class="active"{% endif %}>Journal</a></li>
+      <li>
+        <a href="mailto:{{ site.email }}" class="email" title="email me!">
+          <i class="fa fa-paper-plane"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
