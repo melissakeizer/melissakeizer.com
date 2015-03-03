@@ -35,6 +35,9 @@ ul.home-grid li .inner, ul.home-grid a li .inner{
 ul.home-grid li.blog{
   background: $pink;
   color: $white;
+  &:hover{
+    @include subtle-fade($pink);
+  }
 }
 
 ul.home-grid li.blog h3{

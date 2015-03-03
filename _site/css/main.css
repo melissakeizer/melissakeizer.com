@@ -370,7 +370,7 @@ article.content {
   max-width: 740px; }
 
 #page-about .content, #page-journal .content, #page-post .content {
-  padding-bottom: 5em; }
+  padding-bottom: 1em; }
 
 /* Comments */
 .comment-section {
@@ -470,7 +470,7 @@ footer div.made-by {
   float: right; }
 
 footer div p {
-  font-size: 14.3px;
+  font-size: 16px;
   color: #bababa;
   display: inline-block;
   margin: 0; }
@@ -631,6 +631,13 @@ ul.home-grid li .inner, ul.home-grid a li .inner {
 ul.home-grid li.blog {
   background: #D2206A;
   color: #ffffff; }
+  ul.home-grid li.blog:hover {
+    background: #D2206A;
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out; }
+    ul.home-grid li.blog:hover:hover {
+      background: #bc1d5f; }
 
 ul.home-grid li.blog h3 {
   font-size: 16px;
@@ -696,7 +703,7 @@ ul.home-grid a li.flickr i.fa, ul.home-grid a li.dribbble i.fa {
 
 .date, .caption {
   color: #bababa;
-  font-size: 16.5px; }
+  font-size: 16px; }
 
 .caption {
   padding-bottom: 1em; }
@@ -832,15 +839,41 @@ ul.work-grid li.reverspective {
   padding: 2em 0; }
 
 /* Responsify */
+@media only screen and (max-width: 1100px) {
+  #page-eyekiller ul.work-grid li .inner p {
+    font-size: 17px;
+    line-height: 1.5em; } }
 @media only screen and (max-width: 800px) {
   ul.home-grid li, ul.home-grid a li {
     width: 50%; }
 
-  h1 span {
-    display: inline; }
+  footer div p {
+    font-size: 14px; }
 
-  footer .made-by {
-    float: left; } }
+  footer div.made-by {
+    float: left; }
+
+  #page-eyekiller ul.work-grid li {
+    width: 100%; }
+    #page-eyekiller ul.work-grid li .inner p {
+      font-size: 22px; }
+
+  #page-eyekiller ul.work-grid li#work-belfast-ruby {
+    border-bottom: solid 1px #bababa; } }
+@media only screen and (max-width: 700px) {
+  h1 span {
+    display: inline; } }
 @media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 36px; }
+
+  body, #tagline h2 {
+    font-size: 18px; }
+
+  header {
+    padding-bottom: 4em; }
+
   ul.home-grid li, ul.home-grid a li {
-    width: 100%; } }
+    width: 100%; }
+    ul.home-grid li .inner, ul.home-grid a li .inner {
+      padding: 25% 10%; } }
