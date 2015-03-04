@@ -985,10 +985,13 @@ ul.work-grid li.reverspective {
   #page-eyekiller .header-background {
     min-height: 250px; }
     #page-eyekiller .header-background h1 {
-      font-size: 44px; }
+      font-size: 50px; }
 
   #page-eyekiller .header-background .content {
     padding: 8% 0 22% 0; }
+
+  #page-eyekiller .content {
+    padding: 2.5em 0; }
 
   #page-eyekiller .my-work .section-title {
     padding: 1.5em 0; }
