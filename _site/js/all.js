@@ -12,11 +12,11 @@ $(document).ready(function() {
     'height': itemwidth2 + 'px'
   });
 
-  // Same thing except for work examples
-    var itemwidth3 = $('ul.work-grid li').width();
-  $('ul.work-grid li').css({
-    'height': itemwidth3 + 'px'
-  });
+  // // Same thing except for work examples
+  //   var itemheight3 = $('ul.work-grid li').width();
+  //   $('ul.work-grid li').css({
+  //     'height': itemwidth3 + 'px'
+  //   });
 
   // Randomising the background image set for the flickr div
   var images = ['squirrel-mkeizer.jpg', 'cheryl-mkeizer.jpg', 'giants-causeway-mkeizer.jpg', 'matisse-mkeizer.jpg', 'cleo-mkeizer.jpg', 'ladygaga-mkeizer.jpg', 'glenoe-mkeizer.jpg', 'lighthouse-mkeizer.jpg' ];
