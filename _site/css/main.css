@@ -979,10 +979,16 @@ ul.work-grid li.reverspective {
   ul.home-grid li.blog:hover:hover {
     background: #0389a1; }
 
+  #page-eyekiller header {
+    padding-bottom: 1em; }
+
   #page-eyekiller .header-background {
-    min-height: 230px; }
+    min-height: 250px; }
     #page-eyekiller .header-background h1 {
-      font-size: 50px; }
+      font-size: 44px; }
+
+  #page-eyekiller .header-background .content {
+    padding: 8% 0 22% 0; }
 
   #page-eyekiller .my-work .section-title {
     padding: 1.5em 0; }

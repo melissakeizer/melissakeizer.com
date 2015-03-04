@@ -156,12 +156,20 @@
       background: darken($turquoise, 5%);
     }
 
+   #page-eyekiller header{
+    padding-bottom: 1em;
+   }
+
 
   #page-eyekiller .header-background {
-    min-height: 230px;
+    min-height: 250px;
     h1{
-      font-size: 50px;
+      font-size: 44px;
     }
+  }
+
+  #page-eyekiller .header-background .content{
+    padding: 8% 0 22% 0;
   }
 
   #page-eyekiller .my-work .section-title {
