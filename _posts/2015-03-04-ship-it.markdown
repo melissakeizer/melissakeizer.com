@@ -2,7 +2,7 @@
 layout: post
 selected: journal
 title:  "Ship it"
-date:   2015-03-03 18:12:42
+date:   2015-03-04 11:00:42
 
 ---
 
@@ -20,7 +20,7 @@ I have a long list of to-dos on my Trello board, including layouts that need bet
 
 Knowing my site is now out and open to scrutiny motivates me to improve it, and I look forward to moving Trello tasks into the "done" list.
 
-For now, I'm excited about writing again and sharing my thoughts on my journal. I've added comment functionality to my posts so I encourage you to share your opinions too and keep the conversation going.
+For now, I'm excited about writing again and sharing my thoughts in my journal. I've added comment functionality to my posts so I encourage you to share your opinions too and keep the conversation going.
 
 
 
