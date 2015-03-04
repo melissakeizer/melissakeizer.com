@@ -84,10 +84,27 @@
   }
 
 
+  header{
+    padding: 1.5em 0;
+  }
+
+  nav ul {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    li a{
+      font-size: 18px;
+      margin: 0 0 0 20px;
+    }
+  }
+
   footer div{
     float: left;
     width: 100%;
   }
+
+
 
 }
 
@@ -95,7 +112,15 @@
 @media only screen and (max-width: 520px) {
 
   h1{
-    font-size: 36px;
+    font-size: 30px;
+  }
+
+  h2, h2 a{
+    font-size: 27px;
+  }
+
+  h1 span{
+    display: block;
   }
 
   body, #tagline h2{
@@ -119,8 +144,13 @@
    }
   }
 
+    ul.home-grid li.blog{
+      background: $turquoise;
+    }
 
-
+    ul.home-grid li.blog:hover:hover{
+      background: darken($turquoise, 5%);
+    }
 
 
   #page-eyekiller .header-background {
