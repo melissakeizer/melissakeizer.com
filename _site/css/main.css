@@ -954,10 +954,10 @@ ul.work-grid li.reverspective {
     width: 100%; } }
 @media only screen and (max-width: 520px) {
   h1 {
-    font-size: 30px; }
+    font-size: 28px; }
 
   h2, h2 a {
-    font-size: 27px; }
+    font-size: 26px; }
 
   h1 span {
     display: block; }
