@@ -19,7 +19,7 @@ $(document).ready(function() {
   });
 
   // Randomising the background image set for the flickr div
-  var images = ['squirrel-mkeizer.jpg', 'cheryl-mkeizer.jpg', 'giants-causeway-mkeizer.jpg', 'matisse-mkeizer.jpg'];
+  var images = ['squirrel-mkeizer.jpg', 'cheryl-mkeizer.jpg', 'giants-causeway-mkeizer.jpg', 'matisse-mkeizer.jpg', 'cleo-mkeizer.jpg', 'ladygaga-mkeizer.jpg', 'glenoe-mkeizer.jpg', 'lighthouse-mkeizer.jpg' ];
   $('ul.home-grid li.flickr').css({'background-image': 'url(img/photography-array/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
   // Randomising the background image set for the flickr div
