@@ -4,7 +4,7 @@ email: hi@melissakeizer.com
 description: > # this means to ignore newlines until "baseurl:"
   The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://melissakeizer.github.io/melissakeizer.com/" # the base hostname & protocol for your site
+url: "http://melissakeizer.com" # the base hostname & protocol for your site
 
 twitter: http://twitter.com/keizgoesboom
 dribbble: https://dribbble.com/KeizGoesBoom
