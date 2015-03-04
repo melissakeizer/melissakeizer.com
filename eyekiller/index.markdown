@@ -12,7 +12,7 @@ I have over three years experience in the industry where I've had the opportunit
 
 For the last year and nine months I have been working at [Rumble Labs](http://rumblelabs.com), and while I have thoroughly enjoyed my experience and learned a lot, I'm ready to be presented with new challenges in an environment that offers more variety. I am confident that I could, not only expand my knowledge and learn new creative skills with your team, but bring fresh ideas of my own to the table.
 
-You'll find a few examples of my work below and you can [view my CV on Dropbox](https://www.dropbox.com/s/cvdywxwn42j8gsw/mkeizer-cv-2015.pdf?dl=0). However I'd really like to meet with you in person to better articulate why I'm eagar to join your team.
+You'll find a few examples of my work below and you can [check out my CV](http://melissakeizer.com/melissa-keizer-cv-2015.pdf). However I'd really like to meet with you in person to better articulate why I'm eagar to join your team.
 
 **Thank you for your time and I hope to speak to you soon!**
 
