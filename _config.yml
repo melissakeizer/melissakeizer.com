@@ -15,4 +15,4 @@ instagram:  http://instagram.com/keizgoesboom
 
 # Build settings
 markdown: kramdown
-permalink: none
+permalink: /journal/:title/
