@@ -662,7 +662,7 @@ ul.home-grid .social-grid {
   color: #373737; }
 
 #tagline {
-  padding-bottom: 2.5em; }
+  padding-bottom: 3em; }
 
 .home-grid {
   width: 100%;
@@ -982,6 +982,9 @@ ul.work-grid li.reverspective {
 
   ul.home-grid li.blog:hover:hover {
     background: #0389a1; }
+
+  a.button-push .button-icon {
+    top: 12px; }
 
   #page-eyekiller header {
     padding-bottom: 1em; }
