@@ -2,7 +2,7 @@
 layout: post
 selected: journal
 title:  "Tot Ziens, Rumble Labs"
-date:   2015-03-12 11:00:42
+date:   2015-03-18 11:00:42
 
 ---
 
@@ -12,7 +12,7 @@ After a year and nine months of working with the amazing team at [Rumble Labs](h
 
 I joined the team after completing my degree in Interactive Multimedia Design, starting work two days before my graduation in July 2013. Being Rumble's first (and still only) female hire, I earned the affectionate nickname "Number One Girl in Rumble." Thanks, [Steven!](http://rumblelabs.com/about/steven-hylands/) ;)
 
-Rumble's open and collaborative culture was the perfect place for me to grow as a designer and developer, as it encouraged knowledge sharing, pair programming and generally just helping teammates when you can. When [Mark](http://rumblelabs.com/about/mark-leetch/) & I weren't sharing [Nicki Minaj gifs](http://gfycat.com/SplendidSimpleHackee), we'd often be found sat side-by-side, working together on a project. This helped us work out problems more efficiently, and I usually picked up a nifty development trick while I was there.
+Rumble's open and collaborative culture was the perfect place for me to grow as a designer and developer, as it encouraged knowledge sharing, pair programming and generally just helping teammates when you can. When [Mark](http://rumblelabs.com/about/mark-leetch/) & I weren't exchanging [Nicki Minaj gifs](http://gfycat.com/SplendidSimpleHackee), we'd often be found sat side-by-side, working together on a project. This helped us work out problems more efficiently, and I usually picked up a nifty development trick while I was there.
 
 
 ![photo caption](../../img/blog/rumble-lads-selfie.jpg "The Rumble Lads")
