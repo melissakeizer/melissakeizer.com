@@ -424,11 +424,17 @@ a:active {
   position: relative;
   top: 1px; }
 
-p a {
+p a, #page-post ul li a {
   text-decoration: none;
   border-bottom: 1px solid #bababa; }
-  p a:hover {
+  p a:hover, #page-post ul li a:hover {
     color: #D2206A; }
+
+#page-post ul {
+  margin-bottom: 5%; }
+
+#page-post ul li {
+  list-style: outside; }
 
 /* Navigation */
 header {

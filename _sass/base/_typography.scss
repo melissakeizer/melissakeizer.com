@@ -59,12 +59,20 @@ a:active {
   top: 1px;
 }
 
-p a {
+p a, #page-post ul li a{
   text-decoration: none;
   border-bottom: 1px solid $grey;
   &:hover{
     color: $pink;
   }
+}
+
+#page-post ul {
+    margin-bottom: 5%;
+}
+
+#page-post ul li{
+  list-style: outside;
 }
 
 
