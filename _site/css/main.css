@@ -675,7 +675,7 @@ ul.home-grid .social-grid {
   float: left; }
 
 ul.home-grid li, ul.home-grid a li {
-  width: 33.33%;
+  width: 33.3333%;
   float: left;
   background: #e8e8e8;
   margin: 0;
@@ -727,7 +727,7 @@ ul.home-grid li.flickr {
   position: relative;
   background-image: url("../img/photography-array/matisse-mkeizer.jpg"); }
 
-ul.home-grid a li.flickr i.fa, ul.home-grid a li.dribbble i.fa {
+ul.home-grid li.flickr a i.fa, ul.home-grid li.dribbble a i.fa {
   transition: all .4s ease-in-out;
   -moz-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
@@ -739,7 +739,7 @@ ul.home-grid a li.flickr i.fa, ul.home-grid a li.dribbble i.fa {
   padding: 45% 47%;
   position: relative;
   text-shadow: 0 1px 6px rgba(55, 55, 55, 0.3); }
-  ul.home-grid a li.flickr i.fa:hover, ul.home-grid a li.dribbble i.fa:hover {
+  ul.home-grid li.flickr a i.fa:hover, ul.home-grid li.dribbble a i.fa:hover {
     opacity: 1; }
 
 /* Journal/Blog Page */
@@ -991,6 +991,11 @@ ul.work-grid li.reverspective {
 
   a.button-push .button-icon {
     top: 12px; }
+
+  ul.post-list li {
+    padding: 13% 0 13% 0; }
+    ul.post-list li:first-child {
+      padding: 1% 0 13% 0; }
 
   #page-eyekiller header {
     padding-bottom: 1em; }
