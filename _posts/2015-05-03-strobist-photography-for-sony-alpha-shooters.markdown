@@ -21,7 +21,7 @@ There are a few core pieces of equipment you’ll need to get started, along wit
 - Flash unit (Mine's a [Sony HVL-F58AM](http://www.amazon.co.uk/Sony-HVL-F58AM-High-Power-Flash/dp/B001C5TQFM/ref=sr_1_15?ie=UTF8&qid=1430619754&sr=8-15&keywords=sony+flashgun) )
 - [Trigger set](http://www.amazon.co.uk/dp/B006JODEGI/ref=wl_it_dp_o_pC_S_ttl?_encoding=UTF8&colid=2WET56E3WOQR2&coliid=I1NMYOL33CJUBE)
 - [Light stand](http://www.amazon.co.uk/dp/B0011363NS/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2WET56E3WOQR2&coliid=I3O1DQ66CL969B) (if you’re likely to shoot outside you might want to buy a [sandbag](http://www.amazon.co.uk/TARION-Studio-Counterbalance-Sandbag-Outdoor/dp/B00MYYBR5W/ref=sr_1_2?s=electronics&ie=UTF8&qid=1418741273&sr=1-2&keywords=sandbag) to weigh the stand down and stop it blowing over)
-- [Umbrella mount/Bracket](http://www.amazon.co.uk/gp/product/B00EVL1K3K?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00) for light stand (allows you to attach umbrella to light stand)
+- [Umbrella mount/bracket](http://www.amazon.co.uk/gp/product/B00EVL1K3K?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00) for light stand (allows you to attach umbrella to light stand)
 - [Shoot-through umbrella](http://www.amazon.co.uk/dp/B001OKBLEE/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2WET56E3WOQR2&coliid=I2RQXS7N0NHJHG) (before buying, check your holder’s maximum diameter is large enough to fit your umbrella's shaft)
 
 Note that my setup is for one flash only, if you want to use two speedlights, you’ll need another receiver for the flashgun, along with an extra stand, umbrella mount and umbrella. Another point to note is that most light stand holders use a cold-shoe mount to attach receivers and flashguns to the holder. However, Sony Alpha hotshoes are not the standard shape that most brands use, so instead you’ll need to order a holder with a screw top mount instead.
@@ -57,7 +57,7 @@ I recently did a freelance photography job for [The Vault](https://www.facebook.
 The shoot involved plenty of experimentation to find the best way to light the scene, including the flash power settings and the position and distance of the stand from the scene. Sometimes the light from my flash was the primary light source for a shot, and other times it was used to add a little extra light to brighten up the scene a bit.
 
 ![photo caption](../../img/blog/strobist-pizza-cutting.jpg "Pizza at The Vault")
-<span class="caption">I lit this scene with a single flashgun, shot through an umbrella.</span>
+<span class="caption">I lit this scene with a single speedlight, shot through an umbrella.</span>
 
 ## Comparing with and without flash
 
@@ -68,7 +68,7 @@ The benefit of having a strobist setup is clear when comparing the shots below, 
 
 ## Final notes
 
-While I’d still consider myself a newbie when it comes to strobist photography, I learned a lot during the two photoshoots at the restaurant and being able to experiment with different settings. I found the one-flashgun setup to suit my needs perfectly in this case, but I may invest in another flash (and stand, holder and light diffuser) in the future, especially since I hope to learn more about using sppedlights for portraiture photography.
+While I’d still consider myself a newbie when it comes to strobist photography, I learned a lot during the two photoshoots at the restaurant and being able to experiment with different settings. I found the one-flashgun setup to suit my needs perfectly in this case, but I may invest in another flash (and stand, umbrella bracket and light diffuser) in the future, especially since I hope to learn more about using speedlights for portraiture photography.
 
 It’s definitely useful to have off-camera flash as you can’t always depend on available light to be enough. The great thing about strobist photography is that it’s cheaper than buying studio lighting and it’s also very portable.
 
