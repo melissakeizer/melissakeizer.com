@@ -34,7 +34,7 @@ After reading various online reviews and comments from Sony users on photography
 
 ## Now to get set up!
 
-Start by mounting the trigger to your DSLR’s hotshoe. You’ll need to alter some settings on your camera so it knows that you’ll be using an off-camera flash. I can access these settings via the function menu (Fn button on the back) on my camera, going to the flash mode settings and changing the mode to wireless (WL). Don’t forget to change your white balance setting to “flash” while before you start taking photos.
+Start by mounting the transmitter to your DSLR’s hotshoe. You’ll need to alter some settings on your camera so it knows that you’ll be using an off-camera flash. I can access these settings via the function menu (Fn button on the back) on my camera, going to the flash mode settings and changing the mode to wireless (WL). Don’t forget to change your white balance setting to “flash” while before you start taking photos.
 
 Next you’ll need to take your light stand out of the bag, pull out the legs and set it up. Grab your umbrella holder and screw it on to the top of your light stand. To attach the Phottix receiver to the umbrella holder, simply screw it on. Attach the flash to the receiver by slipping it into the hotshoe. Open the umbrella and pop the shaft into the hole in the flash holder, tightening it using the screw on the holder.
 
@@ -42,9 +42,9 @@ Next you’ll need to take your light stand out of the bag, pull out the legs an
 ![photo caption](../../img/blog/strobist-flashgun.jpg "My flashgun with transmitter attached, mounted on my light stand")
 <span class="caption">My flashgun with transmitter attached, mounted on my light stand</span>
 
-Now that everything is in place, you’ll just need to turn on your flash, trigger and receiver and fiddle about with a few more settings. Press on a channel button on your receiver. When you see it light up, that’s it set. Turn on the same channel on your receiver. The Phottix Strato II trigger and receiver set doesn’t support wireless TTL (though you can use TTL when the flash is mounted on your receiver on the camera.), so you’ll need to set the flash power manually. Of course, this depends on your scene and the results you’re after. Have a play about with the flashgun settings until your exposure is just right.
+Now that everything is in place, you’ll just need to turn on your flash, transmitter and receiver and fiddle about with a few more settings. Press on a channel button on your transmitter, when you see it light up, that’s it set. Turn on the same channel on your receiver. The Phottix Strato II trigger set doesn’t support wireless TTL (though you can use TTL when the flash is mounted on your transmitter on the camera.), so you’ll need to set the flash power manually. Of course, this depends on your scene and the results you’re after. Have a play about with the flashgun settings until your exposure is just right.
 
-Take a few photos and make sure the flash is firing. If you find the flash isn’t firing, check that both the trigger and receiver are switched on and are using the same channel (the selected one will be lit up). Also check that the camera’s flash mode is set to “wireless.”
+Take a few photos and make sure the flash is firing. If you find the flash isn’t firing, check that both the transmitter and receiver are switched on and are using the same channel (the selected one will be lit up). Also check that the camera’s flash mode is set to “wireless.”
 
 
 ## Putting my strobist setup to the test
