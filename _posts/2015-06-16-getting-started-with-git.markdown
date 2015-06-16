@@ -140,7 +140,7 @@ When you want to merge in the changes you made on your branch later you must mov
     git merge branch-name
 
 
-So, there's a few Git fundamentals nailed down. Hopefully this will help you get started with Git on your own projects, but if you have any questions or run into issues feel free to tweet [@KeizGoesBoom](http://twitter.com/keizgoesboom) or [@belfastruby](http://twitter.com/belfastruby).
+So, there's a few Git fundamentals nailed down. Hopefully this will help you get started with Git on your own projects, but if you have any questions or run into issues feel free to tweet me [@KeizGoesBoom](http://twitter.com/keizgoesboom).
 
 
 
