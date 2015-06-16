@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <title>Getting Started with Git | Melissa Keizer | Personal Website</title>
+  <meta name="description" content="=The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="canonical" href="http://melissakeizer.com/journal/getting-started-with-git/">
+  <link rel="alternate" type="application/atom+xml" title="Melissa Keizer | Personal Website" href="http://melissakeizer.com/feed.xml" />
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//use.typekit.net/iwp7moa.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <script src="/js/all.js"></script>
+
+
+
+
+</head>
+
+  <body>
+    <header>
+  <nav class="menu">
+    <ul>
+      <li class="hello"><a href="/" >Hello</a></li>
+      <li><a href="/about/" >About Me</a></li>
+      <li><a href="/journal/" class="active">Journal</a></li>
+      <li>
+        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
+          <i class="fa fa-paper-plane"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+      <div id="page-post">
+<section class="container">
+  <article class="blog-meta">
+    <h1>Getting Started with Git</h1>
+    <p class="date">Posted on Jun 16, 2015</p>
+  </article>
+
+  <article class="content">
+    <p>Last year I gave a talk at local developer meetup <a href="http://belfastruby.com/2014/01/30/intro-to-ruby.html">Belfast Ruby</a> on how get started with Git and GitHub. These are the notes that accompany the practical demo I gave, you can also check out my short Keynote on <a href="https://speakerdeck.com/melissakeizer/gitn-started-with-version-control">Speakerdeck</a>. Hopefully this guide will still be useful to version control newbies now.</p>
+
+<h2 id="creating-remote-repo">1. Creating Remote Repo</h2>
+
+<ul>
+  <li>Create account/Sign in to Github.com</li>
+  <li>Create New Repo</li>
+  <li>Give the project a name and description</li>
+</ul>
+
+<p>Now you have an online space for your project to live.</p>
+
+<h2 id="setting-up-git">2. Setting Up Git</h2>
+
+<p>Now we’re going to open Terminal/iTerm and type some commands.</p>
+
+<p>First, check is Installed</p>
+
+<pre><code>git --version
+</code></pre>
+
+<p>You should get a response that looks like this:</p>
+
+<pre><code>git version 1.8.3.1
+</code></pre>
+
+<p>If you don’t already have Git installed or need to update (use version 1.7.11 or higher) then follow these links to install Git in your machine.</p>
+
+<p>Install [Git for Mac] (https://code.google.com/p/git-osx-installer/) or [Git for Windows] (http://msysgit.github.io/)</p>
+
+<p>Next give Git your credentials</p>
+
+<pre><code>git config --global user.name "Melissa Keizer"
+git config --global user.email "mkeizer@rumblelabs.com"
+</code></pre>
+
+<h2 id="create-your-local-repo">3. Create Your Local Repo</h2>
+
+<p>Now you need to make the repository for your project that will live on your computer.</p>
+
+<p>In terminal navigate to the folder where you keep your projects and make a new directory for your new app/site/project. Then navigate to your new project folder.</p>
+
+<pre><code>cd sites
+mkdir nice-project
+cd nice-project
+</code></pre>
+
+<p>Now to start using Git commands (They always begin with the word Git)
+First you need to tell your computer to recognise this directory as a local Git Repository</p>
+
+<pre><code>git init
+</code></pre>
+
+<p><strong>Now you have both a remote and local git repo for your project.</strong></p>
+
+<h2 id="make-some-files">4. Make Some Files</h2>
+
+<p>Add a ReadMe.md file (Use this markdown file to add notes about your project and instructions about how others can get it running locally)</p>
+
+<pre><code>touch ReadMe.md
+</code></pre>
+
+<p>Now I’ll edit this ReadMe file by opening it in my text editor of choice, Sublime Text 2. I’ve installed the Sublime Command Line tool which allows me to open my project from the command line - <a href="http://www.sublimetext.com/docs/2/osx_command_line.html">Here’s how to set it up</a></p>
+
+<pre><code>subl .
+</code></pre>
+
+<p>In the ReadMe.md I added some markdown using Sublime.</p>
+
+<pre><code>#Nice Project
+This is my new nice project, holla.
+</code></pre>
+
+<p>Check that Git can see your changes</p>
+
+<pre><code>git status
+</code></pre>
+
+<p>The response tells me that Git notices the edit but the file is currently untracked. Next you need to tell Git to add in these changes so you can commit them.</p>
+
+<p>Following this, commit the change. By commiting you are taking a snapshot of your project repo at this point in time. Remember to give your commits a meaningful description about what you just did</p>
+
+<pre><code>git add .
+git commit -m "Added a readme.md file and wrote some words in it"
+</code></pre>
+
+<p><strong>Next it’s time to push your changes to your remote repo on Github.</strong></p>
+
+<h2 id="connect-local-and-remote-repos">5. Connect local and remote repos</h2>
+
+<p>In order to push these changes, I need to tell Git that a remote repo exists somewhere on the web.</p>
+
+<p>Go to Github and grab the link your project’s quick set up page. Remember to take the <strong>SSH link</strong> if you have SSH keys set up (You can also use the HTTP link but this causes you to give your username and password everytime you push)</p>
+
+<p>Go back to terminal and type the following:</p>
+
+<pre><code>git remote add origin git@github.com:melissakeizer/nice-project.git
+</code></pre>
+
+<p>The word “origin” indicates that this is a new place where files originate and “remote” simply tells git that the origin is with an online host  .</p>
+
+<p>To check that it was set up correctly type the command below</p>
+
+<pre><code>git remote -v
+</code></pre>
+
+<p>You should see a list of all remote origins. I see it listed twice since Git will both push changes there and fetch changes from there. <strong>Now Git knows where you want your local changes to your repository to go!</strong></p>
+
+<p>To push your changes use the command below</p>
+
+<pre><code>git push -u origin master
+</code></pre>
+
+<p>Look at your changes by visiting the project page on Github. There I’ll see the updated ReadMe.md and I can click on the “Commits” link to view exactly what changes were made with each commit.</p>
+
+<h2 id="make-a-new-branch">6. Make a new branch</h2>
+
+<p>As mentioned in my talk, branches are useful when working in teams or for simply separating development of different features on your app or project.</p>
+
+<p>To make a new branch type:</p>
+
+<pre><code>git checkout -b branch-name
+</code></pre>
+
+<p>The “-b” indicates that this is a new branch. Give your branch a relevant name, for example “contact-form” or “new-design”
+You can start making changes to your project without affecting your master branch, the main line of development. I made some edits to my ReadMe.md file in Sublime, then added and committed this change.</p>
+
+<pre><code>git add .
+git commit -m "updated readme"
+</code></pre>
+
+<p>Next I’ll push this change.</p>
+
+<pre><code>git push
+</code></pre>
+
+<p>You’ll see a message in Terminal telling you that the branch has no upstream branch, to push the branch simply use the command listed.</p>
+
+<pre><code>git push --set-upstream origin branch-name
+</code></pre>
+
+<p>When you want to merge in the changes you made on your branch later you must move to your master branch and give the merge command.</p>
+
+<pre><code>git checkout master
+git merge branch-name
+</code></pre>
+
+<p>So, there’s a few Git fundamentals nailed down. Hopefully this will help you get started with Git on your own projects, but if you have any questions or run into issues feel free to tweet <a href="http://twitter.com/keizgoesboom">@KeizGoesBoom</a> or <a href="http://twitter.com/belfastruby">@belfastruby</a>.</p>
+
+
+  </article>
+
+  <div class="comment-section">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'melissakeizerblog'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</section>
+</div>
+
+
+    <footer>
+  <div class="send-me-email">
+    <p>Want to have a chat or say hello? <a href="mailto:hi@melissakeizer.com" >Send me an email</a></p>
+  </div>
+  <div class="made-by">
+    <p>Made with <i class="fa fa-heart"></i> by <a href="http://twitter.com/keizgoesboom" >Melissa Keizer</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35452071-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>
