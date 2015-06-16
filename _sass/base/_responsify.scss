@@ -2,10 +2,73 @@
 
 
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1700px) {
+
+  body{
+    font-size: 28px;
+  }
 
   ul.work-grid li{
     height: 700px;
+  }
+
+  ul.home-grid li.blog h3 {
+    font-size: 19px;
+    padding-bottom: 8px;
+  }
+
+  ul.home-grid li.blog h2 {
+  font-size: 36px;
+  }
+
+  ul.home-grid li.flickr a i.fa, ul.home-grid li.dribbble a i.fa, .social-grid a i{
+    font-size: 45px;
+  }
+
+  .date, .caption {
+    font-size: 19px;
+  }
+
+  a.button{
+    font-size: 20px;
+    width: 200px;
+    padding: 0em 2em 0.2em 2em;
+  }
+
+  a.button-push .button-icon {
+    top: 17px;
+    font-size: 19px;
+  }
+
+  h1{
+    font-size: 65px;
+  }
+
+  #tagline h2 {
+    font-size: 28px;
+    max-width: 660px;
+    padding-bottom: 30px;
+  }
+
+  nav ul li a {
+    font-size: 22px;
+  }
+
+  article.content {
+  max-width: 810px;
+  }
+
+  #page-journal .button {
+    width: 250px;
+  }
+
+  h2, h2 a {
+    font-size: 37px;
+  }
+
+  .blog-meta, .comment-section {
+    margin: 0 auto;
+    max-width: 810px;
   }
 
 
