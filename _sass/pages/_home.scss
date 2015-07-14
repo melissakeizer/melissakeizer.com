@@ -12,18 +12,19 @@
   padding-bottom: 3em;
 }
 
-.home-grid{
+.home-grid, .photo-grid{
   width: 100%;
   float: left;
 }
 
-ul.home-grid li, ul.home-grid a li{
+ul.home-grid li, ul.home-grid a li, ul.photo-grid li,  ul.photo-grid li a{
   width: 33.3333%;
   float: left;
   background: $background-grey;
   margin: 0;
   z-index: 1;
 }
+
 
 ul.home-grid li .inner, ul.home-grid a li .inner{
   padding: 25% 15% 25% 15%;
@@ -86,6 +87,67 @@ ul.home-grid li.flickr a i.fa, ul.home-grid li.dribbble a i.fa{
   &:hover{
     opacity: 1;
   }
+}
+
+ul.photo-grid {
+  margin: 50px 0 40px 0;
+}
+
+ul.photo-grid li{
+  position: relative;
+}
+
+ul.photo-grid li{
+  @include bg-cover;
+  position: relative;
+  &.photoset-portraits{
+    background-image: url("../img/photos/grid-portraits.jpg");
+  }
+  &.photoset-pets{
+    background-image: url("../img/photos/grid-pets.jpg");
+  }
+  &.photoset-landscapes{
+    background-image: url("../img/photos/grid-landscapes.jpg");
+  }
+  &.photoset-music{
+    background-image: url("../img/photos/grid-music.jpg");
+  }
+  &.photoset-restaurant{
+    background-image: url("../img/photos/grid-restaurant.jpg");
+  }
+  &.photoset-zoo{
+    background-image: url("../img/photos/grid-zoo.jpg");
+  }
+  &.exposure-dublin{
+    background-image: url("../img/photos/exposure-dublin.jpg");
+  }
+  &.exposure-matisse{
+    background-image: url("../img/photos/exposure-matisse.jpg");
+  }
+  &.exposure-lights{
+    background-image: url("../img/photos/exposure-lights.jpg");
+  }
+
+}
+
+ul.photo-grid a{
+  h4{
+    opacity: 0;
+  }
+  &:hover h4{
+    opacity: 1;
+  }
+}
+
+ul.photo-grid li h4{
+  @include subtle-animation;
+  font-size: 22px;
+  color: $white;
+  z-index: 200;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  text-shadow: 0 1px 6px rgba($black, 0.3);
 }
 
 

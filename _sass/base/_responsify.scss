@@ -106,7 +106,7 @@
 
 @media only screen and (max-width: 800px) {
 
-  ul.home-grid li, ul.home-grid a li{
+  ul.home-grid li, ul.home-grid a li, ul.photo-grid a li{
     width: 50%;
   }
 
@@ -202,7 +202,7 @@
     padding-bottom: 4em;
   }
 
-  ul.home-grid li, ul.home-grid a li{
+  ul.home-grid li, ul.home-grid a li, ul.photo-grid a li{
     width: 100%;
     .inner{
       padding: 25% 10%;

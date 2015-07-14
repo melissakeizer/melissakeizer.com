@@ -354,7 +354,8 @@ body {
   background-color: #ffffff; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; }
 
 .container {
   margin: 0 auto;
@@ -364,13 +365,14 @@ body {
     margin-top: 0.8em; }
 
 .full-width {
-  width: 100%; }
+  width: 100%;
+  overflow-x: hidden; }
 
 article.content {
   margin: 0 auto;
   max-width: 740px; }
 
-#page-about .content, #page-journal .content, #page-post .content {
+#page-about .content, #page-journal .content, #page-post .content, #page-photography .content.last {
   padding-bottom: 3em; }
 
 /* Comments */
@@ -694,11 +696,11 @@ ul.home-grid .social-grid {
 #tagline {
   padding-bottom: 3em; }
 
-.home-grid {
+.home-grid, .photo-grid {
   width: 100%;
   float: left; }
 
-ul.home-grid li, ul.home-grid a li {
+ul.home-grid li, ul.home-grid a li, ul.photo-grid li, ul.photo-grid li a {
   width: 33.3333%;
   float: left;
   background: #e8e8e8;
@@ -765,6 +767,53 @@ ul.home-grid li.flickr a i.fa, ul.home-grid li.dribbble a i.fa {
   text-shadow: 0 1px 6px rgba(55, 55, 55, 0.3); }
   ul.home-grid li.flickr a i.fa:hover, ul.home-grid li.dribbble a i.fa:hover {
     opacity: 1; }
+
+ul.photo-grid {
+  margin: 50px 0 40px 0; }
+
+ul.photo-grid li {
+  position: relative; }
+
+ul.photo-grid li {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative; }
+  ul.photo-grid li.photoset-portraits {
+    background-image: url("../img/photos/grid-portraits.jpg"); }
+  ul.photo-grid li.photoset-pets {
+    background-image: url("../img/photos/grid-pets.jpg"); }
+  ul.photo-grid li.photoset-landscapes {
+    background-image: url("../img/photos/grid-landscapes.jpg"); }
+  ul.photo-grid li.photoset-music {
+    background-image: url("../img/photos/grid-music.jpg"); }
+  ul.photo-grid li.photoset-restaurant {
+    background-image: url("../img/photos/grid-restaurant.jpg"); }
+  ul.photo-grid li.photoset-zoo {
+    background-image: url("../img/photos/grid-zoo.jpg"); }
+  ul.photo-grid li.exposure-dublin {
+    background-image: url("../img/photos/exposure-dublin.jpg"); }
+  ul.photo-grid li.exposure-matisse {
+    background-image: url("../img/photos/exposure-matisse.jpg"); }
+  ul.photo-grid li.exposure-lights {
+    background-image: url("../img/photos/exposure-lights.jpg"); }
+
+ul.photo-grid a h4 {
+  opacity: 0; }
+ul.photo-grid a:hover h4 {
+  opacity: 1; }
+
+ul.photo-grid li h4 {
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  font-size: 22px;
+  color: #ffffff;
+  z-index: 200;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  text-shadow: 0 1px 6px rgba(55, 55, 55, 0.3); }
 
 /* Journal/Blog Page */
 .blog-meta, .comment-section {
@@ -985,7 +1034,7 @@ ul.work-grid li.reverspective {
     font-size: 18px;
     line-height: 1.7em; } }
 @media only screen and (max-width: 800px) {
-  ul.home-grid li, ul.home-grid a li {
+  ul.home-grid li, ul.home-grid a li, ul.photo-grid a li {
     width: 50%; }
 
   footer div p {
@@ -1047,13 +1096,13 @@ ul.work-grid li.reverspective {
   header {
     padding-bottom: 4em; }
 
-  ul.home-grid li, ul.home-grid a li {
+  ul.home-grid li, ul.home-grid a li, ul.photo-grid a li {
     width: 100%; }
-    ul.home-grid li .inner, ul.home-grid a li .inner {
+    ul.home-grid li .inner, ul.home-grid a li .inner, ul.photo-grid a li .inner {
       padding: 25% 10%; }
-      ul.home-grid li .inner p, ul.home-grid a li .inner p {
+      ul.home-grid li .inner p, ul.home-grid a li .inner p, ul.photo-grid a li .inner p {
         font-size: 22px; }
-    ul.home-grid li.blog h2, ul.home-grid a li.blog h2 {
+    ul.home-grid li.blog h2, ul.home-grid a li.blog h2, ul.photo-grid a li.blog h2 {
       font-size: 28px; }
 
   ul.home-grid li.blog {

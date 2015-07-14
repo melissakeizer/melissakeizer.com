@@ -6,6 +6,12 @@ $(document).ready(function() {
     'height': itemwidth + 'px'
   });
 
+  // Matching the photo grid square's height with thier fluid width
+   var itemwidth = $('ul.photo-grid li').width();
+  $('ul.photo-grid li').css({
+    'height': itemwidth + 'px'
+  });
+
   // Same thing except for social icons
     var itemwidth2 = $('.social-grid a').width();
   $('.social-grid a').css({

@@ -28,7 +28,7 @@ article.content{
   @include content-width;
 }
 
-#page-about .content, #page-journal .content, #page-post .content,  {
+#page-about .content, #page-journal .content, #page-post .content, #page-photography .content.last {
   padding-bottom: 3em;
 }
 
