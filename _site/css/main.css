@@ -771,8 +771,17 @@ ul.home-grid li.flickr a i.fa, ul.home-grid li.dribbble a i.fa {
 ul.photo-grid {
   margin: 50px 0 40px 0; }
 
+div.photo-grid {
+  margin: 50px 0 0 0; }
+
 ul.photo-grid li {
   position: relative; }
+
+.photo-grid img {
+  width: 33.333%;
+  padding: 0;
+  margin: 0;
+  float: left; }
 
 ul.photo-grid li {
   background-repeat: no-repeat;
@@ -1032,7 +1041,10 @@ ul.work-grid li.reverspective {
 @media only screen and (max-width: 960px) {
   #page-eyekiller ul.work-grid li .inner p {
     font-size: 18px;
-    line-height: 1.7em; } }
+    line-height: 1.7em; }
+
+  .photo-grid img {
+    width: 33.333%; } }
 @media only screen and (max-width: 800px) {
   ul.home-grid li, ul.home-grid a li, ul.photo-grid a li {
     width: 50%; }
@@ -1148,4 +1160,7 @@ ul.work-grid li.reverspective {
     height: 330px; }
 
   #page-eyekiller .content p strong {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .photo-grid img {
+    width: 50%; } }

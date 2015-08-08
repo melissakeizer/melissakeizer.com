@@ -18,6 +18,12 @@ $(document).ready(function() {
     'height': itemwidth2 + 'px'
   });
 
+  // Matching the photo grid square's height with thier fluid width - images
+   var itemwidth = $('.photo-grid img').width();
+  $('.photo-grid img').css({
+    'height': itemwidth + 'px'
+  });
+
   // Randomising the background image set for the flickr div
   var images = ['squirrel-mkeizer.jpg', 'sumatran-tiger-mkeizer.jpg', 'cheryl-mkeizer.jpg', 'giants-causeway-mkeizer.jpg', 'matisse-mkeizer.jpg', 'cleo-mkeizer.jpg', 'ladygaga-mkeizer.jpg', 'glenoe-mkeizer.jpg', 'lighthouse-mkeizer.jpg' ];
   $('ul.home-grid li.flickr').css({'background-image': 'url(img/photography-array/' + images[Math.floor(Math.random() * images.length)] + ')'});
