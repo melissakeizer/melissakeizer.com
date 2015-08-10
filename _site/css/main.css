@@ -740,7 +740,8 @@ ul.home-grid .social-grid {
   color: #373737; }
 
 #tagline {
-  padding-bottom: 3em; }
+  padding-bottom: 3em;
+  max-width: 600px; }
 
 .home-grid, .photo-grid {
   width: 100%;
