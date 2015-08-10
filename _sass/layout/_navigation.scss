@@ -28,7 +28,7 @@ nav ul {
   }
 }
 
-nav ul li a.email:hover{
+nav ul li a.email:hover, a.hamburger:hover {
   &:hover{
     color: $pink;
     border: none;
@@ -36,4 +36,57 @@ nav ul li a.email:hover{
   &.active{
     border: none;
   }
+}
+
+a.hamburger{
+  display: none;
+  float: right;
+  padding-right: 1.2em;
+}
+
+ #mobile-menu {
+  display: none;
+  position: fixed;
+  background: $transparent-pink;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.mobile-menu-relative{
+  position: relative;
+}
+
+
+#mobile-menu ul {
+  width: 100%;
+  li {
+  display: block;
+  padding: 12px 0;
+  font-weight: 500;
+  &:first-child{
+    padding-top: 40px;
+    }
+  a{
+  display: block;
+  text-align: left;
+  color: $white;
+  font-size: 25px;
+  &:hover{
+    border: none;
+    }
+  &.active{
+    border: none;
+    }
+  }
+ }
+}
+
+.close-menu {
+  position: absolute;
+  top: 30px;
+  right: 30px;
 }

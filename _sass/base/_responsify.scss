@@ -72,6 +72,8 @@
   }
 
 
+
+
 }
 
 
@@ -160,25 +162,33 @@
     padding: 1.5em 0;
   }
 
-  nav ul {
-    float: none;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    li a{
-      font-size: 17px;
-      margin: 0 0 0 15px;
-    }
-  }
+  // nav ul {
+  //   float: none;
+  //   display: block;
+  //   margin: 0 auto;
+  //   text-align: center;
+  //   li a{
+  //     font-size: 17px;
+  //     margin: 0 0 0 15px;
+  //   }
+  // }
 
-  nav ul li.first a{
-    margin: 0;
-  }
+  // nav ul li.first a{
+  //   margin: 0;
+  // }
 
   footer div{
     float: left;
     width: 100%;
   }
+
+  a.hamburger{
+  display: block;
+  }
+
+   nav.menu{
+    display: none;
+   }
 
 
 

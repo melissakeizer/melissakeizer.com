@@ -32,4 +32,15 @@ $(document).ready(function() {
   var shots = ['belfast-ruby-macbook.jpg', 'reverspective.jpg', 'the-laboratory.jpg', 'belfast-ruby.jpg'];
   $('ul.home-grid li.dribbble').css({'background-image': 'url(img/dribbble-shots/' + shots[Math.floor(Math.random() * shots.length)] + ')'});
 
+  // Mobile navigation
+  $('#hamburger').on('click', function(){
+     event.preventDefault();
+    $('#mobile-menu').css("display", "block");
+  });
+  $('#close-menu').on('click', function(){
+      event.preventDefault();
+    $('#mobile-menu').css("display", "none");
+  });
+
+
 });
