@@ -34,12 +34,11 @@ $(document).ready(function() {
 
   // Mobile navigation
   $('#hamburger').on('click', function(){
-     event.preventDefault();
     $('#mobile-menu').css("display", "block");
   });
-  $('#close-menu').on('click', function(){
+  $('#close-menu').on('click', function( event ){
       event.preventDefault();
-    $('#mobile-menu').css("display", "none");
+      $('#mobile-menu').css("display", "none");
   });
 
 

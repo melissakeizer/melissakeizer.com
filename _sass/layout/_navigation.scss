@@ -74,7 +74,8 @@ a.hamburger{
   display: block;
   text-align: left;
   color: $white;
-  font-size: 25px;
+  font-size: 30px;
+  margin: 0;
   &:hover{
     border: none;
     }
@@ -85,8 +86,13 @@ a.hamburger{
  }
 }
 
-.close-menu {
+a.close-menu {
+  color: $white;
+}
+
+li.close-icon{
   position: absolute;
-  top: 30px;
+    top: 30px;
   right: 30px;
 }
+

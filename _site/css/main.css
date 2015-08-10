@@ -520,13 +520,17 @@ a.hamburger {
       display: block;
       text-align: left;
       color: #ffffff;
-      font-size: 25px; }
+      font-size: 30px;
+      margin: 0; }
       #mobile-menu ul li a:hover {
         border: none; }
       #mobile-menu ul li a.active {
         border: none; }
 
-.close-menu {
+a.close-menu {
+  color: #ffffff; }
+
+li.close-icon {
   position: absolute;
   top: 30px;
   right: 30px; }
@@ -1088,6 +1092,9 @@ ul.work-grid li.reverspective {
   .photo-grid img {
     width: 33.333%; } }
 @media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 50px; }
+
   ul.home-grid li, ul.home-grid a li, ul.photo-grid a li {
     width: 50%; }
 
