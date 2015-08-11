@@ -1087,7 +1087,13 @@ ul.work-grid li.reverspective {
     ul.work-grid li .inner p {
       margin-bottom: 10%;
       font-size: 19px; } }
+@media only screen and (max-width: 1200px) {
+  ul.home-grid li .inner {
+    padding: 20% 15% 15% 15%; } }
 @media only screen and (max-width: 960px) {
+  ul.home-grid li .inner {
+    padding: 15% 15% 15% 15%; }
+
   #page-eyekiller ul.work-grid li .inner p {
     font-size: 18px;
     line-height: 1.7em; }
@@ -1100,6 +1106,9 @@ ul.work-grid li.reverspective {
 
   ul.home-grid li, ul.home-grid a li, ul.photo-grid a li {
     width: 50%; }
+
+  ul.home-grid li .inner {
+    padding: 25% 15% 15% 15%; }
 
   footer div p {
     font-size: 14px; }

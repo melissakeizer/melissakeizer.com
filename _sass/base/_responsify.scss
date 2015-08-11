@@ -92,7 +92,19 @@
 }
 
 
+@media only screen and (max-width: 1200px) {
+
+ ul.home-grid li .inner{
+  padding: 20% 15% 15% 15%
+  }
+
+}
+
 @media only screen and (max-width: 960px) {
+
+   ul.home-grid li .inner{
+  padding: 15% 15% 15% 15%
+  }
 
    #page-eyekiller ul.work-grid li .inner p{
       font-size: 18px;
@@ -119,6 +131,11 @@
 
   ul.home-grid li, ul.home-grid a li, ul.photo-grid a li{
     width: 50%;
+  }
+
+
+   ul.home-grid li .inner{
+  padding: 25% 15% 15% 15%
   }
 
   footer div p{
@@ -165,21 +182,6 @@
   header{
     padding: 1.5em 0;
   }
-
-  // nav ul {
-  //   float: none;
-  //   display: block;
-  //   margin: 0 auto;
-  //   text-align: center;
-  //   li a{
-  //     font-size: 17px;
-  //     margin: 0 0 0 15px;
-  //   }
-  // }
-
-  // nav ul li.first a{
-  //   margin: 0;
-  // }
 
   footer div{
     float: left;
