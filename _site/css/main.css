@@ -743,7 +743,9 @@ ul.home-grid .social-grid {
 
 #tagline {
   padding-bottom: 3em;
-  max-width: 600px; }
+  max-width: 740px; }
+  #tagline h2 {
+    max-width: 600px; }
 
 .home-grid, .photo-grid {
   width: 100%;
