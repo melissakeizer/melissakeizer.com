@@ -1158,7 +1158,7 @@ ul.work-grid li.reverspective {
     display: block; }
 
   body, #tagline h2 {
-    font-size: 22px; }
+    font-size: 18px; }
 
   header {
     padding: 1em 0em 2.7em 0em; }
@@ -1168,7 +1168,7 @@ ul.work-grid li.reverspective {
     ul.home-grid li .inner, ul.home-grid a li .inner, ul.photo-grid a li .inner {
       padding: 18% 10%; }
       ul.home-grid li .inner p, ul.home-grid a li .inner p, ul.photo-grid a li .inner p {
-        font-size: 22px; }
+        font-size: 18px; }
     ul.home-grid li.blog h2, ul.home-grid a li.blog h2, ul.photo-grid a li.blog h2 {
       font-size: 28px; }
 
