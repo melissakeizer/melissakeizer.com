@@ -202,7 +202,7 @@
 @media only screen and (max-width: 520px) {
 
   h1{
-    font-size: 28px;
+    font-size: 34px;
   }
 
   h2, h2 a{
@@ -214,17 +214,17 @@
   }
 
   body, #tagline h2{
-    font-size: 18px;
+    font-size: 22px;
   }
 
   header {
-    padding-bottom: 4em;
+    padding: 1em 0em 2.7em 0em;
   }
 
   ul.home-grid li, ul.home-grid a li, ul.photo-grid a li{
     width: 100%;
     .inner{
-      padding: 25% 10%;
+      padding: 18% 10%;
       p{
         font-size: 22px;
       }
@@ -301,6 +301,10 @@ ul.post-list li{
 
   .photo-grid img{
   width: 100%;
+  }
+
+  ul.photo-grid li h4{
+    opacity: 1;
   }
 
 

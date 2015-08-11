@@ -493,6 +493,8 @@ a.hamburger {
   display: none;
   float: right;
   padding-right: 1.2em; }
+  a.hamburger.active {
+    border: none; }
 
 #mobile-menu {
   display: none;
@@ -513,7 +515,7 @@ a.hamburger {
   #mobile-menu ul li {
     display: block;
     padding: 12px 0;
-    font-weight: 500; }
+    font-weight: 600; }
     #mobile-menu ul li:first-child {
       padding-top: 40px; }
     #mobile-menu ul li a {
@@ -532,8 +534,8 @@ a.close-menu {
 
 li.close-icon {
   position: absolute;
-  top: 30px;
-  right: 30px; }
+  top: 0;
+  right: 20px; }
 
 /* Footer */
 footer {
@@ -1138,7 +1140,7 @@ ul.work-grid li.reverspective {
     display: none; } }
 @media only screen and (max-width: 520px) {
   h1 {
-    font-size: 28px; }
+    font-size: 34px; }
 
   h2, h2 a {
     font-size: 26px; }
@@ -1147,15 +1149,15 @@ ul.work-grid li.reverspective {
     display: block; }
 
   body, #tagline h2 {
-    font-size: 18px; }
+    font-size: 22px; }
 
   header {
-    padding-bottom: 4em; }
+    padding: 1em 0em 2.7em 0em; }
 
   ul.home-grid li, ul.home-grid a li, ul.photo-grid a li {
     width: 100%; }
     ul.home-grid li .inner, ul.home-grid a li .inner, ul.photo-grid a li .inner {
-      padding: 25% 10%; }
+      padding: 18% 10%; }
       ul.home-grid li .inner p, ul.home-grid a li .inner p, ul.photo-grid a li .inner p {
         font-size: 22px; }
     ul.home-grid li.blog h2, ul.home-grid a li.blog h2, ul.photo-grid a li.blog h2 {
@@ -1207,4 +1209,7 @@ ul.work-grid li.reverspective {
     font-size: 20px; }
 
   .photo-grid img {
-    width: 100%; } }
+    width: 100%; }
+
+  ul.photo-grid li h4 {
+    opacity: 1; } }
