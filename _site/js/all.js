@@ -29,7 +29,7 @@ $(document).ready(function() {
   $('ul.home-grid li.flickr').css({'background-image': 'url(img/photography-array/' + images[Math.floor(Math.random() * images.length)] + ')'});
 
   // Randomising the background image set for the flickr div
-  var shots = ['belfast-ruby-macbook.jpg', 'reverspective.jpg', 'the-laboratory.jpg', 'belfast-ruby.jpg'];
+  var shots = ['belfast-ruby-macbook.jpg', 'reverspective.jpg', 'the-laboratory.jpg', 'belfast-ruby.jpg', 'SRLabs.jpg'];
   $('ul.home-grid li.dribbble').css({'background-image': 'url(img/dribbble-shots/' + shots[Math.floor(Math.random() * shots.length)] + ')'});
 
   // Mobile navigation
