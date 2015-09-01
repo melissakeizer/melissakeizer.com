@@ -637,7 +637,8 @@ a.button-push:hover {
 
 /* Social Media Grid */
 ul.home-grid .social-grid {
-  padding: 0; }
+  padding: 0;
+  overflow: hidden; }
 
 .social-grid a {
   width: 50%;
