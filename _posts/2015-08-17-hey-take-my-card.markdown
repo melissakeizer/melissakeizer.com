@@ -1,7 +1,7 @@
 ---
 layout: post
 selected: journal
-title:  "Hey, take my card"
+title:  "Hey, Take My Card"
 date:   2015-08-17 13:50:00
 
 ---

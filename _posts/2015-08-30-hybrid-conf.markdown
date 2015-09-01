@@ -1,7 +1,7 @@
 ---
 layout: post
 selected: journal
-title:  "Hybrid Conf, you were amazing"
+title:  "Hybrid Conf, You Were Amazing"
 date:   2015-08-30 13:50:00
 
 ---
