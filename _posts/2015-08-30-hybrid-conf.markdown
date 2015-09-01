@@ -2,7 +2,7 @@
 layout: post
 selected: journal
 title:  "Hybrid Conf, you were amazing"
-date:   2015-08-17 13:50:00
+date:   2015-08-30 13:50:00
 
 ---
 Last week I had the pleasure of attending [Hybrid](http://hybridconf.net), a conference for both web designers and developers alike. After reading so many great things about the conference in previous years, I was delighted to be there representing [Eyekiller](https://www.eyekiller.com/blog/article/attending-hybrid-conf-2015-in-dublin), and getting the opportunity to listen to a variety of inspiring talks, given by speakers from all over the globe. On the Wednesday evening before the conference kicked off, [Sinead](https://twitter.com/sineadotoole) and I began our roadtrip to Dublin.
