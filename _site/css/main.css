@@ -908,10 +908,9 @@ ul.photo-grid li h4 {
   padding-bottom: 0.5em; }
 
 ul.post-list li {
-  padding: 7% 0 7% 0;
-  border-bottom: 1px solid #bababa; }
+  padding: 7% 0 2% 0; }
   ul.post-list li:first-child {
-    padding: 1% 0 7% 0; }
+    padding: 1% 0 2% 0; }
   ul.post-list li:last-child {
     border: none; }
 
@@ -931,7 +930,7 @@ a.rss {
 
 .rss-and-pagination {
   position: relative;
-  padding: 20px 0 60px 0; }
+  padding: 60px 0 60px 0; }
   .rss-and-pagination .pagination {
     display: inline-block;
     position: absolute;

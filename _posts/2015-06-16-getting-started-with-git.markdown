@@ -3,6 +3,7 @@ layout: post
 selected: journal
 title:  "Getting Started with Git"
 date:   2015-06-16 22:01:00
+preview-image: "/img/blog-previews/start-git.jpg"
 
 ---
 
