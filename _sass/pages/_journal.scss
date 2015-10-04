@@ -60,3 +60,19 @@ a.rss{
 }
 
 
+.rss-and-pagination{
+  position: relative;
+  padding: 20px 0 60px 0;
+  .pagination{
+    display: inline-block;
+    position: absolute;
+    left: 0;
+  }
+  .rss{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+  }
+}
+
+

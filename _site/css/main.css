@@ -426,11 +426,14 @@ a:active {
   position: relative;
   top: 1px; }
 
-p a, #page-post ul li a {
+p a, #page-post ul li a, .pagination a {
   text-decoration: none;
   border-bottom: 1px solid #bababa; }
-  p a:hover, #page-post ul li a:hover {
+  p a:hover, #page-post ul li a:hover, .pagination a:hover {
     color: #D2206A; }
+
+.pagination a {
+  font-size: 19px; }
 
 #page-post ul {
   margin-bottom: 5%; }
@@ -925,6 +928,18 @@ a.rss {
 
 #page-journal h2 {
   margin: 0.1em 0 0.4em 0; }
+
+.rss-and-pagination {
+  position: relative;
+  padding: 20px 0 60px 0; }
+  .rss-and-pagination .pagination {
+    display: inline-block;
+    position: absolute;
+    left: 0; }
+  .rss-and-pagination .rss {
+    display: inline-block;
+    position: absolute;
+    right: 0; }
 
 /* About Page */
 article.design-imgs {

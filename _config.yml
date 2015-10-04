@@ -16,3 +16,5 @@ instagram:  http://instagram.com/keizgoesboom
 # Build settings
 markdown: kramdown
 permalink: /journal/:title/
+paginate: 4
+paginate_path: "/journal/:num/"
