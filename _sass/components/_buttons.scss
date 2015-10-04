@@ -25,6 +25,14 @@ a.button > span {
   vertical-align: middle;
 }
 
+.content a.button.share-twitter{
+  width: 200px;
+  &:hover{
+    background: $white;
+  }
+}
+
+
 
 /* Animation Style */
 

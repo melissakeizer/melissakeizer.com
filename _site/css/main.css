@@ -595,6 +595,11 @@ a.button:focus {
 a.button > span {
   vertical-align: middle; }
 
+.content a.button.share-twitter {
+  width: 200px; }
+  .content a.button.share-twitter:hover {
+    background: #ffffff; }
+
 /* Animation Style */
 a.button.button-push {
   overflow: hidden;
