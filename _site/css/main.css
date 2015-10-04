@@ -596,6 +596,7 @@ a.button > span {
   vertical-align: middle; }
 
 .content a.button.share-twitter {
+  margin-top: 30px;
   width: 200px; }
   .content a.button.share-twitter:hover {
     background: #ffffff; }
@@ -1208,9 +1209,9 @@ ul.work-grid li.reverspective {
     top: 12px; }
 
   ul.post-list li {
-    padding: 0 0 9% 0; }
+    padding: 0 0 13% 0; }
     ul.post-list li:first-child {
-      padding: 1% 0 9% 0; }
+      padding: 1% 0 13% 0; }
 
   #page-eyekiller header {
     padding-bottom: 1em; }
