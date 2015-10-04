@@ -871,6 +871,12 @@ ul.photo-grid li {
     background-image: url("../img/photos/exposure-ark.jpg"); }
   ul.photo-grid li.exposure-lights {
     background-image: url("../img/photos/exposure-lights.jpg"); }
+  ul.photo-grid li.exposure-saltydog {
+    background-image: url("../img/photos/exposure-saltydog.jpg"); }
+  ul.photo-grid li.exposure-explorers {
+    background-image: url("../img/photos/exposure-explorers.jpg"); }
+  ul.photo-grid li.exposure-cat-colony {
+    background-image: url("../img/photos/exposure-cat-colony.jpg"); }
 
 ul.photo-grid a h4 {
   opacity: 0; }
