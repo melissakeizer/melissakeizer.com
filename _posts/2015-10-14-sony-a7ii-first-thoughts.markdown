@@ -104,7 +104,7 @@ To sum up, the Sony A7ii is a very impressive camera and after only a few weeks 
 - I'm starting from scratch again gear-wise as my current Sony Alpha gear is incompatible with the Sony A7ii
 - It's hard to pinpoint the autofocus on a small areas (like my dog's eyes)
 - As with most SLTs, the battery life isn't great. I had to buy two extra batteries. (The [Ex-Pro batteries](http://www.amazon.co.uk/gp/product/B00F8Q3S9Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) are a good, cheaper alternative to the Sony branded ones)
-- There's no battery cradle provided when you buy the camera (why so stingey Sony?!) so you have to charge batteries through the camera itself
+- There's no battery cradle provided when you buy the camera (why so stingy Sony?!) so you have to charge batteries through the camera itself
 
 As you can see, the benefits definitely outweigh the disadvantages, so if you're thinking of upgrading your camera system, I'd highly recommend the Sony A7ii.
 
