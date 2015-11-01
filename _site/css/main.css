@@ -411,7 +411,9 @@ h2 a {
 
 h3 {
   font-weight: 700;
-  line-height: 1.4em; }
+  line-height: 1.4em;
+  font-size: 23px;
+  padding-bottom: 9px; }
 
 p {
   margin-bottom: 5%;

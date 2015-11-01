@@ -1,14 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Melissa Keizer | Personal Website</title>
+    <title>Melissa Keizer&#39;s Blog &amp; Portfolio</title>
     <description>The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 </description>
     <link>http://melissakeizer.com/</link>
     <atom:link href="http://melissakeizer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Oct 2015 00:39:47 +0100</pubDate>
-    <lastBuildDate>Mon, 05 Oct 2015 00:39:47 +0100</lastBuildDate>
+    <pubDate>Sun, 01 Nov 2015 21:37:40 +0000</pubDate>
+    <lastBuildDate>Sun, 01 Nov 2015 21:37:40 +0000</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>Facts and thoughts about my new Sony A7ii camera</title>
+        <description>&lt;p&gt;So, I’ve finally made the jump to full-frame photography as a few weeks ago I treated myself to the &lt;a href=&quot;http://www.jessops.com/online.store/categories/products/sony/alpha-a7-mkii-compact-system-camera-body-95132/show.html&quot;&gt;Sony A7ii&lt;/a&gt; after lusting after it for months. Since I’ve had it for a few weeks now and used it for various photoshoots, I thought I’d share some of my thoughts on this camera.&lt;/p&gt;
+
+&lt;p&gt;Before making the jump, I’d be using my Sony a580, a crop-sensor DSLR. In fact, the A7ii is now the 3rd Sony camera in my kit, which also includes my old (entry-level DSLR), the Sony a100.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../img/blog/sony-camera-lineup.jpg&quot; alt=&quot;photo caption&quot; title=&quot;My Sony cameras&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;My camera family - the Sony a100, the Sony a58- and the Sony a7ii&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;full-frame-slt&quot;&gt;Full-frame SLT&lt;/h2&gt;
+
+&lt;p&gt;There are two main differences between my Sony A580 and my new Sony a7ii. One of which is that the A7ii is an SLT (or “Single Lens Translucent”) camera, so works a little differently from a conventional DSLR. A traditional SLR camera will flip the mirror inside the body out of the way when it takes a photo, to let the light hit the sensor. However, an SLT contains a translucent mirror which allows light entering the lens to pass through to the sensor.&lt;/p&gt;
+
+&lt;p&gt;This method means that the camera uses an electronic viewfinder (instead of the traditional optical viewfinder) which allows you to check exposure as while you’re taking the photo and avoids viewfinder black-out during shooting. Of course, this took a little getting used to, but being able to check my settings are ok while I shoot has been pretty useful.&lt;/p&gt;
+
+&lt;p&gt;The other main difference is that the A7ii is full-frame, whereas my A580 was an APS-C crop sensor camera. Without going too much into what this means, the main difference is that a full-frame camera’s sensor has a wider field of view, over the “cropped” view a crop sensor has. This means a 35mm lens will show a lot more of the scene when on a full-frame camera, compared to a crop-sensor camera. There’s pros and cons for each, but I’ll go into that later!&lt;/p&gt;
+
+&lt;h2 id=&quot;my-gear&quot;&gt; My Gear&lt;/h2&gt;
+
+&lt;p&gt;Along with the camera, I bought the &lt;a href=&quot;http://www.jessops.com/online.store/categories/products/sony/55mm-f-1-8-za-lens-89675/show.html&quot;&gt;Sony 55mm f/1.8 lens&lt;/a&gt; from Jessops in Belfast. I love shooting with my 35mm prime lens on my A580, so I was after a lens with a focal length of around 50mm for my new full-frame camera, as this would give a similar field of view.&lt;/p&gt;
+
+&lt;p&gt;The Sony 55mm f/1.8 is pretty amazing and produces so super sharp images with awesome bokeh! It’s definitely a lens you’ll want to nab if you’re shooting with a camera from the Sony A7 range. A few weeks later I bought the &lt;a href=&quot;http://www.amazon.co.uk/Sony-FE-28-F2-Lens/dp/B00UJRSO52/ref=sr_1_1?ie=UTF8&amp;amp;qid=1446407886&amp;amp;sr=8-1&amp;amp;keywords=sony+28mm&quot;&gt;Sony 28mm f/2&lt;/a&gt; to give me the option of shooting a bit wider. For £360 it’s a bit of a bargain as it’s a great lens, though with many wide lenses, there is some distortion when shooting RAW, though it is fixable. I read an &lt;a href=&quot;http://www.stevehuffphoto.com/2015/04/06/the-sony-28mm-f2-fe-lens-review-by-steve-huff/&quot;&gt;interesting blog post&lt;/a&gt; about this lens that swayed me to buy it.&lt;/p&gt;
+
+&lt;p&gt;It’s also with noting that while the A7ii is more advantageous for the majority of shooting situations, my crop-sensor Sony a580 will still be my go-to camera for things like shooting animals at the zoo. This is because my Sigma 70-200mm telephoto lens will have longer reach on a crop sensor, so I can get closer to my subject. I’ve found it’s also been useful to have two good cameras on the go for busy shooting situations like a wedding.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../img/blog/my-sony-a7ii.jpg&quot; alt=&quot;photo caption&quot; title=&quot;My Sony a7ii&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;My new Sony a7ii paired with the Sony 55mm f/1.8 lens&lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-nitty-gritty&quot;&gt;The Nitty Gritty&lt;/h2&gt;
+
+&lt;p&gt;I’ve had this camera for about 5 weeks now and used it various shooting conditions, so I’ve been able to test it quite thoroughly.&lt;/p&gt;
+
+&lt;h3 id=&quot;low-light-and-high-iso&quot;&gt;Low Light and High ISO&lt;/h3&gt;
+
+&lt;p&gt;One of the primary reasons I wanted this full-frame camera was its good reputation for dealing with low-light scenes as I’m an avid natural light shooter and only use flash when necessary. I brought my new A7ii along to a dog show held inside a hall at Balmoral Park, where it was fairly dark and I still wanted some great photos of the lovely dogs I met.&lt;/p&gt;
+
+&lt;p&gt;I was able to use ISO 5000 quite comfortably, as there wasn’t much visible noise. However my images did start becoming quite grainy when I used IS0 6400. Since I avoid using ISOs higher than 1600 on my previous DSLR, this is pretty good going.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../img/blog/dalmation-dog-show.jpg&quot; alt=&quot;photo caption&quot; title=&quot;My Sony a7ii&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Being able to happily shoot at ISO 5000 at the dog show - win &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;I also tested the auto-ISO feature, which allows you to set your aperture and shutter speed and it will choose a suitable ISO setting. While it works, it’s not afraid of choosing really high ISOs, higher than what I’d be comfortable with using, so I’d refrain from using this feature in low-lit scenes.&lt;/p&gt;
+
+&lt;h3 id=&quot;autofocus&quot;&gt;Autofocus&lt;/h3&gt;
+
+&lt;p&gt;The Sony A7ii’s AF is fast. It’s fast, and it’s sharp. I’m very happy with its speed and it didn’t let me down during a recent event I worked at. I was asked to cover the Autumn Fashion Show for the Main Street My Street campaign, held inside Bob &amp;amp; Bert’s cafe in Bangor. I switched to AF-C (continuous focus) had no problem with keeping the models in focus as they walked toward me.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../img/blog/fashion-show-diptych.jpg&quot; alt=&quot;photo caption&quot; title=&quot;Models at Fashion Show&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;Being able to happily shoot at ISO 5000 at the dog show - win &lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;The only real issue I’ve had with the autofocus on my A7ii is being able to pin-point the focus on the eyes of animals. I noticed this when taking photos of my little dog Matisse. I like using wide aperture to capture shots with low depth of field, but it this often means I miss the eyes as the focus is on the nose or eyebrow of my dog. While there is an “Eye AF” mode specially designed to focus on eyes, it seems to just work on humans. I can of course move the little focusing box around the screen to the eye, but I don’t always have time do this when shooting a hyper-active dog!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../img/blog/matisse-castle-park.jpg&quot; alt=&quot;photo caption&quot; title=&quot;Matisse’s face&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;The AF doesn’t always pinpoint Matisse’s eyes, but when it does, it’s sharp! &lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;manual-focus&quot;&gt;Manual Focus&lt;/h3&gt;
+
+&lt;p&gt;On most occasions, I rely heavily on my camera’s AF, but in some circumstances you need to switch to manual. The A7iii has made manual focusing a lot easier with it’s “focus peaking” feature. When you turn this feature on and begin turning the focus wheel, you’ll see area of the scene “sparkle” with a coloured glow showing up on the area in focus. This makes it a lot easier to get your manual focus spot on, see it in action &lt;a href=&quot;https://www.youtube.com/watch?v=BZFtPKgBM0U&quot;&gt;in this video&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;custom-buttons&quot;&gt;Custom Buttons&lt;/h3&gt;
+
+&lt;p&gt;There’s a few more features the Sony A7ii has that really enhance its user experience. This includes the custom button settings on the camera that allow you to choose functions (out of an array of choices) for various buttons.&lt;/p&gt;
+
+&lt;p&gt;Commonly used functions and settings can be accessed quickly, like switching focus mode or area, setting monitor brightness and turning on SteadyShot.&lt;/p&gt;
+
+&lt;h3 id=&quot;wifi-sharing&quot;&gt;Wifi Sharing&lt;/h3&gt;
+
+&lt;p&gt;The camera has it’s own in-built wifi, so you can send images (including RAWs) straight to your phone using the Sony PlayMemories app. I like this feature as it lets me share a photo or two from a shoot before I’m home to upload them to my computer.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../../img/blog/my-sony-a7ii-2.jpg&quot; alt=&quot;photo caption&quot; title=&quot;My Sony a7ii&quot; /&gt;
+&lt;span class=&quot;caption&quot;&gt;I love the design of the Sony A7ii, it’s pretty cute for a camera, right? &lt;/span&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;To sum up, the Sony A7ii is a very impressive camera and after only a few weeks I feel like it will aid me in becoming a better, more confident photographer. I’ve listed a few of my personal pros and cons for purchasing this camera.&lt;/p&gt;
+
+&lt;h2 id=&quot;pros&quot;&gt;Pros&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Full-frame quality in a cute little package, this camera is tiny compared to &lt;a href=&quot;https://i.ytimg.com/vi/loOC87Ni4x8/maxresdefault.jpg&quot;&gt;other full frame DSLRs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;The autofocus is fast and reliable&lt;/li&gt;
+  &lt;li&gt;The focus peaking feature makes manual focus a lot easier&lt;/li&gt;
+  &lt;li&gt;I love  its gorgeous design which pays homage to the vintage SLRS&lt;/li&gt;
+  &lt;li&gt;Pixels aren’t everything but it’s great having an extra 50% more (compared to my Sony a580)&lt;/li&gt;
+  &lt;li&gt;The electronic viewfinder is great for ensuring your shot is exposed well as it allows you to preview the settings while composing the shot&lt;/li&gt;
+  &lt;li&gt;Awesome low light ability and getting usable shots at high ISO ranges is great&lt;/li&gt;
+  &lt;li&gt;Using the custom buttons to quickly access your commonly used functions is handy&lt;/li&gt;
+  &lt;li&gt;Wifi in-built for sending photos to my iPhone&lt;/li&gt;
+  &lt;li&gt;Paired with Sony 55mm f/1.8 it’s amazing!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cons&quot;&gt;Cons&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Photography is an expensive hobby but even more so when you start buying full-frames lenses&lt;/li&gt;
+  &lt;li&gt;I’m starting from scratch again gear-wise as my current Sony Alpha gear is incompatible with the Sony A7ii&lt;/li&gt;
+  &lt;li&gt;It’s hard to pinpoint the autofocus on a small areas (like my dog’s eyes)&lt;/li&gt;
+  &lt;li&gt;As with most SLTs, the battery life isn’t great. I had to buy two extra batteries. (The &lt;a href=&quot;http://www.amazon.co.uk/gp/product/B00F8Q3S9Q?psc=1&amp;amp;redirect=true&amp;amp;ref_=oh_aui_detailpage_o09_s00&quot;&gt;Ex-Pro batteries&lt;/a&gt; are a good, cheaper alternative to the Sony branded ones)&lt;/li&gt;
+  &lt;li&gt;There’s no battery cradle provided when you buy the camera (why so stingey Sony?!) so you have to charge batteries through the camera itself&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;As you can see, the benefits definitely outweigh the disadvantages, so if you’re thinking of upgrading your camera system, I’d highly recommend the Sony A7ii.&lt;/p&gt;
+
+&lt;p&gt;If you’re thinking about picking up a Sony A7ii yourself, feel free to &lt;a href=&quot;hi@melissakeizer.com&quot;&gt;email me&lt;/a&gt; or leave a comment if you have any questions about this camera :)&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 30 Oct 2015 13:50:00 +0000</pubDate>
+        <link>http://melissakeizer.com/journal/sony-a7ii-first-thoughts/</link>
+        <guid isPermaLink="true">http://melissakeizer.com/journal/sony-a7ii-first-thoughts/</guid>
+        
+        
+      </item>
     
       <item>
         <title>First Newborn Photoshoot</title>
