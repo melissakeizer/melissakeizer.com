@@ -51,10 +51,10 @@ I also tested the auto-ISO feature, which allows you to set your aperture and sh
 
 ### Autofocus
 
-The Sony A7ii’s AF is fast and it's sharp, and it didn’t let me down during a recent event I worked at. I was asked to cover the Autumn Fashion Show for the Main Street My Street campaign, held inside Bob & Bert’s cafe in Bangor. I switched to AF-C (continuous focus) had no problem with keeping the models in focus as they walked toward me.
+The Sony A7ii’s AF is fast and it's sharp, and it didn’t let me down during a recent event I worked at. I was asked to cover the Autumn Fashion Show for the [Main Street My Street](https://www.facebook.com/mainstreetmystreet/?fref=ts) campaign, held inside Bob & Bert’s cafe in Bangor. I switched to AF-C (continuous focus) had no problem with keeping the models in focus as they walked toward me.
 
 ![photo caption](../../img/blog/fashion-show-diptych.jpg "Models at Fashion Show")
-<span class="caption">Being able to happily shoot at ISO 5000 at the dog show - win </span>
+<span class="caption">Shooting models walking the catwalk with continuous autofocus </span>
 
 The only real issue I’ve had with the autofocus on my A7ii is being able to pin-point the focus on the eyes of animals. I noticed this when taking photos of my little dog Matisse. I like using wide aperture to capture shots with low depth of field, but it this often means I miss the eyes as the focus is on the nose or eyebrow of my dog. While there is an “Eye AF” mode specially designed to focus on eyes, it seems to just work on humans. I can of course move the little focusing box around the screen to the eye, but I don’t always have time do this when shooting a hyper-active dog!
 
@@ -63,7 +63,7 @@ The only real issue I’ve had with the autofocus on my A7ii is being able to pi
 
 ### Manual Focus
 
-On most occasions, I rely heavily on my camera’s AF, but in some circumstances you need to switch to manual. The A7iii has made manual focusing a lot easier with it’s “focus peaking” feature. When you turn this feature on and begin turning the focus wheel, you’ll see area of the scene “sparkle” with a coloured glow showing up on the area in focus. This makes it a lot easier to get your manual focus spot on, see it in action [in this video](https://www.youtube.com/watch?v=BZFtPKgBM0U).
+On most occasions, I rely heavily on my camera’s AF, but in some circumstances you need to switch to manual. The A7iii has made manual focusing a lot easier with it’s “focus peaking” feature. When you turn this feature on and begin turning the focus wheel, you’ll see an area of the scene “sparkle” with a coloured glow showing up on the area in focus. This makes it a lot easier to get your manual focus spot on, see it in action [in this video](https://www.youtube.com/watch?v=BZFtPKgBM0U).
 
 ### Custom Buttons
 
