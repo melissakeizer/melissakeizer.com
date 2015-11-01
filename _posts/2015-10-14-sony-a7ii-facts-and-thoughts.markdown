@@ -9,7 +9,7 @@ preview-image: "/img/blog-previews/my-sony-a7ii.jpg"
 
 So, I've finally made the jump to full-frame photography as a few weeks ago I treated myself to the [Sony A7ii](http://www.jessops.com/online.store/categories/products/sony/alpha-a7-mkii-compact-system-camera-body-95132/show.html) after lusting after it for months. Since I’ve had it for a few weeks now and used it for various photoshoots, I thought I’d share some of my thoughts on this camera.
 
-Before making the jump, I’d be using my Sony a580, a crop-sensor DSLR. In fact, the A7ii is now the 3rd Sony camera in my kit, which also includes my old (entry-level DSLR), the Sony a100.
+Before making the jump, I’d been using my Sony a580, a crop-sensor DSLR. In fact, the A7ii is now the 3rd Sony camera in my kit, which also includes my old (entry-level DSLR), the Sony a100.
 
 ![photo caption](../../img/blog/sony-camera-lineup.jpg "My Sony cameras")
 <span class="caption">My camera family - the Sony a100, the Sony a58- and the Sony a7ii</span>
@@ -18,7 +18,7 @@ Before making the jump, I’d be using my Sony a580, a crop-sensor DSLR. In fact
 
 There are two main differences between my Sony A580 and my new Sony a7ii. One of which is that the A7ii is an SLT (or “Single Lens Translucent”) camera, so works a little differently from a conventional DSLR. A traditional SLR camera will flip the mirror inside the body out of the way when it takes a photo, to let the light hit the sensor. However, an SLT contains a translucent mirror which allows light entering the lens to pass through to the sensor.
 
-This method means that the camera uses an electronic viewfinder (instead of the traditional optical viewfinder) which allows you to check exposure as while you’re taking the photo and avoids viewfinder black-out during shooting. Of course, this took a little getting used to, but being able to check my settings are ok while I shoot has been pretty useful.
+This method means that the camera uses an electronic viewfinder (instead of the traditional optical viewfinder) which allows you to check exposure as you’re taking the photo and avoids viewfinder black-out during shooting. Of course, this took a little getting used to, but being able to check my settings are ok while I shoot has been pretty useful.
 
 The other main difference is that the A7ii is full-frame, whereas my A580 was an APS-C crop sensor camera. Without going too much into what this means, the main difference is that a full-frame camera’s sensor has a wider field of view, over the “cropped” view a crop sensor has. This means a 35mm lens will show a lot more of the scene when on a full-frame camera, compared to a crop-sensor camera. There’s pros and cons for each, but I’ll go into that later!
 
@@ -28,7 +28,7 @@ Along with the camera, I bought the [Sony 55mm f/1.8 lens](http://www.jessops.co
 
 The Sony 55mm f/1.8 is pretty amazing and produces so super sharp images with awesome bokeh! It’s definitely a lens you’ll want to nab if you’re shooting with a camera from the Sony A7 range. A few weeks later I bought the [Sony 28mm f/2](http://www.amazon.co.uk/Sony-FE-28-F2-Lens/dp/B00UJRSO52/ref=sr_1_1?ie=UTF8&qid=1446407886&sr=8-1&keywords=sony+28mm) to give me the option of shooting a bit wider. For £360 it’s a bit of a bargain as it’s a great lens, though with many wide lenses, there is some distortion when shooting RAW, though it is fixable. I read an [interesting blog post](http://www.stevehuffphoto.com/2015/04/06/the-sony-28mm-f2-fe-lens-review-by-steve-huff/) about this lens that swayed me to buy it.
 
-It's also with noting that while the A7ii is more advantageous for the majority of shooting situations, my crop-sensor Sony a580 will still be my go-to camera for things like shooting animals at the zoo. This is because my Sigma 70-200mm telephoto lens will have longer reach on a crop sensor, so I can get closer to my subject. I've found it's also been useful to have two good cameras on the go for busy shooting situations like a wedding.
+It's also worth noting that while the A7ii is more advantageous for the majority of shooting situations, my crop-sensor Sony a580 will still be my go-to camera for things like shooting animals at the zoo. This is because my Sigma 70-200mm telephoto lens will have longer reach on a crop sensor, so I can get closer to my subject. I've found it's also been useful to have two good cameras on the go for busy shooting situations like a wedding.
 
 
 ![photo caption](../../img/blog/my-sony-a7ii.jpg "My Sony a7ii")
@@ -36,7 +36,7 @@ It's also with noting that while the A7ii is more advantageous for the majority 
 
 ## The Nitty Gritty
 
-I’ve had this camera for about 5 weeks now and used it various shooting conditions, so I’ve been able to test it quite thoroughly.
+I’ve had this camera for about 5 weeks now and used it in various shooting conditions, so I’ve been able to test it quite thoroughly.
 
 ### Low Light and High ISO
 
@@ -51,7 +51,7 @@ I also tested the auto-ISO feature, which allows you to set your aperture and sh
 
 ### Autofocus
 
-The Sony A7ii’s AF is fast. It’s fast, and it’s sharp. I’m very happy with its speed and it didn’t let me down during a recent event I worked at. I was asked to cover the Autumn Fashion Show for the Main Street My Street campaign, held inside Bob & Bert’s cafe in Bangor. I switched to AF-C (continuous focus) had no problem with keeping the models in focus as they walked toward me.
+The Sony A7ii’s AF is fast and it's sharp, and it didn’t let me down during a recent event I worked at. I was asked to cover the Autumn Fashion Show for the Main Street My Street campaign, held inside Bob & Bert’s cafe in Bangor. I switched to AF-C (continuous focus) had no problem with keeping the models in focus as they walked toward me.
 
 ![photo caption](../../img/blog/fashion-show-diptych.jpg "Models at Fashion Show")
 <span class="caption">Being able to happily shoot at ISO 5000 at the dog show - win </span>
@@ -100,9 +100,9 @@ To sum up, the Sony A7ii is a very impressive camera and after only a few weeks 
 
 ## Cons
 
-- Photography is an expensive hobby but even more so when you start buying full-frames lenses
+- Photography is an expensive hobby but even more so when you start buying full-frame lenses
 - I'm starting from scratch again gear-wise as my current Sony Alpha gear is incompatible with the Sony A7ii
-- It's hard to pinpoint the autofocus on a small areas (like my dog's eyes)
+- It's hard to pinpoint the autofocus on a small area (like my dog's eyes)
 - As with most SLTs, the battery life isn't great. I had to buy two extra batteries. (The [Ex-Pro batteries](http://www.amazon.co.uk/gp/product/B00F8Q3S9Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) are a good, cheaper alternative to the Sony branded ones)
 - There's no battery cradle provided when you buy the camera (why so stingy Sony?!) so you have to charge batteries through the camera itself
 
