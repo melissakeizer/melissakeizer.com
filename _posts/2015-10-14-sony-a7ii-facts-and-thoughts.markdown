@@ -84,7 +84,7 @@ The camera has it's own in-built wifi, so you can send images (including RAWs) s
 
 To sum up, the Sony A7ii is a very impressive camera and after only a few weeks I feel like it will aid me in becoming a better, more confident photographer. I've listed a few of my personal pros and cons for purchasing this camera.
 
-## Pros
+### Pros
 
 - Full-frame quality in a cute little package, this camera is tiny compared to [other full frame DSLRs](https://i.ytimg.com/vi/loOC87Ni4x8/maxresdefault.jpg)
 - The autofocus is fast and reliable
@@ -98,7 +98,7 @@ To sum up, the Sony A7ii is a very impressive camera and after only a few weeks 
 - Paired with Sony 55mm f/1.8 it's amazing!
 
 
-## Cons
+### Cons
 
 - Photography is an expensive hobby but even more so when you start buying full-frame lenses
 - I'm starting from scratch again gear-wise as my current Sony Alpha gear is incompatible with the Sony A7ii
