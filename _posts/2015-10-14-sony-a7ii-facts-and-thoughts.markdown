@@ -108,7 +108,7 @@ To sum up, the Sony A7ii is a very impressive camera and after only a few weeks 
 
 As you can see, the benefits definitely outweigh the disadvantages, so if you're thinking of upgrading your camera system, I'd highly recommend the Sony A7ii.
 
-If you're thinking about picking up a Sony A7ii yourself, feel free to [email me](hi@melissakeizer.com) or leave a comment if you have any questions about this camera :)
+If you're thinking about picking up a Sony A7ii yourself, feel free to [email me](mailto:hi@melissakeizer.com) or leave a comment if you have any questions about this camera :)
 
 
 
