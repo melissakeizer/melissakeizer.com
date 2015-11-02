@@ -14,11 +14,11 @@ Before making the jump, I’d been using my Sony a580, a crop-sensor DSLR. In fa
 ![photo caption](../../img/blog/sony-camera-lineup.jpg "My Sony cameras")
 <span class="caption">My camera family - the Sony a100, the Sony a58- and the Sony a7ii</span>
 
-## Full-frame SLT
+## Full-frame Mirrorless Compact-System Camera
 
-There are two main differences between my Sony A580 and my new Sony a7ii. One of which is that the A7ii is an SLT (or “Single Lens Translucent”) camera, so works a little differently from a conventional DSLR. A traditional SLR camera will flip the mirror inside the body out of the way when it takes a photo, to let the light hit the sensor. However, an SLT contains a translucent mirror which allows light entering the lens to pass through to the sensor.
+There are two main differences between my Sony A580 and my new Sony a7ii. One of which is that the A7ii is mirrorless compact-system camera, so works a little differently from a conventional DSLR. A traditional SLR camera will flip a mirror inside the body out of the way when it takes a photo, to let the light hit the sensor. However, the only barrier to light between the lens and the sensor on a mirrorless camera is the shutter curtain.
 
-This method means that the camera uses an electronic viewfinder (instead of the traditional optical viewfinder) which allows you to check exposure as you’re taking the photo and avoids viewfinder black-out during shooting. Of course, this took a little getting used to, but being able to check my settings are ok while I shoot has been pretty useful.
+This means that the camera uses an electronic viewfinder (instead of the traditional optical viewfinder) which allows you to check exposure as you’re taking the photo and avoids viewfinder black-out during shooting. Of course, this took a little getting used to, but being able to check my settings are ok while I shoot has been pretty useful.
 
 The other main difference is that the A7ii is full-frame, whereas my A580 was an APS-C crop sensor camera. Without going too much into what this means, the main difference is that a full-frame camera’s sensor has a wider field of view, over the “cropped” view a crop sensor has. This means a 35mm lens will show a lot more of the scene when on a full-frame camera, compared to a crop-sensor camera. There’s pros and cons for each, but I’ll go into that later!
 
@@ -103,7 +103,7 @@ To sum up, the Sony A7ii is a very impressive camera and after only a few weeks 
 - Photography is an expensive hobby but even more so when you start buying full-frame lenses
 - I'm starting from scratch again gear-wise as my current Sony Alpha gear is incompatible with the Sony A7ii
 - It's hard to pinpoint the autofocus on a small area (like my dog's eyes)
-- As with most SLTs, the battery life isn't great. I had to buy two extra batteries. (The [Ex-Pro batteries](http://www.amazon.co.uk/gp/product/B00F8Q3S9Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) are a good, cheaper alternative to the Sony branded ones)
+- As with most mirrorless cameras, the battery life isn't great. I had to buy two extra batteries. (The [Ex-Pro batteries](http://www.amazon.co.uk/gp/product/B00F8Q3S9Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o09_s00) are a good, cheaper alternative to the Sony branded ones)
 - There's no battery cradle provided when you buy the camera (why so stingy Sony?!) so you have to charge batteries through the camera itself
 
 As you can see, the benefits definitely outweigh the disadvantages, so if you're thinking of upgrading your camera system, I'd highly recommend the Sony A7ii.
