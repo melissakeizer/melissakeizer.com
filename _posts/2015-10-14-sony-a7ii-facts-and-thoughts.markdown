@@ -1,7 +1,7 @@
 ---
 layout: post
 selected: journal
-title:  "Facts and thoughts about my new Sony A7ii camera"
+title:  "Facts & Thoughts About My New Sony A7ii Camera"
 date:   2015-10-30 13:50:00
 preview-image: "/img/blog-previews/my-sony-a7ii.jpg"
 
