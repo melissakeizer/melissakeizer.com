@@ -434,6 +434,9 @@ p a, #page-post ul li a, .pagination a {
   p a:hover, #page-post ul li a:hover, .pagination a:hover {
     color: #D2206A; }
 
+.image-link {
+  border: none; }
+
 .pagination a {
   font-size: 19px; }
 
