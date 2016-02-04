@@ -16,7 +16,7 @@ If you were to scan through my [Flickr portfolio](https://www.flickr.com/photos/
 Well, that’s my plan. I took on a range of freelance photography jobs last year, ranging from restaurant shoots and portrait sessions to fashion shows and an autumn wedding. However I’d love to be commissioned to take photos of animals, including cherished pets whose owners want lovely portraits of them to display in their home.
 
 
-##Inspiration
+## Inspiration
 
 This dream of mine is already being lived by a few of my favourite photographers. [Charlotte Reeves](http://www.charlottereeves.com.au/) and [Kaylee Greer](https://500px.com/dogbreathphotography) are professional dog photographers who spend their days meeting adorable dogs and shooting their portraits, and their work is incredible!
 
@@ -25,7 +25,7 @@ This dream of mine is already being lived by a few of my favourite photographers
 
 I’m hoping I’ll be able to tap into the local market of owners who love their dogs, cats, horses or any of their other pets and want keepsakes in the form of gorgeous portraits they can hang on their wall, put in an album or post on Facebook.
 
-##Support me on Facebook
+## Support me on Facebook
 
 So, in an effort to market to my services and share some of my work, I’ve created a [Facebook page](https://www.facebook.com/melissakeizerphotography/) for my photography. You may notice that it’s populated with only my animal photography, as well as interesting links related to animals or photography. While I may share some of my other work from time to time, I’d like to keep it focused on animal photography and target the people who may be interested in having their pet’s portraits taken.
 
