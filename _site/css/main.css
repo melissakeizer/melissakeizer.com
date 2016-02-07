@@ -583,20 +583,22 @@ footer .made-by p a {
 /* Button Styles */
 a.button {
   font-size: 17px;
-  display: block;
-  width: 165px;
-  display: block;
-  padding: 0.1em 2em 0.2em 2em;
+  padding: 0.3em 1.5em 0.4em 1.5em;
   border: none;
   background: none;
-  color: inherit;
+  color: #D2206A !important;
   vertical-align: middle;
   position: relative;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   border-radius: 30px;
-  border: 2px solid; }
+  border: 2px solid #D2206A;
+  text-decoration: none;
+  transition: 0.3s; }
+  a.button:hover {
+    background: #D2206A;
+    color: #ffffff !important; }
 
 a.button:focus {
   outline: none; }
@@ -609,49 +611,6 @@ a.button > span {
   width: 200px; }
   .content a.button.share-twitter:hover {
     background: #ffffff; }
-
-/* Animation Style */
-a.button.button-push {
-  overflow: hidden;
-  background: transparent;
-  color: #D2206A;
-  border-color: #D2206A;
-  -webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-  transition: background-color 0.3s, border-color 0.3s, color 0.3s; }
-
-a.button-push > span {
-  display: inline-block;
-  -webkit-transform: translate3d(-10px, 0, 0);
-  transform: translate3d(-10px, 0, 0);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
-
-a.button-push .button-icon {
-  position: absolute;
-  left: 20px;
-  top: 15px;
-  font-size: 15px;
-  -webkit-transform: translate3d(-40px, 2.5em, 0);
-  transform: translate3d(-40px, 2.5em, 0);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1); }
-
-a.button-push:hover > span {
-  -webkit-transform: translate3d(14px, 0, 0);
-  transform: translate3d(14px, 0, 0); }
-
-a.button-push:hover .button-icon {
-  -webkit-transform: translate3d(5px, 0, 0);
-  transform: translate3d(5px, 0, 0); }
-
-a.button-push:hover {
-  border-color: #D2206A;
-  color: #e8e8e8;
-  background: #D2206A; }
 
 /* Social Media Grid */
 ul.home-grid .social-grid {

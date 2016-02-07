@@ -2,20 +2,23 @@
 
 a.button {
   font-size: 17px;
-  display: block;
-  width: 165px;
-  display: block;
-  padding: 0.1em 2em 0.2em 2em;
+  padding: 0.3em 1.5em 0.4em 1.5em;
   border: none;
   background: none;
-  color: inherit;
+  color: $pink !important;
   vertical-align: middle;
   position: relative;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   border-radius: 30px;
-   border: 2px solid;
+  border: 2px solid $pink;
+  text-decoration: none;
+  transition: 0.3s;
+   &:hover{
+    background: $pink;
+    color: $white !important;
+   }
 }
 
 a.button:focus {
@@ -31,57 +34,5 @@ a.button > span {
   &:hover{
     background: $white;
   }
-}
-
-
-
-/* Animation Style */
-
-a.button.button-push {
-  overflow: hidden;
-  background: transparent;
-  color: $pink;
-  border-color: $pink;
-  -webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-}
-
-a.button-push > span {
-  display: inline-block;
-  -webkit-transform: translate3d(-10px, 0, 0);
-  transform: translate3d(-10px, 0, 0);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-}
-a.button-push .button-icon {
-  position: absolute;
-  left: 20px;
-  top: 15px;
-  font-size: 15px;
-  -webkit-transform: translate3d(-40px, 2.5em, 0);
-  transform: translate3d(-40px, 2.5em, 0);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  -webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-  transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
-}
-
-
-a.button-push:hover > span {
-  -webkit-transform: translate3d(14px, 0, 0);
-  transform: translate3d(14px, 0, 0);
-}
-
-a.button-push:hover .button-icon{
-  -webkit-transform: translate3d(5px, 0, 0);
-  transform: translate3d(5px, 0, 0);
-}
-
-a.button-push:hover {
-  border-color: $pink;
-  color: $background-grey;
-  background: $pink;
 }
 
