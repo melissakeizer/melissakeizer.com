@@ -61,7 +61,7 @@ a:active {
   top: 1px;
 }
 
-p a, #page-post ul li a, .pagination a{
+p a, #page-post ul li a, .pagination a, #page-about ul a{
   text-decoration: none;
   border-bottom: 1px solid $grey;
   &:hover{
