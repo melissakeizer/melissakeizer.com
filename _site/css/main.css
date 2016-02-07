@@ -1161,7 +1161,7 @@ ul.work-grid li.reverspective {
     float: left;
     padding-left: 1.2em; }
 
-  #tagline {
+  .content h1 {
     padding-top: 60px; } }
 @media only screen and (max-width: 520px) {
   .logo {
@@ -1176,7 +1176,7 @@ ul.work-grid li.reverspective {
   h1 span {
     display: block; }
 
-  #tagline {
+  .content h1 {
     padding-top: 25px; }
 
   body, #tagline h2 {
