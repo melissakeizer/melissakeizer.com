@@ -22,7 +22,7 @@ This means that the camera uses an electronic viewfinder (instead of the traditi
 
 The other main difference is that the A7ii is full-frame, whereas my A580 was an APS-C crop sensor camera. Without going too much into what this means, the main difference is that a full-frame camera’s sensor has a wider field of view, over the “cropped” view a crop sensor has. This means a 35mm lens will show a lot more of the scene when on a full-frame camera, compared to a crop-sensor camera. There’s pros and cons for each, but I’ll go into that later!
 
-## My Gear
+## My Gear
 
 Along with the camera, I bought the [Sony 55mm f/1.8 lens](http://www.jessops.com/online.store/categories/products/sony/55mm-f-1-8-za-lens-89675/show.html) from Jessops in Belfast. I love shooting with my 35mm prime lens on my A580, so I was after a lens with a focal length of around 50mm for my new full-frame camera, as this would give a similar field of view.
 

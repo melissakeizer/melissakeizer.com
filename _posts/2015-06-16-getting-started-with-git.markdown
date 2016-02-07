@@ -10,7 +10,7 @@ preview-image: "/img/blog-previews/start-git.jpg"
 Last year I gave a talk at local developer meetup [Belfast Ruby](http://belfastruby.com/2014/01/30/intro-to-ruby.html) on how get started with Git and GitHub. These are the notes that accompany the practical demo I gave, you can also check out my short Keynote on [Speakerdeck](https://speakerdeck.com/melissakeizer/gitn-started-with-version-control). Hopefully this guide will still be useful to version control newbies now.
 
 
-##1. Creating Remote Repo
+## 1. Creating Remote Repo
 
 - Create account/Sign in to Github.com
 - Create New Repo
@@ -19,7 +19,7 @@ Last year I gave a talk at local developer meetup [Belfast Ruby](http://belfastr
 Now you have an online space for your project to live.
 
 
-##2. Setting Up Git
+## 2. Setting Up Git
 
 Now we're going to open Terminal/iTerm and type some commands.
 
@@ -42,7 +42,7 @@ Next give Git your credentials
     git config --global user.email "mkeizer@rumblelabs.com"
 
 
-##3. Create Your Local Repo
+## 3. Create Your Local Repo
 
 Now you need to make the repository for your project that will live on your computer.
 
@@ -59,7 +59,7 @@ First you need to tell your computer to recognise this directory as a local Git 
 
 **Now you have both a remote and local git repo for your project.**
 
-##4. Make Some Files
+## 4. Make Some Files
 
 Add a ReadMe.md file (Use this markdown file to add notes about your project and instructions about how others can get it running locally)
 
@@ -88,7 +88,7 @@ Following this, commit the change. By commiting you are taking a snapshot of you
 **Next it's time to push your changes to your remote repo on Github.**
 
 
-##5. Connect local and remote repos
+## 5. Connect local and remote repos
 
 In order to push these changes, I need to tell Git that a remote repo exists somewhere on the web.
 
@@ -113,7 +113,7 @@ To push your changes use the command below
 Look at your changes by visiting the project page on Github. There I'll see the updated ReadMe.md and I can click on the "Commits" link to view exactly what changes were made with each commit.
 
 
-##6. Make a new branch
+## 6. Make a new branch
 
 As mentioned in my talk, branches are useful when working in teams or for simply separating development of different features on your app or project.
 
