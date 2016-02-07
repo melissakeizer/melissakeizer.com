@@ -28,6 +28,10 @@ ul.home-grid .social-grid{
   @include subtle-fade($twitter-blue);
 }
 
+.social-grid .facebook{
+  @include subtle-fade($facebook-blue);
+}
+
 .social-grid a i{
   font-size: 35px;
   padding-top: 43%;

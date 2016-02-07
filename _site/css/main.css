@@ -474,6 +474,10 @@ pre {
 header {
   padding: 1.5em 1.5em 6.5em 1.5em; }
 
+nav .logo {
+  float: left;
+  width: 177px; }
+
 nav ul {
   float: right; }
   nav ul li {
@@ -690,6 +694,14 @@ ul.home-grid .social-grid {
   -webkit-transition: all .2s ease-in-out; }
   .social-grid .twitter:hover {
     background: #2a98e5; }
+
+.social-grid .facebook {
+  background: #3b5998;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out; }
+  .social-grid .facebook:hover {
+    background: #344e86; }
 
 .social-grid a i {
   font-size: 35px;
@@ -1158,7 +1170,7 @@ ul.work-grid li.reverspective {
 
   #page-eyekiller ul.work-grid li#work-belfast-ruby {
     border-bottom: solid 1px #bababa; } }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 730px) {
   h1 span {
     display: inline; }
 
@@ -1183,9 +1195,19 @@ ul.work-grid li.reverspective {
   a.hamburger {
     display: block; }
 
-  nav.menu {
-    display: none; } }
+  nav ul.desktop-menu {
+    display: none; }
+
+  .logo {
+    float: left;
+    padding-left: 1.2em; }
+
+  #tagline {
+    padding-top: 60px; } }
 @media only screen and (max-width: 520px) {
+  .logo {
+    max-width: 150px; }
+
   h1 {
     font-size: 34px; }
 
@@ -1194,6 +1216,9 @@ ul.work-grid li.reverspective {
 
   h1 span {
     display: block; }
+
+  #tagline {
+    padding-top: 25px; }
 
   body, #tagline h2 {
     font-size: 18px; }

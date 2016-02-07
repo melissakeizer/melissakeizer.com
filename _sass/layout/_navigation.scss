@@ -5,7 +5,12 @@ header{
   padding: 1.5em 1.5em 6.5em 1.5em;
 }
 
-nav ul {
+nav .logo{
+  float: left;
+  width: 177px;
+}
+
+nav ul{
   float: right;
   li{
     display: inline-block;

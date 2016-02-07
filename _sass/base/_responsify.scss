@@ -156,7 +156,7 @@
 
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 730px) {
 
    h1 span{
     display: inline;
@@ -192,9 +192,18 @@
   display: block;
   }
 
-   nav.menu{
+   nav ul.desktop-menu{
     display: none;
    }
+
+  .logo{
+    float: left;
+    padding-left: 1.2em;
+  }
+
+   #tagline{
+    padding-top: 60px;
+  }
 
 
 
@@ -202,6 +211,10 @@
 
 
 @media only screen and (max-width: 520px) {
+
+  .logo{
+    max-width: 150px;
+  }
 
   h1{
     font-size: 34px;
@@ -213,6 +226,10 @@
 
   h1 span{
     display: block;
+  }
+
+  #tagline{
+    padding-top: 25px;
   }
 
   body, #tagline h2{
