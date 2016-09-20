@@ -3,7 +3,7 @@ layout: post
 selected: journal
 title:  "I'll Photograph Your Pets!"
 date:   2016-02-04 13:50:00
-preview-image: "/img/blog-previews/raja-eating-my-camera.jpg"
+cover-photo: "/img/blog-previews/raja-eating-my-camera.jpg"
 
 ---
 
@@ -25,7 +25,7 @@ This dream of mine is already being lived by a few of my favourite photographers
 
 I’m hoping I’ll be able to tap into the local market of owners who love their dogs, cats, horses or any of their other pets and want keepsakes in the form of gorgeous portraits they can hang on their wall, put in an album or post on Facebook.
 
-## Support me on Facebook
+### Support me on Facebook
 
 So, in an effort to market my services and share some of my work, I’ve created a [Facebook page](https://www.facebook.com/melissakeizerphotography/) for my photography. You may notice that it’s populated with only my animal photography, as well as interesting links related to animals or photography. While I may share some of my other work from time to time, I’d like to keep it focused on animal photography and target the people who may be interested in having their pet’s portraits taken.
 

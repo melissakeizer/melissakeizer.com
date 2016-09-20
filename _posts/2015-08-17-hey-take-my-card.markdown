@@ -3,7 +3,7 @@ layout: post
 selected: journal
 title:  "Hey, Take My Card"
 date:   2015-08-17 13:50:00
-preview-image: "/img/blog-previews/business-cards.jpg"
+cover-photo: "/img/blog-previews/business-cards.jpg"
 
 ---
 After attending some local events with my camera where a few people asked about my freelance photography services, I thought it would be wise to have some personal business cards I can give out at future events. So, late one night last week I set about designing my cards.

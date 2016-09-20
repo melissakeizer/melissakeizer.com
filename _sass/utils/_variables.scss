@@ -2,19 +2,23 @@
  * Variables
  */
 
-$base-font-family: "adelle-sans", "proxima-nova", helvetica, arial, sans-serif;
-$base-line-height: 1.6em;
+$serif-font-family: "ff-meta-serif-web-pro", serif;
+$sans-serif-font-family: "sofia-pro", sans-serif;
+$base-line-height: 1.3em;
 
 $max-content-width: 740px;
 
+$container-width: 1200px;
+
 /* New colours */
 
-$black: #373737;
+$black: #202020;
 $white: #ffffff;
 
 $turquoise: #039EBA;
 $pink: #D2206A;
 $transparent-pink: rgba(210,32,106,0.9);
+$yellow: #EBC828;
 
 $twitter-blue: #41A3E8;
 $instagram-blue: #3F729B;

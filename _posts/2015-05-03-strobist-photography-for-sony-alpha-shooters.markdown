@@ -3,7 +3,7 @@ layout: post
 selected: journal
 title:  "Strobist Photography for Sony Alpha shooters"
 date:   2015-05-03 01:50:42
-preview-image: "/img/blog-previews/sony-strobe.jpg"
+cover-photo: "/img/blog-previews/sony-strobe.jpg"
 
 ---
 

@@ -3,7 +3,7 @@ layout: post
 selected: journal
 title:  "Facts & Thoughts About My New Sony A7ii Camera"
 date:   2015-10-30 13:50:00
-preview-image: "/img/blog-previews/my-sony-a7ii.jpg"
+cover-photo: "/img/blog-previews/my-sony-a7ii.jpg"
 
 ---
 

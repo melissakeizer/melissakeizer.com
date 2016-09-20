@@ -3,7 +3,7 @@ layout: post
 selected: journal
 title:  "First Newborn Photoshoot"
 date:   2015-10-03 13:50:00
-preview-image: "/img/blog-previews/baby-amelie.jpg"
+cover-photo: "/img/blog-previews/baby-amelie.jpg"
 
 ---
 

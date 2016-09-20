@@ -2,73 +2,61 @@
 layout: default
 page: home
 selected: home
+title: Melissa Keizer
+intro: User Interface &amp; User Experience Designer, Photographer, Animal Obssessor & Dutch/Northern Irish Mongrel
+
 ---
 
 <div id="page-home">
 
-<section class="full-width">
-  <div class="container">
-    <article class="content" id="tagline">
-      <h1>Hello, my name is <span>Melissa Keizer.</span></h1>
-      <h2>I'm a web designer and photographer residing in Bangor, Northern Ireland. </h2>
-    </article>
-  </div>
-</section>
 
-<section class="full-width">
-  <ul class="home-grid">
-    <li>
-      <div class="inner">
-        <p>I spend my days designing and developing engaging and intuitive websites.</p>
-        <a href="{{ site.baseurl }}/about/" class="button">Read More</a>
+<div class="container">
+  <section class="blog-posts">
+  {% for post in site.posts limit:1 %}
+   <li class="featured-blog-post" style="background-image: url({{ post.cover-photo }})";>
+      <div class="blog-post-info">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+        <p class="date">{{ post.date | date: "%d %B %Y" }}</p>
+        <h3>{{ post.title }}</h3>
+        </a>
       </div>
-    </li>
-    <li class="dribbble">
-      <a href="{{ site.dribbble }}">
-        <div class="mask">
-          <i class="fa fa-dribbble"></i>
-        </div>
+   </li>
+  {% endfor %}
+  {% for post in site.posts offset:1 limit:2 %}
+    <li class="blog-post">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+      <img src="{{ post.cover-photo }}" alt="{{ post.cover-photo }}" />
+      <p class="date">{{ post.date | date: "%d %B %Y" }}</p>
+      <h3>{{ post.title }}</h3>
       </a>
     </li>
-    <a href="{{ site.posts.first.url | prepend: site.baseurl }}">
-      <li class="blog">
-        <div class="inner">
-          <h3>From the Journal</h3>
-          <h2>{{ site.posts.first.title }}</h2>
-          <p class="date">Posted on {{ site.posts.first.date | date: "%b %-d %Y" }}</p>
-        </div>
-      </li>
-    </a>
-    <li class="social-grid">
-      <a href="{{ site.facebook }}" class="facebook">
-        <i class="fa fa-facebook"></i>
-      </a>
-      <a href="{{ site.dribbble }}" class="dribbble">
-        <i class="fa fa-dribbble"></i>
-      </a>
-      <a href="{{ site.flickr }}" class="flickr">
-        <i class="fa fa-flickr"></i>
-      </a>
-      <a href="{{ site.twitter }}" class="twitter">
-        <i class="fa fa-twitter"></i>
-      </a>
-    </li>
-    <li>
-      <div class="inner">
-        <p>I’m happiest with a camera in-hand and an interesting person, animal or scene to shoot.</p>
-         <a href="{{ site.baseurl }}/photography/" class="button">Read More</a>
-      </div>
-    </li>
-    <li class="flickr">
-      <a href="{{ site.flickr }}">
-       <div class="mask">
-          <i class="fa fa-flickr"></i>
-        </div>
-      </a>
-    </li>
-  </ul>
-</section>
-</div>
+  {% endfor %}
+  </section>
+
+  <section class="block clearfix see-more-link">
+    <a href="{{ site.baseurl }}/journal/" class="big-link">See more posts from my journal</a>
+  </section>
+
+  <section class="main-area home-design">
+    <div class="text">
+      <h2>Designing websites and bettering user experiences</h2>
+      <p>Vestibulum fermentum aliquam, suspendisse elit dui tincidunt ut metus at, vulputate gravida justo.</p>
+      <a href="{{ site.baseurl }}/design/" class="big-link">View my design work</a>
+    </div>
+  </section>
+
+  <section class="main-area home-photography">
+    <div class="text right">
+      <h2>Shooting people, places and animals with my camera</h2>
+      <p>Vestibulum fermentum aliquam, suspendisse elit dui tincidunt ut metus at, vulputate gravida justo.</p>
+      <a href="{{ site.baseurl }}/photography/" class="big-link">Check out my photos</a>
+    </div>
+  </section>
+
+</div><!-- end container -->
+
+
+
 
 
 

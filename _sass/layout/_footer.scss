@@ -3,37 +3,46 @@
 footer{
   float: left;
   width: 100%;
-  padding: 0.7em 1.2em;
-  border-top: 1px solid $grey;
-}
-
-footer div{
-  float: left;
-}
-
-footer div.made-by{
-  float: right;
-}
-
-footer div p{
-  font-size: 16px;
-  color: $grey;
-  display: inline-block;
-  margin: 0;
+  padding: 100px 0;
+  background-color: $black;
+  color: $white;
+  p{
+    color: $white;
+    padding-top: 9px;
+  }
   a{
-    color: $grey;
-    font-weight: 600;
-    border: none;
-    &:hover{
-      color: $pink;
-    }
+    text-decoration: none;
   }
 }
 
-footer .made-by i{
-  color: $pink;
+.send-me-email{
+  width: 70%;
+  float: left;
 }
 
-footer .made-by p a{
-  color: $grey;
+.social-block{
+  width: 30%;
+  float: left;
+}
+
+.social-block a{
+  text-align: center;
+  vertical-align: center;
+  color: $white;
+  float: right;
+  &:hover{
+    background: $white;
+    color: $black;
+  }
+}
+
+.social-block .fa{
+  padding: 0.7em;
+  border: 1px solid #4D4D4D;
+  width: 55px;
+  height: 55px;
+}
+
+.row{
+  float:right;
 }

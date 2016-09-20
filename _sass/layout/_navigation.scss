@@ -2,38 +2,35 @@
 /* Navigation */
 
 header{
-  padding: 1.5em 1.5em 6.5em 1.5em;
+  padding: 1.5em 1.5em 5em 1.5em;
 }
 
-nav .logo{
-  float: left;
-  width: 177px;
-}
 
 nav ul{
-  float: right;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
   li{
     display: inline-block;
-    font-weight: 700;
+    font-weight: 400;
     a{
+      font-family: $sans-serif-font-family;
       font-size: 19px;
-      margin: 0 0 0 1.3em;
-      color: $black;
+      margin: 0 1em;
+      color: $white;
       text-decoration: none;
       padding-bottom: 2px;
       &:hover{
-        border-bottom: 2px solid $grey;
+        color: $yellow;
       }
-      &.active{
-        color: $pink;
-        border-bottom: 2px solid $pink;
-
+      &.active, &:active{
+        color: $yellow;
       }
     }
   }
 }
 
-nav ul li a.email:hover, a.hamburger:hover {
+a.hamburger:hover {
   &:hover{
     color: $pink;
     border: none;
@@ -51,6 +48,7 @@ a.hamburger{
     border: none;
   }
 }
+
 
  #mobile-menu {
   display: none;

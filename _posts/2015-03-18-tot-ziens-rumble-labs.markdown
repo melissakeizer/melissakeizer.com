@@ -3,7 +3,7 @@ layout: post
 selected: journal
 title:  "Tot Ziens, Rumble Labs"
 date:   2015-03-18 11:00:42
-preview-image: "/img/blog-previews/rumble-pink.jpg"
+cover-photo: "/img/blog-previews/rumble-pink.jpg"
 
 ---
 

@@ -1,7 +1,7 @@
 /* Typography */
 
 body {
-    font-family: $base-font-family;
+    font-family: $serif-font-family;
     font-size: 22px;
     line-height: $base-line-height;
     font-weight: 300;
@@ -12,48 +12,68 @@ body {
 
 
 h1{
-  font-weight: 700;
-  color: $turquoise;
+  font-family: $sans-serif-font-family;
+  font-weight: 600;
+  color: $white;
   font-size: 60px;
-  margin-bottom: 7%;
-  line-height: 1.4em;
-  span{
-    display: block;
-  }
+  line-height: 1.3em;
+  text-align: center;
+  margin-bottom: 0.25em;
 }
 
 
 h2, h2 a{
-  font-size: 30px;
+  font-family: $sans-serif-font-family;
+  font-size: 40px;
   font-weight: 700;
-  line-height: 1.4em;
-  margin: 1.5em 0 0.9em 0;
+  line-height: 1.2em;
+  margin: 1.5em 0 0.5em 0;
 }
 
-h2 a{
-  text-decoration: none;
-  &:hover{
-    color: $pink;
-  }
-}
 
-h3{
+h3, h3 a{
+  font-family: $sans-serif-font-family;
   font-weight: 700;
-  line-height: 1.4em;
-  font-size: 23px;
+  line-height: 1.2em;
+  font-size: 28px;
   padding-bottom: 9px;
 }
 
 p{
   margin-bottom: 5%;
   color: $black;
+  line-height:$base-line-height;
 }
 
-.content a, .content a:visited{
-  color: $black;
-  &:hover{
-    color: $pink;
-  }
+a{
+  text-decoration: none;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
+
+
+a.big-link{
+font-family: $sans-serif-font-family;
+font-size: 22px;
+border-bottom: 2px solid $yellow;
+ &:hover{
+  border-color: $white;
+ }
+}
+
+.date{
+  font-size: 18px;
+  font-family: $serif-font-family;
+  margin-bottom: 0;
+}
+
+
+p.intro{
+  color: $white;
+  font-size: 28px;
+  padding: 10px 0;
 }
 
 a:active {
@@ -61,29 +81,20 @@ a:active {
   top: 1px;
 }
 
-p a, #page-post ul li a, .pagination a, #page-about ul a{
-  text-decoration: none;
-  border-bottom: 1px solid $grey;
-  &:hover{
-    color: $pink;
-  }
+
+/* Styles within content chunks and blog posts */
+
+.content h2, .content h3, .content h4{
+  font-family: $serif-font-family;
 }
 
-.image-link{
-  border: none;
+.content h3{
+  font-size: 34px;
 }
 
-.pagination a{
-  font-size: 19px;
-}
 
-#page-post ul {
-    margin-bottom: 5%;
-}
+/* Code */
 
-#page-post ul li{
-  list-style: outside;
-}
 
 pre {
  white-space: pre-wrap;       /* css-3 */
@@ -105,7 +116,6 @@ pre {
   border-radius: 5px;
   background: #f7f7f7;
 }
-
 
 
 
