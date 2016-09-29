@@ -1,28 +1,12 @@
 $(document).ready(function() {
 
   // Matching the grid square's height with thier fluid width
-   var itemwidth = $('ul.home-grid li').width();
-  $('ul.home-grid li').css({
+   var itemwidth = $('footer .photos').height();
+  $('.instagram-block').css({
     'height': itemwidth + 'px'
   });
 
-  // Matching the photo grid square's height with thier fluid width
-   var itemwidth = $('ul.photo-grid li').width();
-  $('ul.photo-grid li').css({
-    'height': itemwidth + 'px'
-  });
 
-  // Same thing except for social icons
-    var itemwidth2 = $('.social-grid a').width();
-  $('.social-grid a').css({
-    'height': itemwidth2 + 'px'
-  });
-
-  // Matching the photo grid square's height with thier fluid width - images
-   var itemwidth = $('.photo-grid img').width();
-  $('.photo-grid img').css({
-    'height': itemwidth + 'px'
-  });
 
   // Randomising the background image set for the flickr div
   var images = ['squirrel-mkeizer.jpg', 'sumatran-tiger-mkeizer.jpg', 'giants-causeway-mkeizer.jpg', 'matisse-mkeizer.jpg', 'cleo-mkeizer.jpg', 'ladygaga-mkeizer.jpg', 'glenoe-mkeizer.jpg', 'lighthouse-mkeizer.jpg' ];

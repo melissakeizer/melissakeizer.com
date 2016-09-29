@@ -3,6 +3,7 @@
 body {
     box-sizing: border-box;
     background-color: $background-color;
+    border: 10px solid $white;
 }
 
 *{
@@ -35,20 +36,15 @@ article.content{
 
 
 .top{
-  background-color: $black;
-  color: $white;
-  height: 615px;
+  background-color: $white;
+  color: $black;
+  height: 515px;
 }
 
 .intro{
-  max-width: 815px;
-  text-align: center;
-  padding: 3% 0 1% 0;
-  margin: 0 auto;
+  max-width: 600px;
+  padding: 8% 0 1% 0;
   display: block;
-    p{
-    color: $white;
-  }
 }
 
 /* Comments */
@@ -57,32 +53,50 @@ article.content{
   padding-top: 2em;
 }
 
-/* Main Area */
+/* Main Areas */
 
-.main-area{
-  @include bg-cover;
-  width: 100%;
-  height: 670px;
+.homepage-work .block{
+  width: 50%;
+  background: $yellow;
+  color: $black;
+  height: 590px;
+  float: left;
   position: relative;
-  margin: 50px 0;
-  z-index: 1;
-  padding: 12% 7%;
-    &.home-design{
-    background-image: url(../img/backgrounds/design-bg.jpg);
-  }
-  &.home-photography{
-    background-image: url(../img/backgrounds/photo-bg.jpg);
-  }
-  .text{
-    z-index: 200;
-    width: 60%;
-    max-width: 550px;
-    float: left;
-    &.right{
-      float: right;
-    }
-  }
 }
+
+.text{
+  padding: 15% 10%;
+}
+
+.homepage-work.design .sub-heading{
+  color: $gold;
+}
+
+.homepage-work.photography .sub-heading{
+  color: $grey;
+}
+
+.homepage-work.photography .block{
+  background: $black;
+  color: $white;
+}
+
+.homepage-work .photo-background{
+  @include bg-cover;
+  width: 50%;
+  height: 590px;
+  float: left;
+}
+
+.design .photo-background{
+  background-image: url(/img/homepage/design-bg.jpg);
+}
+
+.photography .photo-background{
+    background-image: url(/img/homepage/photography-bg.jpg);
+  }
+
+
 
 .overlay{
   position: absolute;

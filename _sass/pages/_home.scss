@@ -1,21 +1,15 @@
 /* Home Page */
 
-.main-area h2, .main-area p, .main-area a{
-  color: $white;
+
+.homepage-work .text h2{
+  margin: 0.5em 0;
 }
 
-.blog-post h3, .blog-post .date, .featured-blog-post h3, .featured-blog-post .date{
-  text-align: center;
+#page-home .blog-posts{
+  padding-top: 40px;
 }
 
-.featured-blog-post{
- width: 100%;
- height: 680px;
- background-color: $background-grey;
- @include bg-cover;
- margin-top: -140px;
- position: relative;
-}
+
 
 .blog-post-info{
   position: absolute;
@@ -42,22 +36,6 @@
   padding: 0 0 10px 0;
 }
 
-.featured-blog-post .date{
-  color: $white;
-  font-size: 25px;
-}
-
-.featured-blog-post h3{
-  color: $white;
-  font-size: 38px;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.blog-post h3{
-  width: 90%;
-  margin: 0 auto;
-}
 
 .blog-post .date{
   padding-bottom:  5px;
@@ -65,7 +43,6 @@
 
 .see-more-link{
   margin: 30px 0 80px 0;
-  text-align: center;
 }
 
 

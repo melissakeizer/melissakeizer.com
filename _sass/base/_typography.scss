@@ -2,7 +2,7 @@
 
 body {
     font-family: $serif-font-family;
-    font-size: 22px;
+    font-size: 21px;
     line-height: $base-line-height;
     font-weight: 300;
     font-style: normal;
@@ -12,30 +12,36 @@ body {
 
 
 h1{
-  font-family: $sans-serif-font-family;
+  font-family: $serif-font-family;
   font-weight: 600;
-  color: $white;
-  font-size: 60px;
+  color: $black;
+  font-size: 45px;
   line-height: 1.3em;
-  text-align: center;
+  text-align: left;
   margin-bottom: 0.25em;
 }
 
 
 h2, h2 a{
-  font-family: $sans-serif-font-family;
+  font-family:$serif-font-family;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2em;
   margin: 1.5em 0 0.5em 0;
 }
 
+h2.sub-heading{
+  font-family:$sans-serif-font-family;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 
 h3, h3 a{
-  font-family: $sans-serif-font-family;
   font-weight: 700;
   line-height: 1.2em;
-  font-size: 28px;
+  font-size: 25px;
   padding-bottom: 9px;
 }
 
@@ -43,6 +49,8 @@ p{
   margin-bottom: 5%;
   color: $black;
   line-height:$base-line-height;
+  font-size: 22px;
+  line-height: 1.5em;
 }
 
 a{
@@ -53,27 +61,41 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
-
 a.big-link{
 font-family: $sans-serif-font-family;
+font-weight: 600;
 font-size: 22px;
-border-bottom: 2px solid $yellow;
+border-bottom: 2px solid $black;
+@include subtle-animation;
  &:hover{
-  border-color: $white;
+  background: $black;
+  color: $yellow;
  }
 }
 
+.photography a.big-link{
+  border-bottom: solid 2px $white;
+ &:hover{
+  background: $white;
+  color: $black;
+  }
+}
+
+.text a.big-link{
+  position: absolute;
+  bottom: 15%;
+}
+
 .date{
-  font-size: 18px;
-  font-family: $serif-font-family;
+  font-size: 17px;
+  color: $grey;
   margin-bottom: 0;
 }
 
-
 p.intro{
-  color: $white;
-  font-size: 28px;
+  font-size: 24px;
   padding: 10px 0;
+  line-height: 1.3em;
 }
 
 a:active {
@@ -83,14 +105,6 @@ a:active {
 
 
 /* Styles within content chunks and blog posts */
-
-.content h2, .content h3, .content h4{
-  font-family: $serif-font-family;
-}
-
-.content h3{
-  font-size: 34px;
-}
 
 
 /* Code */

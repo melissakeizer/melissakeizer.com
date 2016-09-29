@@ -13,7 +13,7 @@ ul.home-grid .social-grid{
 }
 
 .social-grid .flickr{
-  @include subtle-fade($turquoise);
+  @include subtle-fade($black);
 }
 
 .social-grid .instagram{
@@ -21,7 +21,7 @@ ul.home-grid .social-grid{
 }
 
 .social-grid .dribbble{
-  @include subtle-fade($pink);
+  @include subtle-fade($yellow);
 }
 
 .social-grid .twitter{

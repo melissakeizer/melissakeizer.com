@@ -5,18 +5,18 @@ a.button {
   padding: 0.3em 1.5em 0.4em 1.5em;
   border: none;
   background: none;
-  color: $pink !important;
+  color: $yellow !important;
   vertical-align: middle;
   position: relative;
   z-index: 1;
   -webkit-backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
   border-radius: 30px;
-  border: 2px solid $pink;
+  border: 2px solid $yellow;
   text-decoration: none;
   transition: 0.3s;
    &:hover{
-    background: $pink;
+    background: $yellow;
     color: $white !important;
    }
 }
