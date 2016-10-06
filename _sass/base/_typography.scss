@@ -6,23 +6,23 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     font-style: normal;
-    color: $text-color;
+    color: $black;
     -webkit-text-size-adjust: 100%;
 }
 
 
-h1{
+h1, .h1{
   font-family: $serif-font-family;
   font-weight: 600;
   color: $black;
-  font-size: 45px;
+  font-size: 48px;
   line-height: 1.3em;
   text-align: left;
   margin-bottom: 0.25em;
 }
 
 
-h2, h2 a{
+h2, h2 a, .h2{
   font-family:$serif-font-family;
   font-size: 40px;
   font-weight: 700;
@@ -30,13 +30,18 @@ h2, h2 a{
   margin: 1.5em 0 0.5em 0;
 }
 
-h2.sub-heading{
+.sub-heading{
   font-family:$sans-serif-font-family;
   font-size: 17px;
   font-weight: bold;
   text-transform: uppercase;
+  &--gold{
+    color: $gold;
+  }
+  &--grey{
+    color: $grey;
+  }
 }
-
 
 h3, h3 a{
   font-weight: 700;
@@ -61,30 +66,29 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
-a.big-link{
-font-family: $sans-serif-font-family;
-font-weight: 600;
-font-size: 22px;
-border-bottom: 2px solid $black;
-@include subtle-animation;
- &:hover{
-  background: $black;
-  color: $yellow;
- }
-}
 
-.photography a.big-link{
-  border-bottom: solid 2px $white;
- &:hover{
-  background: $white;
-  color: $black;
+
+a.link{
+  font-family: $sans-serif-font-family;
+  font-weight: 600;
+  font-size: 22px;
+  @include subtle-animation;
+  &--black{
+    border-bottom: 2px solid $black;
+    &:hover{
+      background: $black;
+      color: $yellow;
+    }
+  }
+  &--white{
+    border-bottom: 2px solid $white;
+    &:hover{
+      background: $white;
+      color: $black;
+    }
   }
 }
 
-.text a.big-link{
-  position: absolute;
-  bottom: 15%;
-}
 
 .date{
   font-size: 17px;

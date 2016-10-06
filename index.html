@@ -9,30 +9,29 @@ intro: User Interface &amp; User Experience Designer, Photographer, Animal Obsse
 
 <div id="page-home">
 
-
-  <section class="homepage-work design">
-    <div class="block">
-      <div class="text">
-        <h2 class="sub-heading">- UX/UI Design</h2>
+  <section class="block">
+    <div class="block__info block__info--yellow">
+      <div class="block__info__text">
+        <h2 class="sub-heading sub-heading--gold">- UX/UI Design &amp; Development</h2>
         <h2>Designing websites &amp; bettering user experiences</h2>
-        <a href="{{ site.baseurl }}/design/" class="big-link">View my design work</a>
+        <a href="{{ site.baseurl }}/design/" class="link link--black">View my design work</a>
       </div>
     </div>
-    <div class="photo-background"></div>
+    <div class="block__photo block__photo--homepage-design"></div>
   </section>
 
-  <section class="homepage-work photography">
-     <div class="photo-background"></div>
-    <div class="block">
-      <div class="text">
-        <h2 class="sub-heading">- Photography</h2>
+  <section class="block">
+    <div class="block__photo block__photo--homepage-photography"></div>
+    <div class="block__info block__info--black">
+      <div class="block__info__text">
+        <h2 class="sub-heading sub-heading--grey">- Photography</h2>
         <h2>Shooting people, places &amp; animals with my camera</h2>
-        <a href="{{ site.baseurl }}/photography/" class="big-link">Check out my photos</a>
+        <a href="{{ site.baseurl }}/photography/" class="link link--white">Check out my photos</a>
       </div>
     </div>
   </section>
 
-  <div class="container clearfix blog-posts">
+  <section class="container clearfix blog-posts">
   <h2 class="sub-heading grey">- Latest Blog Posts</h2>
   {% for post in site.posts limit:2 %}
     <li class="blog-post">
@@ -46,7 +45,7 @@ intro: User Interface &amp; User Experience Designer, Photographer, Animal Obsse
   </section>
 
   <section class="block clearfix see-more-link">
-    <a href="{{ site.baseurl }}/journal/" class="big-link">See more posts from my journal</a>
+    <a href="{{ site.baseurl }}/journal/" class="link link--black">See more posts from my journal</a>
   </section>
 
 </div><!-- end container -->

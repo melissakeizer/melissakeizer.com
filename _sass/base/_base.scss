@@ -2,7 +2,7 @@
 
 body {
     box-sizing: border-box;
-    background-color: $background-color;
+    background-color: $white;
     border: 10px solid $white;
 }
 
@@ -19,6 +19,9 @@ body {
   img{
     width: 100%;
   }
+  &__content{
+     @include content-width;
+  }
 }
 
 .full-width{
@@ -26,26 +29,15 @@ body {
   overflow-x: hidden;
 }
 
-article.content{
-  @include content-width;
-}
 
-#page-about .content, #page-journal .content, #page-post .content, #page-photography .content.last {
-  padding-bottom: 3em;
-}
+/* Header */
 
-
-.top{
-  background-color: $white;
-  color: $black;
-  height: 515px;
-}
 
 .intro{
-  max-width: 600px;
-  padding: 8% 0 1% 0;
-  display: block;
-}
+    max-width: 600px;
+    padding: 8% 0 4% 0;
+    display: block;
+  }
 
 /* Comments */
 
@@ -55,65 +47,69 @@ article.content{
 
 /* Main Areas */
 
-.homepage-work .block{
-  width: 50%;
-  background: $yellow;
-  color: $black;
-  height: 590px;
+.block{
+  width: 100%;
   float: left;
-  position: relative;
-}
-
-.text{
-  padding: 15% 10%;
-}
-
-.homepage-work.design .sub-heading{
-  color: $gold;
-}
-
-.homepage-work.photography .sub-heading{
-  color: $grey;
-}
-
-.homepage-work.photography .block{
-  background: $black;
-  color: $white;
-}
-
-.homepage-work .photo-background{
-  @include bg-cover;
-  width: 50%;
-  height: 590px;
-  float: left;
-}
-
-.design .photo-background{
-  background-image: url(/img/homepage/design-bg.jpg);
-}
-
-.photography .photo-background{
-    background-image: url(/img/homepage/photography-bg.jpg);
+  &__info{
+    width: 50%;
+    height: 590px;
+    float: left;
+    position: relative;
+    &__text{
+      padding: 15% 10%;
+      .link{
+        position: absolute;
+        bottom: 15%;
+      }
+      h2{
+        margin-top: 0.3em;
+      }
+    }
+    &--yellow{
+      background: $yellow;
+      color: $black;
+    }
+    &--black{
+      background: $black;
+      color: $white;
+    }
   }
-
-
-
-.overlay{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 100;
-  background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
-  background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%);
-  background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(255,255,255,0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00ffffff',GradientType=1 );
-  opacity: 0.7;
-  &.right{
-    transform:rotateX(180deg);
+  &__photo{
+    width: 50%;
+    height: 590px;
+    float: left;
+    @include bg-cover;
+    &--homepage-design{
+      background-image: url(/img/homepage/design-bg.jpg);
+    }
+    &--homepage-photography{
+      background-image: url(/img/homepage/photography-bg.jpg);
+    }
+    &--project-mac{
+      background-image: url(/img/design/the-mac-card-sorting.jpg);
+    }
+    &--photography-pets{
+      background-image: url(/img/photos/bubba.jpg);
+    }
+    &--photography-animals{
+      background-image: url(/img/photos/squirrel.jpg);
+    }
+    &--photography-people{
+      background-image: url(/img/photos/ladygaga.jpg);
+    }
+    &--photography-scenery{
+      background-image: url(/img/photos/ballintoy.jpg);
+    }
+    &--photography-food{
+      background-image: url(/img/photos/beatrice-kennedy.jpg);
+    }
+    &--photography-misc{
+      background-image: url(/img/photos/flower-room.jpg);
+    }
   }
 }
+
+
 
 
 
