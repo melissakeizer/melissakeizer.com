@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+
   // Matching the grid square's height with thier fluid width
    var itemwidth = $('footer .photos').height();
   $('.instagram-block').css({
