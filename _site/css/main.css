@@ -443,20 +443,6 @@ body {
       background-image: url(/img/homepage/design-bg.jpg); }
     .block__photo--homepage-photography {
       background-image: url(/img/homepage/photography-bg.jpg); }
-    .block__photo--project-mac {
-      background-image: url(/img/design/the-mac-card-sorting.jpg); }
-    .block__photo--photography-pets {
-      background-image: url(/img/photos/bubba.jpg); }
-    .block__photo--photography-animals {
-      background-image: url(/img/photos/squirrel.jpg); }
-    .block__photo--photography-people {
-      background-image: url(/img/photos/ladygaga.jpg); }
-    .block__photo--photography-scenery {
-      background-image: url(/img/photos/ballintoy.jpg); }
-    .block__photo--photography-food {
-      background-image: url(/img/photos/beatrice-kennedy.jpg); }
-    .block__photo--photography-misc {
-      background-image: url(/img/photos/flower-room.jpg); }
 
 .gallery {
   height: 680px; }
@@ -832,7 +818,7 @@ a.button > span {
 
 /* Journal/Blog Page */
 ul.blog-post-list {
-  margin-top: -691px; }
+  margin-top: -720px; }
 
 .grey-background {
   background: transparent;
@@ -842,7 +828,8 @@ ul.blog-post-list {
     width: 100%;
     height: 600px;
     content: "";
-    display: block; }
+    display: block;
+    margin-top: 80px; }
 
 #page-journal .blog-post {
   width: 48%;
@@ -944,7 +931,7 @@ ul.content {
   background: black; }
 
 .slick-slide img {
-  opacity: 0.5;
+  opacity: 0.75;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -971,7 +958,7 @@ ul.content {
   width: 65px;
   height: 65px;
   border: none;
-  background: url(../images/arrow-right-circle.png) red no-repeat; }
+  background: url(../img/misc/arrow-right.png) no-repeat; }
 
 .slick-prev {
   left: 20px;

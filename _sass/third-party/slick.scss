@@ -5,7 +5,7 @@
 }
 
 .slick-slide img {
-  opacity: 0.5;
+  opacity: 0.75;
     -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -35,7 +35,7 @@
   width: 65px;
   height: 65px;
   border: none;
-  background: url(../images/arrow-right-circle.png) red no-repeat;
+  background: url(../img/misc/arrow-right.png) no-repeat;
 }
 
 .slick-prev{
