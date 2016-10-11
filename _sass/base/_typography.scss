@@ -66,6 +66,17 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
+ul{
+  list-style: none;
+  padding-bottom: 3.5%;
+  li{
+    padding-bottom: 5px;
+    list-style: outside;
+    line-height: 1.3em;
+    font-size: 22px;
+  }
+}
+
 
 
 a.link{

@@ -123,9 +123,28 @@
 
 
         <footer>
+
+/* Instafeed */
+
+<div id="instafeed"></div>
+
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+    get: 'user',
+    userId: '486291',
+    clientId: '5da4419ffb5f4840a6d7d15ab7150d6c',
+    accessToken: '466840c92fc441b4b179fa4dd73f21a3',
+    resolution: 'standard_resolution',
+    template: '<a href="" target="_blank" id=""><img src="" /><span></span></a>',
+    sortBy: 'most-recent',
+    limit: 4,
+    links: false
+  });
+  userFeed.run();
+</script>
+
   <section class="instagram-row">
     <div class="photos">
-      <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/e3da2b9066fe5cfda638b498f1f0c5c8.html" id="lightwidget_e3da2b9066" name="lightwidget_e3da2b9066"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
     </div>
     <div class="instagram-block">
       <i class="fa fa-instagram"></i>

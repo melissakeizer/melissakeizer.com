@@ -85,7 +85,7 @@
   </nav>
             <article class="intro--post">
               <h1>Ship It</h1>
-              <p class="paragraph--intro"></p>
+              <p class="paragraph--intro">Finally, my new portfolio site is live</p>
               <p class="date">Posted on Mar 4, 2015</p>
             </article>
           </div>
@@ -100,8 +100,10 @@
 
 <p>I have a long list of to-dos on my Trello board, including layouts that need better considered, ideas for improving the reading experience of blog posts and some simple tweaks that would simply better the overall experience of using my website.</p>
 
-<p><img src="../../img/blog/trello-to-dos.jpg" alt="photo caption" title="Trello" />
-<span class="caption">My ever-growing to-do list on Trello</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/trello-to-dos.jpg" alt="My ever-growing to-do list on Trello" />
+  <span class="caption">My ever-growing to-do list on Trello</span>
+</div>
 
 <p>Knowing my site is now out and open to scrutiny motivates me to improve it, and I look forward to moving Trello tasks into the “done” list.</p>
 
@@ -110,8 +112,8 @@
 
           </article>
           <div class="article__notes">
-              <p class="article__footnotes"><span>Footnotes: </span></p>
-              <p class="article__location"><i class="fa fa-map-marker" aria-hidden="true"></i> </p>
+              
+              
           </div>
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
@@ -148,7 +150,7 @@
                 <a href="/journal/sony-a7ii-facts-and-thoughts/">
                 <img src="/img/blog-previews/my-sony-a7ii.jpg" alt="/img/blog-previews/my-sony-a7ii.jpg" />
                 <p class="date">30 October 2015</p>
-                <h3>Facts & Thoughts About My New Sony A7ii Camera</h3>
+                <h3>My New Sony A7ii</h3>
                 </a>
               </li>
             
@@ -156,9 +158,28 @@
         </div>
     </div>
     <footer>
+
+/* Instafeed */
+
+<div id="instafeed"></div>
+
+<script type="text/javascript">
+  var userFeed = new Instafeed({
+    get: 'user',
+    userId: '486291',
+    clientId: '5da4419ffb5f4840a6d7d15ab7150d6c',
+    accessToken: '466840c92fc441b4b179fa4dd73f21a3',
+    resolution: 'standard_resolution',
+    template: '<a href="" target="_blank" id=""><img src="" /><span></span></a>',
+    sortBy: 'most-recent',
+    limit: 4,
+    links: false
+  });
+  userFeed.run();
+</script>
+
   <section class="instagram-row">
     <div class="photos">
-      <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/e3da2b9066fe5cfda638b498f1f0c5c8.html" id="lightwidget_e3da2b9066" name="lightwidget_e3da2b9066"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
     </div>
     <div class="instagram-block">
       <i class="fa fa-instagram"></i>

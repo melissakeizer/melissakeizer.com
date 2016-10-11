@@ -19,8 +19,12 @@
             {{ content }}
           </article>
           <div class="article__notes">
-              <p class="article__footnotes"><span>Footnotes: </span>{{ page.footnotes }}</p>
-              <p class="article__location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ page.location }}</p>
+              {% if page.footnotes %}
+                <p class="article__footnotes"><span>Footnotes: </span>{{ page.footnotes }}</p>
+              {% endif %}
+              {% if page.location %}
+                <p class="article__location"><i class="fa fa-map-marker" aria-hidden="true"></i> {{ page.location }}</p>
+              {% endif %}
           </div>
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
           <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

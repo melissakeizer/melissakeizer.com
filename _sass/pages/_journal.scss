@@ -24,7 +24,7 @@ ul.blog-post-list{
 }
 
 .overlay {
-    background-color:rgba(0,0,0,.5);
+    background-color:rgba(0,0,0,.6);
     height: 100%;
   }
 
@@ -37,7 +37,7 @@ ul.blog-post-list{
       }
     }
   }
-  h2, h3, h4{
+  h2, h3, h4, ul{
      @include content-width;
   }
   .article__image{
@@ -56,12 +56,13 @@ ul.blog-post-list{
 
 .article__content p{
   @include content-width;
-  margin-bottom: 5%;
+  margin-bottom: 3.5%;
 }
 
 .article__content img{
   display: block;
   width: 100%;
+  padding-top: 25px;
 }
 
 .article__notes{
