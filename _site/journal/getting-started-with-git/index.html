@@ -41,14 +41,17 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
+  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
 
 
 </head>
 
   <body>
-    <header class="navigation">
-      <div class="container">
-          <nav class="menu">
+    <div id="page-post" class="article">
+      <header class="navigation article__cover" style="background-image:url(/img/blog-previews/start-git.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <nav class="menu">
     <ul class="desktop-menu">
       <li><a href="/" >Home</a></li>
        <li><a href="/about/" >About Me</a></li>
@@ -80,26 +83,16 @@
       </li>
     </ul>
   </nav>
-      </header>
-
-      <div class="container">
-        <article class="intro">
-          <h1>Getting Started with Git</h1>
-          <p class="paragraph--intro"></p>
-        </article>
-      </div>
-  </section>
-      <div id="page-post">
-<section class="container">
-  <article class="blog-meta">
-  <p class="date">Posted on Jun 16, 2015</p>
-    <h1>Getting Started with Git</h1>
-  </article>
-
-  <img src="/img/blog-previews/start-git.jpg" alt="Getting Started with Git" />
-
-  <article class="content">
-    <p>Last year I gave a talk at local developer meetup <a href="http://belfastruby.com/2014/01/30/intro-to-ruby.html">Belfast Ruby</a> on how get started with Git and GitHub. These are the notes that accompany the practical demo I gave, you can also check out my short Keynote on <a href="https://speakerdeck.com/melissakeizer/gitn-started-with-version-control">Speakerdeck</a>. Hopefully this guide will still be useful to version control newbies now.</p>
+            <article class="intro--post">
+              <h1>Getting Started with Git</h1>
+              <p class="paragraph--intro"></p>
+              <p class="date">Posted on Jun 16, 2015</p>
+            </article>
+          </div>
+        </header>
+        <div class="container">
+          <article class="article__content">
+            <p>Last year I gave a talk at local developer meetup <a href="http://belfastruby.com/2014/01/30/intro-to-ruby.html">Belfast Ruby</a> on how get started with Git and GitHub. These are the notes that accompany the practical demo I gave, you can also check out my short Keynote on <a href="https://speakerdeck.com/melissakeizer/gitn-started-with-version-control">Speakerdeck</a>. Hopefully this guide will still be useful to version control newbies now.</p>
 
 <h2 id="creating-remote-repo">1. Creating Remote Repo</h2>
 
@@ -249,13 +242,14 @@ git merge branch-name
 <p>So, there’s a few Git fundamentals nailed down. Hopefully this will help you get started with Git on your own projects, but if you have any questions or run into issues feel free to tweet me <a href="http://twitter.com/keizgoesboom">@KeizGoesBoom</a>.</p>
 
 
-
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-  </article>
-
-  <div class="comment-section">
+          </article>
+          <div class="article__notes">
+              <p class="article__footnotes"><span>Footnotes: </span></p>
+              <p class="article__location"><i class="fa fa-map-marker" aria-hidden="true"></i> </p>
+          </div>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <div class="article__comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -271,9 +265,30 @@ git merge branch-name
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
-</section>
-</div>
-
+        </div>
+        <div class="article__more-posts">
+          <section class="container clearfix blog-posts">
+            <h2 class="center">Read more Posts</h2>
+            
+              <li class="blog-post">
+                <a href="/journal/i-will-photograph-your-pet/">
+                <img src="/img/blog-previews/raja-eating-my-camera.jpg" alt="/img/blog-previews/raja-eating-my-camera.jpg" />
+                <p class="date">04 February 2016</p>
+                <h3>I'll Photograph Your Pets!</h3>
+                </a>
+              </li>
+            
+              <li class="blog-post">
+                <a href="/journal/sony-a7ii-facts-and-thoughts/">
+                <img src="/img/blog-previews/my-sony-a7ii.jpg" alt="/img/blog-previews/my-sony-a7ii.jpg" />
+                <p class="date">30 October 2015</p>
+                <h3>Facts & Thoughts About My New Sony A7ii Camera</h3>
+                </a>
+              </li>
+            
+          </section>
+        </div>
+    </div>
     <footer>
   <section class="instagram-row">
     <div class="photos">
@@ -353,3 +368,4 @@ git merge branch-name
 
   </body>
 </html>
+

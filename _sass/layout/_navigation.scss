@@ -2,14 +2,15 @@
 /* Navigation */
 
 
-.navigation{
-  padding: 1.5em 1.5em 5em 1.5em;
+header{
+  position: relative;
 }
 
+
 nav ul{
-  display: block;
-  margin: 0 auto;
-  float: right;
+  position: absolute;
+  top: 40px;
+  right: 60px;
   li{
     display: inline-block;
     font-weight: 600;
@@ -27,6 +28,16 @@ nav ul{
         color: $yellow;
       }
     }
+  }
+}
+
+#page-post nav ul li a{
+  color: $white;
+  &:hover{
+    color: $yellow;
+  }
+  &.active, &:active{
+    color: $yellow;
   }
 }
 

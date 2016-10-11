@@ -1,20 +1,7 @@
 /* Journal/Blog Page */
 
 ul.blog-post-list{
-  margin-top: -720px;
-}
-
-.grey-background{
-  background: transparent;
-  width: 100%;
-  &::before{
-    background: $background-grey;
-    width: 100%;
-    height: 600px;
-    content: "";
-    display:block;
-    margin-top: 80px;
-  }
+  margin-top: -620px;
 }
 
 #page-journal .blog-post{
@@ -27,40 +14,74 @@ ul.blog-post-list{
   }
 }
 
-.blog-meta, .comment-section{
+/* Article */
+
+.article__cover{
+  height: 750px;
+  position: relative;
+  @include bg-cover;
+  margin-bottom: 60px;
+}
+
+.overlay {
+    background-color:rgba(0,0,0,.5);
+    height: 100%;
+  }
+
+.article__content{
+  p{
+    @include content-width;
+    .article__image{
+      img{
+        width: 100%;
+      }
+    }
+  }
+  h2, h3, h4{
+     @include content-width;
+  }
+  .article__image{
+    padding-bottom: 50px;
+    &--with-caption{
+      padding-bottom: 0;
+    }
+  }
+}
+
+
+
+.article__notes, .comment-section{
   @include content-width;
 }
 
-.blog-content p{
+.article__content p{
   @include content-width;
   margin-bottom: 5%;
 }
 
-.blog-content img{
+.article__content img{
   display: block;
   width: 100%;
 }
 
-.blog-meta h1{
-  margin-bottom: 7px;
+.article__notes{
+  text-align: center;
+  margin: 0 auto;
 }
 
-
-.caption{
-  padding-bottom: 0.5em;
-}
-
-
-ul.post-list li{
-  padding: 0 0 10% 0;
-  // border-bottom: 1px solid $grey;
-  &:first-child{
-    padding: 1% 0 10% 0;
-  }
-  &:last-child{
-    border: none;
+.article__more-posts{
+  background-color: $background-grey;
+  padding: 4% 0 1.5% 0;
+  h2{
+    padding: 0;
   }
 }
+
+.article__comments{
+  @include content-width;
+  padding: 5% 0 5% 0;
+}
+
 
 
 a.rss{
@@ -70,18 +91,6 @@ a.rss{
     color: $yellow;
   }
 }
-
-#page-journal .button{
-  width: 225px;
-  &:hover{
-    color: $white;
-  }
-}
-
-#page-journal h2{
-  margin: 0.1em 0 0.4em 0;
-}
-
 
 .rss-and-pagination{
   position: relative;
@@ -99,27 +108,4 @@ a.rss{
 }
 
 
-p a, #page-post ul li a, .pagination a, #page-about ul a{
-  text-decoration: none;
-  border-bottom: 1px solid $grey;
-  &:hover{
-    color: $yellow;
-  }
-}
-
-.image-link{
-  border: none;
-}
-
-.pagination a{
-  font-size: 19px;
-}
-
-#page-post ul {
-    margin-bottom: 5%;
-}
-
-#page-post ul li{
-  list-style: outside;
-}
 

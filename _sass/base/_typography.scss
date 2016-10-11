@@ -27,7 +27,7 @@ h2, h2 a, .h2{
   font-size: 40px;
   font-weight: 700;
   line-height: 1.2em;
-  margin: 1.5em 0 0.5em 0;
+  padding: 0 0 0.5em 0;
 }
 
 .sub-heading{
@@ -107,8 +107,32 @@ a:active {
   top: 1px;
 }
 
+.caption{
+  padding: 10px 0 60px 0;
+  display: block;
+  width: 100%;
+  font-size: 19px;
+  font-style: italic;
+  color: $graphite;
+}
 
-/* Styles within content chunks and blog posts */
+.article__footnotes{
+  color: $graphite;
+  font-size: 20px;
+  font-style: italic;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  span{
+    font-weight: 600;
+  }
+}
+
+.article__location{
+  font-family: $sans-serif-font-family;
+  font-weight: 600;
+  font-size: 20px;
+}
+
 
 
 /* Code */

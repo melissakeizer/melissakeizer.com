@@ -41,14 +41,17 @@
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
+  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
 
 
 </head>
 
   <body>
-    <header class="navigation">
-      <div class="container">
-          <nav class="menu">
+    <div id="page-post" class="article">
+      <header class="navigation article__cover" style="background-image:url(/img/blog-previews/sony-strobe.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            <nav class="menu">
     <ul class="desktop-menu">
       <li><a href="/" >Home</a></li>
        <li><a href="/about/" >About Me</a></li>
@@ -80,26 +83,16 @@
       </li>
     </ul>
   </nav>
-      </header>
-
-      <div class="container">
-        <article class="intro">
-          <h1>Strobist Photography for Sony Alpha shooters</h1>
-          <p class="paragraph--intro"></p>
-        </article>
-      </div>
-  </section>
-      <div id="page-post">
-<section class="container">
-  <article class="blog-meta">
-  <p class="date">Posted on May 3, 2015</p>
-    <h1>Strobist Photography for Sony Alpha shooters</h1>
-  </article>
-
-  <img src="/img/blog-previews/sony-strobe.jpg" alt="Strobist Photography for Sony Alpha shooters" />
-
-  <article class="content">
-    <p>When I’m out taking photos, I generally shoot the scene using the natural light outdoors, or the available light indoors, whether that’s stage lighting at a gig, or artificial light inside a room.  However there have been times when I’ve been shooting indoors in low-light and I’ve been forced to hike up my camera’s ISO setting, resulting in noisier (grainy) images. In those situations, I would have benefitted from having an off-camera flash.</p>
+            <article class="intro--post">
+              <h1>Strobist Photography for Sony Alpha shooters</h1>
+              <p class="paragraph--intro"></p>
+              <p class="date">Posted on May 3, 2015</p>
+            </article>
+          </div>
+        </header>
+        <div class="container">
+          <article class="article__content">
+            <p>When I’m out taking photos, I generally shoot the scene using the natural light outdoors, or the available light indoors, whether that’s stage lighting at a gig, or artificial light inside a room.  However there have been times when I’ve been shooting indoors in low-light and I’ve been forced to hike up my camera’s ISO setting, resulting in noisier (grainy) images. In those situations, I would have benefitted from having an off-camera flash.</p>
 
 <p>I became more and more interested in strobist photography (i.e. using off-camera flashes, a.k.a. speedlights, to light a scene) so when asked for Christmas gift ideas last year, I decided to put some lighting equipment on my list.  It was a frustrating experience searching for answers regarding off-camera flash setups for Sony Alpha users, as there seems to be a lack of information available about this. Hopefully this post will be helpful in guiding other off-camera, wireless flash photography newbies, and in particular, fellow Sony Alpha shooters.</p>
 
@@ -166,13 +159,14 @@
 <p>Hopefully this post has helped clarify what you’ll need and how to get started. Post a comment if you have any questions! Oh and if you’re interested in seeing a few more photos from the shoot, take a look on my <a href="https://www.flickr.com/photos/tinyspark_boom/sets/72157652372228675/">Flickr</a>.</p>
 
 
-
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-  </article>
-
-  <div class="comment-section">
+          </article>
+          <div class="article__notes">
+              <p class="article__footnotes"><span>Footnotes: </span></p>
+              <p class="article__location"><i class="fa fa-map-marker" aria-hidden="true"></i> </p>
+          </div>
+          <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <div class="article__comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -188,9 +182,30 @@
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
-</section>
-</div>
-
+        </div>
+        <div class="article__more-posts">
+          <section class="container clearfix blog-posts">
+            <h2 class="center">Read more Posts</h2>
+            
+              <li class="blog-post">
+                <a href="/journal/i-will-photograph-your-pet/">
+                <img src="/img/blog-previews/raja-eating-my-camera.jpg" alt="/img/blog-previews/raja-eating-my-camera.jpg" />
+                <p class="date">04 February 2016</p>
+                <h3>I'll Photograph Your Pets!</h3>
+                </a>
+              </li>
+            
+              <li class="blog-post">
+                <a href="/journal/sony-a7ii-facts-and-thoughts/">
+                <img src="/img/blog-previews/my-sony-a7ii.jpg" alt="/img/blog-previews/my-sony-a7ii.jpg" />
+                <p class="date">30 October 2015</p>
+                <h3>Facts & Thoughts About My New Sony A7ii Camera</h3>
+                </a>
+              </li>
+            
+          </section>
+        </div>
+    </div>
     <footer>
   <section class="instagram-row">
     <div class="photos">
@@ -270,3 +285,4 @@
 
   </body>
 </html>
+

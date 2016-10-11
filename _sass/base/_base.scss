@@ -34,16 +34,27 @@ body {
 
 
 .intro{
-    max-width: 600px;
+    max-width: 700px;
     padding: 8% 0 4% 0;
     display: block;
-  }
-
-/* Comments */
-
-.comment-section{
-  padding-top: 2em;
+    &--post{
+      color: $white;
+      padding: 0;
+      position: absolute;
+      bottom: 40px;
+      h1, p{
+        color: white;
+      }
+      .date{
+        display: none;
+      }
+    }
 }
+
+#page-home .intro{
+  max-width: 600px;
+}
+
 
 /* Main Areas */
 
@@ -85,6 +96,19 @@ body {
     &--homepage-photography{
       background-image: url(/img/homepage/photography-bg.jpg);
     }
+  }
+}
+
+.grey-background{
+  background: transparent;
+  width: 100%;
+  &::before{
+    background: $background-grey;
+    width: 100%;
+    height: 500px;
+    content: "";
+    display:block;
+    margin-top: 80px;
   }
 }
 
