@@ -51,9 +51,10 @@
       <header class="navigation article__cover" style="background-image:url(/img/blog-previews/raja-eating-my-camera.jpg);">
         <div class="overlay"></div>
         <div class="container">
-            <nav class="menu">
-    <ul class="desktop-menu">
-      <li><a href="/" >Home</a></li>
+            <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.jpg" alt="melissa keizer logo" /img></a>
+
+<nav class="main-navigation">
+    <ul class="main-navigation__list">
        <li><a href="/about/" >About Me</a></li>
        <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" >Photography</a></li>
@@ -129,10 +130,6 @@
           </article>
           <div class="article__notes">
               
-                <p class="article__footnotes"><span>Footnotes: </span>All images shot with Sony A7ii 55mm f/1.8</p>
-              
-              
-                <p class="article__location"><i class="fa fa-map-marker" aria-hidden="true"></i> The Open Ark Farm, Bangor Road</p>
               
           </div>
           <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
@@ -179,42 +176,25 @@
     </div>
     <footer>
 
-/* Instafeed */
-
-<div id="instafeed"></div>
-
-<script type="text/javascript">
-  var userFeed = new Instafeed({
-    get: 'user',
-    userId: '486291',
-    clientId: '5da4419ffb5f4840a6d7d15ab7150d6c',
-    accessToken: '466840c92fc441b4b179fa4dd73f21a3',
-    resolution: 'standard_resolution',
-    template: '<a href="" target="_blank" id=""><img src="" /><span></span></a>',
-    sortBy: 'most-recent',
-    limit: 4,
-    links: false
-  });
-  userFeed.run();
-</script>
-
-  <section class="instagram-row">
-    <div class="photos">
-    </div>
-    <div class="instagram-block">
-      <i class="fa fa-instagram"></i>
-      <p>Follow my adventures on Instagram</p>
-    </div>
-  </section>
-
-  <div class="clearfix footer-info">
+  <div class="clearfix">
     <div class="container">
-      <div class="send-me-email">
-        <h4>I’m currently available for freelance photography work </h4>
-        <p>Fancy a chat? Send an email to <a href="mailto:hi@melissakeizer.com">hi@melissakeizer.com</a> to start the conversation. </p>
+      <div class="footer__logo">
+        <img src="/img/melissa-keizer-logo-full.jpg" alt="melissa keizer logo"/>
       </div>
 
-      <div class="social-block">
+      <ul class="footer__sitemap">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Me</a></li>
+        <li><a href="/design/">Design &amp; Development</a></li>
+      </ul>
+      <ul class="footer__sitemap">
+        <li><a href="/photography/">Photography</a></li>
+        <li><a href="/photography/">Pet Photography</a></li>
+        <li><a href="/journal/">Journal</a></li>
+      </ul>
+
+
+      <div class="footer__social-block">
         <div class="row">
           <a href="http://twitter.com/keizgoesboom" class="twitter">
             <i class="fa fa-twitter"></i>

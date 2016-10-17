@@ -5,8 +5,6 @@ title:  "I'll Photograph Your Pets!"
 intro: "Do what you love and love what you do"
 date:   2016-02-04 13:50:00
 cover-photo: "/img/blog-previews/raja-eating-my-camera.jpg"
-footnotes: All images shot with Sony A7ii 55mm f/1.8
-location: The Open Ark Farm, Bangor Road
 
 ---
 

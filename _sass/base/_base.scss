@@ -35,7 +35,7 @@ body {
 
 .intro{
     max-width: 700px;
-    padding: 8% 0 4% 0;
+    padding: 270px 0 70px 0;
     display: block;
     &--post{
       color: $white;
@@ -68,7 +68,7 @@ body {
     position: relative;
     &__text{
       padding: 15% 10%;
-      .link{
+      a.link{
         position: absolute;
         bottom: 15%;
       }

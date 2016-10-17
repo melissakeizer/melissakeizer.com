@@ -3,14 +3,27 @@
 footer{
   float: left;
   width: 100%;
-  background-color: $white;
-  color: $black;
-  p{
-    color: $black;
-    padding-top: 9px;
-  }
+  background-color: $black;
+  color: $white;
+  padding: 70px 0;
   a{
     text-decoration: none;
+  }
+  margin-bottom: 10px;
+}
+
+ul.footer__sitemap{
+  padding-top: 55px;
+  @include navigation-styles;
+  color: $white;
+  float: left;
+  width: 220px;
+  list-style: none;
+  li{
+    padding-bottom: 5px;
+  }
+  a:hover{
+  color: $yellow;
   }
 }
 
@@ -30,41 +43,40 @@ footer{
   }
 }
 
-.footer-info{
-  padding: 90px 0;
-  width: 100%;
+.footer__logo{
   float: left;
-}
-
-.send-me-email{
-  width: 70%;
-  float: left;
-}
-
-.social-block{
-  width: 30%;
-  float: left;
-}
-
-.social-block a{
-  text-align: center;
-  vertical-align: center;
-  color: $black;
-  float: right;
-  &:hover{
-    background: $yellow;
+  width: 350px;
+  img{
+    width: 100%;
+    max-width: 280px;
   }
 }
 
-.social-block .fa{
+
+.footer__social-block{
+  padding-top: 55px;
+  width: 300px;
+  float: right;
+    a{
+    text-align: center;
+    vertical-align: center;
+    color: $white;
+    float: right;
+    &:hover{
+      background: $yellow;
+    }
+  }
+  .fa{
   padding: 0.7em;
   width: 55px;
   height: 55px;
-  border: 1px solid #DBDBDB;
-  &:hover{
-    border: none;
+  border: 1px solid #505457;
+    &:hover{
+      border: none;
+    }
   }
 }
+
 
 .row{
   float:right;

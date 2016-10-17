@@ -2,7 +2,7 @@
 layout: post
 selected: journal
 title:  "First Newborn Photoshoot"
-inro: Don't believe Pinterest
+intro: A little session with baby Amelie
 date:   2015-10-03 13:50:00
 cover-photo: "/img/blog-previews/baby-amelie.jpg"
 footnotes: All images shot with Sony A580 35mm f/1.8

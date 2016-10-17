@@ -6,20 +6,27 @@ header{
   position: relative;
 }
 
+a.header__logo{
+ width: 285px;
+ position: absolute;
+ top: 35px;
+ left: 60px;
+ img{
+  width: 285px;
+ }
+}
 
-nav ul{
+
+ul.main-navigation__list{
   position: absolute;
   top: 40px;
   right: 60px;
   li{
     display: inline-block;
-    font-weight: 600;
+    font-weight: 700;
     a{
-      font-family: $sans-serif-font-family;
-      font-size: 18px;
-      margin: 0 0 0 1.1em;
+      @include navigation-styles;
       color: $black;
-      text-decoration: none;
       padding-bottom: 2px;
       &:hover{
         color: $yellow;
