@@ -22,21 +22,24 @@ intro: I write about photography, designing user experiences and random life exp
 
 
 
-<div class="rss-and-pagination container clearfix">
-  <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="rss" title="subscribe via RSS"><i class="fa fa-rss"></i></a>
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="previous">&laquo; Previous</a>
-    {% else %}
-      <!-- <span class="previous">Newer Posts</span> -->
-    {% endif %}
-  <!--   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="next">Show More Posts &raquo;</a>
-    {% else %}
-      <!-- <span class="next ">Older Posts</span> -->
-    {% endif %}
-  </div>
-</div>
-</article>
+<section class="block clearfix see-more-link">
+    <div class="rss-and-pagination container clearfix">
+      <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="rss" title="subscribe via RSS"><i class="fa fa-rss"></i></a>
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class=" link link--black previous">&laquo; Previous</a>
+        {% else %}
+          <!-- <span class="previous">Newer Posts</span> -->
+        {% endif %}
+      <!--   <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class=" link link--black next">Show More Posts &raquo;</a>
+        {% else %}
+          <!-- <span class="next ">Older Posts</span> -->
+        {% endif %}
+      </div>
+    </div>
+</section>
+
+
 

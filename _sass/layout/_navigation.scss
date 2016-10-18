@@ -60,23 +60,25 @@ a.hamburger:hover {
 
 a.hamburger{
   display: none;
-  float: right;
-  padding-right: 1.2em;
+  position: absolute;
+  top: 40px;
+  right: 40px;
   &.active{
     border: none;
   }
 }
 
 
+
  #mobile-menu {
   display: none;
   position: fixed;
-  background: $black;
+  background: $yellow;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  padding: 20px;
+  padding: 8%;
   z-index: 1000;
 }
 
@@ -89,19 +91,19 @@ a.hamburger{
   width: 100%;
   li {
   display: block;
-  padding: 12px 0;
+  padding: 15px 0;
   font-weight: 600;
   &:first-child{
-    padding-top: 40px;
+    padding-top: 15%;
     }
   a{
   display: block;
   text-align: left;
-  color: $white;
-  font-size: 30px;
+  color: $black;
+  font-size: 35px;
   margin: 0;
   &:hover{
-    border: none;
+    color: $white;
     }
   &.active{
     border: none;
