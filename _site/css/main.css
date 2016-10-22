@@ -49,6 +49,27 @@
 .bottom-space--l {
   padding-bottom: 100px; }
 
+/* Fontface */
+@font-face {
+  font-family: 'metaserif-bookregular';
+  src: url("../metaserif-book-webfont.woff2") format("woff2"), url("../metaserif-book-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'metaserif-bookitaregular';
+  src: url("../metaserif-bookita-webfont.woff2") format("woff2"), url("../metaserif-bookita-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'metaseriftf-boldregular';
+  src: url("../fonts/metaseriftf-bold-webfont.woff2") format("woff2"), url("../fonts/metaseriftf-bold-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'metaseriftf-bolditaregular';
+  src: url("../fonts/metaseriftf-boldita-webfont.woff2") format("woff2"), url("../fonts/metaseriftf-boldita-webfont.woff") format("woff");
+  font-weight: bold;
+  font-style: italic; }
 /*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -474,17 +495,14 @@ body {
 
 /* Typography */
 body {
-  font-family: "ff-meta-serif-web-pro", serif;
+  font-family: "metaserifsc-bookregular", "Georgia", serif;
   font-size: 21px;
   line-height: 1.3em;
-  font-weight: 300;
-  font-style: normal;
   color: #282D31;
   -webkit-text-size-adjust: 100%; }
 
 h1, .h1 {
-  font-family: "ff-meta-serif-web-pro", serif;
-  font-weight: 600;
+  font-family: "metaseriftf-boldregular", "Georgia", serif;
   color: #282D31;
   font-size: 48px;
   line-height: 1.3em;
@@ -492,14 +510,13 @@ h1, .h1 {
   margin-bottom: 0.25em; }
 
 h2, h2 a, .h2 {
-  font-family: "ff-meta-serif-web-pro", serif;
+  font-family: "metaseriftf-boldregular", "Georgia", serif;
   font-size: 40px;
-  font-weight: 700;
   line-height: 1.2em;
   padding: 0 0 0.5em 0; }
 
 .sub-heading {
-  font-family: "sofia-pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 17px;
   font-weight: bold;
   text-transform: uppercase; }
@@ -509,12 +526,14 @@ h2, h2 a, .h2 {
     color: #878787; }
 
 h3, h3 a {
+  font-family: "metaseriftf-boldregular", "Georgia", serif;
   font-weight: 700;
   line-height: 1.2em;
   font-size: 25px;
   padding-bottom: 9px; }
 
 p {
+  font-family: "metaserifsc-bookregular", "Georgia", serif;
   margin-bottom: 5%;
   color: #282D31;
   line-height: 1.3em;
@@ -538,7 +557,7 @@ a, a:visited, a:hover, a:active {
     font-size: 22px; }
 
 a.link {
-  font-family: "sofia-pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 22px;
   transition: all .2s ease-in-out;
@@ -587,7 +606,7 @@ a:active {
     font-weight: 600; }
 
 .article__location {
-  font-family: "sofia-pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 20px; }
 
@@ -639,7 +658,7 @@ ul.main-navigation__list {
     display: inline-block;
     font-weight: 700; }
     ul.main-navigation__list li a {
-      font-family: "sofia-pro", sans-serif;
+      font-family: "Montserrat", sans-serif;
       text-transform: uppercase;
       font-size: 15px;
       letter-spacing: 0 0.8em;
@@ -785,7 +804,7 @@ footer {
 
 ul.footer__sitemap {
   padding-top: 55px;
-  font-family: "sofia-pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 0 0.8em;
