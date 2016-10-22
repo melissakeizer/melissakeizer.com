@@ -42,11 +42,14 @@
   <script src="/js/all.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
   <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="../dist/aos.js"></script>
+	<link rel="stylesheet" href="../dist/aos.css" />
 
 
 </head>
 
   <body>
+		<div id="transcroller-body" class="aos-all">
     <header class="navigation">
       <div class="container">
           <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.jpg" alt="melissa keizer logo" /img></a>
@@ -82,17 +85,15 @@
       <div id="page-home">
         <div class="container">
           <article class="intro">
-            <h1>I take photos, make websites &amp; pet every dog</h1>
-            <p class="paragraph--intro">User Interface &amp; User Experience Designer, Photographer, Animal Obssessor & Dutch/Northern Irish Mongrel</p>
+            <h1 class="aos-item" data-aos="fade-up">I take photos, make websites &amp; pet every dog</h1>
+            <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="100">User Interface &amp; User Experience Designer, Photographer, Animal Obssessor & Dutch/Northern Irish Mongrel</p>
           </article>
         </div>
         <section class="block">
   <div class="block__info block__info--yellow">
-    <div class="block__info__text">
-      <h2 class="sub-heading sub-heading--gold">- UX/UI Design &amp; Development</h2>
-      <h2>Designing websites &amp; bettering user experiences</h2>
-      <a href="/design/" class="link link--black">View my design work</a>
-    </div>
+      <h2 class="sub-heading sub-heading--gold aos-item" data-aos="fade-left">- UX/UI Design &amp; Development</h2>
+      <h2 class="aos-item" data-aos="fade-left">Designing websites &amp; bettering user experiences</h2>
+			<a href="/design/" class="link link--black aos-item" data-aos="fade-left">View my design work</a>
   </div>
   <div class="block__photo block__photo--homepage-design"></div>
 </section>
@@ -209,5 +210,6 @@
 
 </script>
       </div>
+			</div>
   </body>
 </html>

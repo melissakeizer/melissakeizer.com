@@ -42,11 +42,14 @@
   <script src="/js/all.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
   <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="../dist/aos.js"></script>
+	<link rel="stylesheet" href="../dist/aos.css" />
 
 
 </head>
 
   <body>
+		<div id="transcroller-body" class="aos-all">
     <header class="navigation">
       <div class="container">
           <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.jpg" alt="melissa keizer logo" /img></a>
@@ -82,8 +85,8 @@
       <div id="page-journal">
         <div class="container">
           <article class="intro">
-            <h1>Design</h1>
-            <p class="paragraph--intro">Here mate I'll make you a wee website so I will</p>
+            <h1 class="aos-item" data-aos="fade-up">Design</h1>
+            <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="100">Here mate I'll make you a wee website so I will</p>
           </article>
         </div>
         <div id="page-design">
@@ -209,5 +212,6 @@
 
 </script>
       </div>
+			</div>
   </body>
 </html>
