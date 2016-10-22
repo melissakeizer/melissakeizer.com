@@ -2,18 +2,19 @@
 
 @font-face {
     font-family: 'metaserif-bookregular';
-    src: url('../metaserif-book-webfont.woff2') format('woff2'),
-         url('../metaserif-book-webfont.woff') format('woff');
-    font-weight: normal;
+    src: url('../fonts/metaserif-book-webfont.woff2') format('woff2'),
+         url('../fonts/metaserif-book-webfont.woff') format('woff');
     font-style: normal;
+    font-weight: 300;
 
 }
+
 @font-face {
     font-family: 'metaserif-bookitaregular';
-    src: url('../metaserif-bookita-webfont.woff2') format('woff2'),
-         url('../metaserif-bookita-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    src: url('../fonts/metaserif-bookita-webfont.woff2') format('woff2'),
+         url('../fonts/metaserif-bookita-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
 
 }
 @font-face {

@@ -6,16 +6,19 @@ body {
     line-height: $base-line-height;
     color: $black;
     -webkit-text-size-adjust: 100%;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    font-weight: 300;
 }
 
 
 h1, .h1{
   font-family: $serif-font-family-bold;
   color: $black;
-  font-size: 48px;
+  font-size: 51px;
   line-height: 1.3em;
   text-align: left;
   margin-bottom: 0.25em;
+
 }
 
 
@@ -45,6 +48,7 @@ h3, h3 a{
   line-height: 1.2em;
   font-size: 25px;
   padding-bottom: 9px;
+  font-style: normal;
 }
 
 p{
@@ -106,7 +110,7 @@ a.link{
   margin-bottom: 0;
 }
 
-p.intro{
+.intro p{
   font-size: 24px;
   padding: 10px 0;
   line-height: 1.3em;

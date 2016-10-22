@@ -10,6 +10,7 @@ body {
    box-sizing: border-box;
    -moz-box-sizing:border-box;
    -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
 }
 
 .container{
@@ -65,12 +66,12 @@ body {
     position: relative;
     &__text{
       padding: 15% 10%;
-      a.link{
-        position: absolute;
-        bottom: 15%;
-      }
       h2{
         margin-top: 0.3em;
+        padding-bottom: 200px;
+      }
+      h2.sub-heading{
+        padding-bottom: 0;
       }
     }
     &--yellow{
