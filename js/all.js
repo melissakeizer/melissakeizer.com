@@ -8,13 +8,9 @@ $(document).ready(function(){
     variableWidth: true
   });
   // Mobile navigation
-  $('#close-menu').on('click', function( event ){
-    event.preventDefault();
-    $('#mobile-menu').css("display", "none");
-  });
-  $('#hamburger').on('click', function( event ){
-    event.preventDefault();
-    $('#mobile-menu').css("display", "block");
+  $('#menuicon label').on( "click", function( event ) {
+		$('#menuicon').toggleClass( "ontop" );
+		$('#mobile-menu').toggleClass( "visible" );
   });
 	AOS.init({
 		easing: 'ease-in-out-sine'
