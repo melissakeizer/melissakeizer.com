@@ -1,19 +1,16 @@
 /* Typography */
 
 body {
-    font-family: $serif-font-family;
+    font-family: $serif-font-family-book;
     font-size: 21px;
     line-height: $base-line-height;
-    font-weight: 300;
-    font-style: normal;
     color: $black;
     -webkit-text-size-adjust: 100%;
 }
 
 
 h1, .h1{
-  font-family: $serif-font-family;
-  font-weight: 600;
+  font-family: $serif-font-family-bold;
   color: $black;
   font-size: 48px;
   line-height: 1.3em;
@@ -23,9 +20,8 @@ h1, .h1{
 
 
 h2, h2 a, .h2{
-  font-family:$serif-font-family;
+  font-family:$serif-font-family-bold;
   font-size: 40px;
-  font-weight: 700;
   line-height: 1.2em;
   padding: 0 0 0.5em 0;
 }
@@ -44,6 +40,7 @@ h2, h2 a, .h2{
 }
 
 h3, h3 a{
+  font-family:$serif-font-family-bold;
   font-weight: 700;
   line-height: 1.2em;
   font-size: 25px;
@@ -51,6 +48,7 @@ h3, h3 a{
 }
 
 p{
+  font-family: $serif-font-family-book;
   margin-bottom: 5%;
   color: $black;
   line-height:$base-line-height;
