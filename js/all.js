@@ -16,4 +16,7 @@ $(document).ready(function(){
     event.preventDefault();
     $('#mobile-menu').css("display", "block");
   });
+	AOS.init({
+		easing: 'ease-in-out-sine'
+	});
 });

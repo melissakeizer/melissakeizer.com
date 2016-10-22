@@ -42,11 +42,14 @@
   <script src="/js/all.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
   <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="../dist/aos.js"></script>
+	<link rel="stylesheet" href="../dist/aos.css" />
 
 
 </head>
 
   <body>
+		<div id="transcroller-body" class="aos-all">
     <header class="navigation">
       <div class="container">
           <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.jpg" alt="melissa keizer logo" /img></a>
@@ -82,14 +85,14 @@
       <div id="page-journal">
         <div class="container">
           <article class="intro">
-            <h1>My Journal</h1>
-            <p class="paragraph--intro">I write about photography, designing user experiences and random life experiences</p>
+            <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">My Journal</h1>
+            <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">I write about photography, designing user experiences and random life experiences</p>
           </article>
         </div>
         <section class="grey-background clearfix blog-posts">
  <ul class="container blog-post-list clearfix">
  
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/ship-it/">
     <img src="/img/blog-previews/ship-it.jpg" alt="/img/blog-previews/ship-it.jpg" />
     <p class="date">04 March 2015</p>
@@ -185,5 +188,6 @@
 
 </script>
       </div>
+			</div>
   </body>
 </html>

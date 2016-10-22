@@ -6,14 +6,13 @@ title: Designer &amp; photographer in Bangor, Northern Ireland.
 intro: Hey, I'm Melissa. I spend my days tinkering with user experiences, designing websites and taking photos.
 ---
 
-
 <section class="block">
   <div class="block__info block__info--yellow">
-    <div class="block__info__text">
-      <h2 class="sub-heading sub-heading--gold">- UX/UI Design &amp; Development</h2>
-      <h2>Designing websites &amp; bettering user experiences</h2>
-      <a href="{{ site.baseurl }}/design/" class="link link--black">View my design work</a>
-    </div>
+		<div class="block__info__text">
+      <h2 class="sub-heading sub-heading--gold aos-item" data-aos="fade-left" data-aos-once="true">- UX/UI Design &amp; Development</h2>
+      <h2 class="aos-item" data-aos="fade-left" data-aos-once="true">Designing websites &amp; bettering user experiences</h2>
+			<a href="{{ site.baseurl }}/design/" class="link link--black aos-item" data-aos="fade-left" data-aos-once="true">View my design work</a>
+		</div>
   </div>
   <div class="block__photo block__photo--homepage-design"></div>
 </section>
@@ -22,9 +21,9 @@ intro: Hey, I'm Melissa. I spend my days tinkering with user experiences, design
   <div class="block__photo block__photo--homepage-photography"></div>
   <div class="block__info block__info--black">
     <div class="block__info__text">
-      <h2 class="sub-heading sub-heading--grey">- Photography</h2>
-      <h2>Shooting people, places &amp; animals with my camera</h2>
-      <a href="{{ site.baseurl }}/photography/" class="link link--white">Check out my photos</a>
+      <h2 class="sub-heading sub-heading--grey aos-item" data-aos="fade-left" data-aos-once="true">- Photography</h2>
+      <h2 class="aos-item" data-aos="fade-left" data-aos-once="true">Shooting people, places &amp; animals with my camera</h2>
+      <a href="{{ site.baseurl }}/photography/" class="link link--whiteaos-item" data-aos="fade-left" data-aos-once="true">Check out my photos</a>
     </div>
   </div>
 </section>
@@ -32,7 +31,7 @@ intro: Hey, I'm Melissa. I spend my days tinkering with user experiences, design
 <section class="container clearfix blog-posts">
 <h2 class="sub-heading grey">- Latest Blog Posts</h2>
 {% for post in site.posts limit:2 %}
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="{{ post.url | prepend: site.baseurl }}">
     <img src="{{ post.cover-photo }}" alt="{{ post.cover-photo }}" />
     <p class="date">{{ post.date | date: "%d %B %Y" }}</p>

@@ -42,11 +42,14 @@
   <script src="/js/all.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
   <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="../dist/aos.js"></script>
+	<link rel="stylesheet" href="../dist/aos.css" />
 
 
 </head>
 
   <body>
+		<div id="transcroller-body" class="aos-all">
     <header class="navigation">
       <div class="container">
           <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.jpg" alt="melissa keizer logo" /img></a>
@@ -82,17 +85,17 @@
       <div id="page-home">
         <div class="container">
           <article class="intro">
-            <h1>Designer &amp; photographer in Bangor, Northern Ireland.</h1>
-            <p class="paragraph--intro">Hey, I'm Melissa. I spend my days tinkering with user experiences, designing websites and taking photos.</p>
+            <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">Designer &amp; photographer in Bangor, Northern Ireland.</h1>
+            <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">Hey, I'm Melissa. I spend my days tinkering with user experiences, designing websites and taking photos.</p>
           </article>
         </div>
         <section class="block">
   <div class="block__info block__info--yellow">
-    <div class="block__info__text">
-      <h2 class="sub-heading sub-heading--gold">- UX/UI Design &amp; Development</h2>
-      <h2>Designing websites &amp; bettering user experiences</h2>
-      <a href="/design/" class="link link--black">View my design work</a>
-    </div>
+		<div class="block__info__text">
+      <h2 class="sub-heading sub-heading--gold aos-item" data-aos="fade-left" data-aos-once="true">- UX/UI Design &amp; Development</h2>
+      <h2 class="aos-item" data-aos="fade-left" data-aos-once="true">Designing websites &amp; bettering user experiences</h2>
+			<a href="/design/" class="link link--black aos-item" data-aos="fade-left" data-aos-once="true">View my design work</a>
+		</div>
   </div>
   <div class="block__photo block__photo--homepage-design"></div>
 </section>
@@ -101,9 +104,9 @@
   <div class="block__photo block__photo--homepage-photography"></div>
   <div class="block__info block__info--black">
     <div class="block__info__text">
-      <h2 class="sub-heading sub-heading--grey">- Photography</h2>
-      <h2>Shooting people, places &amp; animals with my camera</h2>
-      <a href="/photography/" class="link link--white">Check out my photos</a>
+      <h2 class="sub-heading sub-heading--grey aos-item" data-aos="fade-left" data-aos-once="true">- Photography</h2>
+      <h2 class="aos-item" data-aos="fade-left" data-aos-once="true">Shooting people, places &amp; animals with my camera</h2>
+      <a href="/photography/" class="link link--whiteaos-item" data-aos="fade-left" data-aos-once="true">Check out my photos</a>
     </div>
   </div>
 </section>
@@ -111,7 +114,7 @@
 <section class="container clearfix blog-posts">
 <h2 class="sub-heading grey">- Latest Blog Posts</h2>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/i-will-photograph-your-pet/">
     <img src="/img/blog-previews/raja-eating-my-camera.jpg" alt="/img/blog-previews/raja-eating-my-camera.jpg" />
     <p class="date">04 February 2016</p>
@@ -119,7 +122,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/sony-a7ii-facts-and-thoughts/">
     <img src="/img/blog-previews/my-sony-a7ii.jpg" alt="/img/blog-previews/my-sony-a7ii.jpg" />
     <p class="date">30 October 2015</p>
@@ -209,5 +212,6 @@
 
 </script>
       </div>
+			</div>
   </body>
 </html>

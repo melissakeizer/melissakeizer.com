@@ -42,11 +42,14 @@
   <script src="/js/all.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
   <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="../dist/aos.js"></script>
+	<link rel="stylesheet" href="../dist/aos.css" />
 
 
 </head>
 
   <body>
+		<div id="transcroller-body" class="aos-all">
     <header class="navigation">
       <div class="container">
           <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.jpg" alt="melissa keizer logo" /img></a>
@@ -82,14 +85,14 @@
       <div id="page-journal">
         <div class="container">
           <article class="intro">
-            <h1>My Journal</h1>
-            <p class="paragraph--intro">I write about photography, designing user experiences and random life experiences</p>
+            <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">My Journal</h1>
+            <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">I write about photography, designing user experiences and random life experiences</p>
           </article>
         </div>
         <section class="grey-background clearfix blog-posts">
  <ul class="container blog-post-list clearfix">
  
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/i-will-photograph-your-pet/">
     <img src="/img/blog-previews/raja-eating-my-camera.jpg" alt="/img/blog-previews/raja-eating-my-camera.jpg" />
     <p class="date">04 February 2016</p>
@@ -97,7 +100,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/sony-a7ii-facts-and-thoughts/">
     <img src="/img/blog-previews/my-sony-a7ii.jpg" alt="/img/blog-previews/my-sony-a7ii.jpg" />
     <p class="date">30 October 2015</p>
@@ -105,7 +108,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/first-newborn-photoshoot/">
     <img src="/img/blog-previews/baby-amelie.jpg" alt="/img/blog-previews/baby-amelie.jpg" />
     <p class="date">03 October 2015</p>
@@ -113,7 +116,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/hybrid-conf/">
     <img src="/img/blog-previews/hybrid-conf.jpg" alt="/img/blog-previews/hybrid-conf.jpg" />
     <p class="date">30 August 2015</p>
@@ -121,7 +124,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/hey-take-my-card/">
     <img src="/img/blog-previews/business-cards.jpg" alt="/img/blog-previews/business-cards.jpg" />
     <p class="date">17 August 2015</p>
@@ -129,7 +132,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/getting-started-with-git/">
     <img src="/img/blog-previews/start-git.jpg" alt="/img/blog-previews/start-git.jpg" />
     <p class="date">16 June 2015</p>
@@ -137,7 +140,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/strobist-photography-for-sony-alpha-shooters/">
     <img src="/img/blog-previews/sony-strobe.jpg" alt="/img/blog-previews/sony-strobe.jpg" />
     <p class="date">03 May 2015</p>
@@ -145,7 +148,7 @@
     </a>
   </li>
 
-  <li class="blog-post">
+  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
     <a href="/journal/tot-ziens-rumble-labs/">
     <img src="/img/blog-previews/rumble-pink.jpg" alt="/img/blog-previews/rumble-pink.jpg" />
     <p class="date">18 March 2015</p>
@@ -241,5 +244,6 @@
 
 </script>
       </div>
+			</div>
   </body>
 </html>
