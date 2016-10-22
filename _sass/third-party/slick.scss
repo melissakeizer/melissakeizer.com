@@ -36,6 +36,9 @@
   height: 65px;
   border: none;
   background: url(../img/misc/arrow-right.png) no-repeat;
+  &:hover{
+   background: url(../img/misc/arrow-right-hover.png) no-repeat;
+  }
 }
 
 .slick-prev{

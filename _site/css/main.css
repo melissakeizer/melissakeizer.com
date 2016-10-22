@@ -408,8 +408,9 @@ body {
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-backface-visibility: hidden; }
 
 .container {
   margin: 0 auto;
@@ -1117,6 +1118,8 @@ ul.content {
   height: 65px;
   border: none;
   background: url(../img/misc/arrow-right.png) no-repeat; }
+  .slick-prev:hover, .slick-next:hover {
+    background: url(../img/misc/arrow-right-hover.png) no-repeat; }
 
 .slick-prev {
   left: 20px;
