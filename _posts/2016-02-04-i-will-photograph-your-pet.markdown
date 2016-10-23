@@ -2,7 +2,7 @@
 layout: post
 selected: journal
 title:  "I'll Photograph Your Pets!"
-intro: "Do what you love and love what you do"
+intro: "Pet sessions with you, me and your favourite four-legged animals"
 date:   2016-02-04 13:50:00
 cover-photo: "/img/blog-previews/raja-eating-my-camera.jpg"
 

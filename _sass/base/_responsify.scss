@@ -76,7 +76,7 @@ ul.footer__sitemap{
 }
 
 .article__cover {
-  height: 680px;
+  height: 700px;
 }
 
 .article__content h2, .article__content h3, .article__content h4, .article__content ul, .article__content p {
@@ -112,6 +112,9 @@ h1{
   height: 580px;
 }
 
+.article__cover {
+  height: 600px;
+}
 
 
 
@@ -257,9 +260,29 @@ ul.footer__sitemap {
   }
 }
 
+.article__cover {
+  height: 500px;
+}
+
 }
 
 @media only screen and (max-width: 795px) {
+
+  h1, .h1{
+    font-size:32px;
+  }
+
+  h2, .h2 {
+    font-size: 26px;
+  }
+
+  h2.sub-heading{
+    font-size: 14px;
+  }
+
+  a.link {
+    font-size: 17px;
+  }
 
 
 a.header__logo {
@@ -303,6 +326,14 @@ a.header__logo {
 p, .intro p {
     font-size: 20px;
 }
+
+.article__cover {
+  height: 400px;
+}
+
+.block__photo {
+  height: 400px;
+  }
 
 
 }
