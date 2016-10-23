@@ -58,11 +58,18 @@ p{
   line-height:$base-line-height;
   font-size: 22px;
   line-height: 1.5em;
+  a{
+    border-bottom: 1px solid $grey;
+    &:hover{
+      border-bottom: 1px solid $yellow;
+    }
+  }
 }
 
 a{
   text-decoration: none;
   outline: 0;
+  cursor: pointer;
 }
 
 a, a:visited, a:hover, a:active {

@@ -50,8 +50,13 @@ ul.blog-post-list{
 
 
 
-.article__notes, .comment-section{
+.article__notes, .comment-section, .addthis_inline_share_toolbox{
   @include content-width;
+}
+
+.addthis_inline_share_toolbox{
+  text-align: center;
+  padding-top: 30px;
 }
 
 .article__content p{

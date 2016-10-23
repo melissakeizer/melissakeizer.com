@@ -545,10 +545,15 @@ p {
   line-height: 1.3em;
   font-size: 22px;
   line-height: 1.5em; }
+  p a {
+    border-bottom: 1px solid #878787; }
+    p a:hover {
+      border-bottom: 1px solid #EBC828; }
 
 a {
   text-decoration: none;
-  outline: 0; }
+  outline: 0;
+  cursor: pointer; }
 
 a, a:visited, a:hover, a:active {
   color: inherit; }
@@ -1023,9 +1028,13 @@ ul.blog-post-list {
   .article__content .article__image--with-caption {
     padding-bottom: 0; }
 
-.article__notes, .comment-section {
+.article__notes, .comment-section, .addthis_inline_share_toolbox {
   margin: 0 auto;
   max-width: 840px; }
+
+.addthis_inline_share_toolbox {
+  text-align: center;
+  padding-top: 30px; }
 
 .article__content p {
   margin: 0 auto;
@@ -1155,11 +1164,11 @@ ul.content {
     font-size: 35px; }
 
   .intro {
-    width: 640px;
+    width: 680px;
     padding: 250px 0 60px 0; }
 
   #page-design .intro {
-    width: 680px; }
+    width: 700px; }
 
   .block__photo, .block__info {
     height: 540px; }
