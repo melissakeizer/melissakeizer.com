@@ -38,7 +38,7 @@ ul.main-navigation__list{
   }
 }
 
-#page-post nav ul li a{
+#page-post nav.main-navigation ul li a{
   color: $white;
   &:hover{
     color: $yellow;
@@ -58,10 +58,10 @@ ul.main-navigation__list{
 
 .spinner-master2 {
 	display: none;
-	position:relative;  
+	position:relative;
 	position: absolute;
-  top: 40px;
-  right: 40px;
+  top: 20px;
+  right: 20px;
 	height:40px;
 	width:35px;
 }
@@ -83,7 +83,7 @@ ul.main-navigation__list{
 	position:absolute;
 	height:5px;
 	width:100%;
-	background-color:#000;
+	background-color:$black;
 }
 
 .spinner-master2 .diagonal.part-1 {
@@ -151,20 +151,17 @@ ul.main-navigation__list{
   width: 100%;
   li {
   display: block;
-  padding: 15px 0;
+  padding: 20px 0;
   font-weight: 600;
   &:first-child{
-    padding-top: 15%;
+    padding-top: 80px;
     }
   a{
   display: block;
-  text-align: left;
+  text-align: center;
   color: $black;
-  font-size: 35px;
+  font-size: 38px;
   margin: 0;
-  &:hover{
-    color: $white;
-    }
   &.active{
     border: none;
     }
@@ -172,13 +169,45 @@ ul.main-navigation__list{
  }
 }
 
-a.close-menu {
-  color: $white;
+img.mobile-menu__logo{
+  position: absolute;
+  top: 40px;
+  left:30px;
+  max-width: 60px;
+
 }
 
-li.close-icon{
+
+.mobile-menu__social-links {
   position: absolute;
-    top: 0;
-  right: 20px;
+  bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  a{
+    @include social-icons;
+    display: inline-block;
+    text-align: center;
+    float: none;
+    img{
+      border: none;
+    }
+ }
 }
+
+#page-post {
+   .spinner-master2 .spinner2{
+    background-color: $white;
+   }
+}
+
+#mobile-menu nav ul li a{
+  color: $black;
+  &:hover{
+    color: $black;
+  }
+}
+
 

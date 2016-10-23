@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-Home-" transform="translate(-1305.000000, -2929.000000)" fill="#FFFFFF">
+            <g id="Footer" transform="translate(103.000000, 2902.039649)">
+                <g id="social" transform="translate(1020.000000, 10.000000)">
+                    <path d="M186.5,35.25 L182.75,35.25 L182.75,24 L186.5,24 L186.5,35.25 L186.5,35.25 Z M184.625,21.875 C183.375,21.875 182.375,20.875 182.375,19.625 C182.375,18.375 183.375,17.375 184.625,17.375 C185.875,17.375 186.875,18.375 186.875,19.625 C186.875,20.875 185.875,21.875 184.625,21.875 L184.625,21.875 Z M200.25,35.25 L196.5,35.25 L196.5,28.625 C196.5,27.625049 195.625,26.75 194.625,26.75 C193.625,26.75 192.75,27.625049 192.75,28.625 L192.75,35.25 L189,35.25 L189,24 L192.75,24 L192.75,25.5 C193.375,24.5 194.75,23.75 195.875,23.75 C198.25,23.75 200.25,25.75 200.25,28.125 L200.25,35.25 L200.25,35.25 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -9,22 +9,4 @@
     </ul>
   </nav>
 
-
- <div id="menuicon" class="spinner-master2">
-			<input type="checkbox" id="spinner-form2" />
-			<label for="spinner-form2" class="spinner-spin2">
-				<div class="spinner2 diagonal part-1"></div>
-				<div class="spinner2 horizontal"></div>
-				<div class="spinner2 diagonal part-2"></div>
-			</label>
-		</div>
-
-  <nav id="mobile-menu" class="mobile-menu-relative">
-    <ul>
-      <li><a href="{{ site.baseurl }}/" {% if page.selected == "homepage" %}class="active"{% endif %}>Homepage</a></li>
-      <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
-       <li><a href="{{ site.baseurl }}/design/" {% if page.selected == "design" %}class="active"{% endif %}>Design &amp; Dev</a></li>
-      <li><a href="{{ site.baseurl }}/photography/" {% if page.selected == "photography" %}class="active"{% endif %}>Photography</a></li>
-      <li><a href="{{ site.baseurl }}/journal/" {% if page.selected == "journal" %}class="active"{% endif %}>Journal</a></li>
-    </ul>
-  </nav>
+ {% include mobile-menu.html %}

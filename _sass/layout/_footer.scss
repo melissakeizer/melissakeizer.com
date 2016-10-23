@@ -58,23 +58,8 @@ ul.footer__sitemap{
   padding-top: 55px;
   width: 270px;
   float: right;
-    a{
-    text-align: center;
-    vertical-align: center;
-    color: $white;
-    float: right;
-    &:hover{
-      background: $yellow;
-    }
-  }
-  .fa{
-  padding: 0.7em;
-  width: 55px;
-  height: 55px;
-  border: 1px solid #505457;
-    &:hover{
-      border: none;
-    }
+  a{
+    @include social-icons;
   }
 }
 

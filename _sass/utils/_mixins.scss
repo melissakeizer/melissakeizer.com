@@ -38,3 +38,25 @@
   font-weight: 700;
 }
 
+
+@mixin social-icons{
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  vertical-align: center;
+  color: $white;
+  float: right;
+  &:hover{
+    background: $yellow;
+  }
+  img{
+   padding: 0.7em;
+   width: 55px;
+   height: 55px;
+   border: 1px solid #505457;
+   &:hover{
+      border: none;
+    }
+  }
+}
+
