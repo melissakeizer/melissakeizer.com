@@ -5,7 +5,7 @@
 @media only screen and (min-width: 1800px) {
 
 h1, .h1{
-  font-size:57px;
+  font-size:55px;
 }
 
 .intro, #page-home .intro{
@@ -17,7 +17,19 @@ h2, h2 a, .h2{
 }
 
 .container{
-  max-width: 1500px;
+  max-width: 1350px;
+}
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+.block__info, .block__photo{
+  height: 640px;
+}
+
+p{
+  font-size: 24px;
 }
 
 }

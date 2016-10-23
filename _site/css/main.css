@@ -454,7 +454,8 @@ body {
       padding: 15% 10%; }
       .block__info__text h2 {
         margin-top: 0.3em;
-        padding-bottom: 200px; }
+        padding-bottom: 180px;
+        max-width: 600px; }
       .block__info__text h2.sub-heading {
         padding-bottom: 0; }
     .block__info--yellow {
@@ -666,7 +667,7 @@ ul.main-navigation__list {
       font-family: "Montserrat", sans-serif;
       text-transform: uppercase;
       font-size: 15px;
-      letter-spacing: 0 0.8em;
+      letter-spacing: 0.03em;
       margin: 0 0 0 1.5em;
       text-decoration: none;
       font-weight: 700;
@@ -812,16 +813,17 @@ ul.footer__sitemap {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 15px;
-  letter-spacing: 0 0.8em;
+  letter-spacing: 0.03em;
   margin: 0 0 0 1.5em;
   text-decoration: none;
   font-weight: 700;
+  font-size: 14px;
   color: #ffffff;
   float: left;
   width: 220px;
   list-style: none; }
   ul.footer__sitemap li {
-    padding-bottom: 5px; }
+    padding-bottom: 4px; }
   ul.footer__sitemap a:hover {
     color: #EBC828; }
 
@@ -954,7 +956,7 @@ a.button > span {
   margin: 0.5em 0; }
 
 #page-home .blog-posts {
-  padding-top: 40px; }
+  padding-top: 60px; }
 
 .blog-post-info {
   position: absolute;
@@ -1132,7 +1134,7 @@ ul.content {
 /* Responsify */
 @media only screen and (min-width: 1800px) {
   h1, .h1 {
-    font-size: 57px; }
+    font-size: 55px; }
 
   .intro, #page-home .intro {
     max-width: 700px; }
@@ -1141,7 +1143,13 @@ ul.content {
     font-size: 41px; }
 
   .container {
-    max-width: 1500px; } }
+    max-width: 1350px; } }
+@media only screen and (min-width: 1500px) {
+  .block__info, .block__photo {
+    height: 640px; }
+
+  p {
+    font-size: 24px; } }
 @media only screen and (max-width: 1440px) {
   h2 {
     font-size: 35px; }

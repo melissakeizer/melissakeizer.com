@@ -13,7 +13,7 @@
   <meta name="description" content="=The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 ">
 
-  <link rel="stylesheet" href="../dist/aos.css" />
+  <link rel="stylesheet" href="/dist/aos.css" />
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
@@ -43,11 +43,12 @@
   <script src="/js/all.js"></script>
   <script type="text/javascript" src="/js/slick/slick.js"></script>
   <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
-	<script src="../dist/aos.js"></script>
+	<script src="/dist/aos.js"></script>
 
 </head>
 
   <body>
+   <div id="transcroller-body" class="aos-all">
     <div id="page-post" class="article">
       <header class="navigation article__cover" style="background-image:url(/img/blog-previews/ship-it.jpg);">
         <div class="overlay"></div>
@@ -83,9 +84,9 @@
     </ul>
   </nav>
             <article class="intro--post">
-              <h1>Ship It</h1>
-              <p class="paragraph--intro">Finally, my new portfolio site is live</p>
-              <p class="date">Posted on Mar 4, 2015</p>
+              <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">Ship It</h1>
+              <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="200">Finally, my new portfolio site is live</p>
+              <p class="date aos-item" data-aos="fade-up" data-aos-delay="200">Posted on Mar 4, 2015</p>
             </article>
           </div>
         </header>
@@ -156,6 +157,7 @@
           </section>
         </div>
     </div>
+  </div>
     <footer>
 
   <div class="clearfix">

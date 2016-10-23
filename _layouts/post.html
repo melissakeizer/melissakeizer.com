@@ -2,15 +2,16 @@
 <html>
   {% include head.html %}
   <body>
+   <div id="transcroller-body" class="aos-all">
     <div id="page-post" class="article">
       <header class="navigation article__cover" style="background-image:url({{ page.cover-photo }});">
         <div class="overlay"></div>
         <div class="container">
             {% include header.html %}
             <article class="intro--post">
-              <h1>{{ page.title }}</h1>
-              <p class="paragraph--intro">{{ page.intro }}</p>
-              <p class="date">Posted on {{ page.date | date: "%b %-d, %Y" }}</p>
+              <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">{{ page.title }}</h1>
+              <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="200">{{ page.intro }}</p>
+              <p class="date aos-item" data-aos="fade-up" data-aos-delay="200">Posted on {{ page.date | date: "%b %-d, %Y" }}</p>
             </article>
           </div>
         </header>
@@ -45,6 +46,7 @@
           </section>
         </div>
     </div>
+  </div>
     {% include footer.html %}
   </body>
 </html>

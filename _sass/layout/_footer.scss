@@ -15,12 +15,13 @@ footer{
 ul.footer__sitemap{
   padding-top: 55px;
   @include navigation-styles;
+  font-size: 14px;
   color: $white;
   float: left;
   width: 220px;
   list-style: none;
   li{
-    padding-bottom: 5px;
+    padding-bottom: 4px;
   }
   a:hover{
   color: $yellow;
