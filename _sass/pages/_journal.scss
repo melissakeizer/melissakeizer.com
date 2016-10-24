@@ -1,64 +1,102 @@
 /* Journal/Blog Page */
 
-.blog-meta, .comment-section{
+ul.blog-post-list{
+  margin-top: -620px;
+}
+
+#page-journal .blog-post{
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 1.8% 0;
+  &:nth-child(odd){
+    margin-right: 3.5%;
+  }
+}
+
+/* Article */
+
+.article__cover{
+  height: 750px;
+  position: relative;
+  @include bg-cover;
+  margin-bottom: 60px;
+}
+
+.overlay {
+    background-color:rgba(0,0,0,.6);
+    height: 100%;
+  }
+
+.article__content{
+  p{
+    @include content-width;
+    .article__image{
+      img{
+        width: 100%;
+      }
+    }
+  }
+  h2, h3, h4, ul{
+     @include content-width;
+  }
+  .article__image{
+    padding-bottom: 50px;
+    &--with-caption{
+      padding-bottom: 0;
+    }
+  }
+}
+
+
+
+.article__notes, .comment-section, .addthis_inline_share_toolbox{
   @include content-width;
 }
 
-.blog-content p{
-  @include content-width;
-  margin-bottom: 5%;
+.addthis_inline_share_toolbox{
+  text-align: center;
+  padding-top: 30px;
 }
 
-.blog-content img{
+.article__content p{
+  @include content-width;
+  margin-bottom: 3.5%;
+}
+
+.article__content img{
   display: block;
   width: 100%;
+  padding-top: 25px;
 }
 
-.blog-meta h1{
-  margin-bottom: 7px;
+.article__notes{
+  text-align: center;
+  margin: 0 auto;
 }
 
-.date, .caption{
-  color: $grey;
-  font-size: 16px;
-}
-
-.caption{
-  padding-bottom: 0.5em;
-}
-
-
-ul.post-list li{
-  padding: 0 0 10% 0;
-  // border-bottom: 1px solid $grey;
-  &:first-child{
-    padding: 1% 0 10% 0;
-  }
-  &:last-child{
-    border: none;
+.article__more-posts{
+  background-color: $background-grey;
+  padding: 4% 0 1.5% 0;
+  h2{
+    padding: 0;
   }
 }
+
+.article__comments{
+  @include content-width;
+  padding: 5% 0 5% 0;
+}
+
 
 
 a.rss{
   font-size: 20px;
   color: $grey;
   &:hover{
-    color: $pink;
+    color: $yellow;
   }
 }
-
-#page-journal .button{
-  width: 225px;
-  &:hover{
-    color: $white;
-  }
-}
-
-#page-journal h2{
-  margin: 0.1em 0 0.4em 0;
-}
-
 
 .rss-and-pagination{
   position: relative;
@@ -74,5 +112,6 @@ a.rss{
     right: 0;
   }
 }
+
 
 

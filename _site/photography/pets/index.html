@@ -9,103 +9,121 @@
 
   <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
-  <title>Melissa Keizer's Blog and Portfolio</title>
+  <title>Pet Photography | Melissa Keizer's Blog and Portfolio</title>
   <meta name="description" content="=The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 ">
 
+  <link rel="stylesheet" href="/dist/aos.css" />
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/js/slick/slick.css">
   <link rel="canonical" href="http://melissakeizer.com/photography/pets/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer's Blog and Portfolio" href="http://melissakeizer.com/feed.xml" />
+
 
 
   <meta property="og:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
   <meta property="og:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
   <meta property="og:url" content="http://www.melissakeizer.com" />
-  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card.jpg" />
-  <meta property="og:site_name" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card-2016.jpg" />
+  <meta property="og:site_name" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
 
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card.jpg" />
+  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card-2016.jpg" />
   <meta name="twitter:url" content="http://www.melissakeizer.com/" />
-  <meta name="twitter:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta name="twitter:title" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
   <meta name="twitter:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
 
 
-  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="//use.typekit.net/iwp7moa.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="/js/all.js"></script>
-
-
-
+  <script type="text/javascript" src="/js/slick/slick.js"></script>
+  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="/dist/aos.js"></script>
 
 </head>
 
   <body>
-    <header>
-  <nav class="menu">
-    <a href="/"><img src="/img/melissakeizer-logo-turquoise.svg" class="logo" /><a/>
-    <ul class="desktop-menu">
-      <li class="hello"><a href="/" >Hello</a></li>
-      <li><a href="/about/" >About Me</a></li>
+		<div id="transcroller-body" class="aos-all">
+    <header class="navigation">
+      <div class="container">
+          
+  <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.svg" alt="melissa keizer logo" /img></a>
+
+
+<nav class="main-navigation">
+    <ul class="main-navigation__list">
+       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" class="active">Photography</a></li>
       <li><a href="/journal/" >Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
     </ul>
-  </nav>
-  <a href="#" class="hamburger" id="hamburger" title="view full menu">
-    <i class="fa fa-bars"></i>
-  </a>
+</nav>
+
+ <div id="menuicon" class="spinner-master2">
+      <input type="checkbox" id="spinner-form2" />
+      <label for="spinner-form2" class="spinner-spin2">
+        <div class="spinner2 diagonal part-1"></div>
+        <div class="spinner2 horizontal"></div>
+        <div class="spinner2 diagonal part-2"></div>
+      </label>
+    </div>
 
   <nav id="mobile-menu" class="mobile-menu-relative">
+    <img src="/img/misc/melissa-keizer-logo-clog.svg" class="mobile-menu__logo" />
     <ul>
-      <li class="hello"><a href="/" >Hello</a></li>
+      <li><a href="/" >Homepage</a></li>
       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" class="active">Photography</a></li>
       <li><a href="/journal/" >Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
-      <li class="close-icon">
-        <a href="#" class="close-menu" id="close-menu" title="close menu">
-          <i class="fa fa-times"></i>
-        </a>
-      </li>
     </ul>
+    <div class="mobile-menu__social-links">
+      <a href="http://twitter.com/keizgoesboom" class="twitter">
+        <img src="/img/misc/twitter-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+         <img src="/img/misc/dribbble-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+         <img src="/img/misc/flickr-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+         <img src="/img/misc/facebook-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://instagram.com/keizgoesboom" class="instagram">
+         <img src="/img/misc/instagram-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://500px.com/melissakeizer" class="500px">
+         <img src="/img/misc/500px-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+        <img src="/img/misc/linkedin-dark.svg" alt="social icon" />
+      </a>
+      <a href="mailto:hi@melissakeizer.com" class="email">
+         <img src="/img/misc/email-dark.svg" alt="social icon" />
+      </a>
+    </div>
   </nav>
 
 
-</header>
+      </header>
       <div id="page-photography">
+        <div class="container">
+          <article class="intro">
+            <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">Pet Photography</h1>
+            <p class="paragraph--intro" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">Coming soon</p>
+          </article>
+        </div>
+        <div id="page-pet-photography">
 
-<section class="container">
-  <article class="content">
-    <h1>Pet Photography</h1>
-    <p>There's nothing I love more than playing with and photographing peoples' pets, including my own scruffy mutt, Matisse and sassy cat, Cleo. If you'd like to book a pet session with me, please <a href="mailto:hi@melissakeizer.com">email me</a>.</p>
-  </article>
-</section>
 
-<section class="full-width">
-  <div class="photo-grid">
-    <img src="/img/photos/pets/pets13.jpg" alt="pet photography by Melissa Keizer" />
-    <img src="/img/photos/pets/pets1.jpg" alt="pet photography by Melissa Keizer" />
-    <img src="/img/photos/pets/pets7.jpg" alt="pet photography by Melissa Keizer" />
-      <img src="/img/photos/pets/pets8.jpg" alt="pet photography by Melissa Keizer" />
-    <img src="/img/photos/pets/pets16.jpg" alt="pet photography by Melissa Keizer" />
-    <img src="/img/photos/pets/pets15.jpg" alt="pet photography by Melissa Keizer" />
-    <img src="/img/photos/pets/pets12.jpg" alt="pet photography by Melissa Keizer" />
-    <img src="/img/photos/pets/pets2.jpg" alt="pet photography by Melissa Keizer" />
-    <img src="/img/photos/pets/pets14.jpg" alt="pet photography by Melissa Keizer" />
-  </div>
-</section>
+
+
 
 </div>
 
@@ -114,14 +132,60 @@
 
 
 
-    <footer>
-  <div class="send-me-email">
-    <p>Want to have a chat or say hello? <a href="mailto:hi@melissakeizer.com" >Send me an email</a></p>
-  </div>
-  <div class="made-by">
-    <p>Made with <i class="fa fa-heart"></i> by <a href="http://twitter.com/keizgoesboom" >Melissa Keizer</a></p>
+        <footer>
+
+  <div class="clearfix">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="/img/melissa-keizer-logo-full.svg" alt="melissa keizer logo"/>
+      </div>
+
+      <ul class="footer__sitemap">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Me</a></li>
+        <li><a href="/design/">Design &amp; Development</a></li>
+      </ul>
+      <ul class="footer__sitemap footer__sitemap--second">
+        <li><a href="/photography/">Photography</a></li>
+        <li><a href="/journal/">Journal</a></li>
+      </ul>
+
+
+      <div class="footer__social-block">
+        <div class="row">
+          <a href="http://twitter.com/keizgoesboom" class="twitter">
+            <img src="/img/misc/twitter.svg" alt="social icon" />
+          </a>
+          <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+             <img src="/img/misc/dribbble.svg" alt="social icon" />
+          </a>
+          <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+             <img src="/img/misc/flickr.svg" alt="social icon" />
+          </a>
+          <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+             <img src="/img/misc/facebook.svg" alt="social icon" />
+          </a>
+        </div><!--
+        --><div class="row">
+          <a href="mailto:hi@melissakeizer.com" class="email">
+             <img src="/img/misc/email.svg" alt="social icon" />
+          </a>
+          <a href="http://instagram.com/keizgoesboom" class="instagram">
+             <img src="/img/misc/instagram.svg" alt="social icon" />
+          </a>
+          <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+            <img src="/img/misc/linkedin.svg" alt="social icon" />
+          </a>
+          <a href="https://500px.com/melissakeizer" class="500px">
+             <img src="/img/misc/500px.svg" alt="social icon" />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
+
+ <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -133,6 +197,7 @@
   ga('send', 'pageview');
 
 </script>
-
+      </div>
+			</div>
   </body>
 </html>

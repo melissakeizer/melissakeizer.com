@@ -2,8 +2,9 @@
 layout: post
 selected: journal
 title:  "Ship It"
+intro: Finally, my new portfolio site is live
 date:   2015-03-04 11:00:42
-preview-image: "/img/blog-previews/ship-it.jpg"
+cover-photo: "/img/blog-previews/ship-it.jpg"
 
 ---
 
@@ -16,8 +17,10 @@ I decided that I just needed to build something, get it out there, and iterate o
 
 I have a long list of to-dos on my Trello board, including layouts that need better considered, ideas for improving the reading experience of blog posts and some simple tweaks that would simply better the overall experience of using my website.
 
-![photo caption](../../img/blog/trello-to-dos.jpg "Trello")
-<span class="caption">My ever-growing to-do list on Trello</span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/trello-to-dos.jpg" alt="My ever-growing to-do list on Trello" />
+  <span class="caption">My ever-growing to-do list on Trello</span>
+</div>
 
 Knowing my site is now out and open to scrutiny motivates me to improve it, and I look forward to moving Trello tasks into the "done" list.
 

@@ -1,0 +1,36 @@
+/* Fontface */
+
+@font-face {
+    font-family: 'metaserif-bookregular';
+    src: url('../fonts/metaserif-book-webfont.woff2') format('woff2'),
+         url('../fonts/metaserif-book-webfont.woff') format('woff');
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+@font-face {
+    font-family: 'metaserif-bookitaregular';
+    src: url('../fonts/metaserif-bookita-webfont.woff2') format('woff2'),
+         url('../fonts/metaserif-bookita-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+@font-face {
+    font-family: 'metaseriftf-boldregular';
+    src: url('../fonts/metaseriftf-bold-webfont.woff2') format('woff2'),
+         url('../fonts/metaseriftf-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'metaseriftf-bolditaregular';
+    src: url('../fonts/metaseriftf-boldita-webfont.woff2') format('woff2'),
+         url('../fonts/metaseriftf-boldita-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}

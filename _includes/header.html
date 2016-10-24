@@ -1,40 +1,16 @@
-<header>
-  <nav class="menu">
-    <a href="/"><img src="/img/melissakeizer-logo-turquoise.svg" class="logo" /><a/>
-    <ul class="desktop-menu">
-      <li class="hello"><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Hello</a></li>
-      <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
+{% if page.path contains '_posts' %}
+  <a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo-white.svg" alt="melissa keizer logo" /img></a>
+{% else %}
+  <a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo.svg" alt="melissa keizer logo" /img></a>
+{% endif %}
+
+<nav class="main-navigation">
+    <ul class="main-navigation__list">
+       <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
+       <li><a href="{{ site.baseurl }}/design/" {% if page.selected == "design" %}class="active"{% endif %}>Design &amp; Dev</a></li>
       <li><a href="{{ site.baseurl }}/photography/" {% if page.selected == "photography" %}class="active"{% endif %}>Photography</a></li>
       <li><a href="{{ site.baseurl }}/journal/" {% if page.selected == "journal" %}class="active"{% endif %}>Journal</a></li>
-      <li>
-        <a href="mailto:{{ site.email }}" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
     </ul>
-  </nav>
-  <a href="#" class="hamburger" id="hamburger" title="view full menu">
-    <i class="fa fa-bars"></i>
-  </a>
+</nav>
 
-  <nav id="mobile-menu" class="mobile-menu-relative">
-    <ul>
-      <li class="hello"><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Hello</a></li>
-      <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
-      <li><a href="{{ site.baseurl }}/photography/" {% if page.selected == "photography" %}class="active"{% endif %}>Photography</a></li>
-      <li><a href="{{ site.baseurl }}/journal/" {% if page.selected == "journal" %}class="active"{% endif %}>Journal</a></li>
-      <li>
-        <a href="mailto:{{ site.email }}" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
-      <li class="close-icon">
-        <a href="#" class="close-menu" id="close-menu" title="close menu">
-          <i class="fa fa-times"></i>
-        </a>
-      </li>
-    </ul>
-  </nav>
-
-
-</header>
+ {% include mobile-menu.html %}

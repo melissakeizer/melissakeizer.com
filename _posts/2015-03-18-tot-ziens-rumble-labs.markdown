@@ -2,8 +2,9 @@
 layout: post
 selected: journal
 title:  "Tot Ziens, Rumble Labs"
+intro: Waving farewell to my job, and hello to a new one
 date:   2015-03-18 11:00:42
-preview-image: "/img/blog-previews/rumble-pink.jpg"
+cover-photo: "/img/blog-previews/rumble-pink.jpg"
 
 ---
 
@@ -15,17 +16,19 @@ I joined the team after completing my degree in Interactive Multimedia Design, s
 
 Rumble's open and collaborative culture was the perfect place for me to grow as a designer and developer, as it encouraged knowledge sharing, pair programming and generally just helping teammates when you can. When [Mark](http://rumblelabs.com/about/mark-leetch/) & I weren't exchanging [Nicki Minaj gifs](http://gfycat.com/SplendidSimpleHackee), we'd often be found sat side-by-side, working together on a project. This helped us work out problems more efficiently, and I usually picked up a nifty development trick while I was there.
 
-
-![photo caption](../../img/blog/rumble-lads-selfie.jpg "The Rumble Lads")
-<span class="caption">I'm going to miss the Rumble Lads!</span>
-
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/rumble-lads-selfie.jpg" alt="The Rumble Lads" />
+  <span class="caption">I'm going to miss the Rumble Lads!</span>
+</div>
 
 My education at Rumble wasn't limited to design and code. Luckily I had [Simon](http://rumblelabs.com/about/simon-hamilton/) there to teach me the art of [wine swirling](https://instagram.com/p/cOrrG0i1Rq/), and with countless matches during the annual Rumbledon Tournament, I went from terrible to mediocre at playing table tennis.
 
 My friendships with the Rumble lads extend outside of the office, as we've made some brilliant memories during various work events, Design Department [photography trips](https://melissakeizer.exposure.co/designers-explorers) and during the Rumble London trip last year!
 
-![photo caption](../../img/blog/design-dept-photography-trip.jpg "Design Department Photography trip")
-<span class="caption">A Design Department photography day out</span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/design-dept-photography-trip.jpg" alt="A Design Department photography day out" />
+  <span class="caption">A Design Department photography day out</span>
+</div>
 
 I'm so happy to have been part of such a super team and having the opportunity to work on plenty of interesting client and internal projects, and share an office (and a Hipchat room) with such talented and hilarious people.
 

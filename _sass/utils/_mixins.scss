@@ -23,8 +23,40 @@
 }
 
 @mixin subtle-animation{
-  transition: all .4s ease-in-out;
-  -moz-transition: all .4s ease-in-out;
-  -webkit-transition: all .4s ease-in-out;
+  transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+}
+
+@mixin navigation-styles{
+  font-family: $sans-serif-font-family;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+  margin: 0 0 0 1.5em;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+
+@mixin social-icons{
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  vertical-align: center;
+  color: $white;
+  float: right;
+  &:hover{
+    background: $yellow;
+  }
+  img{
+   padding: 0.7em;
+   width: 55px;
+   height: 55px;
+   border: 1px solid #505457;
+   &:hover{
+      border: none;
+    }
+  }
 }
 

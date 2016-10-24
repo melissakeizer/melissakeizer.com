@@ -1,9 +1,11 @@
 ---
 layout: post
 selected: journal
-title:  "Facts & Thoughts About My New Sony A7ii Camera"
+title:  "My New Sony A7ii"
+intro: "Facts & thoughts about my new camera"
 date:   2015-10-30 13:50:00
-preview-image: "/img/blog-previews/my-sony-a7ii.jpg"
+cover-photo: "/img/blog-previews/my-sony-a7ii.jpg"
+
 
 ---
 
@@ -11,8 +13,10 @@ So, I've finally made the jump to full-frame photography as a few weeks ago I tr
 
 Before making the jump, I’d been using my Sony a580, a crop-sensor DSLR. In fact, the A7ii is now the 3rd Sony camera in my kit, which also includes my old (entry-level DSLR), the Sony a100.
 
-![photo caption](../../img/blog/sony-camera-lineup.jpg "My Sony cameras")
-<span class="caption">My camera family - the Sony a100, the Sony a58- and the Sony a7ii</span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/sony-camera-lineup.jpg" alt="My Sony cameras" />
+  <span class="caption">My camera family - the Sony a100, the Sony a58- and the Sony a7ii</span>
+</div>
 
 ## Full-frame Mirrorless Compact-System Camera
 
@@ -30,9 +34,10 @@ The Sony 55mm f/1.8 is pretty amazing and produces so super sharp images with aw
 
 It's also worth noting that while the A7ii is more advantageous for the majority of shooting situations, my crop-sensor Sony a580 will still be my go-to camera for things like shooting animals at the zoo. This is because my Sigma 70-200mm telephoto lens will have longer reach on a crop sensor, so I can get closer to my subject. I've found it's also been useful to have two good cameras on the go for busy shooting situations like a wedding.
 
-
-![photo caption](../../img/blog/my-sony-a7ii.jpg "My Sony a7ii")
-<span class="caption">My new Sony a7ii paired with the Sony 55mm f/1.8 lens</span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/my-sony-a7ii.jpg" alt="My Sony a7ii" />
+  <span class="caption">My new Sony a7ii paired with the Sony 55mm f/1.8 lens</span>
+</div>
 
 ## The Nitty Gritty
 
@@ -44,8 +49,10 @@ One of the primary reasons I wanted this full-frame camera was its good reputati
 
 I was able to use ISO 5000 quite comfortably, as there wasn’t much visible noise. However my images did start becoming quite grainy when I used IS0 6400. Since I avoid using ISOs higher than 1600 on my previous DSLR, this is pretty good going.
 
-![photo caption](../../img/blog/dalmation-dog-show.jpg "My Sony a7ii")
-<span class="caption">Being able to happily shoot at ISO 5000 at the dog show - win </span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/dalmation-dog-show.jpg" alt="A photo taken of a dalmation by my Sony A7ii" />
+  <span class="caption">Being able to happily shoot at ISO 5000 at the dog show - win </span>
+</div>
 
 I also tested the auto-ISO feature, which allows you to set your aperture and shutter speed and it will choose a suitable ISO setting. While it works, it’s not afraid of choosing really high ISOs, higher than what I’d be comfortable with using, so I’d refrain from using this feature in low-lit scenes.
 
@@ -53,13 +60,17 @@ I also tested the auto-ISO feature, which allows you to set your aperture and sh
 
 The Sony A7ii’s AF is fast and it's sharp, and it didn’t let me down during a recent event I worked at. I was asked to cover the Autumn Fashion Show for the [Main Street My Street](https://www.facebook.com/mainstreetmystreet/?fref=ts) campaign, held inside Bob & Bert’s cafe in Bangor. I switched to AF-C (continuous focus) had no problem with keeping the models in focus as they walked toward me.
 
-![photo caption](../../img/blog/fashion-show-diptych.jpg "Models at Fashion Show")
-<span class="caption">Shooting models walking the catwalk with continuous autofocus </span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/fashion-show-diptych.jpg" alt="Models at Fashion Show" />
+  <span class="caption">Shooting models walking the catwalk with continuous autofocus</span>
+</div>
 
 The only real issue I’ve had with the autofocus on my A7ii is being able to pin-point the focus on the eyes of animals. I noticed this when taking photos of my little dog Matisse. I like using wide aperture to capture shots with low depth of field, but it this often means I miss the eyes as the focus is on the nose or eyebrow of my dog. While there is an “Eye AF” mode specially designed to focus on eyes, it seems to just work on humans. I can of course move the little focusing box around the screen to the eye, but I don’t always have time do this when shooting a hyper-active dog!
 
-![photo caption](../../img/blog/matisse-castle-park.jpg "Matisse’s face")
-<span class="caption">The AF doesn’t always pinpoint Matisse’s eyes, but when it does, it’s sharp! </span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/matisse-castle-park.jpg" alt="Matisse's face" />
+  <span class="caption">The AF doesn’t always pinpoint Matisse’s eyes, but when it does, it’s sharp!</span>
+</div>
 
 ### Manual Focus
 
@@ -76,9 +87,10 @@ Commonly used functions and settings can be accessed quickly, like switching foc
 
 The camera has it's own in-built wifi, so you can send images (including RAWs) straight to your phone using the Sony PlayMemories app. I like this feature as it lets me share a photo or two from a shoot before I'm home to upload them to my computer.
 
-
-![photo caption](../../img/blog/my-sony-a7ii-2.jpg "My Sony a7ii")
-<span class="caption">I love the design of the Sony A7ii, it's pretty cute for a camera, right? </span>
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/my-sony-a7ii-2.jpg" alt="My Sony a7ii" />
+  <span class="caption">I love the design of the Sony A7ii, it's pretty cute for a camera, right? </span>
+</div>
 
 ## TL;DR
 

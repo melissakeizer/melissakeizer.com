@@ -1,184 +1,54 @@
 /* Home Page */
 
-#tagline h2{
-  font-size: 24px;
-  font-weight: 200;
-  line-height: 1.7em;
-  max-width: 630px;
-  color: $black;
+
+.homepage-work .text h2{
+  margin: 0.5em 0;
 }
 
-#tagline{
-  padding-bottom: 3em;
-  max-width: 740px;
-  h2{
-    max-width: 600px;
-  }
-}
-
-.home-grid, .photo-grid{
-  width: 100%;
-  float: left;
-}
-
-ul.home-grid li, ul.home-grid a li, ul.photo-grid li,  ul.photo-grid li a{
-  width: 33.3333%;
-  float: left;
-  background: $background-grey;
-  margin: 0;
-  z-index: 1;
+#page-home .blog-posts{
+  padding-top: 60px;
 }
 
 
-ul.home-grid li .inner, ul.home-grid a li .inner{
-  padding: 25% 15% 25% 15%;
-  p{
-    margin-bottom: 10%;
-  }
-}
 
-ul.home-grid li.blog{
-  background: $pink;
-  color: $white;
-  &:hover{
-    @include subtle-fade($pink);
-  }
-}
-
-ul.home-grid li.blog h3{
-  font-size: 16px;
-  padding-bottom: 5px;
-  font-weight: 200;
-  text-transform: uppercase;
-}
-
-ul.home-grid li.blog h2{
-  font-weight: 600;
-  line-height: 1.4em;
-  font-size: 28px;
-  margin: 0;
-  padding: 0.3em 0 0.7em 0;
-}
-
-ul.home-grid li.blog p.date{
-  color: $white;
-}
-
-
-ul.home-grid li.dribbble{
-  @include bg-cover;
-  position: relative;
-  background-image: url("../img/dribbble-shots/belfast-ruby.jpg");
-}
-
-ul.home-grid li.flickr{
-  @include bg-cover;
-  position: relative;
-  background-image: url("../img/photography-array/matisse-mkeizer.jpg");
-}
-
-
-ul.home-grid li.flickr a i.fa, ul.home-grid li.dribbble a i.fa{
-  @include subtle-animation;
-  opacity: 0;
-  font-size: 35px;
-  color: $white;
-  z-index: 200;
-  text-align: center;
-  padding: 45% 47%;
-  position: relative;
-  text-shadow: 0 1px 6px rgba($black, 0.3);
-  &:hover{
-    opacity: 1;
-  }
-}
-
-ul.photo-grid {
-  margin: 50px 0 40px 0;
-}
-
-div.photo-grid{
-  margin: 50px 0 0 0;
-}
-
-ul.photo-grid li{
-  position: relative;
-}
-
-.photo-grid img{
-  width: 33.333%;
-  padding: 0;
-  margin: 0;
-  float: left;
-}
-
-ul.photo-grid li{
-  @include bg-cover;
-  position: relative;
-  &.photoset-portraits{
-    background-image: url("../img/photos/grid-portraits.jpg");
-  }
-  &.photoset-pets{
-    background-image: url("../img/photos/grid-pets.jpg");
-  }
-  &.photoset-landscapes{
-    background-image: url("../img/photos/grid-landscapes.jpg");
-  }
-  &.photoset-music{
-    background-image: url("../img/photos/grid-music.jpg");
-  }
-  &.photoset-restaurant{
-    background-image: url("../img/photos/grid-restaurant.jpg");
-  }
-  &.photoset-zoo{
-    background-image: url("../img/photos/grid-zoo.jpg");
-  }
-  &.exposure-dublin{
-    background-image: url("../img/photos/exposure-dublin.jpg");
-  }
-  &.exposure-matisse{
-    background-image: url("../img/photos/exposure-matisse.jpg");
-  }
-  &.exposure-stablemates{
-    background-image: url("../img/photos/exposure-jess.jpg");
-  }
-  &.exposure-ark{
-    background-image: url("../img/photos/exposure-ark.jpg");
-  }
-  &.exposure-lights{
-    background-image: url("../img/photos/exposure-lights.jpg");
-  }
-   &.exposure-saltydog{
-    background-image: url("../img/photos/exposure-saltydog.jpg");
-  }
-  &.exposure-explorers{
-    background-image: url("../img/photos/exposure-explorers.jpg");
-  }
-  &.exposure-cat-colony{
-    background-image: url("../img/photos/exposure-cat-colony.jpg");
-  }
-
-}
-
-ul.photo-grid a{
-  h4{
-    opacity: 0;
-  }
-  &:hover h4{
-    opacity: 1;
-  }
-}
-
-ul.photo-grid li h4{
-  @include subtle-animation;
-  font-size: 22px;
-  color: $white;
-  z-index: 200;
+.blog-post-info{
   position: absolute;
-  bottom: 15px;
-  left: 15px;
-  text-shadow: 0 1px 6px rgba($black, 0.3);
+  bottom: 0;
+  width: 100%;
+  background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%);
+  background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
+  height: 130px;
 }
+
+.blog-post{
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 3.5% 0;
+  &:nth-child(even){
+    margin-right: 3.5%;
+  }
+}
+
+.blog-post img{
+  padding: 0 0 10px 0;
+}
+
+
+.blog-post .date{
+  padding-bottom:  5px;
+}
+
+.see-more-link{
+  margin: 30px 0 80px 0;
+}
+
+
+
+
+
 
 
 

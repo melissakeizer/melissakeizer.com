@@ -9,95 +9,127 @@
 
   <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
-  <title>Facts & Thoughts About My New Sony A7ii Camera | Melissa Keizer's Blog and Portfolio</title>
+  <title>My New Sony A7ii | Melissa Keizer's Blog and Portfolio</title>
   <meta name="description" content="=The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 ">
 
+  <link rel="stylesheet" href="/dist/aos.css" />
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/js/slick/slick.css">
   <link rel="canonical" href="http://melissakeizer.com/journal/sony-a7ii-facts-and-thoughts/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer's Blog and Portfolio" href="http://melissakeizer.com/feed.xml" />
+
 
 
   <meta property="og:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
   <meta property="og:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
   <meta property="og:url" content="http://www.melissakeizer.com" />
-  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card.jpg" />
-  <meta property="og:site_name" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card-2016.jpg" />
+  <meta property="og:site_name" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
 
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card.jpg" />
+  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card-2016.jpg" />
   <meta name="twitter:url" content="http://www.melissakeizer.com/" />
-  <meta name="twitter:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta name="twitter:title" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
   <meta name="twitter:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
 
 
-  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="//use.typekit.net/iwp7moa.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="/js/all.js"></script>
-
-
-
+  <script type="text/javascript" src="/js/slick/slick.js"></script>
+  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="/dist/aos.js"></script>
 
 </head>
 
   <body>
-    <header>
-  <nav class="menu">
-    <a href="/"><img src="/img/melissakeizer-logo-turquoise.svg" class="logo" /><a/>
-    <ul class="desktop-menu">
-      <li class="hello"><a href="/" >Hello</a></li>
-      <li><a href="/about/" >About Me</a></li>
+   <div id="transcroller-body" class="aos-all">
+    <div id="page-post" class="article">
+      <header class="navigation article__cover" style="background-image:url(/img/blog-previews/my-sony-a7ii.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            
+  <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo-white.svg" alt="melissa keizer logo" /img></a>
+
+
+<nav class="main-navigation">
+    <ul class="main-navigation__list">
+       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" >Photography</a></li>
       <li><a href="/journal/" class="active">Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
     </ul>
-  </nav>
-  <a href="#" class="hamburger" id="hamburger" title="view full menu">
-    <i class="fa fa-bars"></i>
-  </a>
+</nav>
+
+ <div id="menuicon" class="spinner-master2">
+      <input type="checkbox" id="spinner-form2" />
+      <label for="spinner-form2" class="spinner-spin2">
+        <div class="spinner2 diagonal part-1"></div>
+        <div class="spinner2 horizontal"></div>
+        <div class="spinner2 diagonal part-2"></div>
+      </label>
+    </div>
 
   <nav id="mobile-menu" class="mobile-menu-relative">
+    <img src="/img/misc/melissa-keizer-logo-clog.svg" class="mobile-menu__logo" />
     <ul>
-      <li class="hello"><a href="/" >Hello</a></li>
+      <li><a href="/" >Homepage</a></li>
       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" >Photography</a></li>
       <li><a href="/journal/" class="active">Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
-      <li class="close-icon">
-        <a href="#" class="close-menu" id="close-menu" title="close menu">
-          <i class="fa fa-times"></i>
-        </a>
-      </li>
     </ul>
+    <div class="mobile-menu__social-links">
+      <a href="http://twitter.com/keizgoesboom" class="twitter">
+        <img src="/img/misc/twitter-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+         <img src="/img/misc/dribbble-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+         <img src="/img/misc/flickr-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+         <img src="/img/misc/facebook-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://instagram.com/keizgoesboom" class="instagram">
+         <img src="/img/misc/instagram-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://500px.com/melissakeizer" class="500px">
+         <img src="/img/misc/500px-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+        <img src="/img/misc/linkedin-dark.svg" alt="social icon" />
+      </a>
+      <a href="mailto:hi@melissakeizer.com" class="email">
+         <img src="/img/misc/email-dark.svg" alt="social icon" />
+      </a>
+    </div>
   </nav>
 
 
-</header>
-      <div id="page-post">
-<section class="container">
-  <article class="blog-meta">
-    <h1>Facts & Thoughts About My New Sony A7ii Camera</h1>
-    <p class="date">Posted on Oct 30, 2015</p>
-  </article>
-
-  <article class="content">
-    <p>So, I’ve finally made the jump to full-frame photography as a few weeks ago I treated myself to the <a href="http://www.jessops.com/online.store/categories/products/sony/alpha-a7-mkii-compact-system-camera-body-95132/show.html">Sony A7ii</a> after lusting after it for months. Since I’ve had it for a few weeks now and used it for various photoshoots, I thought I’d share some of my thoughts on this camera.</p>
+            <article class="intro--post">
+              <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">My New Sony A7ii</h1>
+              <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="200">Facts & thoughts about my new camera</p>
+              <p class="date aos-item" data-aos="fade-up" data-aos-delay="200">Posted on Oct 30, 2015</p>
+            </article>
+          </div>
+        </header>
+        <div class="container">
+          <article class="article__content">
+            <p>So, I’ve finally made the jump to full-frame photography as a few weeks ago I treated myself to the <a href="http://www.jessops.com/online.store/categories/products/sony/alpha-a7-mkii-compact-system-camera-body-95132/show.html">Sony A7ii</a> after lusting after it for months. Since I’ve had it for a few weeks now and used it for various photoshoots, I thought I’d share some of my thoughts on this camera.</p>
 
 <p>Before making the jump, I’d been using my Sony a580, a crop-sensor DSLR. In fact, the A7ii is now the 3rd Sony camera in my kit, which also includes my old (entry-level DSLR), the Sony a100.</p>
 
-<p><img src="../../img/blog/sony-camera-lineup.jpg" alt="photo caption" title="My Sony cameras" />
-<span class="caption">My camera family - the Sony a100, the Sony a58- and the Sony a7ii</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/sony-camera-lineup.jpg" alt="My Sony cameras" />
+  <span class="caption">My camera family - the Sony a100, the Sony a58- and the Sony a7ii</span>
+</div>
 
 <h2 id="full-frame-mirrorless-compact-system-camera">Full-frame Mirrorless Compact-System Camera</h2>
 
@@ -115,8 +147,10 @@
 
 <p>It’s also worth noting that while the A7ii is more advantageous for the majority of shooting situations, my crop-sensor Sony a580 will still be my go-to camera for things like shooting animals at the zoo. This is because my Sigma 70-200mm telephoto lens will have longer reach on a crop sensor, so I can get closer to my subject. I’ve found it’s also been useful to have two good cameras on the go for busy shooting situations like a wedding.</p>
 
-<p><img src="../../img/blog/my-sony-a7ii.jpg" alt="photo caption" title="My Sony a7ii" />
-<span class="caption">My new Sony a7ii paired with the Sony 55mm f/1.8 lens</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/my-sony-a7ii.jpg" alt="My Sony a7ii" />
+  <span class="caption">My new Sony a7ii paired with the Sony 55mm f/1.8 lens</span>
+</div>
 
 <h2 id="the-nitty-gritty">The Nitty Gritty</h2>
 
@@ -128,8 +162,10 @@
 
 <p>I was able to use ISO 5000 quite comfortably, as there wasn’t much visible noise. However my images did start becoming quite grainy when I used IS0 6400. Since I avoid using ISOs higher than 1600 on my previous DSLR, this is pretty good going.</p>
 
-<p><img src="../../img/blog/dalmation-dog-show.jpg" alt="photo caption" title="My Sony a7ii" />
-<span class="caption">Being able to happily shoot at ISO 5000 at the dog show - win </span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/dalmation-dog-show.jpg" alt="A photo taken of a dalmation by my Sony A7ii" />
+  <span class="caption">Being able to happily shoot at ISO 5000 at the dog show - win </span>
+</div>
 
 <p>I also tested the auto-ISO feature, which allows you to set your aperture and shutter speed and it will choose a suitable ISO setting. While it works, it’s not afraid of choosing really high ISOs, higher than what I’d be comfortable with using, so I’d refrain from using this feature in low-lit scenes.</p>
 
@@ -137,13 +173,17 @@
 
 <p>The Sony A7ii’s AF is fast and it’s sharp, and it didn’t let me down during a recent event I worked at. I was asked to cover the Autumn Fashion Show for the <a href="https://www.facebook.com/mainstreetmystreet/?fref=ts">Main Street My Street</a> campaign, held inside Bob &amp; Bert’s cafe in Bangor. I switched to AF-C (continuous focus) had no problem with keeping the models in focus as they walked toward me.</p>
 
-<p><img src="../../img/blog/fashion-show-diptych.jpg" alt="photo caption" title="Models at Fashion Show" />
-<span class="caption">Shooting models walking the catwalk with continuous autofocus </span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/fashion-show-diptych.jpg" alt="Models at Fashion Show" />
+  <span class="caption">Shooting models walking the catwalk with continuous autofocus</span>
+</div>
 
 <p>The only real issue I’ve had with the autofocus on my A7ii is being able to pin-point the focus on the eyes of animals. I noticed this when taking photos of my little dog Matisse. I like using wide aperture to capture shots with low depth of field, but it this often means I miss the eyes as the focus is on the nose or eyebrow of my dog. While there is an “Eye AF” mode specially designed to focus on eyes, it seems to just work on humans. I can of course move the little focusing box around the screen to the eye, but I don’t always have time do this when shooting a hyper-active dog!</p>
 
-<p><img src="../../img/blog/matisse-castle-park.jpg" alt="photo caption" title="Matisse’s face" />
-<span class="caption">The AF doesn’t always pinpoint Matisse’s eyes, but when it does, it’s sharp! </span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/matisse-castle-park.jpg" alt="Matisse's face" />
+  <span class="caption">The AF doesn’t always pinpoint Matisse’s eyes, but when it does, it’s sharp!</span>
+</div>
 
 <h3 id="manual-focus">Manual Focus</h3>
 
@@ -159,8 +199,10 @@
 
 <p>The camera has it’s own in-built wifi, so you can send images (including RAWs) straight to your phone using the Sony PlayMemories app. I like this feature as it lets me share a photo or two from a shoot before I’m home to upload them to my computer.</p>
 
-<p><img src="../../img/blog/my-sony-a7ii-2.jpg" alt="photo caption" title="My Sony a7ii" />
-<span class="caption">I love the design of the Sony A7ii, it’s pretty cute for a camera, right? </span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/my-sony-a7ii-2.jpg" alt="My Sony a7ii" />
+  <span class="caption">I love the design of the Sony A7ii, it's pretty cute for a camera, right? </span>
+</div>
 
 <h2 id="tldr">TL;DR</h2>
 
@@ -196,13 +238,13 @@
 <p>If you’re thinking about picking up a Sony A7ii yourself, feel free to <a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#104;&#105;&#064;&#109;&#101;&#108;&#105;&#115;&#115;&#097;&#107;&#101;&#105;&#122;&#101;&#114;&#046;&#099;&#111;&#109;">email me</a> or leave a comment if you have any questions about this camera :)</p>
 
 
-
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-  </article>
-
-  <div class="comment-section">
+          </article>
+          <div class="article__notes">
+              
+              
+          </div>
+          <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
+          <div class="article__comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -218,17 +260,85 @@
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
-</section>
-</div>
-
-    <footer>
-  <div class="send-me-email">
-    <p>Want to have a chat or say hello? <a href="mailto:hi@melissakeizer.com" >Send me an email</a></p>
+        </div>
+        <div class="article__more-posts">
+          <section class="container clearfix blog-posts">
+            <h2 class="center">Read more Posts</h2>
+            
+              <li class="blog-post">
+                <a href="/journal/i-will-photograph-your-pet/">
+                <img src="/img/blog-previews/raja-eating-my-camera.jpg" alt="/img/blog-previews/raja-eating-my-camera.jpg" />
+                <p class="date">04 February 2016</p>
+                <h3>I'll Photograph Your Pets!</h3>
+                </a>
+              </li>
+            
+              <li class="blog-post">
+                <a href="/journal/sony-a7ii-facts-and-thoughts/">
+                <img src="/img/blog-previews/my-sony-a7ii.jpg" alt="/img/blog-previews/my-sony-a7ii.jpg" />
+                <p class="date">30 October 2015</p>
+                <h3>My New Sony A7ii</h3>
+                </a>
+              </li>
+            
+          </section>
+        </div>
+    </div>
   </div>
-  <div class="made-by">
-    <p>Made with <i class="fa fa-heart"></i> by <a href="http://twitter.com/keizgoesboom" >Melissa Keizer</a></p>
+    <footer>
+
+  <div class="clearfix">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="/img/melissa-keizer-logo-full.svg" alt="melissa keizer logo"/>
+      </div>
+
+      <ul class="footer__sitemap">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Me</a></li>
+        <li><a href="/design/">Design &amp; Development</a></li>
+      </ul>
+      <ul class="footer__sitemap footer__sitemap--second">
+        <li><a href="/photography/">Photography</a></li>
+        <li><a href="/journal/">Journal</a></li>
+      </ul>
+
+
+      <div class="footer__social-block">
+        <div class="row">
+          <a href="http://twitter.com/keizgoesboom" class="twitter">
+            <img src="/img/misc/twitter.svg" alt="social icon" />
+          </a>
+          <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+             <img src="/img/misc/dribbble.svg" alt="social icon" />
+          </a>
+          <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+             <img src="/img/misc/flickr.svg" alt="social icon" />
+          </a>
+          <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+             <img src="/img/misc/facebook.svg" alt="social icon" />
+          </a>
+        </div><!--
+        --><div class="row">
+          <a href="mailto:hi@melissakeizer.com" class="email">
+             <img src="/img/misc/email.svg" alt="social icon" />
+          </a>
+          <a href="http://instagram.com/keizgoesboom" class="instagram">
+             <img src="/img/misc/instagram.svg" alt="social icon" />
+          </a>
+          <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+            <img src="/img/misc/linkedin.svg" alt="social icon" />
+          </a>
+          <a href="https://500px.com/melissakeizer" class="500px">
+             <img src="/img/misc/500px.svg" alt="social icon" />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
+
+ <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -240,6 +350,6 @@
   ga('send', 'pageview');
 
 </script>
-
   </body>
 </html>
+

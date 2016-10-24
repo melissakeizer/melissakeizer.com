@@ -2,327 +2,337 @@
 
 
 
-@media only screen and (min-width: 1700px) {
+@media only screen and (min-width: 1800px) {
 
-  body{
-    font-size: 28px;
+h1, .h1{
+  font-size:53px;
+}
+
+.intro, #page-home .intro{
+  max-width: 700px;
+}
+
+h2, h2 a, .h2{
+  font-size: 41px;
+}
+
+.container{
+  max-width: 1350px;
+}
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+.block__info, .block__photo{
+  height: 640px;
+}
+
+p{
+  font-size: 24px;
+}
+
+}
+
+
+
+@media only screen and (max-width: 1440px) {
+
+h2{
+  font-size: 35px;
+}
+
+.intro{
+  width: 680px;
+  padding: 250px 0 60px 0;
+}
+
+#page-design .intro{
+  width: 700px;
+}
+
+.block__photo, .block__info{
+  height: 540px;
+}
+
+.footer__logo{
+  width: 250px;
+  img{
+    width: 90%;
   }
+}
 
-  ul.work-grid li{
-    height: 700px;
-  }
+ul.footer__sitemap{
+  padding-top: 45px;
+  width: 200px;
+}
 
-  ul.home-grid li.blog h3 {
-    font-size: 19px;
-    padding-bottom: 8px;
-  }
+.footer__social-block{
+  padding-top: 45px;
+}
 
-  ul.home-grid li.blog h2 {
-  font-size: 36px;
-  }
+.photoset{
+  width: 90%;
+}
 
-  ul.home-grid li.flickr a i.fa, ul.home-grid li.dribbble a i.fa, .social-grid a i{
-    font-size: 45px;
-  }
+.article__cover {
+  height: 700px;
+}
 
-  .date, .caption {
-    font-size: 19px;
-  }
+.article__content h2, .article__content h3, .article__content h4, .article__content ul, .article__content p {
+  max-width: 760px;
+}
 
-  a.button{
-    font-size: 20px;
-    width: 200px;
-    padding: 0em 2em 0.2em 2em;
-  }
+.container{
+  max-width: 1150px;
+}
 
-  a.button-push .button-icon {
-    top: 17px;
-    font-size: 19px;
-  }
+.container__content{
+  max-width:760px;
+}
 
-  h1{
-    font-size: 65px;
-  }
+}
 
-  #tagline h2 {
-    font-size: 28px;
-    max-width: 660px;
-    padding-bottom: 30px;
-  }
 
-  nav ul li a {
-    font-size: 22px;
-  }
+@media only screen and (max-width: 1280px) {
 
-  article.content {
-  max-width: 810px;
-  }
+h1{
+  font-size: 42px;
+}
 
-  #page-journal .button {
-    width: 250px;
-  }
+.intro{
+  padding: 230px 0 30px 0;
+}
 
-  h2, h2 a {
-    font-size: 37px;
-  }
+.block__photo, .block__info{
+  height: 460px;
+}
 
-  .blog-meta, .comment-section {
-    margin: 0 auto;
-    max-width: 810px;
-  }
+.gallery {
+  height: 580px;
+}
 
+.article__cover {
+  height: 600px;
+}
 
 
 
 }
 
 
+@media only screen and (max-width: 1100px) {
 
-@media only screen and (max-width: 1300px) {
+h1, .h1{
+  font-size: 38px;
+}
 
+h2, .h2{
+  font-size: 30px;
+}
 
-  ul.work-grid li .inner{
-    padding: 10%;
-    p{
-      margin-bottom: 10%;
-      font-size: 19px;
+p, .intro p {
+  font-size: 22px;
+}
+
+.blog-post:nth-child(even), #page-journal .blog-post:nth-child(odd) {
+    margin-right: 3.3%;
+}
+
+ul.main-navigation__list{
+  display: none;
+}
+
+.spinner-master2{
+  display: block !important;
+}
+
+a.header__logo {
+    width: 300px;
+    left: 30px;
+    img{
+      max-width: 300px;
     }
-  }
+}
 
+footer{
+  padding: 50px 0;
+}
+
+.footer__logo {
+    width: 100%;
+    display: block;
+    img{
+      width: 200px;
+    }
+}
+
+ul.footer__sitemap {
+  padding-top: 25px;
+}
+
+.footer__social-block{
+  padding-top: 2px;
 }
 
 
-@media only screen and (max-width: 1200px) {
-
- ul.home-grid li .inner{
-  padding: 20% 15% 15% 15%
-  }
 
 }
 
 @media only screen and (max-width: 960px) {
 
-   ul.home-grid li .inner{
-  padding: 15% 15% 15% 15%
+ .intro, #page-design .intro{
+  width: 100%;
+ }
+
+
+.block__photo{
+  width: 100%;
+  height: 580px;
+}
+
+.block__info{
+  height: 340px;
+  width: 100%;
+  h2{
+    padding-bottom: 70px;
   }
+}
 
-   #page-eyekiller ul.work-grid li .inner p{
-      font-size: 18px;
-      line-height: 1.7em;
-    }
+.block__info__text {
+  padding: 70px 50px 50px 50px;
+}
 
-
-  .photo-grid img{
-  width: 33.333%;
+.blog-post {
+  width: 100%;
+  &:nth-child(even), &:nth-child(odd){
+    margin: 3.5% 0;
   }
+}
+
+.photoset img{
+  width: 49%;
+  padding: 5px;
+}
+
+#mobile-menu ul li:first-child{
+  padding-top: 120px;
+}
+
+
+.gallery {
+    height: 530px;
+}
 
 
 }
 
 
+@media only screen and (max-width: 850px) {
 
+.footer__logo {
+    width: 100%;
+    display: block;
+    padding-bottom: 30px;
+    text-align: center;
+    img{
+      width: 250px;
+    }
+}
 
+ul.footer__sitemap {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
 
-@media only screen and (max-width: 800px) {
-   h1{
-    font-size: 50px;
+.footer__social-block{
+  padding-top: 40px;
+  width: 100%;
+  text-align: center;
+  .row{
+    float: none;
+    display: inline-block;
+  }
+  a{
+    float: left;
+  }
+}
+
+.article__cover {
+  height: 500px;
+}
+
+}
+
+@media only screen and (max-width: 795px) {
+
+  h1, .h1{
+    font-size:32px;
   }
 
-
-  ul.home-grid li, ul.home-grid a li, ul.photo-grid a li{
-    width: 50%;
+  h2, .h2 {
+    font-size: 26px;
   }
 
-
-   ul.home-grid li .inner{
-  padding: 25% 15% 15% 15%
-  }
-
-  footer div p{
+  h2.sub-heading{
     font-size: 14px;
   }
 
-  #page-eyekiller ul.work-grid li{
-    width: 100%;
-    .inner p{
-      font-size: 22px;
-    }
+  a.link {
+    font-size: 17px;
   }
 
-   #page-eyekiller ul.work-grid li#work-belfast-ruby{
-      border-bottom: solid 1px $grey;
-    }
 
-
+a.header__logo {
+  width: 310px;
+  top: 20px;
+  left: 20px;
 }
 
-@media only screen and (max-width: 730px) {
-
-   h1 span{
-    display: inline;
+.intro {
+    padding: 170px 0 30px 0;
   }
 
+.block__info__text h2{
+  padding-bottom: 70px;
+}
 
-  ul.home-grid li .inner, ul.home-grid a li .inner{
-    padding: 20% 15% 20% 15%;
-    p{
-      font-size: 20px;
-      line-height: 1.5em;
-    }
-    p.date{
-      font-size: 15px;
-    }
-  }
-
-  ul.home-grid li.blog h2{
-    font-size: 26px;
-  }
+.block__info__text h2.sub-heading{
+  padding-bottom: 0;
+}
 
 
-  header{
-    padding: 1.5em 0;
-  }
-
-  footer div{
-    float: left;
+#page-journal .blog-post {
     width: 100%;
+    margin: 1.8% 0 2.5% 0;
   }
 
-  a.hamburger{
-  display: block;
-  }
-
-   nav ul.desktop-menu{
-    display: none;
-   }
-
-  .logo{
-    float: left;
-    padding-left: 1.2em;
-  }
-
-   .content h1, #page-post h1{
-    padding-top: 60px;
-  }
-
-
+.gallery {
+  height: 490px;
+}
 
 }
 
 
-@media only screen and (max-width: 520px) {
-
-  .logo{
-    max-width: 150px;
-  }
-
-  h1{
-    font-size: 34px;
-  }
-
-  h2, h2 a{
-    font-size: 26px;
-  }
-
-  h1 span{
-    display: block;
-  }
-
-  .content h1, #page-post h1{
-    padding-top: 25px;
-  }
-
-  body, #tagline h2{
-    font-size: 18px;
-  }
-
-  header {
-    padding: 1em 0em 2.7em 0em;
-  }
-
-  ul.home-grid li, ul.home-grid a li, ul.photo-grid a li{
-    width: 100%;
-    .inner{
-      padding: 18% 10%;
-      p{
-        font-size: 18px;
-      }
-    }
-   &.blog h2{
-    font-size: 28px;
-   }
-  }
-
-    ul.home-grid li.blog{
-      background: $turquoise;
-    }
-
-    ul.home-grid li.blog:hover:hover{
-      background: darken($turquoise, 5%);
-    }
-
-    a.button-push .button-icon{
-      top: 12px;
-    }
+@media only screen and (max-width: 600px) {
 
 
-ul.post-list li{
-  padding: 0 0 13% 0;
-  &:first-child{
-    padding: 1% 0 13% 0;
-  }
+.gallery {
+    height: 340px;
 }
 
-   #page-eyekiller header{
-    padding-bottom: 1em;
-   }
-
-
-  #page-eyekiller .header-background {
-    min-height: 250px;
-    h1{
-      font-size: 50px;
-    }
-  }
-
-  #page-eyekiller .header-background .content{
-    padding: 8% 0 22% 0;
-  }
-
-  #page-eyekiller .content {
-    padding: 2.5em 0;
-  }
-
-  #page-eyekiller .my-work .section-title {
-    padding: 1.5em 0;
-    h2{
-      font-size: 20px;
-    }
-  }
-
-  #page-eyekiller ul.work-grid li .inner {
-    padding: 10% 5%;
-    p{
-      font-size: 19px;
-      line-height: 1.7em;
-    }
-  }
-
-  #page-eyekiller .work-example{
-    height: 330px;
-  }
-
-
-  #page-eyekiller .content p strong{
+p, .intro p {
     font-size: 20px;
-  }
+}
 
-  .photo-grid img{
-  width: 100%;
-  }
+.article__cover {
+  height: 400px;
+}
 
-  ul.photo-grid li h4{
-    opacity: 1;
+.block__photo {
+  height: 400px;
   }
 
 

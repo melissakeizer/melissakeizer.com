@@ -13,91 +13,123 @@
   <meta name="description" content="=The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 ">
 
+  <link rel="stylesheet" href="/dist/aos.css" />
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/js/slick/slick.css">
   <link rel="canonical" href="http://melissakeizer.com/journal/strobist-photography-for-sony-alpha-shooters/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer's Blog and Portfolio" href="http://melissakeizer.com/feed.xml" />
+
 
 
   <meta property="og:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
   <meta property="og:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
   <meta property="og:url" content="http://www.melissakeizer.com" />
-  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card.jpg" />
-  <meta property="og:site_name" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card-2016.jpg" />
+  <meta property="og:site_name" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
 
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card.jpg" />
+  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card-2016.jpg" />
   <meta name="twitter:url" content="http://www.melissakeizer.com/" />
-  <meta name="twitter:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta name="twitter:title" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
   <meta name="twitter:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
 
 
-  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="//use.typekit.net/iwp7moa.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="/js/all.js"></script>
-
-
-
+  <script type="text/javascript" src="/js/slick/slick.js"></script>
+  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="/dist/aos.js"></script>
 
 </head>
 
   <body>
-    <header>
-  <nav class="menu">
-    <a href="/"><img src="/img/melissakeizer-logo-turquoise.svg" class="logo" /><a/>
-    <ul class="desktop-menu">
-      <li class="hello"><a href="/" >Hello</a></li>
-      <li><a href="/about/" >About Me</a></li>
+   <div id="transcroller-body" class="aos-all">
+    <div id="page-post" class="article">
+      <header class="navigation article__cover" style="background-image:url(/img/blog-previews/sony-strobe.jpg);">
+        <div class="overlay"></div>
+        <div class="container">
+            
+  <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo-white.svg" alt="melissa keizer logo" /img></a>
+
+
+<nav class="main-navigation">
+    <ul class="main-navigation__list">
+       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" >Photography</a></li>
       <li><a href="/journal/" class="active">Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
     </ul>
-  </nav>
-  <a href="#" class="hamburger" id="hamburger" title="view full menu">
-    <i class="fa fa-bars"></i>
-  </a>
+</nav>
+
+ <div id="menuicon" class="spinner-master2">
+      <input type="checkbox" id="spinner-form2" />
+      <label for="spinner-form2" class="spinner-spin2">
+        <div class="spinner2 diagonal part-1"></div>
+        <div class="spinner2 horizontal"></div>
+        <div class="spinner2 diagonal part-2"></div>
+      </label>
+    </div>
 
   <nav id="mobile-menu" class="mobile-menu-relative">
+    <img src="/img/misc/melissa-keizer-logo-clog.svg" class="mobile-menu__logo" />
     <ul>
-      <li class="hello"><a href="/" >Hello</a></li>
+      <li><a href="/" >Homepage</a></li>
       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" >Photography</a></li>
       <li><a href="/journal/" class="active">Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
-      <li class="close-icon">
-        <a href="#" class="close-menu" id="close-menu" title="close menu">
-          <i class="fa fa-times"></i>
-        </a>
-      </li>
     </ul>
+    <div class="mobile-menu__social-links">
+      <a href="http://twitter.com/keizgoesboom" class="twitter">
+        <img src="/img/misc/twitter-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+         <img src="/img/misc/dribbble-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+         <img src="/img/misc/flickr-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+         <img src="/img/misc/facebook-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://instagram.com/keizgoesboom" class="instagram">
+         <img src="/img/misc/instagram-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://500px.com/melissakeizer" class="500px">
+         <img src="/img/misc/500px-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+        <img src="/img/misc/linkedin-dark.svg" alt="social icon" />
+      </a>
+      <a href="mailto:hi@melissakeizer.com" class="email">
+         <img src="/img/misc/email-dark.svg" alt="social icon" />
+      </a>
+    </div>
   </nav>
 
 
-</header>
-      <div id="page-post">
-<section class="container">
-  <article class="blog-meta">
-    <h1>Strobist Photography for Sony Alpha shooters</h1>
-    <p class="date">Posted on May 3, 2015</p>
-  </article>
-
-  <article class="content">
-    <p>When I’m out taking photos, I generally shoot the scene using the natural light outdoors, or the available light indoors, whether that’s stage lighting at a gig, or artificial light inside a room.  However there have been times when I’ve been shooting indoors in low-light and I’ve been forced to hike up my camera’s ISO setting, resulting in noisier (grainy) images. In those situations, I would have benefitted from having an off-camera flash.</p>
+            <article class="intro--post">
+              <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">Strobist Photography for Sony Alpha shooters</h1>
+              <p class="paragraph--intro aos-item" data-aos="fade-up" data-aos-delay="200">A guide to using off-camera flash for Sony users</p>
+              <p class="date aos-item" data-aos="fade-up" data-aos-delay="200">Posted on May 3, 2015</p>
+            </article>
+          </div>
+        </header>
+        <div class="container">
+          <article class="article__content">
+            <p>When I’m out taking photos, I generally shoot the scene using the natural light outdoors, or the available light indoors, whether that’s stage lighting at a gig, or artificial light inside a room.  However there have been times when I’ve been shooting indoors in low-light and I’ve been forced to hike up my camera’s ISO setting, resulting in noisier (grainy) images. In those situations, I would have benefitted from having an off-camera flash.</p>
 
 <p>I became more and more interested in strobist photography (i.e. using off-camera flashes, a.k.a. speedlights, to light a scene) so when asked for Christmas gift ideas last year, I decided to put some lighting equipment on my list.  It was a frustrating experience searching for answers regarding off-camera flash setups for Sony Alpha users, as there seems to be a lack of information available about this. Hopefully this post will be helpful in guiding other off-camera, wireless flash photography newbies, and in particular, fellow Sony Alpha shooters.</p>
 
-<p><img src="../../img/blog/strobist-setup-sony-alpha.jpg" alt="photo caption" title="Strobist setup for Sony Alpha" />
-<span class="caption">I’ll be detailing my strobist setup for Sony Alpha</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/strobist-setup-sony-alpha.jpg" alt="Strobist setup for Sony Alpha" />
+  <span class="caption">I'll be detailing my strobist setup for Sony Alpha</span>
+</div>
 
 <h2 id="heres-what-youll-need">Here’s what you’ll need</h2>
 
@@ -113,8 +145,10 @@
 
 <p>Note that my setup is for one flash only, if you want to use two speedlights, you’ll need another receiver for the flashgun, along with an extra stand, umbrella mount and umbrella. Another point to note is that most light stand holders use a cold-shoe mount to attach receivers and flashguns to the holder. However, Sony Alpha hotshoes are not the standard shape that most brands use, so instead you’ll need to order a holder with a screw top mount instead.</p>
 
-<p><img src="../../img/blog/strobist-phottix-strato.jpg" alt="photo caption" title="My Phottix Strato II Wireless Trigger Set" />
-<span class="caption">My Phottix Strato II Wireless Trigger Set</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/strobist-phottix-strato.jpg" alt="My Phottix Strato II Wireless Trigger Set" />
+  <span class="caption">My Phottix Strato II Wireless Trigger Set</span>
+</div>
 
 <p>After reading various online reviews and comments from Sony users on photography forums, I chose to add the <a href="http://www.amazon.co.uk/dp/B006JODEGI/ref=wl_it_dp_o_pC_S_ttl?_encoding=UTF8&amp;colid=2WET56E3WOQR2&amp;coliid=I1NMYOL33CJUBE">Phottix Strato II trigger set</a> to my equipment list as it seemed to be best quality, cost-effective option. While you could buy cheaper YungNuo triggers/receivers, there’s limited compatibility with Sony products and there’s a likelihood that they won’t work with older or future Sony flashes.</p>
 
@@ -124,8 +158,10 @@
 
 <p>Next you’ll need to take your light stand out of the bag, pull out the legs and set it up. Grab your umbrella holder and screw it on to the top of your light stand. To attach the Phottix receiver to the umbrella holder, simply screw it on. Attach the flash to the receiver by slipping it into the hotshoe. Open the umbrella and pop the shaft into the hole in the flash holder, tightening it using the screw on the holder.</p>
 
-<p><img src="../../img/blog/strobist-flashgun.jpg" alt="photo caption" title="My flashgun with transmitter attached, mounted on my light stand" />
-<span class="caption">My flashgun with transmitter attached, mounted on my light stand</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/strobist-flashgun.jpg" alt="My flashgun with transmitter attached, mounted on my light stand" />
+  <span class="caption">My flashgun with transmitter attached, mounted on my light stand</span>
+</div>
 
 <p>Now that everything is in place, you’ll just need to turn on your flash, transmitter and receiver and fiddle about with a few more settings. Press on a channel button on your transmitter, when you see it light up, that’s it set. Turn on the same channel on your receiver. The Phottix Strato II trigger set doesn’t support wireless TTL (though you can use TTL when the flash is mounted on your transmitter on the camera.), so you’ll need to set the flash power manually. Of course, this depends on your scene and the results you’re after. Have a play about with the flashgun settings until your exposure is just right.</p>
 
@@ -135,20 +171,26 @@
 
 <p>I recently did a freelance photography job for <a href="https://www.facebook.com/thevaultbanbridge">The Vault</a>, a new restaurant in Banbridge, where I had chance to use my new lighting gear in a real-world situation. I had a mix of lighting available to work with at the pizzeria- from the dim, atmospheric lighting in the dining area to the wood-fired oven where the pizza was illuminated solely the flames.</p>
 
-<p><img src="../../img/blog/strobist-pizza.jpg" alt="photo caption" title="Pizza in the Wood-fired Oven" />
-<span class="caption">I lit this scene with a single flashgun, shot through an umbrella.</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/strobist-pizza.jpg" alt="Pizza in the Wood-fired Oven" />
+  <span class="caption">I lit this scene with a single flashgun, shot through an umbrella.</span>
+</div>
 
 <p>The shoot involved plenty of experimentation to find the best way to light the scene, including the flash power settings and the position and distance of the stand from the scene. Sometimes the light from my flash was the primary light source for a shot, and other times it was used to add a little extra light to brighten up the scene a bit.</p>
 
-<p><img src="../../img/blog/strobist-pizza-cutting.jpg" alt="photo caption" title="Pizza at The Vault" />
-<span class="caption">I lit this scene with a single speedlight, shot through an umbrella.</span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/strobist-pizza-cutting.jpg" alt="Pizza at The Vault" />
+  <span class="caption">I lit this scene with a single speedlight, shot through an umbrella.</span>
+</div>
 
 <h2 id="comparing-with-and-without-flash">Comparing with and without flash</h2>
 
 <p>The benefit of having a strobist setup is clear when comparing the shots below, taken one after another. The left photo shows the drinks lit with only the lights at the bar, the right photo shows the same scene lit by the flash. The left one is noticeably nosier as I had no choice but to bump up the ISO to compensate for a lack of available light. The right one is a much sharper shot with a lot less noise as I could reduce the ISO to 200.</p>
 
-<p><img src="../../img/blog/strobist-cocktails-comparison.jpg" alt="photo caption" title="Cocktails at The Vault" />
-<span class="caption">A comparison of the same scene with (right) and without (left) flash. </span></p>
+<div class="article__image article__image--with-caption">
+  <img src="/img/blog/strobist-cocktails-comparison.jpg" alt="Cocktails at The Vault" />
+  <span class="caption">A comparison of the same scene with (right) and without (left) flash.</span>
+</div>
 
 <h2 id="final-notes">Final notes</h2>
 
@@ -159,13 +201,13 @@
 <p>Hopefully this post has helped clarify what you’ll need and how to get started. Post a comment if you have any questions! Oh and if you’re interested in seeing a few more photos from the shoot, take a look on my <a href="https://www.flickr.com/photos/tinyspark_boom/sets/72157652372228675/">Flickr</a>.</p>
 
 
-
-    <a href="https://twitter.com/share" class="twitter-share-button" data-via="KeizGoesBoom" data-size="large" data-count="none">Share on Twitter</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-  </article>
-
-  <div class="comment-section">
+          </article>
+          <div class="article__notes">
+              
+              
+          </div>
+          <!-- Go to www.addthis.com/dashboard to customize your tools --> <div class="addthis_inline_share_toolbox"></div>
+          <div class="article__comments">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -181,17 +223,85 @@
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
 
-</section>
-</div>
-
-    <footer>
-  <div class="send-me-email">
-    <p>Want to have a chat or say hello? <a href="mailto:hi@melissakeizer.com" >Send me an email</a></p>
+        </div>
+        <div class="article__more-posts">
+          <section class="container clearfix blog-posts">
+            <h2 class="center">Read more Posts</h2>
+            
+              <li class="blog-post">
+                <a href="/journal/i-will-photograph-your-pet/">
+                <img src="/img/blog-previews/raja-eating-my-camera.jpg" alt="/img/blog-previews/raja-eating-my-camera.jpg" />
+                <p class="date">04 February 2016</p>
+                <h3>I'll Photograph Your Pets!</h3>
+                </a>
+              </li>
+            
+              <li class="blog-post">
+                <a href="/journal/sony-a7ii-facts-and-thoughts/">
+                <img src="/img/blog-previews/my-sony-a7ii.jpg" alt="/img/blog-previews/my-sony-a7ii.jpg" />
+                <p class="date">30 October 2015</p>
+                <h3>My New Sony A7ii</h3>
+                </a>
+              </li>
+            
+          </section>
+        </div>
+    </div>
   </div>
-  <div class="made-by">
-    <p>Made with <i class="fa fa-heart"></i> by <a href="http://twitter.com/keizgoesboom" >Melissa Keizer</a></p>
+    <footer>
+
+  <div class="clearfix">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="/img/melissa-keizer-logo-full.svg" alt="melissa keizer logo"/>
+      </div>
+
+      <ul class="footer__sitemap">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Me</a></li>
+        <li><a href="/design/">Design &amp; Development</a></li>
+      </ul>
+      <ul class="footer__sitemap footer__sitemap--second">
+        <li><a href="/photography/">Photography</a></li>
+        <li><a href="/journal/">Journal</a></li>
+      </ul>
+
+
+      <div class="footer__social-block">
+        <div class="row">
+          <a href="http://twitter.com/keizgoesboom" class="twitter">
+            <img src="/img/misc/twitter.svg" alt="social icon" />
+          </a>
+          <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+             <img src="/img/misc/dribbble.svg" alt="social icon" />
+          </a>
+          <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+             <img src="/img/misc/flickr.svg" alt="social icon" />
+          </a>
+          <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+             <img src="/img/misc/facebook.svg" alt="social icon" />
+          </a>
+        </div><!--
+        --><div class="row">
+          <a href="mailto:hi@melissakeizer.com" class="email">
+             <img src="/img/misc/email.svg" alt="social icon" />
+          </a>
+          <a href="http://instagram.com/keizgoesboom" class="instagram">
+             <img src="/img/misc/instagram.svg" alt="social icon" />
+          </a>
+          <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+            <img src="/img/misc/linkedin.svg" alt="social icon" />
+          </a>
+          <a href="https://500px.com/melissakeizer" class="500px">
+             <img src="/img/misc/500px.svg" alt="social icon" />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
+
+ <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -203,6 +313,6 @@
   ga('send', 'pageview');
 
 </script>
-
   </body>
 </html>
+

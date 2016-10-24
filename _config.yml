@@ -1,5 +1,5 @@
 # Site settings
-title: Melissa Keizer's Blog & Portfolio
+title: Melissa Keizer's Blog and Portfolio
 email: hi@melissakeizer.com
 description: > # this means to ignore newlines until "baseurl:"
   The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
@@ -13,9 +13,10 @@ flickr: http://flickr.com/photos/tinyspark_boom
 exposure: https://melissakeizer.exposure.co/
 instagram:  http://instagram.com/keizgoesboom
 facebook: https://www.facebook.com/melissakeizerphotography/
+500px: https://500px.com/melissakeizer
 
 # Build settings
 markdown: kramdown
 permalink: /journal/:title/
-paginate: 5
+paginate: 8
 paginate_path: "/journal/:num/"

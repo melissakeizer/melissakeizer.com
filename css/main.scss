@@ -8,6 +8,7 @@
 @import 'utils/variables';
 @import 'utils/mixins';
 @import 'utils/helpers';
+@import 'utils/fontface';
 
 @import 'base/normalize';
 @import 'base/base';
@@ -18,14 +19,13 @@
 @import 'layout/footer';
 
 @import 'components/buttons';
-@import 'components/social';
 @import 'components/arrow';
 
 @import 'pages/home';
 @import 'pages/journal';
 @import 'pages/about';
 
-@import 'themes/eyekiller';
+@import 'third-party/slick';
 
 @import 'base/responsify';
 

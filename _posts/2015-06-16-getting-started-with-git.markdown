@@ -2,8 +2,9 @@
 layout: post
 selected: journal
 title:  "Getting Started with Git"
+intro: Making version control easy
 date:   2015-06-16 22:01:00
-preview-image: "/img/blog-previews/start-git.jpg"
+cover-photo: "/img/blog-previews/start-git.jpg"
 
 ---
 

@@ -9,177 +9,268 @@
 
   <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
-  <title>Melissa Keizer's Blog and Portfolio</title>
+  <title>Photography | Melissa Keizer's Blog and Portfolio</title>
   <meta name="description" content="=The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 ">
 
+  <link rel="stylesheet" href="/dist/aos.css" />
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/js/slick/slick.css">
   <link rel="canonical" href="http://melissakeizer.com/photography/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer's Blog and Portfolio" href="http://melissakeizer.com/feed.xml" />
+
 
 
   <meta property="og:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
   <meta property="og:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
   <meta property="og:url" content="http://www.melissakeizer.com" />
-  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card.jpg" />
-  <meta property="og:site_name" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card-2016.jpg" />
+  <meta property="og:site_name" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
 
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card.jpg" />
+  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card-2016.jpg" />
   <meta name="twitter:url" content="http://www.melissakeizer.com/" />
-  <meta name="twitter:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta name="twitter:title" content="Melissa Keizer | UI/UX Designer &amp; Photographer" />
   <meta name="twitter:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
 
 
-  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-  <script src="//use.typekit.net/iwp7moa.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script src="/js/all.js"></script>
-
-
-
+  <script type="text/javascript" src="/js/slick/slick.js"></script>
+  <script type="text/javascript" src="/js/instafeed/instafeed.min.js"></script>
+	<script src="/dist/aos.js"></script>
 
 </head>
 
   <body>
-    <header>
-  <nav class="menu">
-    <a href="/"><img src="/img/melissakeizer-logo-turquoise.svg" class="logo" /><a/>
-    <ul class="desktop-menu">
-      <li class="hello"><a href="/" >Hello</a></li>
-      <li><a href="/about/" >About Me</a></li>
+		<div id="transcroller-body" class="aos-all">
+    <header class="navigation">
+      <div class="container">
+          
+  <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo.svg" alt="melissa keizer logo" /img></a>
+
+
+<nav class="main-navigation">
+    <ul class="main-navigation__list">
+       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" class="active">Photography</a></li>
       <li><a href="/journal/" >Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
     </ul>
-  </nav>
-  <a href="#" class="hamburger" id="hamburger" title="view full menu">
-    <i class="fa fa-bars"></i>
-  </a>
+</nav>
+
+ <div id="menuicon" class="spinner-master2">
+      <input type="checkbox" id="spinner-form2" />
+      <label for="spinner-form2" class="spinner-spin2">
+        <div class="spinner2 diagonal part-1"></div>
+        <div class="spinner2 horizontal"></div>
+        <div class="spinner2 diagonal part-2"></div>
+      </label>
+    </div>
 
   <nav id="mobile-menu" class="mobile-menu-relative">
+    <img src="/img/misc/melissa-keizer-logo-clog.svg" class="mobile-menu__logo" />
     <ul>
-      <li class="hello"><a href="/" >Hello</a></li>
+      <li><a href="/" >Homepage</a></li>
       <li><a href="/about/" >About Me</a></li>
+       <li><a href="/design/" >Design &amp; Dev</a></li>
       <li><a href="/photography/" class="active">Photography</a></li>
       <li><a href="/journal/" >Journal</a></li>
-      <li>
-        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
-          <i class="fa fa-paper-plane"></i>
-        </a>
-      </li>
-      <li class="close-icon">
-        <a href="#" class="close-menu" id="close-menu" title="close menu">
-          <i class="fa fa-times"></i>
-        </a>
-      </li>
     </ul>
+    <div class="mobile-menu__social-links">
+      <a href="http://twitter.com/keizgoesboom" class="twitter">
+        <img src="/img/misc/twitter-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+         <img src="/img/misc/dribbble-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+         <img src="/img/misc/flickr-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+         <img src="/img/misc/facebook-dark.svg" alt="social icon" />
+      </a>
+      <a href="http://instagram.com/keizgoesboom" class="instagram">
+         <img src="/img/misc/instagram-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://500px.com/melissakeizer" class="500px">
+         <img src="/img/misc/500px-dark.svg" alt="social icon" />
+      </a>
+      <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+        <img src="/img/misc/linkedin-dark.svg" alt="social icon" />
+      </a>
+      <a href="mailto:hi@melissakeizer.com" class="email">
+         <img src="/img/misc/email-dark.svg" alt="social icon" />
+      </a>
+    </div>
   </nav>
 
 
-</header>
+      </header>
       <div id="page-photography">
-
-<section class="container">
-  <article class="content">
-    <h1>Things I like <span>to photograph</span></h1>
-    <p>Animals are my most photographed subject, but I’ll commonly shoot people and places, or whatever interesting scene I come across. Take a look through my photography portfolio by choosing an album below, or check out my <a href="https://www.flickr.com/photos/tinyspark_boom">Flickr photostream<a/>.</p>
-  </article>
-</section>
-
-<section class="full-width">
-  <ul class="photo-grid">
-
-    <a href="/photography/landscapes">
-      <li class="photoset-landscapes">
-        <h4>Landscapes</h4>
-      </li>
-    </a>
-    <a href="/photography/pets">
-      <li class="photoset-pets">
-        <h4>Pets</h4>
-      </li>
-    </a>
-    <a href="/photography/portraits">
-      <li class="photoset-portraits">
-        <h4>Portraits</h4>
-      </li>
-    </a>
-    <a href="/photography/restaurant">
-      <li class="photoset-restaurant">
-        <h4>Food &amp; Restaurant</h4>
-      </li>
-    </a>
-    <a href="/photography/music">
-      <li class="photoset-music">
-        <h4>Music</h4>
-      </li>
-    </a>
-    <a href="/photography/wild-animals">
-      <li class="photoset-zoo">
-        <h4>Zoo &amp; Wild Animals</h4>
-      </li>
-    </a>
-  </ul>
-</section>
-
-<section class="container">
-  <article class="content">
-    <h2>Exposure Stories</h2>
-    <p>I love capturing moments and scenes that can build a narrative, so naturally I’m a huge fan of photography platform <a href="https://melissakeizer.exposure.co">Exposure</a>. Whether it’s a trip to a <a href="https://melissakeizer.exposure.co/the-ark">local farm</a> or a weekend in a <a href="https://melissakeizer.exposure.co/the-city-of-dublin">beautiful city</a>, I enjoy creating visual stories with my photos.
-</p>
-  </article>
-</section>
-
-
-<section class="full-width">
-  <ul class="photo-grid exposure">
-    <a href="https://melissakeizer.exposure.co/the-ark">
-      <li class="exposure-ark">
-        <h4>The Ark Farm</h4>
-      </li>
-    </a>
-    <a href="https://melissakeizer.exposure.co/take-a-walk-with-me">
-      <li class="exposure-matisse">
-        <h4>Take a Walk With Me</h4>
-      </li>
-    </a>
-    <a href="https://melissakeizer.exposure.co/the-city-of-dublin">
-      <li class="exposure-dublin">
-        <h4>The City of Dublin</h4>
-      </li>
-    </a>
-  </ul>
-</section>
-
-<section class="container">
-  <article class="content last">
-    <h2>Hire Me</h2>
-    <p>I'm available for freelance photography work. Email me (<a href="mailto:hi@melissakeizer.com">hi@melissakeizer.com</a>) if you’d like to chat about working together. </p>
-  </article>
-</section>
+        <div class="container">
+          <article class="intro">
+            <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">Photography</h1>
+            <p class="paragraph--intro" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">Taking pictures of my favourite places, people and four-legged critturs is my favourite past-time</p>
+          </article>
+        </div>
+        <div class="gallery bottom-space--s aos-item" data-aos="fade-up" data-aos-once="true" data-aos-delay="800">
+<div class="variable-width">
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-8.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-13.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-23.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-14.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-15.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-4.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-12.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-6.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-7.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-21.jpg" alt="portfolio image" />
+  </div>
+   <div>
+    <img src="/img/photos/portfolio-mkeizer-3.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-9.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-11.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-4.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-24.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-20.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-22.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-18.jpg" alt="portfolio image" />
+  </div>
+    <div>
+    <img src="/img/photos/portfolio-mkeizer-5.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-27.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-16.jpg" alt="portfolio image" />
+  </div>
+  <div>
+    <img src="/img/photos/portfolio-mkeizer-17.jpg" alt="portfolio image" />
+  </div>
+    <div>
+  <img src="/img/photos/portfolio-mkeizer-26.jpg" alt="portfolio image" />
+  </div>
 
 </div>
+</div>
+
+ <section class="container clearfix ">
+  <article class="container__content top-space--m bottom-space--l">
+    <p class="aos-item" data-aos="fade-up" data-aos-once="true">In my free time you’ll usually find me with a camera in hand, exploring the Northern Irish terrain scouting out cute animals to photograph. I’ve also tinkered with many other areas of photography, one of my favourites being live music, shooting some of my <a href="https://www.flickr.com/photos/tinyspark_boom/albums/72157624120698509">favourite artists</a>.
+</p>
+
+    <h2 class="aos-item" data-aos="fade-up" data-aos-once="true">Pet Photography</h2>
+    <p class="aos-item" data-aos="fade-up" data-aos-once="true">As a huge animal lover, I love combining two of my favourite things - pets and photography. This year I’ve began offering my services to all pet owners with relaxed photo-sessions with you and your lovely pet at a location of your choice. I make sure we all have fun and we come away with some great shots that capture your little one’s personality. </p>
+      <p class="aos-item" data-aos="fade-up" data-aos-once="true">If you’re interested in booking a photoshoot or finding out <a href="mailto:hi@melissakeizer.com">send me an email</a> or message me on <a href="https://www.facebook.com/melissakeizerphotography/">Facebook.</a></p>
+     <a href="https://www.facebook.com/melissakeizerphotography/" class="link link--black aos-item" data-aos="fade-up" data-aos-once="true">Check out past pet photoshoots on Facebook</a>
+  </article>
+
+  <article>
+    <img class="aos-item" data-aos="fade-up" data-aos-once="true" src="/img/photos/pet-photography-by-melissa.jpg" alt="pet photography by Melissa Keizer" />
+  </article>
+
+  <article class="container__content top-space--m bottom-space--l">
+    <h2 class="aos-item" data-aos="fade-up" data-aos-once="true">Want to work with me?</h2>
+    <p class="aos-item" data-aos="fade-up" data-aos-once="true">As well as pets, I also help out clients with their photography needs, from <a href="https://www.facebook.com/mainstreetmystreet/photos/?tab=album&album_id=1084368651622498">fun events</a> to <a href="https://www.facebook.com/media/set/?set=a.1760222404194162.1073741834.1677885149094555&type=1&l=7eecc658f3">local businesses</a>. If you think I could help you, get in touch to arrange a chat.</p>
+    <a href="mailto:hi@melissakeizer.com" class="link link--black aos-item" data-aos="fade-up" data-aos-once="true">Email Me</a>
+  </article>
+</section>
 
 
+        <footer>
+
+  <div class="clearfix">
+    <div class="container">
+      <div class="footer__logo">
+        <img src="/img/melissa-keizer-logo-full.svg" alt="melissa keizer logo"/>
+      </div>
+
+      <ul class="footer__sitemap">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About Me</a></li>
+        <li><a href="/design/">Design &amp; Development</a></li>
+      </ul>
+      <ul class="footer__sitemap footer__sitemap--second">
+        <li><a href="/photography/">Photography</a></li>
+        <li><a href="/journal/">Journal</a></li>
+      </ul>
 
 
-
-
-    <footer>
-  <div class="send-me-email">
-    <p>Want to have a chat or say hello? <a href="mailto:hi@melissakeizer.com" >Send me an email</a></p>
-  </div>
-  <div class="made-by">
-    <p>Made with <i class="fa fa-heart"></i> by <a href="http://twitter.com/keizgoesboom" >Melissa Keizer</a></p>
+      <div class="footer__social-block">
+        <div class="row">
+          <a href="http://twitter.com/keizgoesboom" class="twitter">
+            <img src="/img/misc/twitter.svg" alt="social icon" />
+          </a>
+          <a href="https://dribbble.com/KeizGoesBoom" class="dribbble">
+             <img src="/img/misc/dribbble.svg" alt="social icon" />
+          </a>
+          <a href="http://flickr.com/photos/tinyspark_boom" class="flickr">
+             <img src="/img/misc/flickr.svg" alt="social icon" />
+          </a>
+          <a href="https://www.facebook.com/melissakeizerphotography/" class="facebook">
+             <img src="/img/misc/facebook.svg" alt="social icon" />
+          </a>
+        </div><!--
+        --><div class="row">
+          <a href="mailto:hi@melissakeizer.com" class="email">
+             <img src="/img/misc/email.svg" alt="social icon" />
+          </a>
+          <a href="http://instagram.com/keizgoesboom" class="instagram">
+             <img src="/img/misc/instagram.svg" alt="social icon" />
+          </a>
+          <a href="https://www.linkedin.com/profile/view?id=364389896" class="linkedin">
+            <img src="/img/misc/linkedin.svg" alt="social icon" />
+          </a>
+          <a href="https://500px.com/melissakeizer" class="500px">
+             <img src="/img/misc/500px.svg" alt="social icon" />
+          </a>
+        </div>
+      </div>
+    </div>
   </div>
 </footer>
+
+ <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -191,6 +282,7 @@
   ga('send', 'pageview');
 
 </script>
-
+      </div>
+			</div>
   </body>
 </html>
