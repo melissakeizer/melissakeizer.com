@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!--[if lt IE 9]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+
+  <title>Melissa Keizer's Blog & Portfolio</title>
+  <meta name="description" content="=The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="canonical" href="http://melissakeizer.com/photography/music/">
+  <link rel="alternate" type="application/atom+xml" title="Melissa Keizer's Blog & Portfolio" href="http://melissakeizer.com/feed.xml" />
+
+
+  <meta property="og:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta property="og:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
+  <meta property="og:url" content="http://www.melissakeizer.com" />
+  <meta property="og:image" content="http://www.melissakeizer.com/img/social/facebook-card.jpg" />
+  <meta property="og:site_name" content="Melissa Keizer | Web Designer &amp; Photographer" />
+
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image:src" content="http://www.melissakeizer.com/img/social/twitter-card.jpg" />
+  <meta name="twitter:url" content="http://www.melissakeizer.com/" />
+  <meta name="twitter:title" content="Melissa Keizer | Web Designer &amp; Photographer" />
+  <meta name="twitter:description" content="The portfolio and blog of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland." />
+
+
+  <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="//use.typekit.net/iwp7moa.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <script src="/js/all.js"></script>
+
+
+
+
+</head>
+
+  <body>
+    <header>
+  <nav class="menu">
+    <a href="/"><img src="/img/melissakeizer-logo-turquoise.svg" class="logo" /><a/>
+    <ul class="desktop-menu">
+      <li class="hello"><a href="/" >Hello</a></li>
+      <li><a href="/about/" >About Me</a></li>
+      <li><a href="/photography/" class="active">Photography</a></li>
+      <li><a href="/journal/" >Journal</a></li>
+      <li>
+        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
+          <i class="fa fa-paper-plane"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <a href="#" class="hamburger" id="hamburger" title="view full menu">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  <nav id="mobile-menu" class="mobile-menu-relative">
+    <ul>
+      <li class="hello"><a href="/" >Hello</a></li>
+      <li><a href="/about/" >About Me</a></li>
+      <li><a href="/photography/" class="active">Photography</a></li>
+      <li><a href="/journal/" >Journal</a></li>
+      <li>
+        <a href="mailto:hi@melissakeizer.com" class="email" title="email me!">
+          <i class="fa fa-paper-plane"></i>
+        </a>
+      </li>
+      <li class="close-icon">
+        <a href="#" class="close-menu" id="close-menu" title="close menu">
+          <i class="fa fa-times"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+
+</header>
+      <div id="page-photography">
+
+<section class="container">
+  <article class="content">
+    <h1>Music Photography</span></h1>
+    <p>Photographing live music usually means battling with constantly-changing lighting, but it also leads to great rushes of adrenaline while I shoot a show. This is especially true when it involves taking photos of some of my favourite artists, including Lady Gaga, Rihanna and Katy Perry. View more of my live music photography <a href="https://www.flickr.com/photos/tinyspark_boom/sets/72157624120698509">on my Flickr.</a></p>
+  </article>
+</section>
+
+<section class="full-width">
+  <div class="photo-grid">
+    <img src="/img/photos/music/music1.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music2.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music8.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music3.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music5.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music6.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music4.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music7.jpg" alt="Live Music Photo" />
+    <img src="/img/photos/music/music9.jpg" alt="Live Music Photo" />
+
+  </div>
+</section>
+
+</div>
+
+
+
+
+
+
+    <footer>
+  <div class="send-me-email">
+    <p>Want to have a chat or say hello? <a href="mailto:hi@melissakeizer.com" >Send me an email</a></p>
+  </div>
+  <div class="made-by">
+    <p>Made with <i class="fa fa-heart"></i> by <a href="http://twitter.com/keizgoesboom" >Melissa Keizer</a></p>
+  </div>
+</footer>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-35452071-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </body>
+</html>
