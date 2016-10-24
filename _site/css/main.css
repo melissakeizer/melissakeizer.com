@@ -1449,4 +1449,7 @@ ul.content {
     .mobile-menu__social-links a img {
       padding: 0.6em;
       width: 50px;
-      height: 50px; } }
+      height: 50px; }
+
+  #mobile-menu ul li:first-child {
+    padding-top: 80px; } }
