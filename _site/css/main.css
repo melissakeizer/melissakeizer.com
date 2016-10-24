@@ -496,6 +496,9 @@ body {
 .slick-slide img {
   height: 100%; }
 
+@-moz-document url-prefix() {
+  .slick-slide img {
+    width: 100%; } }
 /* Typography */
 body {
   font-family: "metaserif-bookregular", serif;
@@ -651,7 +654,8 @@ button:focus {
 
 /* Navigation */
 header {
-  position: relative; }
+  position: relative;
+  z-index: 2000; }
 
 a.header__logo {
   width: 285px;

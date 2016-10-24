@@ -1,4 +1,8 @@
-<a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo.jpg" alt="melissa keizer logo" /img></a>
+{% if page.path contains '_posts' %}
+  <a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo-white.svg" alt="melissa keizer logo" /img></a>
+{% else %}
+  <a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo.svg" alt="melissa keizer logo" /img></a>
+{% endif %}
 
 <nav class="main-navigation">
     <ul class="main-navigation__list">
@@ -7,6 +11,6 @@
       <li><a href="{{ site.baseurl }}/photography/" {% if page.selected == "photography" %}class="active"{% endif %}>Photography</a></li>
       <li><a href="{{ site.baseurl }}/journal/" {% if page.selected == "journal" %}class="active"{% endif %}>Journal</a></li>
     </ul>
-  </nav>
+</nav>
 
  {% include mobile-menu.html %}

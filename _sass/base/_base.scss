@@ -124,6 +124,12 @@ body {
     height: 100%;
 }
 
+@-moz-document url-prefix() {
+    .slick-slide img{
+      width: 100%;
+    }
+}
+
 
 
 

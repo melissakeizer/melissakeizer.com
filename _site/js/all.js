@@ -3,8 +3,8 @@ $(document).ready(function(){
     dots: true,
     infinite: true,
     speed: 300,
-    slidesToShow: 1,
     centerMode: true,
+    draggable: true,
     variableWidth: true
   });
   // Mobile navigation
