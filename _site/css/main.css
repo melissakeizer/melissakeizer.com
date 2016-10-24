@@ -792,7 +792,8 @@ ul.main-navigation__list {
       text-align: center;
       color: #282D31;
       font-size: 38px;
-      margin: 0; }
+      margin: 0;
+      letter-spacing: 0; }
       #mobile-menu ul li a.active {
         border: none; }
 
@@ -800,7 +801,7 @@ img.mobile-menu__logo {
   position: absolute;
   top: 30px;
   left: 30px;
-  max-width: 60px; }
+  max-width: 53px; }
 
 .mobile-menu__social-links {
   position: absolute;
@@ -1133,9 +1134,6 @@ ul.content {
   margin: 0 auto;
   max-width: 840px; }
 
-#page-about ul {
-  margin-bottom: 5%; }
-
 /* Slick Gallery/Slider on Project Specific Page */
 .slick-slide {
   background: black; }
@@ -1408,8 +1406,35 @@ ul.content {
   p, .intro p {
     font-size: 20px; }
 
+  .intro--post {
+    bottom: 5px; }
+
   .article__cover {
-    height: 400px; }
+    height: 400px;
+    margin-bottom: 30px; }
+
+  .article__content p {
+    margin-bottom: 25px; }
+
+  #page-journal .blog-post {
+    margin: 15px 0 25px 0; }
+
+  .rss-and-pagination {
+    padding: 0 0 20px 0; }
+
+  .see-more-link {
+    margin: 15px 0 50px 0; }
+
+  p {
+    margin-bottom: 25px; }
+
+  .article__more-posts {
+    padding: 40px 0; }
+
+  .caption {
+    padding: 5px 0 30px 0;
+    font-size: 15px;
+    line-height: 1.3em; }
 
   .block__photo {
     height: 400px; }

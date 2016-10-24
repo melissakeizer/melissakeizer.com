@@ -163,6 +163,7 @@ ul.main-navigation__list{
   color: $black;
   font-size: 38px;
   margin: 0;
+  letter-spacing: 0;
   &.active{
     border: none;
     }
@@ -174,7 +175,7 @@ img.mobile-menu__logo{
   position: absolute;
   top: 30px;
   left:30px;
-  max-width: 60px;
+  max-width: 53px;
 
 }
 
