@@ -784,7 +784,8 @@ ul.main-navigation__list {
   #mobile-menu ul li {
     display: block;
     padding: 20px 0;
-    font-weight: 700; }
+    font-weight: 700;
+    letter-spacing: 0.02em; }
     #mobile-menu ul li:first-child {
       padding-top: 80px; }
     #mobile-menu ul li a {
@@ -793,7 +794,7 @@ ul.main-navigation__list {
       color: #282D31;
       font-size: 38px;
       margin: 0;
-      letter-spacing: 0; }
+      letter-spacing: 0.02em; }
       #mobile-menu ul li a.active {
         border: none; }
 
