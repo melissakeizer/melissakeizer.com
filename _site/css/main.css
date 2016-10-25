@@ -507,7 +507,8 @@ body {
   color: #282D31;
   -webkit-text-size-adjust: 100%;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
-  font-weight: 300; }
+  font-weight: 400;
+  -webkit-backface-visibility: hidden; }
 
 h1, .h1 {
   font-family: "metaseriftf-boldregular", "Georgia", serif;
