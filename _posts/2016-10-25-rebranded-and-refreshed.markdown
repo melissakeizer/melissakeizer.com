@@ -42,7 +42,7 @@ I finally came to a design that I settled on. I love the use of large serif type
 
 As for the build, I kept it fairly simple and used my favourite framework [Jekyll](http://jekyllrb.com/), since it’s blog aware, uses files and folders instead of a database, uses markdown for blog posts and makes it easy to build and maintain various page templates with templating language Liquid.
 
-##Keep shipping
+## Keep shipping
 
 My aim for the next couple of months is to populate the site with more rich content, in particular, case studies of some of the interesting web and UX projects I’ve worked on this year. For now, I just wanted to ship a site that felt a little more me.
 
