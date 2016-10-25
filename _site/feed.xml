@@ -6,21 +6,21 @@
 </description>
     <link>http://melissakeizer.com/</link>
     <atom:link href="http://melissakeizer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 25 Oct 2016 02:04:03 +0100</pubDate>
-    <lastBuildDate>Tue, 25 Oct 2016 02:04:03 +0100</lastBuildDate>
+    <pubDate>Tue, 25 Oct 2016 09:36:40 +0100</pubDate>
+    <lastBuildDate>Tue, 25 Oct 2016 09:36:40 +0100</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
         <title>Rebranded and refreshed</title>
         <description>&lt;p&gt;A couple of months ago I felt the overwhelming urge to update my personal website. I didn’t feel like the style of my site reflected me or my work anymore, plus I just wanted an excuse to experiment with some new ideas I had.&lt;/p&gt;
 
-&lt;p&gt;I also wanted to refresh my personal branding with something with a bit more personality that better represents me. I knew the right person to help me with this, fellow designer at Eyekiller and my desk neighbour, &lt;a href=&quot;https://twitter.com/juleco&quot;&gt;Julie McClements&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;I also wanted to refresh my personal branding with something with a bit more personality that better represents me. I knew the right person to help me with this, fellow designer at &lt;a href=&quot;http://eyekiller.com&quot;&gt;Eyekiller&lt;/a&gt; and my desk neighbour, &lt;a href=&quot;https://twitter.com/juleco&quot;&gt;Julie McClements&lt;/a&gt;!&lt;/p&gt;
 
 &lt;h2 id=&quot;a-new-brand&quot;&gt;A new brand&lt;/h2&gt;
 
-&lt;p&gt;Julie is always impressing me with her creative touch on everything she designs, from websites to wedding invites! We bounced a few ideas off each other and shared Pinterest boards and came up with some nice ideas for the logo. She presented me with various concepts within days and after a little refining of our favourite concept, I had a finished logo.&lt;/p&gt;
+&lt;p&gt;Julie is always impressing me with her creative touch on everything she designs, from websites to wedding invites! We bounced a few ideas off each other and shared Pinterest boards before coming up with some nice ideas for the logo. She presented me with various concepts within days and after a little refining of our favourite concept, I had a finished logo.&lt;/p&gt;
 
-&lt;p&gt;I’m really chuffed with the final outcome, Julie really hit the nail on the head for me. When thinking of a graphical element that could use to represent me, I focused on my nationality. My father is dutch and my surname, Keizer, isn’t too common in this neck of the woods. A clog fits in perfectly with the dutch theme, so we ran with that idea for my brand. I also wanted something that represented me as a creative, as both a designer and a photographer, so the whimsical typeface she used was perfect.&lt;/p&gt;
+&lt;p&gt;I’m really chuffed with the final outcome, Julie really hit the nail on the head for me. When thinking of a graphical element that I could use to represent me, I focused on my nationality. My father is dutch and my surname “Keizer” isn’t too common in this neck of the woods. A clog fits in perfectly with the dutch theme, so we ran with that idea for my brand. I also wanted something that represented me as a creative, as both a designer and a photographer, so the whimsical typeface she used was perfect.&lt;/p&gt;
 
 &lt;div class=&quot;article__image article__image--with-caption&quot;&gt;
   &lt;img src=&quot;/img/blog/melissa-keizer-branding-2.jpg&quot; alt=&quot;My new branding&quot; /&gt;
@@ -31,16 +31,16 @@
 
 &lt;h2 id=&quot;a-new-website&quot;&gt;A new website&lt;/h2&gt;
 
-&lt;p&gt;It’s funny how it’s much easier to settle on a design for a client website, but when it comes to your own, it’s a different story! I now have countless &lt;a href=&quot;https://www.sketchapp.com/&quot;&gt;Sketch&lt;/a&gt; files with an array of designs that didn’t make the cut, though it was fun to play around with different layouts and styles.&lt;/p&gt;
+&lt;p&gt;It’s funny how it seems to be much easier to settle on a design for a client website, but when it comes to your own, it’s a different story! I now have countless &lt;a href=&quot;https://www.sketchapp.com/&quot;&gt;Sketch&lt;/a&gt; files with an array of designs that didn’t make the cut, though it was fun to play around with different layouts and styles.&lt;/p&gt;
 
-&lt;p&gt;I finally came to a design that I settled on. I love the use of large serif typefaces on websites and chose FF Meta Serif for my titles, and for the main body text as it’s comfortable to read. I accompanied this with the sans-serif typeface Montserrat to tie in with my logo’s strapline. I kept the design fairly minimal, with a black, white and yellow colour palette and many of my photos used throughout.&lt;/p&gt;
+&lt;p&gt;I finally arrived at a design that I was happy with. I love the use of large serif typefaces on websites and chose “FF Meta Serif” for my titles and for the main body text as it’s comfortable to read. I accompanied this with the sans-serif typeface “Montserrat” to tie in with my logo’s strapline. I kept the design fairly minimal, with a black, white and yellow colour palette and many of my photos used throughout.&lt;/p&gt;
 
 &lt;div class=&quot;article__image article__image--with-caption&quot;&gt;
   &lt;img src=&quot;/img/blog/my-website-2.jpg&quot; alt=&quot;My new website&quot; /&gt;
   &lt;span class=&quot;caption&quot;&gt;A fresh look for my personal website&lt;/span&gt;
 &lt;/div&gt;
 
-&lt;p&gt;As for the build, I kept it fairly simple and used my favourite framework &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, since it’s blog aware, uses files and folders instead of a database, uses markdown for blog posts and makes it easy to build and maintain various page templates with templating language Liquid.&lt;/p&gt;
+&lt;p&gt;As for the build, I used my favourite framework &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; as a basis for my site. It’s blog aware, uses files and folders instead of a database, uses markdown for blog posts and makes it easy to build and maintain various page templates with templating language Liquid.&lt;/p&gt;
 
 &lt;h2 id=&quot;keep-shipping&quot;&gt;Keep shipping&lt;/h2&gt;
 
