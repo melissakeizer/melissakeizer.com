@@ -5,6 +5,7 @@ title:  "Getting Started with Git"
 intro: Making version control easy
 date:   2015-06-16 22:01:00
 cover-photo: "/img/blog-previews/start-git.jpg"
+big-cover-photo: "/img/blog-previews/big/start-git.jpg"
 
 ---
 

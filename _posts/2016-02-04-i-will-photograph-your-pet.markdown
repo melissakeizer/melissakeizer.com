@@ -5,7 +5,7 @@ title:  "I'll Photograph Your Pets!"
 intro: "Pet sessions with you, me and your favourite four-legged animals"
 date:   2016-02-04 13:50:00
 cover-photo: "/img/blog-previews/raja-eating-my-camera.jpg"
-
+big-cover-photo: "/img/blog-previews/big/raja-eating-my-camera.jpg"
 ---
 
 If you were to scan through my [Flickr portfolio](https://www.flickr.com/photos/tinyspark_boom/) it’s easy to see that I’m fond of taking photos of animals. I often visit zoos, animal sanctuaries, the local park or wherever else I can find four-legged critters to shoot. I thought, "wouldn’t it be nice if I had the chance to do this more, and on top of that, be paid to do it?"

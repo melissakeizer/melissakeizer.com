@@ -5,6 +5,7 @@ title:  "Tot Ziens, Rumble Labs"
 intro: Waving farewell to my job, and hello to a new one
 date:   2015-03-18 11:00:42
 cover-photo: "/img/blog-previews/rumble-pink.jpg"
+big-cover-photo: "/img/blog-previews/big/rumble-pink.jpg"
 
 ---
 

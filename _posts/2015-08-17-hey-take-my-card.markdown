@@ -5,6 +5,7 @@ title:  "Hey, Take My Card"
 intro: I got these rad new business cards
 date:   2015-08-17 13:50:00
 cover-photo: "/img/blog-previews/business-cards.jpg"
+big-cover-photo: "/img/blog-previews/big/business-cards.jpg"
 footnotes: All images shot with Sony A580 35mm f/1.8
 
 ---

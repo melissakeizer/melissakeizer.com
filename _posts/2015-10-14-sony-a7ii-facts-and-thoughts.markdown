@@ -5,7 +5,7 @@ title:  "My New Sony A7ii"
 intro: "Facts & thoughts about my new camera"
 date:   2015-10-30 13:50:00
 cover-photo: "/img/blog-previews/my-sony-a7ii.jpg"
-
+big-cover-photo: "/img/blog-previews/big/my-sony-a7ii.jpg"
 
 ---
 

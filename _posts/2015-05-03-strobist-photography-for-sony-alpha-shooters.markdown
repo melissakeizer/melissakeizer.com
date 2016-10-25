@@ -5,6 +5,7 @@ title:  "Strobist Photography for Sony Alpha shooters"
 intro: A guide to using off-camera flash for Sony users
 date:   2015-05-03 01:50:42
 cover-photo: "/img/blog-previews/sony-strobe.jpg"
+big-cover-photo: "/img/blog-previews/big/sony-strobe.jpg"
 
 ---
 

@@ -5,6 +5,7 @@ title:  "Hybrid Conf, You Were Amazing"
 intro: A memorable few days spent at a design conference
 date:   2015-08-30 13:50:00
 cover-photo: "/img/blog-previews/hybrid-conf.jpg"
+big-cover-photo: "/img/blog-previews/big/hybrid-conf.jpg"
 footnotes: All images shot with Sony A580 35mm f/1.8
 location: Dublin, Ireland
 

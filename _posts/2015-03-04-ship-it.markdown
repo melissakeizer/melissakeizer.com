@@ -5,6 +5,7 @@ title:  "Ship It"
 intro: Finally, my new portfolio site is live
 date:   2015-03-04 11:00:42
 cover-photo: "/img/blog-previews/ship-it.jpg"
+big-cover-photo: "/img/blog-previews/big/ship-it.jpg"
 
 ---
 
