@@ -773,7 +773,7 @@ ul.main-navigation__list {
     -webkit-transition: opacity .3s ease-in-out; }
 
 .ontop {
-  position: absolute;
+  position: fixed;
   z-index: 1200; }
 
 .mobile-menu-relative {
