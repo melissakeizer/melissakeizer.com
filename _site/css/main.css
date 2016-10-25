@@ -1455,4 +1455,13 @@ ul.content {
       height: 50px; }
 
   #mobile-menu ul li:first-child {
-    padding-top: 100px; } }
+    padding-top: 100px; }
+
+  .bottom-space--l {
+    padding-bottom: 60px; }
+
+  .top-space--m {
+    padding-top: 30px; }
+
+  .bottom-space--s {
+    padding-bottom: 5px; } }
