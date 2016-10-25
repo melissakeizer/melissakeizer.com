@@ -14,7 +14,7 @@ A couple of months ago I felt the overwhelming urge to update my personal websit
 
 I also wanted to refresh my personal branding with something with a bit more personality that better represents me. I knew the right person to help me with this, fellow designer at Eyekiller and my desk neighbour, [Julie McClements](https://twitter.com/juleco)!
 
-##A new brand
+## A new brand
 
 Julie is always impressing me with her creative touch on everything she designs, from websites to wedding invites! We bounced a few ideas off each other and shared Pinterest boards and came up with some nice ideas for the logo. She presented me with various concepts within days and after a little refining of our favourite concept, I had a finished logo.
 
@@ -29,7 +29,7 @@ I’m really chuffed with the final outcome, Julie really hit the nail on the he
 
 Check out more of Julie's work on her [Facebook page](https://www.facebook.com/julecodesign/)!
 
-##A new website
+## A new website
 
 It’s funny how it’s much easier to settle on a design for a client website, but when it comes to your own, it’s a different story! I now have countless [Sketch](https://www.sketchapp.com/) files with an array of designs that didn’t make the cut, though it was fun to play around with different layouts and styles.
 
