@@ -154,7 +154,6 @@ ul.main-navigation__list{
   display: block;
   padding: 20px 0;
   font-weight: 700;
-  letter-spacing: 0.02em;
   &:first-child{
     padding-top: 80px;
     }
@@ -164,12 +163,15 @@ ul.main-navigation__list{
   color: $black;
   font-size: 38px;
   margin: 0;
-  letter-spacing: 0.02em;
   &.active{
     border: none;
     }
   }
  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  #mobile-menu ul li a { letter-spacing: -0.04em; }
 }
 
 img.mobile-menu__logo{
