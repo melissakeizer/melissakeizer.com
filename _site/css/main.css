@@ -799,7 +799,7 @@ ul.main-navigation__list {
 
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   #mobile-menu ul li a {
-    letter-spacing: -0.04em; } }
+    letter-spacing: -0.05em; } }
 img.mobile-menu__logo {
   position: absolute;
   top: 30px;
