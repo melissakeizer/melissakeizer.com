@@ -548,7 +548,8 @@ p {
   color: #282D31;
   line-height: 1.3em;
   font-size: 22px;
-  line-height: 1.5em; }
+  line-height: 1.5em;
+  font-weight: 400; }
   p a {
     border-bottom: 1px solid #878787; }
     p a:hover {
@@ -641,14 +642,16 @@ pre {
 pre {
   font-size: .75em;
   position: relative;
-  display: inline-block;
   width: 100%;
+  max-width: 760px;
   margin: 0 0 5% 0;
   padding: 1.17647em;
   line-height: 1.4;
   color: #1a1a1a;
   border-radius: 5px;
-  background: #f7f7f7; }
+  background: #f7f7f7;
+  margin: 0 auto 3.5%;
+  display: block; }
 
 button:focus {
   outline: 0; }
@@ -1406,7 +1409,7 @@ ul.content {
   .gallery {
     height: 340px; }
 
-  p, .intro p {
+  p, .intro p, .article__content ul li {
     font-size: 20px; }
 
   .intro--post {
