@@ -1,0 +1,129 @@
+---
+layout: post
+selected: journal
+title:  "2016 Year in Review"
+intro: "Reflecting on this year's highlights & failings"
+date:   2017-01-05 23:50:00
+cover-photo: "/img/blog-previews/2016-highlights.jpg"
+big-cover-photo: "/img/blog-previews/big/2016-highlights.jpg"
+
+---
+I always find it interesting to read the Year in Review posts of people I follow as it's nice to get a glimpse into their life and find out what kind of goals they're pursuing. This time I've decided to share my own  review of 2016, the personal highlights, a few things I've learned and what I can do better in 2017.
+
+This year I turned 25. I was expecting to have some sort of quarter-life crisis, but fortunately I soon came to the realisation that being a “proper adult” has its perks.
+
+## New Digs
+
+First and foremost, in September I moved out of my parent’s house, and into a lovely house with my boyfriend Mikey. It’s been so great. I love the little house we’re renting,  it’s so close to Bangor city centre and it’s only a few minutes away from Ward Park, making it perfect for morning runs and walks around the duck pond with my dog Matisse. It’s great to have more independence, create our own routine and get the chance to improve my culinary skills!
+
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/our-new-home.jpg" alt="Our new home" />
+  <span class="caption">This year I moved into this lovely new house in Bangor with my boyfriend</span>
+</div>
+
+
+## Half Marathon
+
+At the beginning of 2016, I made a resolution: I wanted to run a half marathon. I wasn't a long-distance runner so I knew this goal was going to be challenging, but I needed to shake things up and test my tenacity! Fortunately my uncle Robert was up for the challenge too, providing me with accountability as well as a great running partner.
+
+To ensure we stayed committed, we signed up to Belfast City’s Half Marathon taking place on 18th September and decided to raise money for the Alzheimer's Society, in memory of my grandmother, Jean Taylor, who we sadly lost to Alzheimer's disease in December 2014. It definitely gave more meaning to our goal and kept us motivated.
+
+Training was tough, but the rush of endorphins after each long run made it feel worth it. After months of training, race day was upon us. After 2 hours and 16 minutes of running, I crossed the finish line together with Robert. It felt so good!
+
+Both the feelings of relief and achievement were intense after completing the half marathon. The icing on the cake was finding that we'd raised over £1000 for the Alzheimer's Society!
+
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/half-marathon-day.jpg" alt="before the race" />
+  <span class="caption">Robert &amp; I pictured before we ran the Belfast City Half Marathon</span>
+</div>
+
+### Systems, not goals
+
+Achieving the goal I'd set at the beginning of the year was a great boost. However I found that after running the half marathon, I lost the motivation to keep up my regular training schedule and my exercise regime was lacking for the couple of months before Christmas.
+
+Reading James Clear’s [post about systems vs goals](http://jamesclear.com/goals-systems), I realised that I need to commit to a system, for example, to a specific workout schedule rather than to just commit to a larger goal. This could have helped me to keep up regular training even afer the race was behind me.
+
+## Travel
+
+Over the year I visited a few different countries and had some great holiday experiences. In May I visited Italy for the first time, sharing a few lovely days in Rome with my Mum. We explored the city, taking in the amazing architecture and tasting authentic italian cusine, it was the best! Check out my [photo story of the trip on Exposure](https://melissakeizer.exposure.co/roaming-rome).
+
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/my-rome-trip.jpg" alt="My Rome trip" />
+  <span class="caption">My trip to Rome in May was one of the year's highlights</span>
+</div>
+
+
+With half of my family being dutch, I would visit Holland fairly regularly. However this summer, my family and I extended our trip ventured to areas we’d never been before. We first spent a few days in Nunspeet visiting family, beofre making our way donw to the picturesque village of Valkenburg in the south of Holland. We stayed in a gorgeous apartment that we found on AirBnb, overlooking a street filled with quaint little cafes and restaurants. It was the perfect place to unwind. On our journey back North we passed through Belgium so we could spend the day in the bustling city of Antwerp.
+
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/valkenburg.jpg" alt="One from Valkenburg, Holland" />
+  <span class="caption">The picturesque village of Valkenburg that we visited as a family in the summer</span>
+</div>
+
+
+For Mikey’s birthday, I’d arranged for us to spend a long weekend in Edinburgh, one of my favourite cities. During the last weekend in August we got to experience the Fringe Festival for the first time, journey through both the Old Town and New Town, and spend some good, quality time together. Of course we also attended Shane Todd's (my favourite comedian!) [very last stand-up gig](https://twitter.com/KeizGoesBoom/status/769675438553755653) of the festival and it didn't fail to have me in stitches for an hour straight!
+
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/greyfriars-bobby.jpg" alt="Visiting Greyfriars Bobby" />
+  <span class="caption">Visiting Greyfriars Bobby during our Edinburgh trip</span>
+</div>
+
+
+I'm definitely keen to do a bit more travelling in 2017. There's so many places I'd love to visit and things I want to experience. I want to explore more scenic towns and cities, go on a hot air balloon, get closer to wildlife, scuba dive, eat like a local, and of course, take a lot more photos! Hopefully I'll get the opportunity to tick a few of those things off by the end of the year.
+
+
+## Side Hustle
+
+
+Over the year I took on various freelance photography jobs, including a few pet photography sessions, which was awesome. While it's always great to earn a little bit of extra income, another great benefit to taking on more jobs was the confidence building aspect.
+
+I do photography mainly as a hobby, but I remember always feeling hugely nervous before any photography job, not completely trusting my own skills or creativity. However, as I got more gigs, I felt the nerves disappear and a sense of confidence grow.
+
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/maggie-the-puppy.jpg" alt="maggie the puppy" />
+  <span class="caption">This year I got to photograph even more cute dogs. Oh and check out my new watermark!</span>
+</div>
+
+My personal website got a refresh in 2016 too. I wanted the site to better represent my design tastes and make it feel a little more sophisticated, so I redesigned it and wrote new content, before rebuilding it and pushing it live in October. I also recruited my good friend and Eyekiller colleague, [Julie](https://twitter.com/juleco), to design new branding to represent my work. You can read a lot more about this in my blog post, “[rebranded and refreshed](http://melissakeizer.com/journal/rebranded-and-refreshed/).”
+
+### Market Myself Better
+
+If there’s one area I aim to improve in 2017, it would be my social media presence. While I was happy to get a few paid pet photography sessions, I didn’t do much to market my services. I setup a [Facebook Page](https://www.facebook.com/melissakeizerphotography/) and posted new photos every now and then, but I should have harnessed the power of Facebook ads, used Facebook competitions as a way to gain more likes and exposure or simply post updates and photos on a more regular basis.
+
+As the days begin to get brighter I'd like to take on more work, especially if it involves animals. My first port of call will be designing and printing new business cards and/or leaflets and keeping my [Facebook page](https://www.facebook.com/melissakeizerphotography/) up to date.
+
+
+## Work and Career
+
+I came to [Eyekiller](https://www.eyekiller.com/) in 2015 with the aim to improve my design skills and be immersed in a wide range of projects, knowing I’d be learning a by working with a very talented team.
+
+During my first year, I was confident that I was becoming a better visual designer, but I was also really interested in learning about creating great user experiences. I was very happy to hear that Eyekiller were sending me on the [UX Foundation Training Course](https://uxtraining.com/) led by [Gareth Dunlop](https://uk.linkedin.com/in/garethdunlop) back in May. It was a fun, insightful experience, consisting of lots of hands-on UX exercises and working in teams with great people from various industries.
+
+<div class="article__image article__image--with-caption" >
+  <img src="/img/blog/ux-course-complete.jpg" alt="UX Course Complete" />
+  <span class="caption">Holding our certificates after successfully completing UX Foundation Training</span>
+</div>
+
+Over the year I’ve been able to utilise the UX research and testing methods I’d learned on several projects, including [The MAC](https://themaclive.com/), [Firefly Friends](https://www.fireflyfriends.com/uk/) and more recently, W5.
+
+### A Brand New Challenge
+
+I’m a believer of being forever a student, so when an exciting opportunity came along that would push me out of my comfort zone and evolve my skills, I took it.
+
+I can now happily announce that I’m joining the team at [TheAppBuilder](https://www.theappbuilder.com/) in Belfast as their UX Designer. TheAppBuilder is a SaaS company that has created a platform that allows its users to create and manage mobiles apps. I’ll be focusing on developing the UX design process and improve the user experience and client engagement with the app.
+
+Having worked at design agencies creating websites for various clients for the last few years, I’m excited to be working on a sole product. I’ll get the opportunity to dive deeper into user research, see how new app features or design changes fare in the hands of real users, and be forever iterating and improving the product.
+
+I start at [TheAppBuilder](https://www.theappbuilder.com/) on Monday 16th January, wish me luck!
+
+
+## Let's Go, 2017
+
+To me, happiness is spending quality time with my favourite people, so I'll keeping that my top priority. I'm also hoping I can cross more fun experiences and personal achievements of my list this year, I'm feeling optimistic!
+
+I'm excited to face fresh challenges in my new job, but it'll be sad saying goodbye to the wonderful team at Eyekiller, who I've grown pretty fond of.
+
+
+I'd love to know how your year went and if you've set any resolutions for 2017, leave a note in the comments! 😊
+
+
