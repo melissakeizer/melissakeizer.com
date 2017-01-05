@@ -53,7 +53,7 @@ Over the year I visited a few different countries and had some great holiday exp
 </div>
 
 
-With half of my family being dutch, I would visit Holland fairly regularly. However this summer, my family and I extended our trip ventured to areas we’d never been before. We first spent a few days in Nunspeet visiting family, beofre making our way donw to the picturesque village of Valkenburg in the south of Holland. We stayed in a gorgeous apartment that we found on AirBnb, overlooking a street filled with quaint little cafes and restaurants. It was the perfect place to unwind. On our journey back North we passed through Belgium so we could spend the day in the bustling city of Antwerp.
+With half of my family being dutch, I would visit Holland fairly regularly. However this summer, my family and I extended our trip and ventured to areas we’d never been before. We first spent a few days in Nunspeet visiting family, before making our way down to the picturesque village of Valkenburg in the south of Holland. We stayed in a gorgeous apartment that we found on AirBnb, overlooking a street filled with quaint little cafes and restaurants. It was the perfect place to unwind. On our journey back North we passed through Belgium so we could spend the day in the bustling city of Antwerp.
 
 <div class="article__image article__image--with-caption" >
   <img src="/img/blog/valkenburg.jpg" alt="One from Valkenburg, Holland" />
@@ -61,15 +61,14 @@ With half of my family being dutch, I would visit Holland fairly regularly. Howe
 </div>
 
 
-For Mikey’s birthday, I’d arranged for us to spend a long weekend in Edinburgh, one of my favourite cities. During the last weekend in August we got to experience the Fringe Festival for the first time, journey through both the Old Town and New Town, and spend some good, quality time together. Of course we also attended Shane Todd's (my favourite comedian!) [very last stand-up gig](https://twitter.com/KeizGoesBoom/status/769675438553755653) of the festival and it didn't fail to have me in stitches for an hour straight!
+For Mikey’s birthday, I’d arranged for us to spend a long weekend in Edinburgh, one of my favourite cities. During the last weekend in August we got to experience the Fringe Festival for the first time, journey through both the Old Town and New Town, and spend some good, quality time together. Of course we also attended Shane Todd's (my favourite local comedian) [very last stand-up gig](https://twitter.com/KeizGoesBoom/status/769675438553755653) of the festival and it didn't fail to have me in stitches for an hour straight!
 
 <div class="article__image article__image--with-caption" >
   <img src="/img/blog/greyfriars-bobby.jpg" alt="Visiting Greyfriars Bobby" />
   <span class="caption">Visiting Greyfriars Bobby during our Edinburgh trip</span>
 </div>
 
-
-I'm definitely keen to do a bit more travelling in 2017. There's so many places I'd love to visit and things I want to experience. I want to explore more scenic towns and cities, go on a hot air balloon, get closer to wildlife, scuba dive, eat like a local, and of course, take a lot more photos! Hopefully I'll get the opportunity to tick a few of those things off by the end of the year.
+I'm definitely keen to do a bit more travelling in 2017. There's so many places I'd love to visit and things I want to experience. I want to explore more scenic towns and cities, go on a hot air balloon, get closer to wildlife, scuba dive, sample the local dishes, and of course, take a lot more photos! Hopefully I'll get the opportunity to tick a few of those things off by the end of the year.
 
 
 ## Side Hustle
@@ -88,14 +87,14 @@ My personal website got a refresh in 2016 too. I wanted the site to better repre
 
 ### Market Myself Better
 
-If there’s one area I aim to improve in 2017, it would be my social media presence. While I was happy to get a few paid pet photography sessions, I didn’t do much to market my services. I setup a [Facebook Page](https://www.facebook.com/melissakeizerphotography/) and posted new photos every now and then, but I should have harnessed the power of Facebook ads, used Facebook competitions as a way to gain more likes and exposure or simply post updates and photos on a more regular basis.
+If there’s one area I aim to improve in 2017, it would be my social media presence. While I was happy to get a few paid pet photography sessions, I didn’t do much to market my services. I setup a [Facebook Page](https://www.facebook.com/melissakeizerphotography/) and posted new photos every now and then, but I should have harnessed the power of Facebook ads and used Facebook competitions as a way to gain more likes and exposure or simply post updates and photos on a more regular basis.
 
 As the days begin to get brighter I'd like to take on more work, especially if it involves animals. My first port of call will be designing and printing new business cards and/or leaflets and keeping my [Facebook page](https://www.facebook.com/melissakeizerphotography/) up to date.
 
 
 ## Work and Career
 
-I came to [Eyekiller](https://www.eyekiller.com/) in 2015 with the aim to improve my design skills and be immersed in a wide range of projects, knowing I’d be learning a by working with a very talented team.
+I came to [Eyekiller](https://www.eyekiller.com/) in 2015 with the aim to improve my design skills and be immersed in a wide range of projects, knowing I’d be learning a lot by working with a very talented team.
 
 During my first year, I was confident that I was becoming a better visual designer, but I was also really interested in learning about creating great user experiences. I was very happy to hear that Eyekiller were sending me on the [UX Foundation Training Course](https://uxtraining.com/) led by [Gareth Dunlop](https://uk.linkedin.com/in/garethdunlop) back in May. It was a fun, insightful experience, consisting of lots of hands-on UX exercises and working in teams with great people from various industries.
 
@@ -110,7 +109,7 @@ Over the year I’ve been able to utilise the UX research and testing methods I�
 
 I’m a believer of being forever a student, so when an exciting opportunity came along that would push me out of my comfort zone and evolve my skills, I took it.
 
-I can now happily announce that I’m joining the team at [TheAppBuilder](https://www.theappbuilder.com/) in Belfast as their UX Designer. TheAppBuilder is a SaaS company that has created a platform that allows its users to create and manage mobiles apps. I’ll be focusing on developing the UX design process and improve the user experience and client engagement with the app.
+I can now happily announce that I’m joining the team at [TheAppBuilder](https://www.theappbuilder.com/) in Belfast as their UX Designer. TheAppBuilder is a SaaS company that has built a platform that allows its users to create and manage mobiles apps. I’ll be focusing on developing the internal UX design process and improve the user experience and engagement with the app.
 
 Having worked at design agencies creating websites for various clients for the last few years, I’m excited to be working on a sole product. I’ll get the opportunity to dive deeper into user research, see how new app features or design changes fare in the hands of real users, and be forever iterating and improving the product.
 
@@ -119,10 +118,9 @@ I start at [TheAppBuilder](https://www.theappbuilder.com/) on Monday 16th Januar
 
 ## Let's Go, 2017
 
-To me, happiness is spending quality time with my favourite people, so I'll keeping that my top priority. I'm also hoping I can cross more fun experiences and personal achievements of my list this year, I'm feeling optimistic!
+To me, happiness is spending quality time with my favourite people, so I'll keeping that my top priority. I'm also hoping I can cross more fun experiences and personal achievements off my list this year, I'm feeling optimistic!
 
 I'm excited to face fresh challenges in my new job, but it'll be sad saying goodbye to the wonderful team at Eyekiller, who I've grown pretty fond of.
-
 
 I'd love to know how your year went and if you've set any resolutions for 2017, leave a note in the comments! 😊
 
