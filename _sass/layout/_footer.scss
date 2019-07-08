@@ -1,69 +1,35 @@
 /* Footer */
 
 footer{
-  float: left;
-  width: 100%;
-  background-color: $black;
   color: $white;
-  padding: 70px 0;
-  a{
-    text-decoration: none;
-  }
-  margin-bottom: 10px;
+  padding: 50px 0 0 0;
 }
 
-ul.footer__sitemap{
-  padding-top: 55px;
-  @include navigation-styles;
-  font-size: 14px;
-  color: $white;
-  float: left;
-  width: 220px;
-  list-style: none;
-  li{
-    padding-bottom: 4px;
-  }
-  a:hover{
-  color: $yellow;
-  }
+footer p{
+  color: $subtle-grey;
+  @include moretRegular;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 60px;
 }
-
-.instagram-row{
-  width: 100%;
-  float: left;
-  .photos{
-  width: 80%;
-  float: left;
-  }
-  .instagram-block{
-    background-color: $yellow;
-    color: $black;
-    width: 20%;
-    float: left;
-
-  }
-}
-
-.footer__logo{
-  float: left;
-  width: 330px;
-  img{
-    width: 100%;
-    max-width: 280px;
-  }
-}
-
-
 .footer__social-block{
-  padding-top: 55px;
-  width: 270px;
-  float: right;
+  width: 100%;
+  text-align: center;
+  margin-left: 0 auto;
   a{
-    @include social-icons;
+    height: 150px;
+    width: 150px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: center;
+    color: $white;
+    img{
+     padding: 0.5em;
+     max-width: 60px;
+    }
+    opacity: 0.5;
+    &:hover{
+      opacity: 1;
+    }
   }
-}
-
-
-.row{
-  float:right;
 }

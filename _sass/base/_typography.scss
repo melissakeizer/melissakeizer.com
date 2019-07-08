@@ -1,10 +1,10 @@
 /* Typography */
 
 body {
-    font-family: $serif-font-family-book;
+    font-family: moret, serif;
     font-size: 21px;
     line-height: $base-line-height;
-    color: $black;
+    color: $white;
     -webkit-text-size-adjust: 100%;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
     font-weight: 400;
@@ -13,10 +13,10 @@ body {
 
 
 h1, .h1{
-  font-family: $serif-font-family-bold;
-  color: $black;
-  font-size: 51px;
-  line-height: 1.3em;
+  @include moretExtrabold;
+  color: $yellow;
+  font-size: 120px;
+  line-height: 1.0em;
   text-align: left;
   margin-bottom: 0.25em;
 
@@ -24,14 +24,14 @@ h1, .h1{
 
 
 h2, h2 a, .h2{
-  font-family:$serif-font-family-bold;
+ @include moretBold;
   font-size: 40px;
   line-height: 1.2em;
   padding: 0 0 0.5em 0;
 }
 
 .sub-heading{
-  font-family:$sans-serif-font-family;
+  font-family:arial;
   font-size: 17px;
   font-weight: 400;
   text-transform: uppercase;
@@ -44,7 +44,7 @@ h2, h2 a, .h2{
 }
 
 h3, h3 a{
-  font-family:$serif-font-family-bold;
+  @include faktproBlond;
   font-weight: 700;
   line-height: 1.2em;
   font-size: 25px;
@@ -53,9 +53,9 @@ h3, h3 a{
 }
 
 p{
-  font-family: $serif-font-family-book;
+  @include faktproBlond;
   margin-bottom: 5%;
-  color: $black;
+  color: $white;
   line-height:$base-line-height;
   font-size: 22px;
   line-height: 1.5em;
@@ -92,24 +92,14 @@ a, a:visited, a:hover, a:active {
 
 
 a.link{
-  font-family: $sans-serif-font-family;
-  font-weight: 400;
-  font-size: 20px;
+  @include faktproSemibold;
+  font-size: 18px;
+  color: $yellow;
   @include subtle-animation;
-  &--black{
-    border-bottom: 2px solid $black;
-    &:hover{
-      background: $black;
-      color: $yellow;
+  &:hover{
+    border-bottom: 1px solid;
+    padding-bottom: 1px;
     }
-  }
-  &--white{
-    border-bottom: 2px solid $white;
-    &:hover{
-      background: $white;
-      color: $black;
-    }
-  }
 }
 
 
@@ -120,9 +110,10 @@ a.link{
 }
 
 .intro p{
-  font-size: 24px;
-  padding: 10px 0;
+  font-size: 22px;
+  padding: 10px 0 10px 0;
   line-height: 1.3em;
+  max-width: 470px;
 }
 
 a:active {
@@ -185,9 +176,3 @@ pre {
 }
 
 button:focus {outline:0;}
-
-
-
-
-
-

@@ -2,8 +2,9 @@
 
 body {
     box-sizing: border-box;
-    background-color: $white;
+    background-color: $background-grey;
     border: 10px solid $white;
+    color: $white;
 }
 
 *{
@@ -37,81 +38,74 @@ body {
 
 
 .intro{
-    max-width: 700px;
-    padding: 270px 0 70px 0;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 270px 0 40px 0;
     display: block;
     &--post{
       color: $white;
       padding: 0;
       position: absolute;
       bottom: 40px;
-      h1, p{
-        color: white;
-      }
       .date{
         display: none;
       }
     }
 }
 
-
+.intro p{
+  font-size: 22px;
+  padding: 10px 0 10px 0;
+  line-height: 1.3em;
+  max-width: 610px;
+}
 
 /* Main Areas */
 
-.block{
-  width: 100%;
-  float: left;
-  &__info{
-    width: 50%;
-    height: 590px;
+.block__container{
+  clear: both;
+  width: 85%;
+  margin: 0 auto;
+}
+  .block{
     float: left;
-    position: relative;
-    &__text{
-      padding: 15% 10%;
-      h2{
-        margin-top: 0.3em;
-        padding-bottom: 180px;
-        max-width: 600px;
-      }
-      h2.sub-heading{
-        padding-bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    &__info{
+      width: 50%;
+      float: left;
+      height: 590px;
+      background-color: $graphite;
+      &__text{
+        padding: 25% 10%;
+        h2{
+          margin-top: 0.3em;
+          max-width: 600px;
+        }
       }
     }
-    &--yellow{
-      background: $yellow;
-      color: $black;
-    }
-    &--black{
-      background: $black;
-      color: $white;
+    &__photo{
+      width: 50%;
+      float: left;
+      height: 590px;
+      @include bg-cover;
+      &--homepage-design{
+        background-image: url(/img/homepage/portfolio-image.jpg);
+      }
+      &--homepage-photography{
+        background-image: url(/img/homepage/photography-bg.jpg);
+      }
     }
   }
-  &__photo{
-    width: 50%;
-    height: 590px;
-    float: left;
-    @include bg-cover;
-    &--homepage-design{
-      background-image: url(/img/homepage/portfolio-image.jpg);
-    }
-    &--homepage-photography{
-      background-image: url(/img/homepage/photography-bg.jpg);
-    }
-  }
+
+
+.projectBlock{
+  background-color: $graphite;
+  width: 85%;
+  padding: 3em 1em;
+  margin: 0 auto;
 }
 
-.grey-background{
-  background: transparent;
-  width: 100%;
-  &::before{
-    background: $background-grey;
-    width: 100%;
-    height: 500px;
-    content: "";
-    display:block;
-    margin-top: 80px;
-  }
-}
 
 
 .gallery{
@@ -129,14 +123,3 @@ body {
       width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-

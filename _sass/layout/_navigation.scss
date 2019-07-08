@@ -8,12 +8,12 @@ header{
 }
 
 a.header__logo{
- width: 285px;
+ width: 80px;
  position: absolute;
- top: 35px;
- left: 60px;
+ top: 30px;
+ left: 30px;
  img{
-  width: 285px;
+  width: 80px;
  }
 }
 
@@ -27,7 +27,7 @@ ul.main-navigation__list{
     font-weight: 700;
     a{
       @include navigation-styles;
-      color: $black;
+      color: $white;
       padding-bottom: 2px;
       &:hover{
         color: $yellow;
@@ -214,5 +214,3 @@ img.mobile-menu__logo{
     color: $black;
   }
 }
-
-
