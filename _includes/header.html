@@ -6,12 +6,8 @@
 
 <nav class="main-navigation">
     <ul class="main-navigation__list">
+       <li><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Home</a></li>
        <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
-       <li><a href="{{ site.baseurl }}/design/" {% if page.selected == "design" %}class="active"{% endif %}>Design Work</a></li>
-      <li><a href="{{ site.baseurl }}/photography/" {% if page.selected == "photography" %}class="active"{% endif %}>Photography</a></li>
-      <!-- <li><a href="{{ site.baseurl }}/journal/" {% if page.selected == "journal" %}class="active"{% endif %}>Journal</a></li> -->
-      <li><a href="mailto:hi@melissakeizer.com">Email Me</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
-
- {% include mobile-menu.html %}

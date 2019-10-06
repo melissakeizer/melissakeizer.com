@@ -1,35 +1,37 @@
 /* Footer */
 
 footer{
-  color: $white;
-  padding: 50px 0 0 0;
+  color: $graphite;
 }
 
-footer p{
-  color: $subtle-grey;
-  @include moretRegular;
-  font-size: 15px;
-  text-align: center;
-  padding-top: 60px;
+.footerInfo{
+  float: left;
+  width: 80%;
 }
-.footer__social-block{
-  width: 100%;
-  text-align: center;
-  margin-left: 0 auto;
+
+.footerInfo__text{
+  display: inline-block;
+}
+
+.footerSocial{
+  float: left;
+  width: 20%;
+  ul{
+    width: 50%;
+    float: left;
+  }
   a{
-    height: 150px;
-    width: 150px;
-    padding: 0 20px;
-    text-align: center;
-    vertical-align: center;
-    color: $white;
-    img{
-     padding: 0.5em;
-     max-width: 60px;
-    }
-    opacity: 0.5;
+    font-size: $sans-serif-font-family;
+    font-size: 18px;
+    color: $grey;
     &:hover{
-      opacity: 1;
+      color: $graphite;
     }
   }
+}
+
+img.footerLogo{
+  max-width: 50px;
+  display: inline-block;
+  margin-right: 20px;
 }

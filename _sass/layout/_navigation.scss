@@ -24,7 +24,6 @@ ul.main-navigation__list{
   right: 60px;
   li{
     display: inline-block;
-    font-weight: 700;
     a{
       @include navigation-styles;
       color: $white;
@@ -33,7 +32,8 @@ ul.main-navigation__list{
         color: $yellow;
       }
       &.active, &:active{
-        color: $yellow;
+        color: $white;
+        opacity: 0.5;
       }
     }
   }
@@ -192,7 +192,6 @@ img.mobile-menu__logo{
   right: 0;
   text-align: center;
   a{
-    @include social-icons;
     display: inline-block;
     text-align: center;
     float: none;

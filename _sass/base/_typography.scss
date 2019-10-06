@@ -1,7 +1,7 @@
 /* Typography */
 
 body {
-    font-family: moret, serif;
+    font-family: $serif-font-family-light;
     font-size: 21px;
     line-height: $base-line-height;
     color: $white;
@@ -13,53 +13,50 @@ body {
 
 
 h1, .h1{
-  @include moretExtrabold;
+  font-family: $sans-serif-font-family-blond;
+  font-weight: 200;
+  font-style: normal;
   color: $yellow;
-  font-size: 120px;
+  font-size: 26px;
   line-height: 1.0em;
+  letter-spacing: -0.2px;
   text-align: left;
   margin-bottom: 0.25em;
 
 }
 
 
-h2, h2 a, .h2{
- @include moretBold;
-  font-size: 40px;
+h2, h2 a,.h2{
+  font-family: $serif-font-family-bold;
+  font-size: 46px;
   line-height: 1.2em;
   padding: 0 0 0.5em 0;
 }
 
-.sub-heading{
-  font-family:arial;
-  font-size: 17px;
-  font-weight: 400;
-  text-transform: uppercase;
-  &--gold{
-    color: $gold;
-  }
-  &--grey{
-    color: $grey;
-  }
-}
 
 h3, h3 a{
-  @include faktproBlond;
-  font-weight: 700;
+  font-family: $serif-font-family-bold;
+  font-size: 26px;
   line-height: 1.2em;
-  font-size: 25px;
   padding-bottom: 9px;
-  font-style: normal;
+  max-width: 800px;
+}
+
+h4, h4 a{
+  font-family: $serif-font-family-bold;
+  font-size: 20px;
+  line-height: 1.3em;
+  padding: 10px 0 5px 0;
+  max-width: 800px;
 }
 
 p{
-  @include faktproBlond;
+  font-family: $serif-font-family-light;
   margin-bottom: 5%;
-  color: $white;
+  color: $graphite;
   line-height:$base-line-height;
-  font-size: 22px;
-  line-height: 1.5em;
-  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3em;
   a{
     border-bottom: 1px solid $grey;
     &:hover{
@@ -68,7 +65,15 @@ p{
   }
 }
 
+p.sans-serif{
+  color: $grey;
+  font-size: 16px;
+  font-family: $sans-serif-font-family;
+}
+
+
 a{
+  font-family: $sans-serif-font-family;
   text-decoration: none;
   outline: 0;
   cursor: pointer;
@@ -91,61 +96,33 @@ a, a:visited, a:hover, a:active {
 
 
 
-a.link{
-  @include faktproSemibold;
-  font-size: 18px;
-  color: $yellow;
+a.textLink{
+  font-family: $sans-serif-font-family;
+  font-size: 20px;
+  color: $graphite;
   @include subtle-animation;
+  padding: 1em 0;
+  display: block;
+  position: relative;
   &:hover{
-    border-bottom: 1px solid;
-    padding-bottom: 1px;
+    color: $yellow;
     }
 }
 
-
-.date{
-  font-size: 17px;
+a.textLink--onDark{
   color: $grey;
-  margin-bottom: 0;
+  &:hover{
+    color: $white;
+    }
 }
 
-.intro p{
-  font-size: 22px;
-  padding: 10px 0 10px 0;
-  line-height: 1.3em;
-  max-width: 470px;
-}
-
-a:active {
-  position: relative;
-  top: 1px;
-}
-
-.caption{
-  padding: 10px 0 60px 0;
-  display: block;
-  width: 100%;
-  font-size: 19px;
-  font-style: italic;
-  color: $graphite;
-}
-
-.article__footnotes{
-  color: $graphite;
-  font-size: 20px;
-  font-style: italic;
-  padding-bottom: 5px;
-  margin-bottom: 0;
-  span{
-    font-weight: 600;
-  }
-}
-
-.article__location{
+p.copyright{
+  padding: 3em 0 0 0;
+  font-size: 14px;
+  color: $grey;
   font-family: $sans-serif-font-family;
-  font-weight: 600;
-  font-size: 20px;
 }
+
 
 
 

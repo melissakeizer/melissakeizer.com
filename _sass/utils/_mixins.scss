@@ -29,33 +29,6 @@
 }
 
 
-
-@mixin moretRegular{
-font-family: moret, serif;
-font-weight: 400;
-font-style: normal;
-}
-
-
-@mixin moretRegularItalic{
-font-family: moret, serif;
-font-weight: 400;
-font-style: italic;
-}
-
-
-@mixin moretBold{
-font-family: moret, serif;
-font-weight: 700;
-font-style: normal;
-}
-
-@mixin moretExtrabold{
-font-family: moret, serif;
-font-weight: 800;
-font-style: normal;
-}
-
 @mixin faktproBlond{
   font-family: 'FaktPro-Blond', sans-serif;
   font-style: normal;
@@ -69,14 +42,9 @@ font-style: normal;
 }
 
 @mixin navigation-styles{
-  @include moretRegular;
+  @include faktproSemibold;
   color: $white;
-  font-size: 20px;
+  font-size: 18px;
   margin: 0 0 0 1em;
   text-decoration: none;
-
-}
-
-@mixin social-icons{
-  
 }
