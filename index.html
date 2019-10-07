@@ -5,11 +5,22 @@ selected: home
 title: Hi, I’m Melissa Keizer.
 intro: I’m a user experience designer who makes digital products. I’m also a photographer and visual story teller.
 ---
+
+<div class="container">
+  <article class="intro">
+    <h1 class="aos-item" data-aos="fade-up" data-aos-delay="800" data-aos-once="true">{{ page.title }}</h1>
+    <h2 data-aos="fade-up" data-aos-delay="1050" data-aos-once="true">{{ page.intro }}</h2>
+    <a data-aos="fade-up" data-aos-delay="1250" href="/about" class="textLink textLink--animated textLink--onDark textLink__arrow">Learn more about me</a>
+  </article>
+</div>
+</section> <!-- end pageTop -->
+
+
 <section class="pageMiddle">
   <div class="container clearfix">
-    <h3 class="bottom-space--m">I work to understand users to design better experiences for them. Check out this selection of my design work.</h3>
+    <h3 class="bottom-space--m" data-aos="fade">I work to understand users to design better experiences for them. Check out this selection of my design work.</h3>
     <section class="workExamples">
-      <div class="workExamples__half">
+      <div class="workExamples__half" data-aos="fade-up" data-aos-delay="300">
         <div class="workPiece">
           <img src="../img/homepage/work-thriveWebsite.jpg" alt="Thrive marketing website" class="workPiece__image" />
           <div class="workPiece__text">
@@ -19,7 +30,7 @@ intro: I’m a user experience designer who makes digital products. I’m also a
           </div>
         </div><!-- end workPiece -->
       </div><!-- end workExamples__half -->
-      <div class="workExamples__half workExamples__half--right">
+      <div class="workExamples__half workExamples__half--right" data-aos="fade-up" data-aos-delay="800">
         <div class="workPiece">
           <img src="../img/homepage/work-thriveMobile.jpg" alt="Thrive Mobile App on iOS" class="workPiece__image" />
           <div class="workPiece__text">
@@ -37,8 +48,42 @@ intro: I’m a user experience designer who makes digital products. I’m also a
       </div><!-- end workExamples__half -->
     </section>
     <section class="fullWidth clearfix">
-      <a href="#" class="textLink">See more of my design work</a>
+      <a href="#" class="textLink textLink__arrow">See more of my design work</a>
     </section>
 
+  </div><!-- end container -->
+</section><!-- end pageMiddle -->
+
+<section class="pageMiddle--dark">
+  <div class="container clearfix">
+    <h3 class="bottom-space--m" data-aos="fade">I’m a freelance photographer and hobbyist with a love of capturing animals, live performers, local events and beautiful places.</h3>
+    <section class="photoExamples" data-aos="fade-up" data-aos-delay="300">
+      <div class="photoExamples__half">
+          <div class="photoPiece photoPiece--fox">
+            <div class="overlay"></div>
+            <a href="https://www.melissakeizerphotography.com/animals-afternoon-tea">Animals &amp; Afternoon Tea</a>
+          </div>
+          <div class="photoPiece photoPiece--electricpup">
+            <div class="overlay"></div>
+            <a href="https://www.melissakeizerphotography.com/electric-pup">Electric Pup</a>
+          </div>
+          <div class="photoPiece photoPiece--tiger">
+
+          </div>
+          <div class="photoPiece photoPiece--elvis">
+            <div class="overlay"></div>
+            <a href="https://www.melissakeizerphotography.com/aint-nothin-but-a-hound-dog">Nothin' But a Hound Dog</a>
+          </div>
+      </div>
+      <div class="photoExamples__half photoExamples__half--right">
+        <div class="photoPiece photoPiece--ladygaga">
+          <div class="overlay"></div>
+          <a href="https://www.melissakeizerphotography.com/born-this-way-baby">Born This Way, Baby</a>
+        </div>
+      </div>
+    </section>
+    <section class="fullWidth clearfix">
+      <a href="http://melissakeizerphotography.com" class="textLink textLink--onDark textLink__arrow">See more on melissakeizerphotography.com</a>
+    </section>
   </div><!-- end container -->
 </section><!-- end pageMiddle -->

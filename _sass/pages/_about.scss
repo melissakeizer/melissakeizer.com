@@ -1,18 +1,1 @@
 /* About Page */
-
-.photoset{
-  width: $container-width + 10px;
-  margin: -600px auto;
-  margin-bottom: 60px;
-}
-
-.photoset img{
-  width: 32.5%;
-  padding: 5px;
-}
-
-ul.content{
-  @include content-width;
-}
-
-

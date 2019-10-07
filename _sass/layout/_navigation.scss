@@ -28,12 +28,13 @@ ul.main-navigation__list{
       @include navigation-styles;
       color: $white;
       padding-bottom: 2px;
+      opacity: 0.4;
       &:hover{
-        color: $yellow;
+        opacity: 1;
       }
       &.active, &:active{
         color: $white;
-        opacity: 0.5;
+        opacity: 1;
       }
     }
   }

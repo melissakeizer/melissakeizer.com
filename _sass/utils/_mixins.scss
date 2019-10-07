@@ -44,7 +44,7 @@
 @mixin navigation-styles{
   @include faktproSemibold;
   color: $white;
-  font-size: 18px;
-  margin: 0 0 0 1em;
+  font-size: 16px;
+  margin: 0 0 0 1.2em;
   text-decoration: none;
 }

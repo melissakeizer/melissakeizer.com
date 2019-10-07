@@ -17,10 +17,9 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/drm2vjl.css">
-  <link rel="stylesheet" href="/js/slick/slick.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="canonical" href="http://melissakeizer.com/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer -  Blog and Portfolio" href="http://melissakeizer.com/feed.xml" />
-
 
 
   <meta property="og:title" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
@@ -48,11 +47,11 @@
 </head>
 
   <body>
-    <section class="pageTop">
-  		<div id="transcroller-body" class="aos-all">
-      <header class="navigation">
-        <div class="container">
-            
+  <section class="pageTop clearfix" data-aos="slide-down"  data-aos-duration="500">
+    <div id="transcroller-body" class="aos-all">
+    <header class="navigation">
+      <div class="container">
+          
   <a href="/" class="header__logo"><img src="/img/melissa-keizer-logo-icon.svg" alt="melissa keizer logo" /img></a>
 
 
@@ -64,21 +63,24 @@
     </ul>
 </nav>
 
-      </header>
-      <div class="container">
-        <article class="intro">
-          <h1 class="aos-item" data-aos="fade-up" data-aos-once="true">Hi, I’m Melissa Keizer.</h1>
-          <h2 data-aos="fade-up" data-aos-delay="200" data-aos-once="true">I’m a user experience designer who makes digital products. I’m also a photographer and visual story teller.</h2>
-          <a href="/about" class="textLink textLink--animated textLink--onDark">Learn more about me</a>
-        </article>
-      </div>
-    </section> <!-- end pageTop -->
+    </header>
+
         <div id="page-home">
-            <section class="pageMiddle">
+            <div class="container">
+  <article class="intro">
+    <h1 class="aos-item" data-aos="fade-up" data-aos-delay="800" data-aos-once="true">Hi, I’m Melissa Keizer.</h1>
+    <h2 data-aos="fade-up" data-aos-delay="1050" data-aos-once="true">I’m a user experience designer who makes digital products. I’m also a photographer and visual story teller.</h2>
+    <a data-aos="fade-up" data-aos-delay="1250" href="/about" class="textLink textLink--animated textLink--onDark textLink__arrow">Learn more about me</a>
+  </article>
+</div>
+</section> <!-- end pageTop -->
+
+
+<section class="pageMiddle">
   <div class="container clearfix">
-    <h3 class="bottom-space--m">I work to understand users to design better experiences for them. Check out this selection of my design work.</h3>
+    <h3 class="bottom-space--m" data-aos="fade">I work to understand users to design better experiences for them. Check out this selection of my design work.</h3>
     <section class="workExamples">
-      <div class="workExamples__half">
+      <div class="workExamples__half" data-aos="fade-up" data-aos-delay="300">
         <div class="workPiece">
           <img src="../img/homepage/work-thriveWebsite.jpg" alt="Thrive marketing website" class="workPiece__image" />
           <div class="workPiece__text">
@@ -88,7 +90,7 @@
           </div>
         </div><!-- end workPiece -->
       </div><!-- end workExamples__half -->
-      <div class="workExamples__half workExamples__half--right">
+      <div class="workExamples__half workExamples__half--right" data-aos="fade-up" data-aos-delay="800">
         <div class="workPiece">
           <img src="../img/homepage/work-thriveMobile.jpg" alt="Thrive Mobile App on iOS" class="workPiece__image" />
           <div class="workPiece__text">
@@ -106,9 +108,43 @@
       </div><!-- end workExamples__half -->
     </section>
     <section class="fullWidth clearfix">
-      <a href="#" class="textLink">See more of my design work</a>
+      <a href="#" class="textLink textLink__arrow">See more of my design work</a>
     </section>
 
+  </div><!-- end container -->
+</section><!-- end pageMiddle -->
+
+<section class="pageMiddle--dark">
+  <div class="container clearfix">
+    <h3 class="bottom-space--m" data-aos="fade">I’m a freelance photographer and hobbyist with a love of capturing animals, live performers, local events and beautiful places.</h3>
+    <section class="photoExamples" data-aos="fade-up" data-aos-delay="300">
+      <div class="photoExamples__half">
+          <div class="photoPiece photoPiece--fox">
+            <div class="overlay"></div>
+            <a href="https://www.melissakeizerphotography.com/animals-afternoon-tea">Animals &amp; Afternoon Tea</a>
+          </div>
+          <div class="photoPiece photoPiece--electricpup">
+            <div class="overlay"></div>
+            <a href="https://www.melissakeizerphotography.com/electric-pup">Electric Pup</a>
+          </div>
+          <div class="photoPiece photoPiece--tiger">
+
+          </div>
+          <div class="photoPiece photoPiece--elvis">
+            <div class="overlay"></div>
+            <a href="https://www.melissakeizerphotography.com/aint-nothin-but-a-hound-dog">Nothin' But a Hound Dog</a>
+          </div>
+      </div>
+      <div class="photoExamples__half photoExamples__half--right">
+        <div class="photoPiece photoPiece--ladygaga">
+          <div class="overlay"></div>
+          <a href="https://www.melissakeizerphotography.com/born-this-way-baby">Born This Way, Baby</a>
+        </div>
+      </div>
+    </section>
+    <section class="fullWidth clearfix">
+      <a href="http://melissakeizerphotography.com" class="textLink textLink--onDark textLink__arrow">See more on melissakeizerphotography.com</a>
+    </section>
   </div><!-- end container -->
 </section><!-- end pageMiddle -->
 
@@ -125,7 +161,7 @@
       <div class="footerSocial">
         <ul>
             <li><a href="http://twitter.com/keizgoesboom" class="twitter">Twitter</a></li>
-            <li><a href="https://dribbble.com/KeizGoesBoom" class="dribbble">Dribble</a></li>
+            <li><a href="https://dribbble.com/KeizGoesBoom" class="dribbble">Dribbble</a></li>
             <li><a href="http://instagram.com/keizgoesboom" class="instagram">Instagram</a></li>
           </ul>
           <ul>
@@ -139,6 +175,18 @@
     </div>
   </div>
 </footer>
+
+<script>
+jQuery(function ($) {
+$(".photoPiece").hover(
+    function () {
+       $('a', this).addClass("animated fadeInUp opacityFull");//error
+    },
+    function () {
+       $('a', this).removeClass("animated fadeInUp opacityFull");//error
+    });
+});
+</script>
 
  <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
 

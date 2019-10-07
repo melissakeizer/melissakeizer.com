@@ -52,15 +52,14 @@ h4, h4 a{
 
 p{
   font-family: $serif-font-family-light;
-  margin-bottom: 5%;
+  margin-bottom: 6%;
   color: $graphite;
   line-height:$base-line-height;
   font-size: 18px;
-  line-height: 1.3em;
   a{
     border-bottom: 1px solid $grey;
     &:hover{
-      border-bottom: 1px solid $yellow;
+      border-bottom: 1px solid $graphite;
     }
   }
 }
@@ -73,7 +72,6 @@ p.sans-serif{
 
 
 a{
-  font-family: $sans-serif-font-family;
   text-decoration: none;
   outline: 0;
   cursor: pointer;
@@ -83,29 +81,18 @@ a, a:visited, a:hover, a:active {
   color: inherit;
 }
 
-.article__content ul{
-  list-style: none;
-  padding-bottom: 3.5%;
-  li{
-    padding-bottom: 5px;
-    list-style: outside;
-    line-height: 1.3em;
-    font-size: 22px;
-  }
-}
-
-
-
 a.textLink{
+  display: inline-block;
   font-family: $sans-serif-font-family;
   font-size: 20px;
   color: $graphite;
   @include subtle-animation;
   padding: 1em 0;
-  display: block;
-  position: relative;
   &:hover{
     color: $yellow;
+    &.textLink__arrow:after {
+        margin-left: 11px;
+    }
     }
 }
 
@@ -116,15 +103,42 @@ a.textLink--onDark{
     }
 }
 
+.textLink__arrow:after {
+    width: 17px;
+    height: 10px;
+    background: url(../img/icons/arrowYellow.svg);
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    margin-left: 7px;
+    @include subtle-animation;
+  }
+
+
 p.copyright{
   padding: 3em 0 0 0;
   font-size: 14px;
   color: $grey;
   font-family: $sans-serif-font-family;
+  margin: 0;
 }
 
 
+.articleContent p{
+  font-size: 22px;
+  line-height: 1.55em;
+}
 
+.articleContent ul{
+  list-style: none;
+  padding-bottom: 3.5%;
+  li{
+    padding-bottom: 5px;
+    list-style: outside;
+    line-height: 1.3em;
+    font-size: 22px;
+  }
+}
 
 /* Code */
 

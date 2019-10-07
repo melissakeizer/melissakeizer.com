@@ -17,10 +17,9 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/drm2vjl.css">
-  <link rel="stylesheet" href="/js/slick/slick.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="canonical" href="http://melissakeizer.com/journal/2016-year-in-review/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer -  Blog and Portfolio" href="http://melissakeizer.com/feed.xml" />
-
 
 
   <meta property="og:title" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
@@ -247,7 +246,7 @@
       <div class="footerSocial">
         <ul>
             <li><a href="http://twitter.com/keizgoesboom" class="twitter">Twitter</a></li>
-            <li><a href="https://dribbble.com/KeizGoesBoom" class="dribbble">Dribble</a></li>
+            <li><a href="https://dribbble.com/KeizGoesBoom" class="dribbble">Dribbble</a></li>
             <li><a href="http://instagram.com/keizgoesboom" class="instagram">Instagram</a></li>
           </ul>
           <ul>
@@ -261,6 +260,18 @@
     </div>
   </div>
 </footer>
+
+<script>
+jQuery(function ($) {
+$(".photoPiece").hover(
+    function () {
+       $('a', this).addClass("animated fadeInUp opacityFull");//error
+    },
+    function () {
+       $('a', this).removeClass("animated fadeInUp opacityFull");//error
+    });
+});
+</script>
 
  <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
 
