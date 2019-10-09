@@ -1,5 +1,5 @@
 <footer class="clearfix">
-  <div class="footerContainer">
+  <div class="footerContainer" id="contactMe">
     <div class="container">
       <div class="footerInfo">
         <img class="footerLogo" src="{{ site.baseurl }}/img/melissa-keizer-logo-icon.svg" alt="melissa keizer logo" />  <div class="footerInfo__text">
@@ -29,12 +29,16 @@
 jQuery(function ($) {
 $(".photoPiece").hover(
     function () {
-       $('a', this).addClass("animated fadeInUp opacityFull");//error
+       $('p', this).addClass("animated fadeInUp opacityFull");//error
     },
     function () {
-       $('a', this).removeClass("animated fadeInUp opacityFull");//error
+       $('p', this).removeClass("animated fadeInUp opacityFull");//error
     });
 });
+</script>
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 
  <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>

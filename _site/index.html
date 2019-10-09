@@ -15,12 +15,12 @@
 
   <link rel="stylesheet" href="/dist/aos.css" />
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/drm2vjl.css">
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="canonical" href="http://melissakeizer.com/">
   <link rel="alternate" type="application/atom+xml" title="Melissa Keizer -  Blog and Portfolio" href="http://melissakeizer.com/feed.xml" />
 
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 
   <meta property="og:title" content="Melissa Keizer | User Experience Designer &amp; Photographer" />
   <meta property="og:description" content="TThe portfolio and blog of Melissa Keizer - a User Experience Designer, Front-end Developer and Photographer from Bangor, Northern Ireland." />
@@ -59,7 +59,7 @@
     <ul class="main-navigation__list">
        <li><a href="/" class="active">Home</a></li>
        <li><a href="/about/" >About Me</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a data-scroll href="#contactMe">Contact</a></li>
     </ul>
 </nav>
 
@@ -119,27 +119,26 @@
     <h3 class="bottom-space--m" data-aos="fade">I’m a freelance photographer and hobbyist with a love of capturing animals, live performers, local events and beautiful places.</h3>
     <section class="photoExamples" data-aos="fade-up" data-aos-delay="300">
       <div class="photoExamples__half">
-          <div class="photoPiece photoPiece--fox">
+          <a class="photoPiece photoPiece--fox" href="https://www.melissakeizerphotography.com/animals-afternoon-tea">
             <div class="overlay"></div>
-            <a href="https://www.melissakeizerphotography.com/animals-afternoon-tea">Animals &amp; Afternoon Tea</a>
-          </div>
-          <div class="photoPiece photoPiece--electricpup">
+            <p>Animals &amp; Afternoon Tea</p>
+          </a>
+          <a href="https://www.melissakeizerphotography.com/electric-pup" class="photoPiece photoPiece--electricpup">
             <div class="overlay"></div>
-            <a href="https://www.melissakeizerphotography.com/electric-pup">Electric Pup</a>
-          </div>
+            <p>Electric Pup</p>
+          </a>
           <div class="photoPiece photoPiece--tiger">
-
           </div>
-          <div class="photoPiece photoPiece--elvis">
+          <a href="https://www.melissakeizerphotography.com/aint-nothin-but-a-hound-dog" class="photoPiece photoPiece--elvis">
             <div class="overlay"></div>
-            <a href="https://www.melissakeizerphotography.com/aint-nothin-but-a-hound-dog">Nothin' But a Hound Dog</a>
-          </div>
+            <p>Nothin' But a Hound Dog</p>
+          </a>
       </div>
       <div class="photoExamples__half photoExamples__half--right">
-        <div class="photoPiece photoPiece--ladygaga">
+        <a href="https://www.melissakeizerphotography.com/born-this-way-baby" class="photoPiece photoPiece--ladygaga">
           <div class="overlay"></div>
-          <a href="https://www.melissakeizerphotography.com/born-this-way-baby">Born This Way, Baby</a>
-        </div>
+          <p>Born This Way, Baby</p>
+        </a>
       </div>
     </section>
     <section class="fullWidth clearfix">
@@ -150,7 +149,7 @@
 
         </div>
       <footer class="clearfix">
-  <div class="footerContainer">
+  <div class="footerContainer" id="contactMe">
     <div class="container">
       <div class="footerInfo">
         <img class="footerLogo" src="/img/melissa-keizer-logo-icon.svg" alt="melissa keizer logo" />  <div class="footerInfo__text">
@@ -180,12 +179,16 @@
 jQuery(function ($) {
 $(".photoPiece").hover(
     function () {
-       $('a', this).addClass("animated fadeInUp opacityFull");//error
+       $('p', this).addClass("animated fadeInUp opacityFull");//error
     },
     function () {
-       $('a', this).removeClass("animated fadeInUp opacityFull");//error
+       $('p', this).removeClass("animated fadeInUp opacityFull");//error
     });
 });
+</script>
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 
  <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
