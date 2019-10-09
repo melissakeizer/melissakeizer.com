@@ -12,6 +12,13 @@ footer{
 
 .footerInfo__text{
   display: inline-block;
+  a{
+  text-decoration: none;
+  border: none;
+  &:hover{
+    border: none;
+  }
+  }
 }
 
 .footerSocial{

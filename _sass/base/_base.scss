@@ -23,6 +23,15 @@ body {
   color: $graphite;
 }
 
+a{
+ cursor: pointer;
+}
+
+a, a:focus{
+  color: inherit;
+  border: inherit;
+  outline:none;
+}
 
 .container{
   margin: 0 auto;
@@ -75,8 +84,12 @@ body {
 
 .intro{
     max-width: 800px;
-    padding: 14em 0 10.7em 0;
+    padding: 11.5em 0 3em 0;
     display: block;
+}
+
+#page-home .intro{
+  padding: 11.5em 0 9.5em 0;
 }
 
 .intro p{
@@ -84,10 +97,6 @@ body {
   padding: 10px 0 10px 0;
   line-height: 1.3em;
   max-width: 610px;
-}
-
-#page-about .intro{
-  padding: 12.5em 0 3em 0;
 }
 
 /* Main Areas */
@@ -148,7 +157,7 @@ body {
   &:hover > .overlay {
     @include subtle-animation;
     cursor: pointer;
-    opacity:0.7;
+    opacity:0.5;
   }
   &:hover > p {
     opacity:1;

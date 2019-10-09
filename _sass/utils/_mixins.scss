@@ -42,9 +42,9 @@
 }
 
 @mixin navigation-styles{
-  @include faktproSemibold;
+  font-family: $serif-font-family-light;
   color: $white;
-  font-size: 16px;
-  margin: 0 0 0 1.2em;
+  font-size: 18px;
+  margin: 0 0 0 1.3em;
   text-decoration: none;
 }
