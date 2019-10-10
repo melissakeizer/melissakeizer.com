@@ -8,12 +8,12 @@ header{
 }
 
 a.header__logo{
- width: 285px;
+ width: 80px;
  position: absolute;
- top: 35px;
- left: 60px;
+ top: 30px;
+ left: 30px;
  img{
-  width: 285px;
+  width: 80px;
  }
 }
 
@@ -24,16 +24,17 @@ ul.main-navigation__list{
   right: 60px;
   li{
     display: inline-block;
-    font-weight: 700;
     a{
       @include navigation-styles;
-      color: $black;
+      color: $white;
       padding-bottom: 2px;
+      opacity: 0.4;
       &:hover{
-        color: $yellow;
+        opacity: 1;
       }
       &.active, &:active{
-        color: $yellow;
+        color: $white;
+        opacity: 1;
       }
     }
   }
@@ -192,7 +193,6 @@ img.mobile-menu__logo{
   right: 0;
   text-align: center;
   a{
-    @include social-icons;
     display: inline-block;
     text-align: center;
     float: none;
@@ -214,5 +214,3 @@ img.mobile-menu__logo{
     color: $black;
   }
 }
-
-

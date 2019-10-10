@@ -1,10 +1,7 @@
 /* Journal/Blog Page */
 
-ul.blog-post-list{
-  margin-top: -620px;
-}
 
-#page-journal .blog-post{
+.blog-post{
   width: 48%;
   display: inline-block;
   vertical-align: top;
@@ -16,19 +13,8 @@ ul.blog-post-list{
 
 /* Article */
 
-.article__cover{
-  height: 750px;
-  position: relative;
-  @include bg-cover;
-  margin-bottom: 60px;
-}
 
-.overlay {
-    background-color:rgba(0,0,0,.6);
-    height: 100%;
-  }
-
-.article__content{
+.articleContent{
   p{
     @include content-width;
     .article__image{
@@ -47,6 +33,20 @@ ul.blog-post-list{
     }
   }
 }
+.articleContent h2{
+  font-size: 36px;
+}
+
+p.date{
+  margin-bottom: 5px;
+}
+
+.caption{
+  font-size: 15px;
+  padding-bottom: 5%;
+  display: block;
+  color: $subtle-grey;
+}
 
 
 
@@ -59,12 +59,12 @@ ul.blog-post-list{
   padding-top: 30px;
 }
 
-.article__content p{
+.articleContent p{
   @include content-width;
   margin-bottom: 3.5%;
 }
 
-.article__content img{
+.articleContent img{
   display: block;
   width: 100%;
   padding-top: 25px;
@@ -112,6 +112,3 @@ a.rss{
     right: 0;
   }
 }
-
-
-

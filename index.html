@@ -2,56 +2,89 @@
 layout: default
 page: home
 selected: home
-title: Designer &amp; photographer in Bangor, Northern Ireland.
-intro: Hey, I'm Melissa. I spend my days tinkering with user experiences, designing websites and taking photos.
+title: Hi, I’m Melissa Keizer.
+intro: I’m a user experience designer who makes digital products. I’m also a photographer and visual story teller.
 ---
 
-<section class="block">
-  <div class="block__info block__info--yellow">
-		<div class="block__info__text">
-      <h2 class="sub-heading sub-heading--gold aos-item" data-aos="fade-left" data-aos-once="true">- UX/UI Design &amp; Development</h2>
-      <h2 class="aos-item" data-aos="fade-left" data-aos-once="true">Specialising in user-centric websites and apps</h2>
-			<a href="{{ site.baseurl }}/design/" class="link link--black aos-item" data-aos="fade-left" data-aos-once="true">Learn more about what I do</a>
-		</div>
-  </div>
-  <div class="block__photo block__photo--homepage-design"></div>
-</section>
-
-<section class="block">
-  <div class="block__photo block__photo--homepage-photography"></div>
-  <div class="block__info block__info--black">
-    <div class="block__info__text">
-      <h2 class="sub-heading sub-heading--grey aos-item" data-aos="fade-left" data-aos-once="true">- Photography</h2>
-      <h2 class="aos-item" data-aos="fade-left" data-aos-once="true">Shooting people, places &amp; animals with my camera</h2>
-      <a href="{{ site.baseurl }}/photography/" class="link link--white aos-item" data-aos="fade-left" data-aos-once="true">Check out my photos</a>
-    </div>
-  </div>
-</section>
-
-<section class="container clearfix blog-posts">
-<h2 class="sub-heading grey">- Latest Blog Posts</h2>
-{% for post in site.posts limit:2 %}
-  <li class="blog-post aos-item" data-aos="fade-up" data-aos-once="true">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-    <img src="{{ post.cover-photo }}" alt="{{ post.cover-photo }}" />
-    <p class="date">{{ post.date | date: "%d %B %Y" }}</p>
-    <h3>{{ post.title }}</h3>
-    </a>
-  </li>
-{% endfor %}
-</section>
-
-<section class="block clearfix see-more-link">
-  <div class="container">
-    <a href="{{ site.baseurl }}/journal/" class="link link--black">See more posts from my journal</a>
-  </div>
-</section>
+<div class="container">
+  <article class="intro">
+    <h1 class="aos-item" data-aos="fade-up" data-aos-delay="800" data-aos-once="true">{{ page.title }}</h1>
+    <h2 data-aos="fade-up" data-aos-delay="1050" data-aos-once="true">{{ page.intro }}</h2>
+    <a data-aos="fade-up" data-aos-delay="1250" href="/about" class="textLink textLink--animated textLink--onDark textLink__arrow">Learn more about me</a>
+  </article>
+</div>
+</section> <!-- end pageTop -->
 
 
+<section class="pageMiddle">
+  <div class="container clearfix">
+    <h3 class="bottom-space--m" data-aos="fade" data-aos-delay="200">I have penchant for building design processes, understanding users, designing engaging interfaces and creating high quality, valuable products and websites.</h3>
+    <section class="workExamples">
+      <div class="workExamples__half" data-aos="fade-up" data-aos-delay="300">
+        <div class="workPiece">
+          <img src="../img/homepage/work-thriveWebsite.jpg" alt="Thrive marketing website" class="workPiece__image" />
+          <div class="workPiece__text">
+            <h4>Thrive - Company wide communication</h4>
+            <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. </p>
+            <p class="sans-serif">Web Design, Front-end Development, Craft CMS Integration</p>
+          </div>
+        </div><!-- end workPiece -->
+      </div><!-- end workExamples__half -->
+      <div class="workExamples__half workExamples__half--right" data-aos="fade-up" data-aos-delay="800">
+        <div class="workPiece">
+          <img src="../img/homepage/work-thriveMobile.jpg" alt="Thrive Mobile App on iOS" class="workPiece__image" />
+          <div class="workPiece__text">
+            <h4>Thrive Mobile - Reach every employee</h4>
+            <p class="sans-serif">User Research, UI Design, Usability Testing</p>
+          </div>
+        </div><!-- end workPiece -->
+        <div class="workPiece">
+          <img src="../img/homepage/work-w5.jpg" alt="W5 Website" class="workPiece__image" />
+          <div class="workPiece__text">
+            <h4>W5 - Science & Discovery </h4>
+            <p class="sans-serif">User Research, Web Design</p>
+          </div>
+        </div><!-- end workPiece -->
+      </div><!-- end workExamples__half -->
+    </section>
+    <section class="fullWidth clearfix">
+      <a href="{{ site.dribbble }}" class="textLink textLink__arrow" target="_blank">See more of my design work on Dribbble</a>
+    </section>
 
+  </div><!-- end container -->
+</section><!-- end pageMiddle -->
 
-
-
-
-
-
+<section class="pageMiddle--dark">
+  <div class="container clearfix">
+    <h3 class="bottom-space--m" data-aos="fade">I’m a freelance photographer and hobbyist with a love of capturing animals, live performers, local events and beautiful places.</h3>
+    <section class="photoExamples" data-aos="fade-up" data-aos-delay="300">
+      <div class="photoExamples__half">
+          <a class="photoPiece photoPiece--fox" href="https://www.melissakeizerphotography.com/animals-afternoon-tea">
+            <div class="overlay"></div>
+            <p>Animals &amp; Afternoon Tea</p>
+          </a>
+          <a href="https://www.melissakeizerphotography.com/electric-pup" class="photoPiece photoPiece--electricpup">
+            <div class="overlay"></div>
+            <p>Electric Pup</p>
+          </a>
+          <a href="https://www.melissakeizerphotography.com/a-few-favourites" class="photoPiece photoPiece--tiger">
+            <div class="overlay"></div>
+            <p>A Few Favourites</p>
+          </a>
+          <a href="https://www.melissakeizerphotography.com/aint-nothin-but-a-hound-dog" class="photoPiece photoPiece--elvis">
+            <div class="overlay"></div>
+            <p>Nothin' But a Hound Dog</p>
+          </a>
+      </div>
+      <div class="photoExamples__half photoExamples__half--right">
+        <a href="https://www.melissakeizerphotography.com/born-this-way-baby" class="photoPiece photoPiece--ladygaga">
+          <div class="overlay"></div>
+          <p>Born This Way, Baby</p>
+        </a>
+      </div>
+    </section>
+    <section class="fullWidth clearfix">
+      <a href="http://melissakeizerphotography.com" target="_blank" class="textLink textLink--onDark textLink__arrow">See more on melissakeizerphotography.com</a>
+    </section>
+  </div><!-- end container -->
+</section><!-- end pageMiddle -->

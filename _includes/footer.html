@@ -1,55 +1,45 @@
-<footer>
-
-  <div class="clearfix">
+<footer class="clearfix">
+  <div class="footerContainer" id="contactMe">
     <div class="container">
-      <div class="footer__logo">
-        <img src="{{ site.baseurl }}/img/melissa-keizer-logo-full.svg" alt="melissa keizer logo"/>
-      </div>
-
-      <ul class="footer__sitemap">
-        <li><a href="{{ site.baseurl }}/">Home</a></li>
-        <li><a href="{{ site.baseurl }}/about/">About Me</a></li>
-        <li><a href="{{ site.baseurl }}/design/">Design &amp; Development</a></li>
-      </ul>
-      <ul class="footer__sitemap footer__sitemap--second">
-        <li><a href="{{ site.baseurl }}/photography/">Photography</a></li>
-        <li><a href="{{ site.baseurl }}/journal/">Journal</a></li>
-      </ul>
-
-
-      <div class="footer__social-block">
-        <div class="row">
-          <a href="{{ site.twitter }}" class="twitter">
-            <img src="{{ site.baseurl }}/img/misc/twitter.svg" alt="social icon" />
-          </a>
-          <a href="{{ site.dribbble }}" class="dribbble">
-             <img src="{{ site.baseurl }}/img/misc/dribbble.svg" alt="social icon" />
-          </a>
-          <a href="{{ site.flickr }}" class="flickr">
-             <img src="{{ site.baseurl }}/img/misc/flickr.svg" alt="social icon" />
-          </a>
-          <a href="{{ site.facebook }}" class="facebook">
-             <img src="{{ site.baseurl }}/img/misc/facebook.svg" alt="social icon" />
-          </a>
-        </div><!--
-        --><div class="row">
-          <a href="mailto:hi@melissakeizer.com" class="email">
-             <img src="{{ site.baseurl }}/img/misc/email.svg" alt="social icon" />
-          </a>
-          <a href="{{ site.instagram }}" class="instagram">
-             <img src="{{ site.baseurl }}/img/misc/instagram.svg" alt="social icon" />
-          </a>
-          <a href="{{ site.linkedin }}" class="linkedin">
-            <img src="{{ site.baseurl }}/img/misc/linkedin.svg" alt="social icon" />
-          </a>
-          <a href="{{ site.exposure }}" class="500px">
-             <img src="{{ site.baseurl }}/img/misc/exposure.svg" alt="social icon" />
-          </a>
+      <div class="footerInfo">
+        <img class="footerLogo" src="{{ site.baseurl }}/img/melissa-keizer-logo-icon.svg" alt="melissa keizer logo" />  <div class="footerInfo__text">
+          <h4>Designer & Photographer, Melissa Keizer</h4>
+          <p class="sans-serif">Interested in working with me? Shoot me an email: <a href="mailto:hi@melissakeizer.com">hi[at]melissakeizer.com</a></p>
         </div>
       </div>
+      <div class="footerSocial">
+        <ul>
+            <li><a target="_blank" href="{{ site.twitter }}" class="twitter">Twitter</a></li>
+            <li><a target="_blank" href="{{ site.dribbble }}" class="dribbble">Dribbble</a></li>
+            <li><a target="_blank" href="{{ site.instagram }}" class="instagram">Instagram</a></li>
+          </ul>
+          <ul>
+            <li><a target="_blank" href="{{ site.linkedin }}" class="linkedin">LinkedIn</a></li>
+            <li><a target="_blank" href="{{ site.exposure }}" class="exposure">Exposure</a></li>
+          </ul>
+      </div>
+      <section class="fullWidth clearfix">
+        <p class="copyright">Website designed &amp; built by me, Melissa Keizer. Copyright 2019</p>
+      </section>
     </div>
   </div>
 </footer>
+
+<script>
+jQuery(function ($) {
+$(".photoPiece").hover(
+    function () {
+       $('p', this).addClass("animated fadeInUp opacityFull");//error
+    },
+    function () {
+       $('p', this).removeClass("animated fadeInUp opacityFull");//error
+    });
+});
+</script>
+
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
 
  <!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-580cc3e0d0ce1bce"></script>
 

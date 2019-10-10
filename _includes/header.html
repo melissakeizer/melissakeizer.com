@@ -1,16 +1,10 @@
-{% if page.path contains '_posts' %}
-  <a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo-white.svg" alt="melissa keizer logo" /img></a>
-{% else %}
-  <a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo.svg" alt="melissa keizer logo" /img></a>
-{% endif %}
+<a href="{{ site.baseurl }}/" class="header__logo"><img src="{{ site.baseurl }}/img/melissa-keizer-logo-icon.svg" alt="melissa keizer logo" /img></a>
+
 
 <nav class="main-navigation">
     <ul class="main-navigation__list">
+       <li><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Home</a></li>
        <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
-       <li><a href="{{ site.baseurl }}/design/" {% if page.selected == "design" %}class="active"{% endif %}>Design &amp; Dev</a></li>
-      <li><a href="{{ site.baseurl }}/photography/" {% if page.selected == "photography" %}class="active"{% endif %}>Photography</a></li>
-      <li><a href="{{ site.baseurl }}/journal/" {% if page.selected == "journal" %}class="active"{% endif %}>Journal</a></li>
+      <li><a data-scroll href="#contactMe">Contact</a></li>
     </ul>
 </nav>
-
- {% include mobile-menu.html %}
