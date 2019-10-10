@@ -3,7 +3,7 @@
 
 <nav class="main-navigation">
     <ul class="main-navigation__list">
-       <li><a href="{{ site.baseurl }}/" {% if page.selected == "home" %}class="active"{% endif %}>Home</a></li>
+       <li><a href="{{ site.baseurl }}/" class="homeLink" {% if page.selected == "home" %}class="active"{% endif %}>Home</a></li>
        <li><a href="{{ site.baseurl }}/about/" {% if page.selected == "about" %}class="active"{% endif %}>About Me</a></li>
       <li><a data-scroll href="#contactMe">Contact</a></li>
     </ul>
