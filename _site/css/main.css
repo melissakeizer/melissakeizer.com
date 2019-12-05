@@ -532,6 +532,8 @@ a, a:focus {
 
 .workPiece {
   margin-bottom: 40px; }
+  .workPiece p {
+    font-size: 18px; }
 
 .overlay {
   width: 100%;
@@ -753,12 +755,12 @@ p.copyright {
   list-style: none;
   padding-bottom: 3.5%; }
   .articleContent ul li {
+    font-size: 22px;
+    line-height: 1.55em;
     font-family: "Fakt-Pro-Blond", sans-serif;
     padding-bottom: 25px;
     list-style: outside;
-    list-style-image: url(../img/icons/yellowbullet.svg);
-    line-height: 1.3em;
-    font-size: 25px; }
+    list-style-image: url(../img/icons/yellowbullet.svg); }
 
 /* Code */
 pre {

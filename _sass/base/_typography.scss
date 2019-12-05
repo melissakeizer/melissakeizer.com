@@ -144,12 +144,12 @@ p.copyright{
   list-style: none;
   padding-bottom: 3.5%;
   li{
+    font-size: 22px;
+    line-height: 1.55em;
     font-family: $sans-serif-font-family-blond;
     padding-bottom: 25px;
     list-style: outside;
     list-style-image: url(../img/icons/yellowbullet.svg);
-    line-height: 1.3em;
-    font-size: 25px;
   }
 }
 
