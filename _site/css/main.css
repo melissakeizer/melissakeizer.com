@@ -1359,6 +1359,9 @@ a.rss {
     width: 100%;
     margin-left: 0; }
 
+  .photoPiece {
+    height: 210px; }
+
   .footerSocial {
     width: 100%; }
     .footerSocial ul {
