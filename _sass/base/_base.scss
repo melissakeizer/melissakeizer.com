@@ -89,7 +89,7 @@ a, a:focus{
 }
 
 #page-home .intro{
-  padding: 11.5em 0 9.5em 0;
+  padding: 11.5em 0 12.5em 0;
 }
 
 .intro p{
@@ -122,6 +122,10 @@ a, a:focus{
     width: 40%;
     margin: 0 0 0 3%;
   }
+}
+
+.workExamples--hikeUp{
+  margin-top: -250px;
 }
 
 
@@ -203,6 +207,7 @@ a, a:focus{
 .photoPiece p{
   color: $white;
   position: absolute;
+  font-size: 18px;
   bottom: 20px;
   left: 20px;
   opacity: 0;
