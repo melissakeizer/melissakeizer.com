@@ -110,6 +110,10 @@ a, a:focus{
    padding-bottom: 3em;
  }
 
+ .workGallery{
+   padding-bottom: 5em;
+ }
+
 .workExamples__half{
   width: 54%;
   float: left;
@@ -133,7 +137,7 @@ a, a:focus{
   }
 }
 
-.workPiece__image{
+.workPiece__image, .rounded__image{
   box-shadow: 0 7px 29px -2px rgba(0,0,0,0.18);
   border-radius: 4px;
 }
@@ -217,4 +221,47 @@ a, a:focus{
 
 .container__content{
   padding: 2.5em 0;
+}
+
+.fullWidth_image{
+  width: 100%;
+}
+
+.sideBySideContainer{
+  width: 100%;
+  float: left;
+  padding: 1.7em 0;
+  p{
+    font-size: 22px;
+    line-height: 1.55em;
+  }
+}
+
+
+.sideBySideContainer__right{
+  float: right;
+  width: 50%;
+  &__text{
+    padding-left: 2em;
+    padding-top: 2em;
+  }
+  &__image{
+    padding-left: 2em;
+  }
+}
+
+.sideBySideContainer__left{
+  float: left;
+  width: 50%;
+  &__text{
+    padding-right: 2em;
+    padding-top: 2em;
+  }
+  &__image{
+    padding-right: 2em;
+  }
+}
+
+.sideBySideContainer.sideBySideContainer--textOnly{
+    padding:0;
 }

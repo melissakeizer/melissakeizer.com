@@ -30,7 +30,7 @@ h2, h2 a,.h2{
   font-family: $serif-font-family-bold;
   font-size: 46px;
   line-height: 1.2em;
-  padding: 0 0 0.5em 0;
+  padding: 0.3em 0 0.7em 0;
 }
 
 
@@ -38,7 +38,7 @@ h3, h3 a{
   font-family: $serif-font-family-bold;
   font-size: 26px;
   line-height: 1.2em;
-  padding-bottom: 9px;
+  padding: 0.3em 0 0.7em 0;
   max-width: 800px;
 }
 
@@ -51,11 +51,11 @@ h4, h4 a{
 }
 
 p{
-  font-family: $serif-font-family-light;
+  font-family: $sans-serif-font-family-blond;
   margin-bottom: 6%;
   color: $graphite;
   line-height:$base-line-height;
-  font-size: 18px;
+  font-size: 26px;
   a{
     border-bottom: 1px solid $grey;
     &:hover{
@@ -69,6 +69,7 @@ p.sans-serif{
   font-size: 16px;
   font-family: $sans-serif-font-family;
 }
+
 
 a{
   text-decoration: none;
@@ -123,6 +124,17 @@ p.copyright{
 }
 
 
+.caption{
+  font-family: $serif-font-family-light;
+  font-size: 15px;
+  padding: 1em 0;
+  display: block;
+  color: $grey;
+  text-align: center;
+  margin: 0;
+}
+
+
 .articleContent p{
   font-size: 22px;
   line-height: 1.55em;
@@ -132,10 +144,12 @@ p.copyright{
   list-style: none;
   padding-bottom: 3.5%;
   li{
-    padding-bottom: 5px;
+    font-family: $sans-serif-font-family-blond;
+    padding-bottom: 25px;
     list-style: outside;
+    list-style-image: url(../img/icons/yellowbullet.svg);
     line-height: 1.3em;
-    font-size: 22px;
+    font-size: 25px;
   }
 }
 

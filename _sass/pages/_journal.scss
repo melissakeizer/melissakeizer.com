@@ -41,14 +41,6 @@ p.date{
   margin-bottom: 5px;
 }
 
-.caption{
-  font-size: 15px;
-  padding-bottom: 5%;
-  display: block;
-  color: $subtle-grey;
-}
-
-
 
 .article__notes, .comment-section, .addthis_inline_share_toolbox{
   @include content-width;

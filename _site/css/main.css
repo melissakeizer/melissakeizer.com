@@ -506,6 +506,9 @@ a, a:focus {
 .aboutGallery {
   padding-bottom: 3em; }
 
+.workGallery {
+  padding-bottom: 5em; }
+
 .workExamples__half {
   width: 54%;
   float: left;
@@ -523,7 +526,7 @@ a, a:focus {
     .aboutGallery__third--last .galleryPiece {
       margin-bottom: 23px; }
 
-.workPiece__image {
+.workPiece__image, .rounded__image {
   box-shadow: 0 7px 29px -2px rgba(0, 0, 0, 0.18);
   border-radius: 4px; }
 
@@ -597,6 +600,38 @@ a, a:focus {
 .container__content {
   padding: 2.5em 0; }
 
+.fullWidth_image {
+  width: 100%; }
+
+.sideBySideContainer {
+  width: 100%;
+  float: left;
+  padding: 1.7em 0; }
+  .sideBySideContainer p {
+    font-size: 22px;
+    line-height: 1.55em; }
+
+.sideBySideContainer__right {
+  float: right;
+  width: 50%; }
+  .sideBySideContainer__right__text {
+    padding-left: 2em;
+    padding-top: 2em; }
+  .sideBySideContainer__right__image {
+    padding-left: 2em; }
+
+.sideBySideContainer__left {
+  float: left;
+  width: 50%; }
+  .sideBySideContainer__left__text {
+    padding-right: 2em;
+    padding-top: 2em; }
+  .sideBySideContainer__left__image {
+    padding-right: 2em; }
+
+.sideBySideContainer.sideBySideContainer--textOnly {
+  padding: 0; }
+
 /* Typography */
 body {
   font-family: "cambon-light", "Georgia", serif;
@@ -623,13 +658,13 @@ h2, h2 a, .h2 {
   font-family: "cambon-semibold", "Georgia", serif;
   font-size: 46px;
   line-height: 1.2em;
-  padding: 0 0 0.5em 0; }
+  padding: 0.3em 0 0.7em 0; }
 
 h3, h3 a {
   font-family: "cambon-semibold", "Georgia", serif;
   font-size: 26px;
   line-height: 1.2em;
-  padding-bottom: 9px;
+  padding: 0.3em 0 0.7em 0;
   max-width: 800px; }
 
 h4, h4 a {
@@ -640,11 +675,11 @@ h4, h4 a {
   max-width: 800px; }
 
 p {
-  font-family: "cambon-light", "Georgia", serif;
+  font-family: "Fakt-Pro-Blond", sans-serif;
   margin-bottom: 6%;
   color: #161A1C;
   line-height: 1.3em;
-  font-size: 18px; }
+  font-size: 26px; }
   p a {
     border-bottom: 1px solid #A3A5A7; }
     p a:hover {
@@ -701,6 +736,15 @@ p.copyright {
   font-family: "Fakt-Pro-Normal", sans-serif;
   margin: 0; }
 
+.caption {
+  font-family: "cambon-light", "Georgia", serif;
+  font-size: 15px;
+  padding: 1em 0;
+  display: block;
+  color: #A3A5A7;
+  text-align: center;
+  margin: 0; }
+
 .articleContent p {
   font-size: 22px;
   line-height: 1.55em; }
@@ -709,10 +753,12 @@ p.copyright {
   list-style: none;
   padding-bottom: 3.5%; }
   .articleContent ul li {
-    padding-bottom: 5px;
+    font-family: "Fakt-Pro-Blond", sans-serif;
+    padding-bottom: 25px;
     list-style: outside;
+    list-style-image: url(../img/icons/yellowbullet.svg);
     line-height: 1.3em;
-    font-size: 22px; }
+    font-size: 25px; }
 
 /* Code */
 pre {
@@ -943,7 +989,6 @@ footer {
     width: 50%;
     float: left; }
   .footerSocial a {
-    font-size: "Fakt-Pro-Normal", sans-serif;
     font-size: 18px;
     color: #A3A5A7; }
     .footerSocial a:hover {
@@ -1067,12 +1112,6 @@ a.button > span {
 p.date {
   margin-bottom: 5px; }
 
-.caption {
-  font-size: 15px;
-  padding-bottom: 5%;
-  display: block;
-  color: #505A61; }
-
 .article__notes, .comment-section, .addthis_inline_share_toolbox {
   margin: 0 auto;
   max-width: 840px; }
@@ -1173,10 +1212,10 @@ a.rss {
 @media only screen and (min-width: 1600px) {
   .intro {
     max-width: 1100px;
-    padding: 19em 0 4em 0; }
+    padding: 15em 0 1em 0; }
 
   #page-home .intro {
-    padding: 19em 0 20em 0; }
+    padding: 15em 0 20em 0; }
 
   h2, .h2 {
     font-size: 54px; }
@@ -1205,7 +1244,7 @@ a.rss {
     max-width: 760px; }
 
   .pageMiddle, .pageMiddle--dark {
-    padding: 130px 0; } }
+    padding: 4em 0; } }
 @media only screen and (min-width: 1500px) and (max-width: 1599px) {
   .intro {
     max-width: 900px;
