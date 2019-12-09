@@ -144,10 +144,29 @@ h3, .h3{
   }
 
 .photoExamples__half--right .photoPiece {
-  height: 452px;
+  height: 550px;
 }
 
 
+
+}
+
+
+@media only screen and (max-width:750px) {
+
+.photoExamples__half--right .photoPiece {
+  height: 540px;
+}
+
+.footerSocial{
+  width: 100%;
+  ul{
+    width: 100%;
+  }
+  a{
+    font-size: 15px;
+  }
+}
 
 }
 
@@ -217,18 +236,14 @@ ul.main-navigation__list li a{
 }
 
 .photoPiece {
-  height: 210px;
+  height: 220px;
 }
 
-.footerSocial{
-  width: 100%;
-  ul{
-    width: 100%;
-  }
-  a{
-    font-size: 15px;
-  }
+.photoExamples__half--right .photoPiece {
+  height: 580px;
+  width: 96%;
 }
+
 
 .pageMiddle, .pageMiddle--dark{
   padding: 2em 0;
