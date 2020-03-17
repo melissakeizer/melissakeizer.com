@@ -4,11 +4,11 @@
     <title>Melissa Keizer - User Experience Designer, Photographer and Visual Story Teller</title>
     <description>Personal website of Melissa Keizer - a UI/UX designer, front-end developer and photographer from Bangor, Northern Ireland.
 </description>
-    <link>http://melissakeizer.com/</link>
-    <atom:link href="http://melissakeizer.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 Dec 2019 22:32:25 +0000</pubDate>
-    <lastBuildDate>Mon, 09 Dec 2019 22:32:25 +0000</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 17 Mar 2020 18:23:54 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Mar 2020 18:23:54 +0000</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>My DIBI Conf Experience</title>
@@ -67,8 +67,8 @@
 &lt;p&gt;The event also gave me the opportunity to meet with like-minded friends old and new while staying in one of my favourite cities! After a super couple of days in Edinburgh I’ve returned to the office excited to work on improving &lt;a href=&quot;https://www.theappbuilder.com&quot;&gt;TheAppBuilder&lt;/a&gt; and sharing what I learned with the team. Thanks for hosting such a great event, DIBI!&lt;/p&gt;
 </description>
         <pubDate>Sat, 29 Apr 2017 00:50:00 +0100</pubDate>
-        <link>http://melissakeizer.com/journal/dibiconf/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/dibiconf/</guid>
+        <link>http://localhost:4000/journal/dibiconf/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/dibiconf/</guid>
         
         
       </item>
@@ -115,7 +115,7 @@
 
 &lt;div class=&quot;article__image article__image--with-caption&quot;&gt;
   &lt;img src=&quot;/img/blog/my-rome-trip.jpg&quot; alt=&quot;My Rome trip&quot; /&gt;
-  &lt;span class=&quot;caption&quot;&gt;My trip to Rome in May was one of the year&#39;s highlights&lt;/span&gt;
+  &lt;span class=&quot;caption&quot;&gt;My trip to Rome in May was one of the year's highlights&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;p&gt;With half of my family being dutch, I would visit Holland fairly regularly. However this summer, my family and I extended our trip and ventured to areas we’d never been before. We first spent a few days in Nunspeet visiting family, before making our way down to the picturesque village of Valkenburg in the south of Holland. We stayed in a gorgeous apartment that we found on AirBnb, overlooking a street filled with quaint little cafes and restaurants. It was the perfect place to unwind. On our journey back North we passed through Belgium so we could spend the day in the bustling city of Antwerp.&lt;/p&gt;
@@ -186,8 +186,8 @@
 
 </description>
         <pubDate>Thu, 05 Jan 2017 23:50:00 +0000</pubDate>
-        <link>http://melissakeizer.com/journal/2016-year-in-review/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/2016-year-in-review/</guid>
+        <link>http://localhost:4000/journal/2016-year-in-review/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/2016-year-in-review/</guid>
         
         
       </item>
@@ -230,14 +230,14 @@
 
 </description>
         <pubDate>Tue, 25 Oct 2016 22:50:00 +0100</pubDate>
-        <link>http://melissakeizer.com/journal/rebranded-and-refreshed/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/rebranded-and-refreshed/</guid>
+        <link>http://localhost:4000/journal/rebranded-and-refreshed/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/rebranded-and-refreshed/</guid>
         
         
       </item>
     
       <item>
-        <title>I&#39;ll Photograph Your Pets!</title>
+        <title>I'll Photograph Your Pets!</title>
         <description>&lt;p&gt;If you were to scan through my &lt;a href=&quot;https://www.flickr.com/photos/tinyspark_boom/&quot;&gt;Flickr portfolio&lt;/a&gt; it’s easy to see that I’m fond of taking photos of animals. I often visit zoos, animal sanctuaries, the local park or wherever else I can find four-legged critters to shoot. I thought, “wouldn’t it be nice if I had the chance to do this more, and on top of that, be paid to do it?”&lt;/p&gt;
 
 &lt;div class=&quot;article__image article__image--with-caption&quot;&gt;
@@ -273,8 +273,8 @@
 
 </description>
         <pubDate>Thu, 04 Feb 2016 13:50:00 +0000</pubDate>
-        <link>http://melissakeizer.com/journal/i-will-photograph-your-pet/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/i-will-photograph-your-pet/</guid>
+        <link>http://localhost:4000/journal/i-will-photograph-your-pet/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/i-will-photograph-your-pet/</guid>
         
         
       </item>
@@ -340,7 +340,7 @@
 &lt;p&gt;The only real issue I’ve had with the autofocus on my A7ii is being able to pin-point the focus on the eyes of animals. I noticed this when taking photos of my little dog Matisse. I like using wide aperture to capture shots with low depth of field, but it this often means I miss the eyes as the focus is on the nose or eyebrow of my dog. While there is an “Eye AF” mode specially designed to focus on eyes, it seems to just work on humans. I can of course move the little focusing box around the screen to the eye, but I don’t always have time do this when shooting a hyper-active dog!&lt;/p&gt;
 
 &lt;div class=&quot;article__image article__image--with-caption&quot;&gt;
-  &lt;img src=&quot;/img/blog/matisse-castle-park.jpg&quot; alt=&quot;Matisse&#39;s face&quot; /&gt;
+  &lt;img src=&quot;/img/blog/matisse-castle-park.jpg&quot; alt=&quot;Matisse's face&quot; /&gt;
   &lt;span class=&quot;caption&quot;&gt;The AF doesn’t always pinpoint Matisse’s eyes, but when it does, it’s sharp!&lt;/span&gt;
 &lt;/div&gt;
 
@@ -360,7 +360,7 @@
 
 &lt;div class=&quot;article__image article__image--with-caption&quot;&gt;
   &lt;img src=&quot;/img/blog/my-sony-a7ii-2.jpg&quot; alt=&quot;My Sony a7ii&quot; /&gt;
-  &lt;span class=&quot;caption&quot;&gt;I love the design of the Sony A7ii, it&#39;s pretty cute for a camera, right? &lt;/span&gt;
+  &lt;span class=&quot;caption&quot;&gt;I love the design of the Sony A7ii, it's pretty cute for a camera, right? &lt;/span&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
@@ -394,12 +394,12 @@
 
 &lt;p&gt;As you can see, the benefits definitely outweigh the disadvantages, so if you’re thinking of upgrading your camera system, I’d highly recommend the Sony A7ii.&lt;/p&gt;
 
-&lt;p&gt;If you’re thinking about picking up a Sony A7ii yourself, feel free to &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#104;&amp;#105;&amp;#064;&amp;#109;&amp;#101;&amp;#108;&amp;#105;&amp;#115;&amp;#115;&amp;#097;&amp;#107;&amp;#101;&amp;#105;&amp;#122;&amp;#101;&amp;#114;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;email me&lt;/a&gt; or leave a comment if you have any questions about this camera :)&lt;/p&gt;
+&lt;p&gt;If you’re thinking about picking up a Sony A7ii yourself, feel free to &lt;a href=&quot;mailto:hi@melissakeizer.com&quot;&gt;email me&lt;/a&gt; or leave a comment if you have any questions about this camera :)&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 30 Oct 2015 13:50:00 +0000</pubDate>
-        <link>http://melissakeizer.com/journal/sony-a7ii-facts-and-thoughts/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/sony-a7ii-facts-and-thoughts/</guid>
+        <link>http://localhost:4000/journal/sony-a7ii-facts-and-thoughts/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/sony-a7ii-facts-and-thoughts/</guid>
         
         
       </item>
@@ -431,8 +431,8 @@
 
 </description>
         <pubDate>Sat, 03 Oct 2015 14:50:00 +0100</pubDate>
-        <link>http://melissakeizer.com/journal/first-newborn-photoshoot/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/first-newborn-photoshoot/</guid>
+        <link>http://localhost:4000/journal/first-newborn-photoshoot/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/first-newborn-photoshoot/</guid>
         
         
       </item>
@@ -465,8 +465,8 @@
 
 </description>
         <pubDate>Sun, 30 Aug 2015 14:50:00 +0100</pubDate>
-        <link>http://melissakeizer.com/journal/hybrid-conf/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/hybrid-conf/</guid>
+        <link>http://localhost:4000/journal/hybrid-conf/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/hybrid-conf/</guid>
         
         
       </item>
@@ -502,8 +502,8 @@
 
 </description>
         <pubDate>Mon, 17 Aug 2015 14:50:00 +0100</pubDate>
-        <link>http://melissakeizer.com/journal/hey-take-my-card/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/hey-take-my-card/</guid>
+        <link>http://localhost:4000/journal/hey-take-my-card/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/hey-take-my-card/</guid>
         
         
       </item>
@@ -512,7 +512,7 @@
         <title>Getting Started with Git</title>
         <description>&lt;p&gt;Last year I gave a talk at local developer meetup &lt;a href=&quot;http://belfastruby.com/2014/01/30/intro-to-ruby.html&quot;&gt;Belfast Ruby&lt;/a&gt; on how get started with Git and GitHub. These are the notes that accompany the practical demo I gave, you can also check out my short Keynote on &lt;a href=&quot;https://speakerdeck.com/melissakeizer/gitn-started-with-version-control&quot;&gt;Speakerdeck&lt;/a&gt;. Hopefully this guide will still be useful to version control newbies now.&lt;/p&gt;
 
-&lt;h2 id=&quot;creating-remote-repo&quot;&gt;1. Creating Remote Repo&lt;/h2&gt;
+&lt;h2 id=&quot;1-creating-remote-repo&quot;&gt;1. Creating Remote Repo&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Create account/Sign in to Github.com&lt;/li&gt;
@@ -522,19 +522,19 @@
 
 &lt;p&gt;Now you have an online space for your project to live.&lt;/p&gt;
 
-&lt;h2 id=&quot;setting-up-git&quot;&gt;2. Setting Up Git&lt;/h2&gt;
+&lt;h2 id=&quot;2-setting-up-git&quot;&gt;2. Setting Up Git&lt;/h2&gt;
 
 &lt;p&gt;Now we’re going to open Terminal/iTerm and type some commands.&lt;/p&gt;
 
 &lt;p&gt;First, check is Installed&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git --version
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git --version
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You should get a response that looks like this:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git version 1.8.3.1
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git version 1.8.3.1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;If you don’t already have Git installed or need to update (use version 1.7.11 or higher) then follow these links to install Git in your machine.&lt;/p&gt;
 
@@ -542,63 +542,63 @@
 
 &lt;p&gt;Next give Git your credentials&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git config --global user.name &quot;Melissa Keizer&quot;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global user.name &quot;Melissa Keizer&quot;
 git config --global user.email &quot;mkeizer@rumblelabs.com&quot;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h2 id=&quot;create-your-local-repo&quot;&gt;3. Create Your Local Repo&lt;/h2&gt;
+&lt;h2 id=&quot;3-create-your-local-repo&quot;&gt;3. Create Your Local Repo&lt;/h2&gt;
 
 &lt;p&gt;Now you need to make the repository for your project that will live on your computer.&lt;/p&gt;
 
 &lt;p&gt;In terminal navigate to the folder where you keep your projects and make a new directory for your new app/site/project. Then navigate to your new project folder.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;cd sites
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd sites
 mkdir nice-project
 cd nice-project
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Now to start using Git commands (They always begin with the word Git)
 First you need to tell your computer to recognise this directory as a local Git Repository&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git init
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Now you have both a remote and local git repo for your project.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;make-some-files&quot;&gt;4. Make Some Files&lt;/h2&gt;
+&lt;h2 id=&quot;4-make-some-files&quot;&gt;4. Make Some Files&lt;/h2&gt;
 
 &lt;p&gt;Add a ReadMe.md file (Use this markdown file to add notes about your project and instructions about how others can get it running locally)&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;touch ReadMe.md
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;touch ReadMe.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Now I’ll edit this ReadMe file by opening it in my text editor of choice, Sublime Text 2. I’ve installed the Sublime Command Line tool which allows me to open my project from the command line - &lt;a href=&quot;http://www.sublimetext.com/docs/2/osx_command_line.html&quot;&gt;Here’s how to set it up&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;subl .
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;subl .
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;In the ReadMe.md I added some markdown using Sublime.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;#Nice Project
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;#Nice Project
 This is my new nice project, holla.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Check that Git can see your changes&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git status
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git status
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The response tells me that Git notices the edit but the file is currently untracked. Next you need to tell Git to add in these changes so you can commit them.&lt;/p&gt;
 
 &lt;p&gt;Following this, commit the change. By commiting you are taking a snapshot of your project repo at this point in time. Remember to give your commits a meaningful description about what you just did&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git add .
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .
 git commit -m &quot;Added a readme.md file and wrote some words in it&quot;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;Next it’s time to push your changes to your remote repo on Github.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;connect-local-and-remote-repos&quot;&gt;5. Connect local and remote repos&lt;/h2&gt;
+&lt;h2 id=&quot;5-connect-local-and-remote-repos&quot;&gt;5. Connect local and remote repos&lt;/h2&gt;
 
 &lt;p&gt;In order to push these changes, I need to tell Git that a remote repo exists somewhere on the web.&lt;/p&gt;
 
@@ -606,63 +606,63 @@ git commit -m &quot;Added a readme.md file and wrote some words in it&quot;
 
 &lt;p&gt;Go back to terminal and type the following:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git remote add origin git@github.com:melissakeizer/nice-project.git
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote add origin git@github.com:melissakeizer/nice-project.git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The word “origin” indicates that this is a new place where files originate and “remote” simply tells git that the origin is with an online host  .&lt;/p&gt;
 
 &lt;p&gt;To check that it was set up correctly type the command below&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git remote -v
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git remote -v
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You should see a list of all remote origins. I see it listed twice since Git will both push changes there and fetch changes from there. &lt;strong&gt;Now Git knows where you want your local changes to your repository to go!&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;To push your changes use the command below&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push -u origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Look at your changes by visiting the project page on Github. There I’ll see the updated ReadMe.md and I can click on the “Commits” link to view exactly what changes were made with each commit.&lt;/p&gt;
 
-&lt;h2 id=&quot;make-a-new-branch&quot;&gt;6. Make a new branch&lt;/h2&gt;
+&lt;h2 id=&quot;6-make-a-new-branch&quot;&gt;6. Make a new branch&lt;/h2&gt;
 
 &lt;p&gt;As mentioned in my talk, branches are useful when working in teams or for simply separating development of different features on your app or project.&lt;/p&gt;
 
 &lt;p&gt;To make a new branch type:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git checkout -b branch-name
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout -b branch-name
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The “-b” indicates that this is a new branch. Give your branch a relevant name, for example “contact-form” or “new-design”
 You can start making changes to your project without affecting your master branch, the main line of development. I made some edits to my ReadMe.md file in Sublime, then added and committed this change.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git add .
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git add .
 git commit -m &quot;updated readme&quot;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Next I’ll push this change.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git push
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;You’ll see a message in Terminal telling you that the branch has no upstream branch, to push the branch simply use the command listed.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git push --set-upstream origin branch-name
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push --set-upstream origin branch-name
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;When you want to merge in the changes you made on your branch later you must move to your master branch and give the merge command.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git checkout master
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git checkout master
 git merge branch-name
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;So, there’s a few Git fundamentals nailed down. Hopefully this will help you get started with Git on your own projects, but if you have any questions or run into issues feel free to tweet me &lt;a href=&quot;http://twitter.com/keizgoesboom&quot;&gt;@KeizGoesBoom&lt;/a&gt;.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 16 Jun 2015 23:01:00 +0100</pubDate>
-        <link>http://melissakeizer.com/journal/getting-started-with-git/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/getting-started-with-git/</guid>
+        <link>http://localhost:4000/journal/getting-started-with-git/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/getting-started-with-git/</guid>
         
         
       </item>
@@ -675,7 +675,7 @@ git merge branch-name
 
 &lt;div class=&quot;article__image article__image--with-caption&quot;&gt;
   &lt;img src=&quot;/img/blog/strobist-setup-sony-alpha.jpg&quot; alt=&quot;Strobist setup for Sony Alpha&quot; /&gt;
-  &lt;span class=&quot;caption&quot;&gt;I&#39;ll be detailing my strobist setup for Sony Alpha&lt;/span&gt;
+  &lt;span class=&quot;caption&quot;&gt;I'll be detailing my strobist setup for Sony Alpha&lt;/span&gt;
 &lt;/div&gt;
 
 &lt;h2 id=&quot;heres-what-youll-need&quot;&gt;Here’s what you’ll need&lt;/h2&gt;
@@ -749,8 +749,8 @@ git merge branch-name
 
 </description>
         <pubDate>Sun, 03 May 2015 02:50:42 +0100</pubDate>
-        <link>http://melissakeizer.com/journal/strobist-photography-for-sony-alpha-shooters/</link>
-        <guid isPermaLink="true">http://melissakeizer.com/journal/strobist-photography-for-sony-alpha-shooters/</guid>
+        <link>http://localhost:4000/journal/strobist-photography-for-sony-alpha-shooters/</link>
+        <guid isPermaLink="true">http://localhost:4000/journal/strobist-photography-for-sony-alpha-shooters/</guid>
         
         
       </item>

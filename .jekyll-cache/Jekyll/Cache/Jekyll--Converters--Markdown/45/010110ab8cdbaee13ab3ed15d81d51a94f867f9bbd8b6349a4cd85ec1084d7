@@ -1,0 +1,150 @@
+I"�<p>Last year I gave a talk at local developer meetup <a href="http://belfastruby.com/2014/01/30/intro-to-ruby.html">Belfast Ruby</a> on how get started with Git and GitHub. These are the notes that accompany the practical demo I gave, you can also check out my short Keynote on <a href="https://speakerdeck.com/melissakeizer/gitn-started-with-version-control">Speakerdeck</a>. Hopefully this guide will still be useful to version control newbies now.</p>
+
+<h2 id="1-creating-remote-repo">1. Creating Remote Repo</h2>
+
+<ul>
+  <li>Create account/Sign in to Github.com</li>
+  <li>Create New Repo</li>
+  <li>Give the project a name and description</li>
+</ul>
+
+<p>Now you have an online space for your project to live.</p>
+
+<h2 id="2-setting-up-git">2. Setting Up Git</h2>
+
+<p>Now we’re going to open Terminal/iTerm and type some commands.</p>
+
+<p>First, check is Installed</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git --version
+</code></pre></div></div>
+
+<p>You should get a response that looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git version 1.8.3.1
+</code></pre></div></div>
+
+<p>If you don’t already have Git installed or need to update (use version 1.7.11 or higher) then follow these links to install Git in your machine.</p>
+
+<p>Install [Git for Mac] (https://code.google.com/p/git-osx-installer/) or [Git for Windows] (http://msysgit.github.io/)</p>
+
+<p>Next give Git your credentials</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global user.name "Melissa Keizer"
+git config --global user.email "mkeizer@rumblelabs.com"
+</code></pre></div></div>
+
+<h2 id="3-create-your-local-repo">3. Create Your Local Repo</h2>
+
+<p>Now you need to make the repository for your project that will live on your computer.</p>
+
+<p>In terminal navigate to the folder where you keep your projects and make a new directory for your new app/site/project. Then navigate to your new project folder.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd sites
+mkdir nice-project
+cd nice-project
+</code></pre></div></div>
+
+<p>Now to start using Git commands (They always begin with the word Git)
+First you need to tell your computer to recognise this directory as a local Git Repository</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+</code></pre></div></div>
+
+<p><strong>Now you have both a remote and local git repo for your project.</strong></p>
+
+<h2 id="4-make-some-files">4. Make Some Files</h2>
+
+<p>Add a ReadMe.md file (Use this markdown file to add notes about your project and instructions about how others can get it running locally)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>touch ReadMe.md
+</code></pre></div></div>
+
+<p>Now I’ll edit this ReadMe file by opening it in my text editor of choice, Sublime Text 2. I’ve installed the Sublime Command Line tool which allows me to open my project from the command line - <a href="http://www.sublimetext.com/docs/2/osx_command_line.html">Here’s how to set it up</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>subl .
+</code></pre></div></div>
+
+<p>In the ReadMe.md I added some markdown using Sublime.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#Nice Project
+This is my new nice project, holla.
+</code></pre></div></div>
+
+<p>Check that Git can see your changes</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git status
+</code></pre></div></div>
+
+<p>The response tells me that Git notices the edit but the file is currently untracked. Next you need to tell Git to add in these changes so you can commit them.</p>
+
+<p>Following this, commit the change. By commiting you are taking a snapshot of your project repo at this point in time. Remember to give your commits a meaningful description about what you just did</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m "Added a readme.md file and wrote some words in it"
+</code></pre></div></div>
+
+<p><strong>Next it’s time to push your changes to your remote repo on Github.</strong></p>
+
+<h2 id="5-connect-local-and-remote-repos">5. Connect local and remote repos</h2>
+
+<p>In order to push these changes, I need to tell Git that a remote repo exists somewhere on the web.</p>
+
+<p>Go to Github and grab the link your project’s quick set up page. Remember to take the <strong>SSH link</strong> if you have SSH keys set up (You can also use the HTTP link but this causes you to give your username and password everytime you push)</p>
+
+<p>Go back to terminal and type the following:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin git@github.com:melissakeizer/nice-project.git
+</code></pre></div></div>
+
+<p>The word “origin” indicates that this is a new place where files originate and “remote” simply tells git that the origin is with an online host  .</p>
+
+<p>To check that it was set up correctly type the command below</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote -v
+</code></pre></div></div>
+
+<p>You should see a list of all remote origins. I see it listed twice since Git will both push changes there and fetch changes from there. <strong>Now Git knows where you want your local changes to your repository to go!</strong></p>
+
+<p>To push your changes use the command below</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push -u origin master
+</code></pre></div></div>
+
+<p>Look at your changes by visiting the project page on Github. There I’ll see the updated ReadMe.md and I can click on the “Commits” link to view exactly what changes were made with each commit.</p>
+
+<h2 id="6-make-a-new-branch">6. Make a new branch</h2>
+
+<p>As mentioned in my talk, branches are useful when working in teams or for simply separating development of different features on your app or project.</p>
+
+<p>To make a new branch type:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout -b branch-name
+</code></pre></div></div>
+
+<p>The “-b” indicates that this is a new branch. Give your branch a relevant name, for example “contact-form” or “new-design”
+You can start making changes to your project without affecting your master branch, the main line of development. I made some edits to my ReadMe.md file in Sublime, then added and committed this change.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m "updated readme"
+</code></pre></div></div>
+
+<p>Next I’ll push this change.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push
+</code></pre></div></div>
+
+<p>You’ll see a message in Terminal telling you that the branch has no upstream branch, to push the branch simply use the command listed.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push --set-upstream origin branch-name
+</code></pre></div></div>
+
+<p>When you want to merge in the changes you made on your branch later you must move to your master branch and give the merge command.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
+git merge branch-name
+</code></pre></div></div>
+
+<p>So, there’s a few Git fundamentals nailed down. Hopefully this will help you get started with Git on your own projects, but if you have any questions or run into issues feel free to tweet me <a href="http://twitter.com/keizgoesboom">@KeizGoesBoom</a>.</p>
+
+:ET
